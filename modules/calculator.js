@@ -146,7 +146,7 @@ export async function initCalculator(container) {
         });
     }
 
-    // 计算材料
+    // 在 modules/calculator.js 中，calcMaterialsBtn 的事件监听部分
     calcMaterialsBtn.addEventListener('click', async () => {
         if (Object.keys(targetItems).length === 0) {
             alert('请至少添加一个目标物品');
@@ -154,7 +154,8 @@ export async function initCalculator(container) {
         }
         try {
             const result = await CraftingCalculator.calculate(targetItems, ownedItems);
-            const formatted = CraftingCalculator.formatMaterialList(result, targetItems);
+            // 传入 allItems 以获取名称
+            const formatted = CraftingCalculator.formatMaterialList(result, targetItems, allItems);
             resultText.textContent = formatted;
         } catch (e) {
             console.error(e);
