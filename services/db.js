@@ -1,13 +1,12 @@
 // services/db.js
 const DB_NAME = 'SlimefunDB';
-const DB_VERSION = 2; // 升级版本号
+const DB_VERSION = 4;
 
 export async function openDB() {
     return new Promise((resolve, reject) => {
         const request = indexedDB.open(DB_NAME, DB_VERSION);
         request.onupgradeneeded = (event) => {
             const db = event.target.result;
-            console.log('数据库升级:', event.oldVersion, '->', event.newVersion);
             if (!db.objectStoreNames.contains('items')) {
                 db.createObjectStore('items', { keyPath: 'id' });
             }
@@ -18,18 +17,11 @@ export async function openDB() {
                 db.createObjectStore('settings');
             }
         };
-        request.onsuccess = () => {
-            console.log('数据库连接成功');
-            resolve(request.result);
-        };
-        request.onerror = () => {
-            console.error('数据库连接失败', request.error);
-            reject(request.error);
-        };
+        request.onsuccess = () => resolve(request.result);
+        request.onerror = () => reject(request.error);
     });
 }
 
-// 保存单个物品
 export async function saveItem(item) {
     const db = await openDB();
     return new Promise((resolve, reject) => {
@@ -41,7 +33,17 @@ export async function saveItem(item) {
     });
 }
 
-// 获取所有物品
+export async function saveItems(items) {
+    const db = await openDB();
+    const tx = db.transaction('items', 'readwrite');
+    const store = tx.objectStore('items');
+    return new Promise((resolve, reject) => {
+        items.forEach(item => store.put(item));
+        tx.oncomplete = resolve;
+        tx.onerror = () => reject(tx.error);
+    });
+}
+
 export async function getAllItems() {
     const db = await openDB();
     return new Promise((resolve, reject) => {
@@ -53,7 +55,6 @@ export async function getAllItems() {
     });
 }
 
-// 获取单个物品
 export async function getItem(id) {
     const db = await openDB();
     return new Promise((resolve, reject) => {
@@ -65,7 +66,6 @@ export async function getItem(id) {
     });
 }
 
-// 保存元数据
 export async function saveMetadata(key, value) {
     const db = await openDB();
     const tx = db.transaction('metadata', 'readwrite');
@@ -77,7 +77,6 @@ export async function saveMetadata(key, value) {
     });
 }
 
-// 获取元数据
 export async function getMetadata(key) {
     const db = await openDB();
     return new Promise((resolve, reject) => {
@@ -89,19 +88,6 @@ export async function getMetadata(key) {
     });
 }
 
-// 清空物品库
-export async function clearItems() {
-    const db = await openDB();
-    const tx = db.transaction('items', 'readwrite');
-    const store = tx.objectStore('items');
-    store.clear();
-    return new Promise((resolve, reject) => {
-        tx.oncomplete = resolve;
-        tx.onerror = () => reject(tx.error);
-    });
-}
-
-// 在 services/db.js 末尾添加
 export async function getMetadataCount() {
     const db = await openDB();
     return new Promise((resolve, reject) => {
@@ -110,5 +96,16 @@ export async function getMetadataCount() {
         const request = store.count();
         request.onsuccess = () => resolve(request.result);
         request.onerror = () => reject(request.error);
+    });
+}
+
+export async function clearItems() {
+    const db = await openDB();
+    const tx = db.transaction('items', 'readwrite');
+    const store = tx.objectStore('items');
+    store.clear();
+    return new Promise((resolve, reject) => {
+        tx.oncomplete = resolve;
+        tx.onerror = () => reject(tx.error);
     });
 }
