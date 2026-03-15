@@ -174,9 +174,20 @@ export async function initCalculator(container) {
         }
     });
 
-    // 计算步骤（暂未实现）
-    calcStepsBtn.addEventListener('click', () => {
-        alert('合成步骤功能开发中');
+    // 在 JS 中绑定事件
+    calcStepsBtn.addEventListener('click', async () => {
+        if (Object.keys(targetItems).length === 0) {
+            alert('请至少添加一个目标物品');
+            return;
+        }
+        try {
+            const result = await CraftingCalculator.calculate(targetItems, ownedItems);
+            const formatted = CraftingCalculator.formatCraftingSteps(result, targetItems);
+            resultText.textContent = formatted;
+        } catch (e) {
+            console.error(e);
+            resultText.textContent = '计算失败：' + e.message;
+        }
     });
 
     const downloadBtn = container.querySelector('#download-result');
