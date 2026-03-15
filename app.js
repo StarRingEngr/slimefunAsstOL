@@ -1,6 +1,6 @@
 // app.js
 import { openDB } from './services/db.js';
-import { loadAllRecipes, getItemCount } from './services/recipeLoader.js';
+import { loadFiles, getItemCount } from './services/recipeLoader.js';
 import { initBrowser } from './modules/browser.js';
 import { initAbout } from './modules/about.js';
 import { initCalculator } from './modules/calculator.js';
@@ -86,14 +86,34 @@ async function firstLoad() {
             req.onsuccess = () => resolve(req.result || null);
         });
 
-        await loadAllRecipes(enabledFiles, (completed, total, message) => {
+        // 获取所有文件信息
+        const manifestResp = await fetch('./recipes/manifest.json');
+        const manifest = await manifestResp.json();
+        const allFiles = manifest.files;
+
+        // 确定要下载的文件
+        const forcedFiles = allFiles.filter(f => f.forced || f.name === 'Slimefun4.jsonl').map(f => f.name);
+        let filesToDownload;
+        if (enabledFiles === null) {
+            filesToDownload = allFiles;
+        } else {
+            const enabledSet = new Set([...forcedFiles, ...enabledFiles]);
+            filesToDownload = allFiles.filter(f => enabledSet.has(f.name));
+        }
+
+        // 按原始顺序排序
+        filesToDownload.sort((a, b) => {
+            const indexA = allFiles.findIndex(f => f.name === a.name);
+            const indexB = allFiles.findIndex(f => f.name === b.name);
+            return indexA - indexB;
+        });
+
+        await loadFiles(filesToDownload, (completed, total, message) => {
             updateProgress(completed, total, message);
         });
 
         if (enabledFiles === null) {
-            const manifestResp = await fetch('./recipes/manifest.json');
-            const manifest = await manifestResp.json();
-            const nonForced = manifest.files.filter(f => !f.forced && f.name !== 'Slimefun4.jsonl').map(f => f.name);
+            const nonForced = allFiles.filter(f => !f.forced && f.name !== 'Slimefun4.jsonl').map(f => f.name);
             const saveTx = db.transaction('settings', 'readwrite');
             const saveStore = saveTx.objectStore('settings');
             saveStore.put(nonForced, 'enabledFiles');
