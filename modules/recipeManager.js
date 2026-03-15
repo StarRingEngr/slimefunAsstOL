@@ -2,12 +2,10 @@
 import { openDB } from '../services/db.js';
 
 export async function initRecipeManager(container) {
-    // 获取 manifest.json
     const manifestResp = await fetch('./recipes/manifest.json');
     const manifest = await manifestResp.json();
-    const allFiles = manifest.files; // [{ name, version, forced, size }]
+    const allFiles = manifest.files;
 
-    // 获取当前启用的文件列表（从 settings store）
     const db = await openDB();
     const tx = db.transaction('settings', 'readonly');
     const store = tx.objectStore('settings');
@@ -41,11 +39,10 @@ export async function initRecipeManager(container) {
     const tbody = container.querySelector('#recipe-tbody');
     const saveBtn = container.querySelector('#save-recipe-btn');
 
-    // 渲染表格
     function renderTable() {
         tbody.innerHTML = allFiles.map(file => {
-            // 强制文件始终选中且禁用
-            const isForced = file.forced;
+            // 强制文件：文件名 Slimefun4.jsonl 或 manifest 中 forced 为 true
+            const isForced = file.forced || file.name === 'Slimefun4.jsonl';
             const isEnabled = isForced || enabledFiles.includes(file.name);
             const checkedAttr = isEnabled ? 'checked' : '';
             const disabledAttr = isForced ? 'disabled' : '';
@@ -72,13 +69,14 @@ export async function initRecipeManager(container) {
                 newEnabled.push(name);
             }
         });
-        // 保存到 settings store
         const db = await openDB();
-        const tx = db.transaction('settings', 'readwrite');
-        const store = tx.objectStore('settings');
-        store.put(newEnabled, 'enabledFiles');
+        // 清空物品和元数据，强制下次重新下载
+        const tx = db.transaction(['items', 'metadata', 'settings'], 'readwrite');
+        tx.objectStore('items').clear();
+        tx.objectStore('metadata').clear();
+        tx.objectStore('settings').put(newEnabled, 'enabledFiles');
         await tx.complete;
-        if (confirm('设置已保存，需要刷新页面才能生效。是否立即刷新？')) {
+        if (confirm('设置已保存，需要刷新页面重新加载数据。是否立即刷新？')) {
             window.location.reload();
         }
     });
