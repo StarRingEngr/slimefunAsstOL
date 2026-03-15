@@ -7,8 +7,8 @@ export function initAbout(container) {
             
             <div class="about-buttons">
                 <a href="https://space.bilibili.com/3493137687251407" target="_blank" class="about-button">📺 作者B站</a>
-                <a href="https://gitee.com/StarRingEngr/slimefun-recipe-assistant" target="_blank" class="about-button">📦 项目仓库</a>
-                <a href="#" target="_blank" class="about-button">☕ 赞助支持</a>
+                <a href="https://github.com/StarRingEngr/slimefunAsstOL" target="_blank" class="about-button">📦 项目仓库</a>
+                <a href="https://ifdian.net/a/StarRingEngr" target="_blank" class="about-button">☕ 赞助支持</a>
             </div>
 
             <h3>项目说明</h3>
