@@ -551,3 +551,15 @@ body {
 #save-recipe-btn:hover {
     background-color: #2980b9;
 }
+
+/* 统计条 */
+.stats-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e2e8f0;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: #1e2a3a;
+}
