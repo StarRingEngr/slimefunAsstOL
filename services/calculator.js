@@ -1,11 +1,11 @@
 // services/calculator.js
 import { getAllItems } from './db.js';
 import { CraftingHelperCore } from './calculatorCore.js';
-import { getIdToName, getBaseMaterials } from './dataStore.js'; // 新增导入
+import { getIdToName, getBaseMaterials } from './dataStore.js';
 
 export class CraftingCalculator {
     static async calculate(itemQuantities, owned = {}) {
-        const items = await getAllItems(); // 仍从 DB 获取，或从 dataStore 获取（更快）
+        const items = await getAllItems();
         const itemList = {};
         for (const item of items) {
             if (item.recipe && Array.isArray(item.recipe) && item.recipe.length > 0) {
@@ -26,25 +26,34 @@ export class CraftingCalculator {
         }
 
         const helper = new CraftingHelperCore(itemList);
-        const baseMats = getBaseMaterials(); // 从内存获取基础材料
+        const baseMats = getBaseMaterials();
         const demands = Object.entries(itemQuantities).map(([item, count]) => ({ item, count }));
         const result = helper.solve(demands, baseMats, owned);
         return result;
     }
 
     static formatQuantity(quantity) {
-        // ... 不变
+        const q = Number(quantity);
+        if (isNaN(q) || q < 0) return '0';
+        if (q < 64) return String(q);
+        const groups = Math.floor(q / 64);
+        const remainder = q % 64;
+        if (remainder === 0) return `${groups}*64`;
+        else return `${groups}*64+${remainder}`;
     }
 
     static formatMaterialList(result, itemQuantities) {
-        const idToName = getIdToName(); // 获取名称映射
+        const idToName = getIdToName();
         const basicMaterial = result.basicMaterial || [];
         const ownedFulfilled = result.ownedFulfilled || [];
         const usedOwned = result.usedOwned || {};
 
         const materialDict = {};
         for (const mat of basicMaterial) {
-            materialDict[mat.item] = (materialDict[mat.item] || 0) + mat.count;
+            const count = Number(mat.count);
+            if (!isNaN(count)) {
+                materialDict[mat.item] = (materialDict[mat.item] || 0) + count;
+            }
         }
         for (const item of ownedFulfilled) {
             if (!materialDict[item.item]) materialDict[item.item] = 0;
@@ -70,7 +79,6 @@ export class CraftingCalculator {
             totalItems += remaining;
         }
 
-        // 按名称排序
         materialList.sort((a, b) => a.name.localeCompare(b.name));
 
         const titleParts = [];
