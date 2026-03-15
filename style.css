@@ -564,6 +564,7 @@ body {
     color: #1e2a3a;
 }
 
+/* 详情弹窗 */
 .detail-modal {
     position: fixed;
     top: 0;
@@ -576,27 +577,88 @@ body {
     justify-content: center;
     z-index: 2000;
 }
+
 .detail-content {
     background: white;
-    border-radius: 16px;
-    padding: 2rem;
-    max-width: 600px;
-    width: 90%;
+    border-radius: 12px;
+    padding: 1.2rem;
+    max-width: 550px;
+    width: 85%;
     max-height: 90vh;
     overflow-y: auto;
     position: relative;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
-.close-btn {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    font-size: 1.5rem;
+
+/* 详情头部 */
+.detail-header {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+.detail-header .close-btn {
+    margin-left: auto;
+    font-size: 1.3rem;
     cursor: pointer;
+    color: #666;
 }
+.detail-header .back-btn {
+    cursor: pointer;
+    color: #3498db;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.item-title {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    flex: 1;
+}
+.item-id {
+    font-size: 0.8rem;
+    color: #666;
+    font-weight: normal;
+}
+
+/* 物品信息 */
+.item-info {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+.item-info p {
+    margin: 0.3rem 0;
+}
+
+/* 数量控制 */
+.quantity-control {
+    margin: 0.8rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.quantity-control label {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.quantity-control input {
+    width: 70px;
+    padding: 0.3rem 0.5rem;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+.quantity-control input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 2px rgba(52,152,219,0.2);
+}
+
+/* 配方网格 */
 .recipe-grid {
     display: grid;
-    gap: 4px;
-    margin: 1rem 0;
+    gap: 3px;
+    margin: 0.8rem 0;
 }
 .recipe-cell {
     aspect-ratio: 1;
@@ -605,54 +667,11 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 1rem;
     background: #f8fafc;
     white-space: pre-line;
-    padding: 0.2rem;
-}
-.recipe-cell:hover {
-    background: #e2e8f0;
-}
-.detail-actions {
-    display: flex;
-    gap: 1rem;
-    margin: 1rem 0;
-}
-.detail-result {
-    background: #f1f5f9;
-    padding: 1rem;
-    border-radius: 8px;
-    white-space: pre-wrap;
-    font-family: monospace;
-    max-height: 200px;
-    overflow-y: auto;
-}
-
-.detail-header {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 1rem;
-}
-.detail-header .close-btn {
-    margin-left: auto;
-    font-size: 1.5rem;
-    cursor: pointer;
-}
-.detail-header .back-btn {
-    cursor: pointer;
-    color: #3498db;
-    font-size: 1rem;
-}
-.item-title {
-    flex: 1;
-    margin: 0;
-    font-size: 1.3rem;
-}
-.item-id {
-    font-size: 0.9rem;
-    color: #898989;
-    font-weight: normal;
+    padding: 2px;
+    border-radius: 4px;
 }
 .recipe-cell.clickable {
     background-color: #c5deff;
@@ -660,14 +679,71 @@ body {
 .recipe-cell.clickable:hover {
     background-color: #a6ccff;
 }
+
+/* 详情操作按钮 */
+.detail-actions {
+    display: flex;
+    gap: 0.8rem;
+    margin: 1rem 0 0.8rem;
+}
+.detail-actions button {
+    flex: 1;
+    padding: 0.6rem 0.8rem;
+    border: none;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.detail-actions .calc-materials-btn {
+    background-color: #3498db;
+    color: white;
+}
+.detail-actions .calc-materials-btn:hover {
+    background-color: #2980b9;
+}
+.detail-actions .calc-steps-btn {
+    background-color: #2ecc71;
+    color: white;
+}
+.detail-actions .calc-steps-btn:hover {
+    background-color: #27ae60;
+}
+
+/* 结果头部 */
+.result-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.8rem 0 0.3rem;
+    font-size: 0.9rem;
+}
+.result-tools {
+    display: flex;
+    gap: 0.3rem;
+}
+.result-tools button {
+    background: #f1f5f9;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    padding: 0.2rem 0.6rem;
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+.result-tools button:hover {
+    background: #e2e8f0;
+}
+
+/* 结果区域 */
 .detail-result {
     background: #f1f5f9;
-    padding: 1rem;
+    padding: 0.8rem;
     border-radius: 8px;
     white-space: pre-wrap;
-    font-family: monospace;
+    font-family: 'Consolas', monospace;
+    font-size: 0.8rem;
     max-height: 200px;
     overflow-y: auto;
     margin-top: 1rem;
 }
-
