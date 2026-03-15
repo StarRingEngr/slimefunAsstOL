@@ -1,25 +1,45 @@
 // services/db.js
 const DB_NAME = 'SlimefunDB';
-const DB_VERSION = 5;
+const DB_VERSION = 6;  // 升级到6以确保索引存在
 
 export async function openDB() {
     return new Promise((resolve, reject) => {
         const request = indexedDB.open(DB_NAME, DB_VERSION);
         request.onupgradeneeded = (event) => {
             const db = event.target.result;
+            const oldVersion = event.oldVersion;
+            console.log(`数据库升级: ${oldVersion} -> ${DB_VERSION}`);
+
+            // 创建 items 存储，如果不存在则创建，并确保有 file 索引
             if (!db.objectStoreNames.contains('items')) {
                 const store = db.createObjectStore('items', { keyPath: 'id' });
                 store.createIndex('file', 'file', { unique: false });
+            } else {
+                // 如果 items 已存在，检查是否有 file 索引，没有则创建
+                const store = event.target.transaction.objectStore('items');
+                if (!store.indexNames.contains('file')) {
+                    store.createIndex('file', 'file', { unique: false });
+                }
             }
+
+            // 创建 metadata 存储
             if (!db.objectStoreNames.contains('metadata')) {
                 db.createObjectStore('metadata');
             }
+
+            // 创建 settings 存储
             if (!db.objectStoreNames.contains('settings')) {
                 db.createObjectStore('settings');
             }
         };
-        request.onsuccess = () => resolve(request.result);
-        request.onerror = () => reject(request.error);
+        request.onsuccess = () => {
+            console.log('数据库连接成功');
+            resolve(request.result);
+        };
+        request.onerror = () => {
+            console.error('数据库连接失败', request.error);
+            reject(request.error);
+        };
     });
 }
 
