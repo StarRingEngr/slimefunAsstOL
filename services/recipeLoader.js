@@ -1,5 +1,5 @@
 // services/recipeLoader.js
-import { saveItem, saveMetadata, getMetadata, getItem, clearItems, getAllItems } from './db.js';
+import { saveItems, saveMetadata, clearItems, getAllItems } from './db.js';
 import { setItems } from './dataStore.js';
 
 const MANIFEST_URL = './recipes/manifest.json';
@@ -19,6 +19,7 @@ async function fetchRecipeFile(fileName, fileIndex) {
             const item = JSON.parse(lines[i]);
             item._fileIndex = fileIndex;
             item._line = i - 1;
+            item.file = fileName;
             items.push(item);
         } catch (e) {
             console.error(`解析文件 ${fileName} 第 ${i+1} 行失败:`, e);
@@ -32,7 +33,6 @@ export async function loadAllRecipes(userEnabledFiles = null, onProgress) {
     const manifest = await manifestResp.json();
     const allFiles = manifest.files;
 
-    // 确定强制文件：文件名 Slimefun4.jsonl 或 manifest 中 forced 为 true
     const forcedFiles = allFiles.filter(f => f.forced || f.name === 'Slimefun4.jsonl').map(f => f.name);
 
     let filesToDownload = [];
@@ -43,7 +43,6 @@ export async function loadAllRecipes(userEnabledFiles = null, onProgress) {
         filesToDownload = allFiles.filter(f => enabledSet.has(f.name));
     }
 
-    // 按 manifest 中的原始顺序排序
     filesToDownload.sort((a, b) => {
         const indexA = allFiles.findIndex(f => f.name === a.name);
         const indexB = allFiles.findIndex(f => f.name === b.name);
@@ -60,14 +59,8 @@ export async function loadAllRecipes(userEnabledFiles = null, onProgress) {
         try {
             const { metadata, items } = await fetchRecipeFile(file.name, idx);
             await saveMetadata(file.name, { ...metadata, version: file.version });
-
-            for (const item of items) {
-                const existing = await getItem(item.id);
-                if (!existing) {
-                    await saveItem(item);
-                } else {
-                    console.log(`物品ID ${item.id} 已存在，跳过（保留首次出现）`);
-                }
+            if (items.length > 0) {
+                await saveItems(items);
             }
         } catch (e) {
             console.error(`处理文件 ${file.name} 失败:`, e);
@@ -78,7 +71,6 @@ export async function loadAllRecipes(userEnabledFiles = null, onProgress) {
 
     const allItems = await getAllItems();
     setItems(allItems);
-
     if (onProgress) onProgress(completed, total, '数据加载完成');
 }
 
