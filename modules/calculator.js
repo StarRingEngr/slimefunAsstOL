@@ -52,9 +52,11 @@ export async function initCalculator(container) {
         <div class="calc-result">
             <h3>计算结果</h3>
             <pre id="result-text"></pre>
+            <div style="margin-top: 0.5rem;">
+                <button id="download-result" class="about-button" style="background-color: #3498db;">📥 下载结果</button>
+            </div>
         </div>
     `;
-
     // 初始化两个选择器
     const targetSelect = container.querySelector('#target-select');
     const ownedSelect = container.querySelector('#owned-select');
@@ -166,5 +168,21 @@ export async function initCalculator(container) {
     // 计算步骤（暂未实现）
     calcStepsBtn.addEventListener('click', () => {
         alert('合成步骤功能开发中');
+    });
+
+    const downloadBtn = container.querySelector('#download-result');
+    downloadBtn.addEventListener('click', () => {
+        const text = resultText.textContent;
+        if (!text || text === '计算结果' || text === '') {
+            alert('没有可下载的结果');
+            return;
+        }
+        const blob = new Blob([text], { type: 'text/plain' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = '计算结果.txt';
+        a.click();
+        URL.revokeObjectURL(url);
     });
 }
