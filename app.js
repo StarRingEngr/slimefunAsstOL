@@ -60,7 +60,7 @@ async function firstLoad() {
     if (count > 0) {
         // 已有数据，加载到内存
         const allItems = await getAllItems();
-        setItems(allItems);  // 关键修复：更新 idToName
+        setItems(allItems);  // 关键修复：构建完整的 idToName
         await loadBaseMaterialsFromDB();
         loadingOverlay.classList.add('hidden');
         const initialView = window.location.hash.slice(1) || 'browser';
