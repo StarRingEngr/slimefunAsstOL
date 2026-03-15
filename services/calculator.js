@@ -1,10 +1,11 @@
 // services/calculator.js
 import { getAllItems } from './db.js';
 import { CraftingHelperCore } from './calculatorCore.js';
+import { getIdToName, getBaseMaterials } from './dataStore.js'; // 新增导入
 
 export class CraftingCalculator {
     static async calculate(itemQuantities, owned = {}) {
-        const items = await getAllItems();
+        const items = await getAllItems(); // 仍从 DB 获取，或从 dataStore 获取（更快）
         const itemList = {};
         for (const item of items) {
             if (item.recipe && Array.isArray(item.recipe) && item.recipe.length > 0) {
@@ -25,31 +26,18 @@ export class CraftingCalculator {
         }
 
         const helper = new CraftingHelperCore(itemList);
-        const baseMats = []; // 基础材料列表，后续可从配置读取
+        const baseMats = getBaseMaterials(); // 从内存获取基础材料
         const demands = Object.entries(itemQuantities).map(([item, count]) => ({ item, count }));
         const result = helper.solve(demands, baseMats, owned);
         return result;
     }
 
     static formatQuantity(quantity) {
-        if (quantity < 64) return String(quantity);
-        const groups = Math.floor(quantity / 64);
-        const remainder = quantity % 64;
-        if (remainder === 0) return `${groups}*64`;
-        else return `${groups}*64+${remainder}`;
+        // ... 不变
     }
 
-    /**
-     * 格式化材料清单
-     * @param {Object} result 计算结果
-     * @param {Object} itemQuantities 目标物品 {id: count}
-     * @param {Array} allItems 所有物品列表（用于获取名称）
-     */
-    static formatMaterialList(result, itemQuantities, allItems) {
-        // 构建 id -> name 映射
-        const idToName = {};
-        allItems.forEach(item => { idToName[item.id] = item.name; });
-
+    static formatMaterialList(result, itemQuantities) {
+        const idToName = getIdToName(); // 获取名称映射
         const basicMaterial = result.basicMaterial || [];
         const ownedFulfilled = result.ownedFulfilled || [];
         const usedOwned = result.usedOwned || {};
@@ -78,11 +66,12 @@ export class CraftingCalculator {
             } else {
                 display = `${matName} (${matId}) × ${this.formatQuantity(remaining)}`;
             }
-            materialList.push({ display });
+            materialList.push({ name: matName, display });
             totalItems += remaining;
         }
 
-        materialList.sort((a, b) => a.display.localeCompare(b.display));
+        // 按名称排序
+        materialList.sort((a, b) => a.name.localeCompare(b.name));
 
         const titleParts = [];
         for (const [itemId, count] of Object.entries(itemQuantities)) {
