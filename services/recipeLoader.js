@@ -74,3 +74,8 @@ export async function getItemCount() {
     const items = await getAllItems();
     return items.length;
 }
+
+// 在 loadAllRecipes 函数末尾，存储完所有物品后添加：
+import { setItems } from './dataStore.js';
+const allItems = await getAllItems(); // 从 IndexedDB 获取所有物品
+setItems(allItems);
