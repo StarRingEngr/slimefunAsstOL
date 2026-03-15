@@ -1,6 +1,7 @@
 // modules/browser.js
 import { getAllItems } from '../services/db.js';
 import { getMetadataCount } from '../services/db.js';
+import { showItemDetail } from './itemDetail.js';
 
 export async function initBrowser(container) {
     // 获取统计信息
@@ -65,7 +66,7 @@ function renderItems(items, container) {
     container.querySelectorAll('.item-row').forEach(row => {
         row.addEventListener('dblclick', () => {
             const id = row.dataset.id;
-            alert(`双击物品：${id}\n后续将显示详情`);
+            showItemDetail(id);
         });
     });
 }
