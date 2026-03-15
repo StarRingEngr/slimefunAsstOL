@@ -100,3 +100,15 @@ export async function clearItems() {
         tx.onerror = () => reject(tx.error);
     });
 }
+
+// 在 services/db.js 末尾添加
+export async function getMetadataCount() {
+    const db = await openDB();
+    return new Promise((resolve, reject) => {
+        const tx = db.transaction('metadata', 'readonly');
+        const store = tx.objectStore('metadata');
+        const request = store.count();
+        request.onsuccess = () => resolve(request.result);
+        request.onerror = () => reject(request.error);
+    });
+}
