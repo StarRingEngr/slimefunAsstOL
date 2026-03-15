@@ -12,12 +12,15 @@ export async function initBrowser(container) {
     const searchInput = container.querySelector('#search-input');
     const listDiv = container.querySelector('#item-list');
 
-    // 加载所有物品并按文件索引和行号排序
     let items = await getAllItems();
-    // 排序：先按_fileIndex升序，再按_line升序
+    // 排序：按文件索引和行号，缺失的放在最后
     items.sort((a, b) => {
-        if (a._fileIndex !== b._fileIndex) return a._fileIndex - b._fileIndex;
-        return a._line - b._line;
+        const fa = a._fileIndex !== undefined ? a._fileIndex : Infinity;
+        const fb = b._fileIndex !== undefined ? b._fileIndex : Infinity;
+        if (fa !== fb) return fa - fb;
+        const la = a._line !== undefined ? a._line : Infinity;
+        const lb = b._line !== undefined ? b._line : Infinity;
+        return la - lb;
     });
 
     renderItems(items, listDiv);
@@ -51,7 +54,6 @@ function renderItems(items, container) {
 
     container.innerHTML = html;
 
-    // 双击事件（暂为alert，后续替换）
     container.querySelectorAll('.item-row').forEach(row => {
         row.addEventListener('dblclick', () => {
             const id = row.dataset.id;
