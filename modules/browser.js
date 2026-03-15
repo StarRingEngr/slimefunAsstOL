@@ -2,7 +2,6 @@
 import { getAllItems } from '../services/db.js';
 
 export async function initBrowser(container) {
-    // 渲染基础结构
     container.innerHTML = `
         <div class="search-box">
             <input type="text" id="search-input" placeholder="搜索物品名称或ID...">
@@ -13,11 +12,16 @@ export async function initBrowser(container) {
     const searchInput = container.querySelector('#search-input');
     const listDiv = container.querySelector('#item-list');
 
-    // 加载所有物品
-    const items = await getAllItems();
+    // 加载所有物品并按文件索引和行号排序
+    let items = await getAllItems();
+    // 排序：先按_fileIndex升序，再按_line升序
+    items.sort((a, b) => {
+        if (a._fileIndex !== b._fileIndex) return a._fileIndex - b._fileIndex;
+        return a._line - b._line;
+    });
+
     renderItems(items, listDiv);
 
-    // 搜索过滤
     searchInput.addEventListener('input', (e) => {
         const keyword = e.target.value.trim().toLowerCase();
         if (!keyword) {
@@ -37,7 +41,7 @@ function renderItems(items, container) {
         container.innerHTML = '<div class="item-row" style="justify-content:center;color:#94a3b8;">暂无物品</div>';
         return;
     }
-    // 直接生成 HTML（如果物品数量巨大，可优化为分批插入或虚拟滚动，MVP1 先这样）
+
     const html = items.map(item => `
         <div class="item-row" data-id="${item.id}">
             <span class="item-name">${escapeHtml(item.name)}</span>
@@ -47,7 +51,7 @@ function renderItems(items, container) {
 
     container.innerHTML = html;
 
-    // 绑定双击事件（MVP1 先 alert，后续替换）
+    // 双击事件（暂为alert，后续替换）
     container.querySelectorAll('.item-row').forEach(row => {
         row.addEventListener('dblclick', () => {
             const id = row.dataset.id;
@@ -56,7 +60,6 @@ function renderItems(items, container) {
     });
 }
 
-// 简单的转义，防止 XSS
 function escapeHtml(text) {
     if (!text) return '';
     const div = document.createElement('div');
