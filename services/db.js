@@ -1,6 +1,6 @@
 // services/db.js
 const DB_NAME = 'SlimefunDB';
-const DB_VERSION = 4;
+const DB_VERSION = 5;
 
 export async function openDB() {
     return new Promise((resolve, reject) => {
@@ -8,7 +8,8 @@ export async function openDB() {
         request.onupgradeneeded = (event) => {
             const db = event.target.result;
             if (!db.objectStoreNames.contains('items')) {
-                db.createObjectStore('items', { keyPath: 'id' });
+                const store = db.createObjectStore('items', { keyPath: 'id' });
+                store.createIndex('file', 'file', { unique: false });
             }
             if (!db.objectStoreNames.contains('metadata')) {
                 db.createObjectStore('metadata');
@@ -62,6 +63,26 @@ export async function getItem(id) {
         const store = tx.objectStore('items');
         const request = store.get(id);
         request.onsuccess = () => resolve(request.result);
+        request.onerror = () => reject(request.error);
+    });
+}
+
+export async function deleteItemsByFile(fileName) {
+    const db = await openDB();
+    const tx = db.transaction('items', 'readwrite');
+    const store = tx.objectStore('items');
+    const index = store.index('file');
+    return new Promise((resolve, reject) => {
+        const request = index.openCursor(IDBKeyRange.only(fileName));
+        request.onsuccess = (event) => {
+            const cursor = event.target.result;
+            if (cursor) {
+                cursor.delete();
+                cursor.continue();
+            } else {
+                resolve();
+            }
+        };
         request.onerror = () => reject(request.error);
     });
 }
