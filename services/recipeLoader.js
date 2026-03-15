@@ -4,7 +4,6 @@ import { setItems } from './dataStore.js';
 
 const MANIFEST_URL = './recipes/manifest.json';
 
-// 解析单个JSONL文件，返回元数据和物品数组
 async function fetchRecipeFile(fileName, fileIndex) {
     const url = `./recipes/${fileName}`;
     const response = await fetch(url);
@@ -28,26 +27,18 @@ async function fetchRecipeFile(fileName, fileIndex) {
     return { metadata, items };
 }
 
-/**
- * 加载配方文件
- * @param {Array} userEnabledFiles 用户在设置中启用的文件名列表（不包括强制文件）
- * @param {Function} onProgress 进度回调
- */
 export async function loadAllRecipes(userEnabledFiles = null, onProgress) {
-    // 1. 获取 manifest
     const manifestResp = await fetch(MANIFEST_URL);
     const manifest = await manifestResp.json();
-    const allFiles = manifest.files; // [{ name, version, forced, size }]
+    const allFiles = manifest.files;
 
-    // 2. 确定要下载的文件列表
+    // 确定强制文件：文件名 Slimefun4.jsonl 或 manifest 中 forced 为 true
+    const forcedFiles = allFiles.filter(f => f.forced || f.name === 'Slimefun4.jsonl').map(f => f.name);
+
     let filesToDownload = [];
     if (userEnabledFiles === null) {
-        // 首次加载且无设置：下载所有文件（强制 + 非强制）
         filesToDownload = allFiles;
     } else {
-        // 根据用户启用的列表，加上强制文件
-        const forcedFiles = allFiles.filter(f => f.forced).map(f => f.name);
-        // 合并：强制文件 + 用户启用的非强制文件（去重）
         const enabledSet = new Set([...forcedFiles, ...userEnabledFiles]);
         filesToDownload = allFiles.filter(f => enabledSet.has(f.name));
     }
@@ -59,7 +50,6 @@ export async function loadAllRecipes(userEnabledFiles = null, onProgress) {
         return indexA - indexB;
     });
 
-    // 3. 清空现有物品（准备重新加载）
     await clearItems();
 
     const total = filesToDownload.length;
@@ -69,10 +59,8 @@ export async function loadAllRecipes(userEnabledFiles = null, onProgress) {
         const file = filesToDownload[idx];
         try {
             const { metadata, items } = await fetchRecipeFile(file.name, idx);
-            // 保存元数据
             await saveMetadata(file.name, { ...metadata, version: file.version });
 
-            // 存储物品，检查ID冲突
             for (const item of items) {
                 const existing = await getItem(item.id);
                 if (!existing) {
@@ -88,14 +76,12 @@ export async function loadAllRecipes(userEnabledFiles = null, onProgress) {
         if (onProgress) onProgress(completed, total, `下载 ${file.name}...`);
     }
 
-    // 更新内存数据
     const allItems = await getAllItems();
     setItems(allItems);
 
     if (onProgress) onProgress(completed, total, '数据加载完成');
 }
 
-// 获取物品总数（用于判断是否需要首次加载）
 export async function getItemCount() {
     const items = await getAllItems();
     return items.length;
