@@ -7,6 +7,8 @@ import { initCalculator } from './modules/calculator.js';
 import { initBaseMaterials } from './modules/baseMaterials.js';
 import { loadBaseMaterialsFromDB, setItems } from './services/dataStore.js';
 import { getAllItems } from './services/db.js';
+import { initSettings } from './modules/settings.js';
+import { initRecipeManager } from './modules/recipeManager.js';
 
 const menuItems = document.querySelectorAll('.menu-item');
 const views = document.querySelectorAll('.view');
@@ -40,6 +42,12 @@ async function switchView(viewId) {
                 break;
             case 'about':
                 initAbout(targetView);
+                break;
+            case 'settings':
+                await initSettings(targetView);
+                break;
+            case 'recipe-manager':
+                await initRecipeManager(targetView);
                 break;
             default:
                 targetView.innerHTML = '<div class="placeholder">功能开发中</div>';
