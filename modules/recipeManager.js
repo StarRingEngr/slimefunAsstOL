@@ -19,7 +19,7 @@ export async function initRecipeManager(container) {
     container.innerHTML = `
         <div class="recipe-manager">
             <h2>配方文件管理</h2>
-            <p>勾选启用的配方文件，点击保存后刷新页面生效。</p>
+            <p>勾选启用的配方文件，点击保存后刷新页面生效。强制文件不可禁用。</p>
             <table class="recipe-table">
                 <thead>
                     <tr>
@@ -44,16 +44,18 @@ export async function initRecipeManager(container) {
     // 渲染表格
     function renderTable() {
         tbody.innerHTML = allFiles.map(file => {
-            const isEnabled = enabledFiles.includes(file.name);
-            const forcedAttr = file.forced ? 'checked disabled' : '';
-            const enabledAttr = isEnabled ? 'checked' : '';
+            // 强制文件始终选中且禁用
+            const isForced = file.forced;
+            const isEnabled = isForced || enabledFiles.includes(file.name);
+            const checkedAttr = isEnabled ? 'checked' : '';
+            const disabledAttr = isForced ? 'disabled' : '';
             return `
                 <tr data-name="${file.name}">
-                    <td><input type="checkbox" class="enable-checkbox" ${enabledAttr} ${forcedAttr}></td>
+                    <td><input type="checkbox" class="enable-checkbox" ${checkedAttr} ${disabledAttr}></td>
                     <td>${file.name}</td>
-                    <td>${file.version}</td>
+                    <td>${file.version || '1.0'}</td>
                     <td>${(file.size / 1024).toFixed(1)} KB</td>
-                    <td>${file.forced ? '是' : '否'}</td>
+                    <td>${isForced ? '是' : '否'}</td>
                 </tr>
             `;
         }).join('');
@@ -64,7 +66,7 @@ export async function initRecipeManager(container) {
         const checkboxes = tbody.querySelectorAll('.enable-checkbox');
         const newEnabled = [];
         checkboxes.forEach(cb => {
-            if (cb.checked) {
+            if (cb.checked && !cb.disabled) {
                 const tr = cb.closest('tr');
                 const name = tr.dataset.name;
                 newEnabled.push(name);
