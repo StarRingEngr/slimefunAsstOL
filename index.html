@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>粘液科技助手 · MVP1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <!-- 左侧侧边栏 -->
+        <aside class="sidebar">
+            <div class="logo">⚗️ 粘液助手</div>
+            <nav class="menu">
+                <button class="menu-item active" data-view="browser">📦 物品浏览</button>
+                <button class="menu-item" data-view="calculator">🧮 多物品计算</button>
+                <button class="menu-item" data-view="base-materials">🧱 基础材料管理</button>
+                <button class="menu-item" data-view="recipe-manager">📁 配方文件管理</button>
+                <button class="menu-item" data-view="settings">⚙️ 设置</button>
+            </nav>
+            <div class="version">v0.1.0 MVP1</div>
+        </aside>
+
+        <!-- 右侧主内容区域 -->
+        <main class="content">
+            <!-- 加载遮罩（仅在首次下载数据时显示） -->
+            <div id="loading-overlay" class="loading-overlay hidden">
+                <div class="loading-box">
+                    <h3>正在初始化数据</h3>
+                    <p>首次加载需下载配方文件，请稍候...</p>
+                    <div class="progress-bar">
+                        <div id="progress-fill" class="progress-fill" style="width:0%"></div>
+                    </div>
+                    <p id="progress-text">0%</p>
+                </div>
+            </div>
+
+            <!-- 各个功能视图 -->
+            <div id="view-browser" class="view active-view"></div>
+            <div id="view-calculator" class="view"><div class="placeholder">多物品计算（开发中）</div></div>
+            <div id="view-base-materials" class="view"><div class="placeholder">基础材料管理（开发中）</div></div>
+            <div id="view-recipe-manager" class="view"><div class="placeholder">配方文件管理（开发中）</div></div>
+            <div id="view-settings" class="view"><div class="placeholder">设置（开发中）</div></div>
+        </main>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
