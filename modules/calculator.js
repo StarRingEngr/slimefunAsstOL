@@ -177,11 +177,20 @@ export async function initCalculator(container) {
             alert('没有可下载的结果');
             return;
         }
+        // 从目标物品生成文件名
+        const names = Object.keys(targetItems).map(id => {
+            const item = allItems.find(i => i.id === id);
+            return item ? item.name : id;
+        }).join('+');
+        const date = new Date();
+        const timeStr = `${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()} ${date.getHours()}.${date.getMinutes()}.${date.getSeconds()}`;
+        const filename = `${names}_${timeStr}.txt`.replace(/[\\/*?:"<>|]/g, '_'); // 过滤非法字符
+
         const blob = new Blob([text], { type: 'text/plain' });
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;
-        a.download = '计算结果.txt';
+        a.download = filename;
         a.click();
         URL.revokeObjectURL(url);
     });
