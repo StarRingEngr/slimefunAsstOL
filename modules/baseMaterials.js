@@ -14,7 +14,7 @@ export async function initBaseMaterials(container) {
         const lb = b._line !== undefined ? b._line : Infinity;
         return la - lb;
     });
-    
+
     const baseMats = getBaseMaterials();
 
     container.innerHTML = `
@@ -62,8 +62,8 @@ export async function initBaseMaterials(container) {
         const currentSet = new Set(getBaseMaterials());
         const available = allItems
             .filter(item => !currentSet.has(item.id))
-            .filter(item => item.name.toLowerCase().includes(filterLower) || item.id.toLowerCase().includes(filterLower))
-            .sort((a, b) => a.name.localeCompare(b.name));
+            .filter(item => item.name.toLowerCase().includes(filterLower) || item.id.toLowerCase().includes(filterLower));
+        // 不改变顺序，保持文件顺序
         availableSelect.innerHTML = available.map(item => `<option value="${item.id}">${item.name} (${item.id})</option>`).join('');
     }
 
@@ -72,7 +72,7 @@ export async function initBaseMaterials(container) {
         const current = getBaseMaterials()
             .map(id => allItems.find(i => i.id === id) || { id, name: id })
             .filter(item => item.name.toLowerCase().includes(filterLower) || item.id.toLowerCase().includes(filterLower))
-            .sort((a, b) => a.name.localeCompare(b.name));
+            .sort((a, b) => a.id.localeCompare(b.id)); // 按ID排序
         currentSelect.innerHTML = current.map(item => `<option value="${item.id}">${item.name} (${item.id})</option>`).join('');
     }
 
