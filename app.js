@@ -34,6 +34,9 @@ async function switchView(viewId) {
             case 'about':
                 initAbout(targetView);
                 break;
+            case 'calculator':
+                await initCalculator(targetView);
+                break;
             // 其他视图暂留空（开发中）
             default:
                 // 对于未实现功能的视图，可插入占位符
