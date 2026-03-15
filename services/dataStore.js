@@ -1,11 +1,12 @@
 // services/dataStore.js
+import { openDB } from './db.js';   // 必须导入，因为 loadBaseMaterialsFromDB 使用了 openDB
+
 let items = [];
 let idToName = {};
-let baseMaterials = []; // 基础材料ID数组
+let baseMaterials = [];
 
 export function setItems(newItems) {
     items = newItems;
-    // 构建 idToName 映射
     idToName = {};
     items.forEach(item => {
         idToName[item.id] = item.name;
@@ -28,10 +29,8 @@ export function getBaseMaterials() {
     return baseMaterials;
 }
 
-// 从 IndexedDB 加载基础材料（将在 app.js 初始化时调用）
 export async function loadBaseMaterialsFromDB() {
-    // 从 IndexedDB 的 settings 存储读取
-    const db = await openDB(); // 需要导入 db.js 的 openDB
+    const db = await openDB();
     return new Promise((resolve, reject) => {
         const tx = db.transaction('settings', 'readonly');
         const store = tx.objectStore('settings');
