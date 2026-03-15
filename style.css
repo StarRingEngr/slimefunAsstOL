@@ -627,3 +627,47 @@ body {
     max-height: 200px;
     overflow-y: auto;
 }
+
+.detail-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.detail-header .close-btn {
+    margin-left: auto;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.detail-header .back-btn {
+    cursor: pointer;
+    color: #3498db;
+    font-size: 1rem;
+}
+.item-title {
+    flex: 1;
+    margin: 0;
+    font-size: 1.3rem;
+}
+.item-id {
+    font-size: 0.9rem;
+    color: #898989;
+    font-weight: normal;
+}
+.recipe-cell.clickable {
+    background-color: #c5deff;
+}
+.recipe-cell.clickable:hover {
+    background-color: #a6ccff;
+}
+.detail-result {
+    background: #f1f5f9;
+    padding: 1rem;
+    border-radius: 8px;
+    white-space: pre-wrap;
+    font-family: monospace;
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 1rem;
+}
+
