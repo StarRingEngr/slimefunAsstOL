@@ -41,7 +41,6 @@ export async function initRecipeManager(container) {
 
     function renderTable() {
         tbody.innerHTML = allFiles.map(file => {
-            // 强制文件：文件名 Slimefun4.jsonl 或 manifest 中 forced 为 true
             const isForced = file.forced || file.name === 'Slimefun4.jsonl';
             const isEnabled = isForced || enabledFiles.includes(file.name);
             const checkedAttr = isEnabled ? 'checked' : '';
@@ -69,14 +68,14 @@ export async function initRecipeManager(container) {
                 newEnabled.push(name);
             }
         });
+
         const db = await openDB();
-        // 清空物品和元数据，强制下次重新下载
-        const tx = db.transaction(['items', 'metadata', 'settings'], 'readwrite');
-        tx.objectStore('items').clear();
-        tx.objectStore('metadata').clear();
-        tx.objectStore('settings').put(newEnabled, 'enabledFiles');
+        const tx = db.transaction('settings', 'readwrite');
+        const store = tx.objectStore('settings');
+        store.put(newEnabled, 'enabledFiles');
         await tx.complete;
-        if (confirm('设置已保存，需要刷新页面重新加载数据。是否立即刷新？')) {
+
+        if (confirm('设置已保存，需要刷新页面才能生效。是否立即刷新？')) {
             window.location.reload();
         }
     });
