@@ -5,7 +5,6 @@ let items = [];
 let idToName = {};
 let baseMaterials = [];
 
-// 默认基础材料名单（从原 Python 代码复制）
 const DEFAULT_BASE_MATERIALS = [
     "IRON_DUST", "GOLD_DUST", "COPPER_DUST",
     "TIN_DUST", "LEAD_DUST", "SILVER_DUST",
@@ -26,8 +25,23 @@ const DEFAULT_BASE_MATERIALS = [
 export function setItems(newItems) {
     items = newItems;
     idToName = {};
+    // 先添加物品自身的名称
     items.forEach(item => {
         idToName[item.id] = item.name;
+    });
+    // 再遍历所有物品的配方，补充材料名称
+    items.forEach(item => {
+        if (item.recipe && Array.isArray(item.recipe)) {
+            item.recipe.forEach(slot => {
+                if (slot && slot.material) {
+                    const mid = slot.material;
+                    if (!idToName[mid]) {
+                        // 使用配方中提供的名称，如果没有则用ID
+                        idToName[mid] = slot.name || mid;
+                    }
+                }
+            });
+        }
     });
 }
 
@@ -56,9 +70,8 @@ export async function loadBaseMaterialsFromDB() {
         request.onsuccess = () => {
             let mats = request.result;
             if (!mats || mats.length === 0) {
-                // 如果没有保存，使用默认名单
                 mats = DEFAULT_BASE_MATERIALS;
-                // 异步保存默认名单（不等待）
+                // 异步保存默认名单
                 saveBaseMaterialsToDB(mats).catch(console.error);
             }
             setBaseMaterials(mats);
