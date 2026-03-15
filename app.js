@@ -1,11 +1,12 @@
 // app.js
-import { openDB } from './services/db.js'; // 新增导入
+import { openDB } from './services/db.js';
 import { loadAllRecipes, getItemCount } from './services/recipeLoader.js';
 import { initBrowser } from './modules/browser.js';
 import { initAbout } from './modules/about.js';
 import { initCalculator } from './modules/calculator.js';
 import { initBaseMaterials } from './modules/baseMaterials.js';
-import { loadBaseMaterialsFromDB } from './services/dataStore.js';  // 现在位于顶层
+import { loadBaseMaterialsFromDB, setItems } from './services/dataStore.js';
+import { getAllItems } from './services/db.js';
 
 const menuItems = document.querySelectorAll('.menu-item');
 const views = document.querySelectorAll('.view');
@@ -53,13 +54,15 @@ function updateProgress(completed, total, message) {
 }
 
 async function firstLoad() {
-    // 确保数据库结构正确
     await openDB();
 
     const count = await getItemCount().catch(() => 0);
     if (count > 0) {
-        loadingOverlay.classList.add('hidden');
+        // 已有数据，加载到内存
+        const allItems = await getAllItems();
+        setItems(allItems);  // 关键修复：更新 idToName
         await loadBaseMaterialsFromDB();
+        loadingOverlay.classList.add('hidden');
         const initialView = window.location.hash.slice(1) || 'browser';
         await switchView(initialView);
         return;
