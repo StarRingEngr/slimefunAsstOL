@@ -1,38 +1,44 @@
 // app.js
 import { loadAllRecipes, getItemCount } from './services/recipeLoader.js';
 import { initBrowser } from './modules/browser.js';
+import { initAbout } from './modules/about.js';
 
-// 获取 DOM 元素
 const menuItems = document.querySelectorAll('.menu-item');
 const views = document.querySelectorAll('.view');
 const loadingOverlay = document.getElementById('loading-overlay');
 const progressFill = document.getElementById('progress-fill');
 const progressText = document.getElementById('progress-text');
 
-// 当前激活的视图
 let currentView = 'browser';
 
-// 切换视图
-function switchView(viewId) {
+// 切换视图，如果目标视图容器为空则初始化对应模块
+async function switchView(viewId) {
+    // 隐藏所有视图
     views.forEach(view => view.classList.remove('active-view'));
     const targetView = document.getElementById(`view-${viewId}`);
     if (targetView) targetView.classList.add('active-view');
 
+    // 更新菜单激活状态
     menuItems.forEach(item => item.classList.remove('active'));
     const activeItem = Array.from(menuItems).find(item => item.dataset.view === viewId);
     if (activeItem) activeItem.classList.add('active');
 
     currentView = viewId;
 
-    // 如果切换到 browser 且尚未初始化，可在此处初始化
-    // 但为了简单，我们在首次加载数据后统一初始化
-}
-
-// 初始化所有视图（目前只有 browser）
-async function initializeViews() {
-    if (currentView === 'browser') {
-        const browserContainer = document.getElementById('view-browser');
-        await initBrowser(browserContainer);
+    // 如果目标视图容器没有子元素（未初始化），则调用对应的初始化函数
+    if (targetView && targetView.children.length === 0) {
+        switch (viewId) {
+            case 'browser':
+                await initBrowser(targetView);
+                break;
+            case 'about':
+                initAbout(targetView);
+                break;
+            // 其他视图暂留空（开发中）
+            default:
+                // 对于未实现功能的视图，可插入占位符
+                targetView.innerHTML = '<div class="placeholder">功能开发中</div>';
+        }
     }
 }
 
@@ -45,12 +51,12 @@ function updateProgress(completed, total, message) {
 
 // 首次加载流程
 async function firstLoad() {
-    // 检查是否有数据
     const count = await getItemCount().catch(() => 0);
     if (count > 0) {
-        // 有数据，直接初始化
+        // 有数据，直接隐藏遮罩并切换到初始视图
         loadingOverlay.classList.add('hidden');
-        await initializeViews();
+        const initialView = window.location.hash.slice(1) || 'browser';
+        await switchView(initialView);
         return;
     }
 
@@ -62,9 +68,10 @@ async function firstLoad() {
         await loadAllRecipes((completed, total, message) => {
             updateProgress(completed, total, message);
         });
-        // 下载完成，隐藏遮罩，初始化视图
+        // 下载完成，隐藏遮罩，切换到初始视图
         loadingOverlay.classList.add('hidden');
-        await initializeViews();
+        const initialView = window.location.hash.slice(1) || 'browser';
+        await switchView(initialView);
     } catch (e) {
         console.error('加载失败', e);
         progressText.textContent = '加载失败，请刷新页面重试';
@@ -76,8 +83,16 @@ menuItems.forEach(item => {
     item.addEventListener('click', () => {
         const viewId = item.dataset.view;
         switchView(viewId);
+        // 更新 URL hash 以便刷新后恢复
+        window.location.hash = viewId;
     });
 });
 
 // 启动应用
 firstLoad();
+
+// 监听 hash 变化，允许通过浏览器前进后退切换视图
+window.addEventListener('hashchange', () => {
+    const viewId = window.location.hash.slice(1) || 'browser';
+    switchView(viewId);
+});
