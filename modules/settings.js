@@ -3,7 +3,6 @@ import { openDB, getAllItems } from '../services/db.js';
 import { getBaseMaterials } from '../services/dataStore.js';
 
 export async function initSettings(container) {
-    // 获取统计信息
     const items = await getAllItems();
     const db = await openDB();
     const tx = db.transaction(['metadata', 'settings'], 'readonly');
@@ -19,6 +18,18 @@ export async function initSettings(container) {
     });
     const baseMats = getBaseMaterials();
 
+    // 获取 manifest 中的强制文件数
+    let forcedCount = 0;
+    try {
+        const manifestResp = await fetch('./recipes/manifest.json');
+        const manifest = await manifestResp.json();
+        forcedCount = manifest.files.filter(f => f.forced || f.name === 'Slimefun4.jsonl').length;
+    } catch (e) {
+        console.error('无法读取 manifest.json', e);
+    }
+
+    const totalEnabled = forcedCount + enabledFiles.length;
+
     container.innerHTML = `
         <div class="settings-container">
             <h2>设置</h2>
@@ -27,7 +38,7 @@ export async function initSettings(container) {
                 <p>物品总数：${items.length}</p>
                 <p>配方文件数：${metadataCount}</p>
                 <p>基础材料数：${baseMats.length}</p>
-                <p>已启用的配方文件：${enabledFiles.length} 个</p>
+                <p>已启用的配方文件：${totalEnabled} 个</p>
             </div>
             <div class="danger-zone">
                 <h3>危险操作</h3>
