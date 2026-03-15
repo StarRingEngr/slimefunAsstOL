@@ -1,8 +1,11 @@
 // app.js
+import { openDB } from './services/db.js'; // 新增导入
 import { loadAllRecipes, getItemCount } from './services/recipeLoader.js';
 import { initBrowser } from './modules/browser.js';
 import { initAbout } from './modules/about.js';
-import { initCalculator } from './modules/calculator.js';   // 新增导入
+import { initCalculator } from './modules/calculator.js';
+import { initBaseMaterials } from './modules/baseMaterials.js';
+import { loadBaseMaterialsFromDB } from './services/dataStore.js';  // 现在位于顶层
 
 const menuItems = document.querySelectorAll('.menu-item');
 const views = document.querySelectorAll('.view');
@@ -23,14 +26,16 @@ async function switchView(viewId) {
 
     currentView = viewId;
 
-    // 如果目标视图容器没有子元素，则初始化对应模块
     if (targetView && targetView.children.length === 0) {
         switch (viewId) {
             case 'browser':
                 await initBrowser(targetView);
                 break;
-            case 'calculator':          // 确保这一分支存在
+            case 'calculator':
                 await initCalculator(targetView);
+                break;
+            case 'base-materials':
+                await initBaseMaterials(targetView);
                 break;
             case 'about':
                 initAbout(targetView);
@@ -48,9 +53,13 @@ function updateProgress(completed, total, message) {
 }
 
 async function firstLoad() {
+    // 确保数据库结构正确
+    await openDB();
+
     const count = await getItemCount().catch(() => 0);
     if (count > 0) {
         loadingOverlay.classList.add('hidden');
+        await loadBaseMaterialsFromDB();
         const initialView = window.location.hash.slice(1) || 'browser';
         await switchView(initialView);
         return;
@@ -63,6 +72,7 @@ async function firstLoad() {
         await loadAllRecipes((completed, total, message) => {
             updateProgress(completed, total, message);
         });
+        await loadBaseMaterialsFromDB();
         loadingOverlay.classList.add('hidden');
         const initialView = window.location.hash.slice(1) || 'browser';
         await switchView(initialView);
