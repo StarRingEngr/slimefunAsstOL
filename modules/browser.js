@@ -1,8 +1,17 @@
 // modules/browser.js
 import { getAllItems } from '../services/db.js';
+import { getMetadataCount } from '../services/db.js';
 
 export async function initBrowser(container) {
+    // 获取统计信息
+    const items = await getAllItems();
+    const fileCount = await getMetadataCount();
+
     container.innerHTML = `
+        <div class="stats-bar">
+            <span>📦 物品总数: ${items.length}</span>
+            <span>📁 配方文件数: ${fileCount}</span>
+        </div>
         <div class="search-box">
             <input type="text" id="search-input" placeholder="搜索物品名称或ID...">
         </div>
@@ -12,8 +21,7 @@ export async function initBrowser(container) {
     const searchInput = container.querySelector('#search-input');
     const listDiv = container.querySelector('#item-list');
 
-    let items = await getAllItems();
-    // 排序：按文件索引和行号，缺失的放在最后
+    // 按文件索引和行号排序
     items.sort((a, b) => {
         const fa = a._fileIndex !== undefined ? a._fileIndex : Infinity;
         const fb = b._fileIndex !== undefined ? b._fileIndex : Infinity;
