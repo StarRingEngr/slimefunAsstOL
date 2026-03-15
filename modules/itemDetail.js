@@ -39,11 +39,22 @@ function createModal(itemId) {
                 <span class="close-btn">&times;</span>
             </div>
             <div class="item-info"></div>
+            <div class="quantity-control">
+                <label for="detail-quantity">制作数量：</label>
+                <input type="number" id="detail-quantity" min="1" value="1" step="1">
+            </div>
             <h3>合成配方</h3>
             <div class="recipe-grid" id="recipe-grid"></div>
             <div class="detail-actions">
-                <button class="calc-materials-btn">计算材料</button>
-                <button class="calc-steps-btn">合成步骤</button>
+                <button class="calc-materials-btn">📋 计算材料</button>
+                <button class="calc-steps-btn">📝 合成步骤</button>
+            </div>
+            <div class="result-header">
+                <span>计算结果</span>
+                <div class="result-tools">
+                    <button class="copy-result-btn" title="复制到剪贴板">📋 复制</button>
+                    <button class="download-result-btn" title="下载为文本文件">📥 下载</button>
+                </div>
             </div>
             <div class="detail-result"></div>
         </div>
@@ -66,6 +77,11 @@ function createModal(itemId) {
     const calcStepsBtn = modal.querySelector('.calc-steps-btn');
     calcMaterialsBtn.onclick = () => calculateMaterials(itemId);
     calcStepsBtn.onclick = () => calculateSteps(itemId);
+
+    const copyBtn = modal.querySelector('.copy-result-btn');
+    const downloadBtn = modal.querySelector('.download-result-btn');
+    copyBtn.onclick = copyResult;
+    downloadBtn.onclick = downloadResult;
 
     renderItem(itemId);
     updateBackButton();
@@ -107,6 +123,16 @@ function updateBackButton() {
     }
 }
 
+function getQuantity() {
+    const input = activeModal.querySelector('#detail-quantity');
+    let qty = parseInt(input.value, 10);
+    if (isNaN(qty) || qty < 1) {
+        qty = 1;
+        input.value = 1;
+    }
+    return qty;
+}
+
 function renderItem(itemId) {
     const item = allItems.find(i => i.id === itemId);
     if (!item) {
@@ -143,7 +169,6 @@ function renderRecipeGrid(item, container) {
         if (slot && slot.material) {
             const materialId = slot.material;
             const materialItem = allItems.find(it => it.id === materialId);
-            // 判断是否可以展开：有配方且配方非空
             const hasRecipe = materialItem && materialItem.recipe && Array.isArray(materialItem.recipe) && materialItem.recipe.length > 0 && materialItem.recipe.some(s => s && s.material);
             const isClickable = hasRecipe;
 
@@ -158,7 +183,7 @@ function renderRecipeGrid(item, container) {
                     navigateToItem(materialId);
                 });
             } else {
-                cell.style.backgroundColor = '#dff4ff'; // #dff4ff色表示不可展开
+                cell.style.backgroundColor = '#dff4ff'; // 浅蓝表示不可展开
                 cell.style.cursor = 'default';
             }
         } else {
@@ -170,9 +195,10 @@ function renderRecipeGrid(item, container) {
 }
 
 async function calculateMaterials(itemId) {
+    const quantity = getQuantity();
     try {
-        const result = await CraftingCalculator.calculate({ [itemId]: 1 }, {});
-        const formatted = CraftingCalculator.formatMaterialList(result, { [itemId]: 1 });
+        const result = await CraftingCalculator.calculate({ [itemId]: quantity }, {});
+        const formatted = CraftingCalculator.formatMaterialList(result, { [itemId]: quantity });
         modalState.resultDiv.textContent = formatted;
     } catch (e) {
         modalState.resultDiv.textContent = '计算失败：' + e.message;
@@ -180,13 +206,51 @@ async function calculateMaterials(itemId) {
 }
 
 async function calculateSteps(itemId) {
+    const quantity = getQuantity();
     try {
-        const result = await CraftingCalculator.calculate({ [itemId]: 1 }, {});
-        const formatted = CraftingCalculator.formatCraftingSteps(result, { [itemId]: 1 });
+        const result = await CraftingCalculator.calculate({ [itemId]: quantity }, {});
+        const formatted = CraftingCalculator.formatCraftingSteps(result, { [itemId]: quantity });
         modalState.resultDiv.textContent = formatted;
     } catch (e) {
         modalState.resultDiv.textContent = '计算失败：' + e.message;
     }
+}
+
+function copyResult() {
+    const text = modalState.resultDiv.textContent;
+    if (!text || text === '') {
+        alert('没有可复制的内容');
+        return;
+    }
+    navigator.clipboard.writeText(text).then(() => {
+        alert('已复制到剪贴板');
+    }).catch(err => {
+        alert('复制失败：' + err.message);
+    });
+}
+
+function downloadResult() {
+    const text = modalState.resultDiv.textContent;
+    if (!text || text === '') {
+        alert('没有可下载的内容');
+        return;
+    }
+    // 生成文件名：基于当前物品和数量
+    const currentItemId = modalState.history[modalState.currentIndex];
+    const item = allItems.find(i => i.id === currentItemId);
+    const quantity = getQuantity();
+    const itemName = item ? item.name : currentItemId;
+    const date = new Date();
+    const timeStr = `${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()} ${date.getHours()}.${date.getMinutes()}.${date.getSeconds()}`;
+    const filename = `${quantity}个${itemName}_${timeStr}.txt`.replace(/[\\/*?:"<>|]/g, '_');
+
+    const blob = new Blob([text], { type: 'text/plain' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    a.click();
+    URL.revokeObjectURL(url);
 }
 
 function escapeHtml(text) {
