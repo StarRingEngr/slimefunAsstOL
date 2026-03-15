@@ -96,4 +96,84 @@ export class CraftingCalculator {
 
         return lines.join('\n');
     }
+
+    // 在 services/calculator.js 中追加
+    static formatCraftingSteps(result, itemQuantities) {
+        const idToName = getIdToName();
+        const lines = [];
+        
+        // 标题
+        const titleParts = [];
+        for (const [itemId, count] of Object.entries(itemQuantities)) {
+            const itemName = idToName[itemId] || itemId;
+            titleParts.push(`${count}个${itemName}`);
+        }
+        lines.push(`制作 ${titleParts.join(' + ')} 的合成步骤:\n`);
+
+        const usedOwned = result.usedOwned || {};
+        const ownedFulfilled = result.ownedFulfilled || [];
+
+        // 基础材料部分
+        if (result.basicMaterial && result.basicMaterial.length > 0) {
+            lines.push('基础材料:');
+            const sortedMats = [...result.basicMaterial].sort((a, b) => {
+                const nameA = idToName[a.item] || a.item;
+                const nameB = idToName[b.item] || b.item;
+                return nameA.localeCompare(nameB);
+            });
+            sortedMats.forEach((item, idx) => {
+                const matName = idToName[item.item] || item.item;
+                const total = Math.ceil(item.count);
+                const used = Math.ceil(usedOwned[item.item] || 0);
+                const remaining = Math.max(0, total - used);
+                if (used > 0) {
+                    lines.push(`[${idx+1}]. ${matName} × ${this.formatQuantity(remaining)} (已有 ${this.formatQuantity(used)}，还需 ${this.formatQuantity(remaining)})`);
+                } else {
+                    lines.push(`[${idx+1}]. ${matName} × ${this.formatQuantity(total)}`);
+                }
+            });
+        } else {
+            lines.push('无基础材料');
+        }
+
+        // 已由库存满足的中间产物
+        if (ownedFulfilled.length > 0) {
+            lines.push('\n已由库存满足的中间产物:');
+            ownedFulfilled.forEach((item, idx) => {
+                const matName = idToName[item.item] || item.item;
+                lines.push(`[${idx+1}]. ${matName} × ${this.formatQuantity(item.used)} (已满足需求)`);
+            });
+        }
+
+        // 合成步骤
+        lines.push('\n合成步骤:');
+        if (result.madeRoute && result.madeRoute.length > 0) {
+            const steps = [...result.madeRoute].reverse();
+            steps.forEach((route, idx) => {
+                const materials = route.materialList.map(([id, cnt]) => {
+                    const name = idToName[id] || id;
+                    return `${name} × ${this.formatQuantity(Math.ceil(cnt))}`;
+                }).join(' + ');
+                const productName = idToName[route.product] || route.product;
+                const productCount = this.formatQuantity(Math.ceil(route.productCount));
+                lines.push(`[${idx+1}]. ${materials} ==(${route.machine})=> ${productName} × ${productCount}`);
+            });
+        } else {
+            lines.push('无合成步骤（直接获取或基础材料）');
+        }
+
+        // 剩余材料
+        const extraItem = result.extraItem || [];
+        if (extraItem.length > 0) {
+            lines.push('\n剩余材料:');
+            extraItem.forEach(item => {
+                const name = idToName[item.item] || item.item;
+                lines.push(`${name} × ${this.formatQuantity(Math.ceil(item.count))}`);
+            });
+        } else {
+            lines.push('\n无剩余材料');
+        }
+
+        return lines.join('\n');
+    }
 }
