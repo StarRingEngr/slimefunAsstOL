@@ -4,13 +4,12 @@ import { getMetadataCount } from '../services/db.js';
 import { showItemDetail } from './itemDetail.js';
 
 export async function initBrowser(container) {
-    // 获取统计信息
     const items = await getAllItems();
     const fileCount = await getMetadataCount();
 
     container.innerHTML = `
         <div class="stats-bar">
-            <span>📦 物品总数: ${items.length}</span>
+            <span>📦 当前加载物品数: ${items.length}</span>
             <span>📁 配方文件数: ${fileCount}</span>
         </div>
         <div class="search-box">
@@ -22,7 +21,6 @@ export async function initBrowser(container) {
     const searchInput = container.querySelector('#search-input');
     const listDiv = container.querySelector('#item-list');
 
-    // 按文件索引和行号排序
     items.sort((a, b) => {
         const fa = a._fileIndex !== undefined ? a._fileIndex : Infinity;
         const fb = b._fileIndex !== undefined ? b._fileIndex : Infinity;
