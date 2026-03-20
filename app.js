@@ -86,12 +86,10 @@ async function firstLoad() {
             req.onsuccess = () => resolve(req.result || null);
         });
 
-        // 获取所有文件信息
         const manifestResp = await fetch('./recipes/manifest.json');
         const manifest = await manifestResp.json();
         const allFiles = manifest.files;
 
-        // 确定要下载的文件
         const forcedFiles = allFiles.filter(f => f.forced || f.name === 'Slimefun4.jsonl').map(f => f.name);
         let filesToDownload;
         if (enabledFiles === null) {
@@ -101,7 +99,6 @@ async function firstLoad() {
             filesToDownload = allFiles.filter(f => enabledSet.has(f.name));
         }
 
-        // 按原始顺序排序
         filesToDownload.sort((a, b) => {
             const indexA = allFiles.findIndex(f => f.name === a.name);
             const indexB = allFiles.findIndex(f => f.name === b.name);
@@ -143,4 +140,36 @@ firstLoad();
 window.addEventListener('hashchange', () => {
     const viewId = window.location.hash.slice(1) || 'browser';
     switchView(viewId);
+});
+
+// ========== 手机端侧边栏折叠控制（支持 class fallback） ==========
+document.addEventListener('DOMContentLoaded', () => {
+    // 优先通过 id 获取，如果没有则通过 class 获取
+    let menuToggle = document.getElementById('menuToggle');
+    let sidebar = document.getElementById('sidebar');
+    if (!menuToggle) {
+        menuToggle = document.querySelector('.menu-toggle');
+        if (menuToggle) console.log('通过 class 找到菜单按钮');
+    }
+    if (!sidebar) {
+        sidebar = document.querySelector('.sidebar');
+        if (sidebar) console.log('通过 class 找到侧边栏');
+    }
+    if (menuToggle && sidebar) {
+        menuToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            sidebar.classList.toggle('open');
+            //console.log('菜单按钮被点击，open类当前状态:', sidebar.classList.contains('open'));
+        });
+        const content = document.querySelector('.content');
+        if (content) {
+            content.addEventListener('click', () => {
+                if (sidebar.classList.contains('open')) {
+                    sidebar.classList.remove('open');
+                }
+            });
+        }
+    } else {
+        console.error('未找到菜单按钮或侧边栏元素，请检查 HTML');
+    }
 });
