@@ -747,3 +747,46 @@ body {
     overflow-y: auto;
     margin-top: 1rem;
 }
+
+/* ========== 手机端侧边栏折叠 ========== */
+.menu-toggle {
+    display: none;
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    z-index: 1100;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    padding: 0.2rem 0.8rem;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block !important;
+    }
+    .sidebar {
+        position: fixed !important;
+        top: 0 !important;
+        left: -240px !important;
+        width: 240px !important;
+        height: 100% !important;
+        z-index: 1000 !important;
+        background-color: #1e2a3a !important;
+        transition: left 0.3s ease !important;
+        box-shadow: 2px 0 5px rgba(0,0,0,0.1) !important;
+    }
+    .sidebar.open {
+        left: 0 !important;
+    }
+    .content {
+        margin-left: 0 !important;
+        width: 100% !important;
+        padding: 1rem !important;
+        padding-top: 3rem !important;
+    }
+}
