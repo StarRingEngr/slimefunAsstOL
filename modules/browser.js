@@ -9,7 +9,8 @@ export async function initBrowser(container) {
 
     container.innerHTML = `
         <div class="stats-bar">
-            <span>📦 当前加载物品数: ${items.length}</span>
+            <span>📦 当前加载物品数: ${items.length} </span>
+            <span>配方文件管理 可修改加载哪些附属</span>
             <span>📁 配方文件数: ${fileCount}</span>
         </div>
         <div class="search-box">
