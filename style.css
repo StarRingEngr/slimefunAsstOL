@@ -790,3 +790,29 @@ body {
         padding-top: 3rem !important;
     }
 }
+
+/* 鸣谢区域 */
+.acknowledgement {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e2e8f0;
+}
+.acknowledgement h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    color: #1e2a3a;
+}
+.acknowledgement ul {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+.acknowledgement li {
+    margin: 0.3rem 0;
+}
+.acknowledgement a {
+    color: #3498db;
+    text-decoration: none;
+}
+.acknowledgement a:hover {
+    text-decoration: underline;
+}

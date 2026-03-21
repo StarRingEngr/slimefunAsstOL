@@ -26,6 +26,15 @@ export function initAbout(container) {
 
 开发者：bilibili星環工程師
             </textarea>
+
+            <div class="acknowledgement">
+                <h3>鸣谢</h3>
+                <p>感谢以下开源项目提供的支持：</p>
+                <ul>
+                    <li><a href="https://github.com/ybw0014/slimefun-helper" target="_blank">Slimefun Helper</a> 作者：<strong>鬼斩</strong></li>
+                    <li><a href="https://github.com/flycloudc/Utils-and-Games" target="_blank">Utils-and-Games</a> 作者：<strong>FLYC飘云</strong></li>
+                </ul>
+            </div>
         </div>
     `;
 }
