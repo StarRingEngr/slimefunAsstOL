@@ -17,14 +17,14 @@ export async function initRecipeManager(container) {
     container.innerHTML = `
         <div class="recipe-manager">
             <h2>配方文件管理</h2>
-            <p>勾选启用的配方文件，点击保存后立即生效。强制文件不可禁用。</p>
+            <p>勾选启用的配方文件，点击保存后刷新页面生效。强制文件不可禁用。</p>
             <table class="recipe-table">
                 <thead>
                     <tr>
                         <th>启用</th>
                         <th>名称</th>
                         <th>版本</th>
-                        <th>配方文件作者</th>
+                        <th>作者</th>
                         <th>描述</th>
                         <th>大小</th>
                         <th>强制</th>
@@ -35,17 +35,11 @@ export async function initRecipeManager(container) {
             <div class="recipe-actions">
                 <button id="save-recipe-btn">保存设置</button>
             </div>
-            <div id="update-progress" style="display:none; margin-top:1rem;">
-                <p>正在更新文件...</p>
-                <div class="progress-bar"><div id="progress-fill" class="progress-fill" style="width:0%"></div></div>
-            </div>
         </div>
     `;
 
     const tbody = container.querySelector('#recipe-tbody');
     const saveBtn = container.querySelector('#save-recipe-btn');
-    const progressDiv = container.querySelector('#update-progress');
-    const progressFill = container.querySelector('#progress-fill');
 
     function renderTable() {
         tbody.innerHTML = allFiles.map(file => {
@@ -53,7 +47,6 @@ export async function initRecipeManager(container) {
             const isEnabled = isForced || enabledFiles.includes(file.name);
             const checkedAttr = isEnabled ? 'checked' : '';
             const disabledAttr = isForced ? 'disabled' : '';
-            // 优先显示友好名称，若无则显示文件名
             const displayName = file.displayName || file.name;
             const author = file.author || '未知';
             const description = file.description || '';
@@ -64,14 +57,13 @@ export async function initRecipeManager(container) {
                     <td title="${file.name}">${escapeHtml(displayName)}</td>
                     <td>${escapeHtml(file.version)}</td>
                     <td>${escapeHtml(author)}</td>
-                    <td title="${escapeHtml(description)}">${escapeHtml(description.slice(0,16))}${description.length > 30 ? '...' : ''}</td>
+                    <td title="${escapeHtml(description)}">${escapeHtml(description.slice(0, 16))}${description.length > 30 ? '...' : ''}</td>
                     <td>${sizeKB} KB</td>
                     <td>${isForced ? '是' : '否'}</td>
                 </tr>
             `;
         }).join('');
     }
-
     renderTable();
 
     saveBtn.addEventListener('click', async () => {
@@ -85,16 +77,16 @@ export async function initRecipeManager(container) {
             }
         });
 
-        if (JSON.stringify(enabledFiles) === JSON.stringify(newEnabled)) {
-            alert('设置无变化');
-            return;
-        }
+        // 保存新设置
+        const db = await openDB();
+        const tx = db.transaction('settings', 'readwrite');
+        const store = tx.objectStore('settings');
+        store.put(newEnabled, 'enabledFiles');
+        await tx.complete;
 
-        // 计算差异并执行增量更新（此处代码与之前相同，略）
-        // ... 省略增量更新逻辑（参考之前实现）
-        // 更新后保存设置并刷新页面
-        alert('设置已保存，需要刷新页面才能生效。');
-        window.location.reload();
+        if (confirm('设置已保存，需要刷新页面才能生效。是否立即刷新？')) {
+            window.location.reload();
+        }
     });
 }
 

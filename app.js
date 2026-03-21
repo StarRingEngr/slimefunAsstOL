@@ -73,11 +73,33 @@ async function firstLoad() {
 
     const count = await getItemCount().catch(() => 0);
     if (count > 0) {
-        // 已有数据，立即隐藏加载遮罩
-        if (loadingOverlay) loadingOverlay.classList.add('hidden');
+        // 已有数据，读取用户启用的文件列表
+        const tx = db.transaction('settings', 'readonly');
+        const store = tx.objectStore('settings');
+        const enabledFiles = await new Promise(resolve => {
+            const req = store.get('enabledFiles');
+            req.onsuccess = () => resolve(req.result || []);
+        });
+
+        // 获取所有物品
         const allItems = await getAllItems();
-        setItems(allItems);
+
+        // 获取 manifest 中的强制文件列表
+        const manifestResp = await fetch('./recipes/manifest.json');
+        const manifest = await manifestResp.json();
+        const forcedFiles = manifest.files.filter(f => f.forced || f.name === 'Slimefun4.jsonl').map(f => f.name);
+
+        // 确定最终启用的文件集
+        const enabledSet = new Set([...forcedFiles, ...enabledFiles]);
+
+        // 筛选出属于启用文件的物品
+        const filteredItems = allItems.filter(item => enabledSet.has(item.file));
+
+        // 更新内存数据
+        setItems(filteredItems);
         await loadBaseMaterialsFromDB();
+
+        loadingOverlay.classList.add('hidden');
         const initialView = window.location.hash.slice(1) || 'browser';
         await switchView(initialView);
         return;

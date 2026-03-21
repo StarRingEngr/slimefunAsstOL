@@ -64,6 +64,15 @@
       "forced": false
     },
     {
+      "name": "物品栏宠物.jsonl",
+      "displayName": "物品栏宠物",
+      "version": "1.0",
+      "description": "自动生成的配方文件",
+      "author": "未知",
+      "size": 18586,
+      "forced": false
+    },
+    {
       "name": "蓬松机器.jsonl",
       "displayName": "蓬松机器配方",
       "version": "1.0",
