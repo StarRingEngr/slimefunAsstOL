@@ -1,6 +1,6 @@
 // app.js
 import { openDB } from './services/db.js';
-import { loadFiles, loadItemsFromDB, syncRecipes, getItemCount } from './services/recipeLoader.js';
+import { loadAllRecipesFromZip, getItemCount } from './services/recipeLoader.js';
 import { initBrowser } from './modules/browser.js';
 import { initAbout } from './modules/about.js';
 import { initCalculator } from './modules/calculator.js';
@@ -71,7 +71,7 @@ function updateProgress(completed, total, message) {
 async function firstLoad() {
     const db = await openDB();
 
-    // 获取服务器 manifest
+    // 1. 获取服务器 manifest
     let manifest;
     try {
         const resp = await fetch('./recipes/manifest.json');
@@ -83,58 +83,55 @@ async function firstLoad() {
     }
     const allFiles = manifest.files;
 
-    // 获取本地 metadata
-    const localMetadata = {};
-    const metaTx = db.transaction('metadata', 'readonly');
-    const metaStore = metaTx.objectStore('metadata');
-    const keys = await new Promise(resolve => {
-        const req = metaStore.getAllKeys();
-        req.onsuccess = () => resolve(req.result);
-    });
-    for (const key of keys) {
-        const value = await new Promise(resolve => {
-            const req = metaStore.get(key);
-            req.onsuccess = () => resolve(req.result);
-        });
-        localMetadata[key] = value;
-    }
-
-    // 检查更新
-    let hasUpdate = false;
-    if (Object.keys(localMetadata).length > 0 || allFiles.length > 0) {
-        loadingOverlay.classList.remove('hidden');
-        updateProgress(0, 1, '检查更新...');
-        try {
-            hasUpdate = await syncRecipes(allFiles, localMetadata, (completed, total, msg) => {
-                updateProgress(completed, total, msg);
-            });
-        } catch (e) {
-            console.error('同步更新失败', e);
-        }
-        if (!hasUpdate) {
-            loadingOverlay.classList.add('hidden');
-        }
-    }
-
-    // 读取用户启用列表
-    // 使用独立事务读取 settings
+    // 2. 获取本地记录的 manifest 版本
     const settingsTx = db.transaction('settings', 'readonly');
     const settingsStore = settingsTx.objectStore('settings');
-    
-    // 检查存储中是否有 enabledFiles 键
+    const savedManifestVersion = await new Promise(resolve => {
+        const req = settingsStore.get('manifestVersion');
+        req.onsuccess = () => resolve(req.result);
+    });
+    await settingsTx.complete;
+
+    // 3. 判断是否需要更新（版本不同或本地无数据）
+    const needUpdate = savedManifestVersion !== manifest.version;
+    const count = await getItemCount().catch(() => 0);
+    if (needUpdate || count === 0) {
+        loadingOverlay.classList.remove('hidden');
+        updateProgress(0, 1, '准备下载...');
+        try {
+            const success = await loadAllRecipesFromZip((completed, total, msg) => {
+                updateProgress(completed, total, msg);
+            });
+            if (success) {
+                // 保存新的 manifest 版本
+                const saveTx = db.transaction('settings', 'readwrite');
+                const saveStore = saveTx.objectStore('settings');
+                saveStore.put(manifest.version, 'manifestVersion');
+                await saveTx.complete;
+            } else {
+                throw new Error('ZIP 下载或解压失败');
+            }
+        } catch (e) {
+            console.error('加载失败', e);
+            progressText.textContent = '加载失败，请刷新页面重试';
+            loadingOverlay.classList.add('hidden');
+            return;
+        }
+    }
+
+    // 4. 读取用户启用列表（原有逻辑）
+    const settingsTx2 = db.transaction('settings', 'readonly');
+    const settingsStore2 = settingsTx2.objectStore('settings');
     const enabledFilesExist = await new Promise(resolve => {
-        const req = settingsStore.get('enabledFiles');
+        const req = settingsStore2.get('enabledFiles');
         req.onsuccess = () => resolve(req.result !== undefined);
     });
-    
     let enabledFiles = await new Promise(resolve => {
-        const req = settingsStore.get('enabledFiles');
+        const req = settingsStore2.get('enabledFiles');
         req.onsuccess = () => resolve(req.result || []);
     });
-    
-    await settingsTx.complete; // 释放事务
+    await settingsTx2.complete;
 
-    // 如果从未设置过，则自动填充默认的非强制文件列表
     if (!enabledFilesExist) {
         const nonForced = allFiles.filter(f => !f.forced && f.name !== 'Slimefun4.jsonl').map(f => f.name);
         const saveTx = db.transaction('settings', 'readwrite');
@@ -146,7 +143,7 @@ async function firstLoad() {
 
     const forcedFiles = allFiles.filter(f => f.forced || f.name === 'Slimefun4.jsonl').map(f => f.name);
 
-    // 从数据库加载筛选后的物品
+    // 5. 从数据库加载筛选后的物品
     const allItems = await getAllItems();
     const enabledSet = new Set([...forcedFiles, ...enabledFiles]);
     const filteredItems = allItems.filter(item => enabledSet.has(item.file));

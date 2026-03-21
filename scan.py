@@ -13,6 +13,7 @@ import os
 import json
 import argparse
 from pathlib import Path
+import zipfile
 
 def find_recipes_dir(start_path=None):
     """从当前目录开始向下递归搜索 recipes 目录，返回第一个找到的 Path 对象，若找不到返回 None。"""
@@ -93,6 +94,12 @@ def main():
     with open(manifest_path, 'w', encoding='utf-8') as f:
         json.dump(manifest, f, indent=2, ensure_ascii=False)
     print(f"\nmanifest.json 已生成: {manifest_path}")
+
+    zip_path = recipes_dir / "recipes.zip"
+    with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED) as zf:
+        for jsonl_file in jsonl_files:
+            zf.write(jsonl_file, arcname=jsonl_file.name)
+    print(f"已打包 {len(jsonl_files)} 个文件到 {zip_path}")
 
 if __name__ == "__main__":
     main()
