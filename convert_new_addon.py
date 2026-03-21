@@ -10,6 +10,7 @@ convert_json_to_jsonl.py
 import os
 import json
 import shutil
+import argparse
 from pathlib import Path
 
 def read_json_array(file_path):
@@ -119,21 +120,24 @@ def write_jsonl(file_path, metadata, items):
         return False
 
 def main():
-    # 定位 recipes 目录
-    recipes_dir = Path.cwd() / "recipes"
+    parser = argparse.ArgumentParser(description='将 JSON 数组文件转换为 JSONL 格式')
+    parser.add_argument('--recipes-dir', default='recipes', help='配方文件目录 (默认: ./recipes)')
+    args = parser.parse_args()
+
+    recipes_dir = Path(args.recipes_dir).resolve()
     if not recipes_dir.is_dir():
-        print("错误: 未找到 recipes 目录，请将脚本放在项目根目录。")
+        print(f"错误: 找不到 recipes 目录: {recipes_dir}")
+        print("请确保目录存在，或使用 --recipes-dir 参数指定正确的路径。")
         return
 
     # 主文件映射
     main_file = recipes_dir / "Slimefun4.jsonl"
     main_bak = main_file.with_suffix(main_file.suffix + ".bak")
     if not main_file.exists() or not main_bak.exists():
-        print("错误: 未找到主文件 Slimefun4.jsonl 或其备份，请确保已运行过规范化脚本。")
+        print(f"错误: 未找到主文件 {main_file.name} 或其备份，请确保已运行过规范化脚本。")
         return
 
     print("读取主文件转换映射...")
-    # 读取主文件备份和当前版本，建立映射
     def read_jsonl_items(file_path):
         items = []
         try:
@@ -188,7 +192,7 @@ def main():
             continue
 
         # 输入元数据
-        default_name = src_path.stem  # 文件名（不含扩展名）作为默认名称
+        default_name = src_path.stem
         metadata = get_metadata_input(default_name)
 
         # 转换物品
