@@ -29,7 +29,17 @@ async function switchView(viewId) {
 
     currentView = viewId;
 
+    // 如果目标视图容器没有子元素，说明尚未初始化，先显示加载动画
     if (targetView && targetView.children.length === 0) {
+        // 显示加载动画占位符
+        targetView.innerHTML = `
+            <div class="view-loading">
+                <div class="spinner"></div>
+                <p>正在加载，请稍候...</p>
+            </div>
+        `;
+
+        // 根据视图ID调用对应的初始化函数
         switch (viewId) {
             case 'browser':
                 await initBrowser(targetView);
