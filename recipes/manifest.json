@@ -6,7 +6,7 @@
       "version": "1.0",
       "description": "slimefun本体(不包含附属插件)",
       "author": "星環工程師",
-      "size": 265694,
+      "size": 289628,
       "forced": true
     },
     {
@@ -15,7 +15,7 @@
       "version": "1.0",
       "description": "动力科技附属插件配方",
       "author": "星環工程師",
-      "size": 35576,
+      "size": 39007,
       "forced": false
     },
     {
@@ -24,7 +24,7 @@
       "version": "1.0",
       "description": "异域花园附属插件配方",
       "author": "星環工程師",
-      "size": 97310,
+      "size": 109530,
       "forced": false
     },
     {
@@ -33,7 +33,7 @@
       "version": "1.0",
       "description": "战争工艺附属插件配方",
       "author": "星環工程師",
-      "size": 42416,
+      "size": 50257,
       "forced": false
     },
     {
@@ -42,7 +42,7 @@
       "version": "1.0",
       "description": "星际科技附属插件配方",
       "author": "星環工程師",
-      "size": 55860,
+      "size": 64051,
       "forced": false
     },
     {
@@ -51,7 +51,7 @@
       "version": "1.0",
       "description": "此插件是本网页作者写的sf扩展插件,添加了几个日月发电机和量子发电机",
       "author": "星環工程師",
-      "size": 10343,
+      "size": 11563,
       "forced": false
     },
     {
@@ -60,7 +60,7 @@
       "version": "1.0",
       "description": "末地科技附属插件配方",
       "author": "星環工程師",
-      "size": 17288,
+      "size": 20140,
       "forced": false
     },
     {
@@ -69,7 +69,7 @@
       "version": "1.0",
       "description": "蓬松机器附属插件配方",
       "author": "星環工程師",
-      "size": 28814,
+      "size": 31621,
       "forced": false
     }
   ]
