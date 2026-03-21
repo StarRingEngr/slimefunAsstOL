@@ -444,6 +444,24 @@ body {
     background-color: #27ae60;
 }
 
+/* 基础材料管理页面 - 导出/导入按钮样式 */
+.base-controls button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.2s;
+}
+.base-controls button:hover {
+    background-color: #2980b9;
+}
+.base-controls button:active {
+    transform: scale(0.98);
+}
+
 /* 计算器页面按钮样式 */
 .quantity-input button {
     padding: 0.5rem 1rem;
@@ -508,23 +526,26 @@ body {
 .recipe-manager {
     max-width: 800px;
     margin: 0 auto;
+    overflow-x: auto;  /* 添加横向滚动条 */
 }
 .recipe-table {
-    width: 100%;
+    width: max-content; /* 让表格根据内容自动撑开宽度 */
+    min-width: 100%;
     border-collapse: collapse;
     background: white;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
-.recipe-table th {
-    background: #f1f5f9;
-    padding: 0.8rem;
-    text-align: left;
-}
-.recipe-table td {
+.recipe-table th, .recipe-table td {
     padding: 0.8rem;
     border-bottom: 1px solid #e2e8f0;
+    text-align: left;
+    white-space: nowrap; /* 防止换行，保证单行显示 */
+}
+.recipe-table th {
+    background: #f1f5f9;
+    font-weight: 600;
 }
 .recipe-table input[type="checkbox"] {
     width: 18px;
