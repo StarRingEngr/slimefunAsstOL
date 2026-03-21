@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>粘液科技助手</title>
-    <link rel="stylesheet" href="style.css?v=0.7.3">   <!-- 添加版本号 -->
+    <link rel="stylesheet" href="style.css?v=0.7.3">
 </head>
 <body>
     <div class="app">
-        <!-- 左侧侧边栏 -->
         <button class="menu-toggle" id="menuToggle">☰</button>
         <aside class="sidebar">
             <div class="logo">⚗️ 粘液助手</div>
@@ -23,10 +22,9 @@
             <div class="version">v0.7.0 MVP</div>
         </aside>
 
-        <!-- 右侧主内容区域 -->
         <main class="content">
-            <!-- 加载遮罩（仅在首次下载数据时显示） -->
-            <div id="loading-overlay" class="loading-overlay hidden">
+            <!-- 加载遮罩：初始可见，不再有 hidden 类 -->
+            <div id="loading-overlay" class="loading-overlay">
                 <div class="loading-box">
                     <h3>正在初始化数据</h3>
                     <p>首次加载需下载配方文件，请稍候...</p>
@@ -37,7 +35,6 @@
                 </div>
             </div>
 
-            <!-- 各个功能视图 -->
             <div id="view-browser" class="view active-view"></div>
             <div id="view-calculator" class="view"></div>
             <div id="view-base-materials" class="view"></div>

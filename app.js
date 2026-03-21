@@ -29,9 +29,7 @@ async function switchView(viewId) {
 
     currentView = viewId;
 
-    // 如果目标视图容器没有子元素，说明尚未初始化，先显示加载动画
     if (targetView && targetView.children.length === 0) {
-        // 显示加载动画占位符
         targetView.innerHTML = `
             <div class="view-loading">
                 <div class="spinner"></div>
@@ -39,7 +37,6 @@ async function switchView(viewId) {
             </div>
         `;
 
-        // 根据视图ID调用对应的初始化函数
         switch (viewId) {
             case 'browser':
                 await initBrowser(targetView);
@@ -76,16 +73,18 @@ async function firstLoad() {
 
     const count = await getItemCount().catch(() => 0);
     if (count > 0) {
+        // 已有数据，立即隐藏加载遮罩
+        if (loadingOverlay) loadingOverlay.classList.add('hidden');
         const allItems = await getAllItems();
         setItems(allItems);
         await loadBaseMaterialsFromDB();
-        loadingOverlay.classList.add('hidden');
         const initialView = window.location.hash.slice(1) || 'browser';
         await switchView(initialView);
         return;
     }
 
-    loadingOverlay.classList.remove('hidden');
+    // 无数据，保持遮罩显示，并开始下载
+    if (loadingOverlay) loadingOverlay.classList.remove('hidden');
     updateProgress(0, 1, '准备下载...');
 
     try {
@@ -128,12 +127,15 @@ async function firstLoad() {
         }
 
         await loadBaseMaterialsFromDB();
-        loadingOverlay.classList.add('hidden');
+        // 下载完成，隐藏加载遮罩
+        if (loadingOverlay) loadingOverlay.classList.add('hidden');
         const initialView = window.location.hash.slice(1) || 'browser';
         await switchView(initialView);
     } catch (e) {
         console.error('加载失败', e);
         progressText.textContent = '加载失败，请刷新页面重试';
+        // 出错后也隐藏遮罩，避免一直卡住
+        if (loadingOverlay) loadingOverlay.classList.add('hidden');
     }
 }
 
@@ -154,7 +156,6 @@ window.addEventListener('hashchange', () => {
 
 // ========== 手机端侧边栏折叠控制（支持 class fallback） ==========
 document.addEventListener('DOMContentLoaded', () => {
-    // 优先通过 id 获取，如果没有则通过 class 获取
     let menuToggle = document.getElementById('menuToggle');
     let sidebar = document.getElementById('sidebar');
     if (!menuToggle) {
@@ -169,7 +170,6 @@ document.addEventListener('DOMContentLoaded', () => {
         menuToggle.addEventListener('click', (e) => {
             e.stopPropagation();
             sidebar.classList.toggle('open');
-            //console.log('菜单按钮被点击，open类当前状态:', sidebar.classList.contains('open'));
         });
         const content = document.querySelector('.content');
         if (content) {
