@@ -15,7 +15,6 @@ export function initAbout(container) {
 
             <textarea class="about-textarea" rows="8" readonly>
 粘液科技助手 Web 版
-版本：0.9.4
 
 当前功能：
 - 物品浏览与搜索（支持 sortid 自定义排序，按文件分组）
