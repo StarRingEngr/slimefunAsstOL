@@ -1,0 +1,5014 @@
+[{
+    "id": "DYED_SMALL_BACKPACK_WHITE",
+    "name": "小型背包 (白色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "SMALL_BACKPACK",
+            "name": "小型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_SMALL_BACKPACK_ORANGE",
+    "name": "小型背包 (橙色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "SMALL_BACKPACK",
+            "name": "小型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_SMALL_BACKPACK_MAGENTA",
+    "name": "小型背包 (品红色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "SMALL_BACKPACK",
+            "name": "小型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_SMALL_BACKPACK_LIGHT_BLUE",
+    "name": "小型背包 (浅蓝色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "SMALL_BACKPACK",
+            "name": "小型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_SMALL_BACKPACK_YELLOW",
+    "name": "小型背包 (黄色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "SMALL_BACKPACK",
+            "name": "小型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_SMALL_BACKPACK_LIME",
+    "name": "小型背包 (浅绿色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "SMALL_BACKPACK",
+            "name": "小型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_SMALL_BACKPACK_PINK",
+    "name": "小型背包 (粉色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "SMALL_BACKPACK",
+            "name": "小型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_SMALL_BACKPACK_DARK_GRAY",
+    "name": "小型背包 (深灰色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "SMALL_BACKPACK",
+            "name": "小型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_SMALL_BACKPACK_LIGHT_GRAY",
+    "name": "小型背包 (浅灰色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "SMALL_BACKPACK",
+            "name": "小型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_SMALL_BACKPACK_CYAN",
+    "name": "小型背包 (青色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "SMALL_BACKPACK",
+            "name": "小型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_SMALL_BACKPACK_PURPLE",
+    "name": "小型背包 (紫色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "SMALL_BACKPACK",
+            "name": "小型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_SMALL_BACKPACK_BLUE",
+    "name": "小型背包 (蓝色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "SMALL_BACKPACK",
+            "name": "小型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_SMALL_BACKPACK_BROWN",
+    "name": "小型背包 (棕色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "SMALL_BACKPACK",
+            "name": "小型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_SMALL_BACKPACK_GREEN",
+    "name": "小型背包 (绿色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "SMALL_BACKPACK",
+            "name": "小型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_SMALL_BACKPACK_RED",
+    "name": "小型背包 (红色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "SMALL_BACKPACK",
+            "name": "小型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_SMALL_BACKPACK_BLACK",
+    "name": "小型背包 (黑色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "SMALL_BACKPACK",
+            "name": "小型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_SMALL_BACKPACK_CAMOFLAGE",
+    "name": "小型背包 (迷彩)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "SMALL_BACKPACK",
+            "name": "小型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_SMALL_BACKPACK_MODERN",
+    "name": "小型背包 (摩登)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "SMALL_BACKPACK",
+            "name": "小型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_MEDIUM_BACKPACK_WHITE",
+    "name": "普通背包 (白色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "MEDIUM_BACKPACK",
+            "name": "普通背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_MEDIUM_BACKPACK_ORANGE",
+    "name": "普通背包 (橙色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "MEDIUM_BACKPACK",
+            "name": "普通背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_MEDIUM_BACKPACK_MAGENTA",
+    "name": "普通背包 (品红色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "MEDIUM_BACKPACK",
+            "name": "普通背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_MEDIUM_BACKPACK_LIGHT_BLUE",
+    "name": "普通背包 (浅蓝色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "MEDIUM_BACKPACK",
+            "name": "普通背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_MEDIUM_BACKPACK_YELLOW",
+    "name": "普通背包 (黄色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "MEDIUM_BACKPACK",
+            "name": "普通背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_MEDIUM_BACKPACK_LIME",
+    "name": "普通背包 (浅绿色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "MEDIUM_BACKPACK",
+            "name": "普通背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_MEDIUM_BACKPACK_PINK",
+    "name": "普通背包 (粉色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "MEDIUM_BACKPACK",
+            "name": "普通背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_MEDIUM_BACKPACK_DARK_GRAY",
+    "name": "普通背包 (深灰色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "MEDIUM_BACKPACK",
+            "name": "普通背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_MEDIUM_BACKPACK_LIGHT_GRAY",
+    "name": "普通背包 (浅灰色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "MEDIUM_BACKPACK",
+            "name": "普通背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_MEDIUM_BACKPACK_CYAN",
+    "name": "普通背包 (青色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "MEDIUM_BACKPACK",
+            "name": "普通背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_MEDIUM_BACKPACK_PURPLE",
+    "name": "普通背包 (紫色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "MEDIUM_BACKPACK",
+            "name": "普通背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_MEDIUM_BACKPACK_BLUE",
+    "name": "普通背包 (蓝色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "MEDIUM_BACKPACK",
+            "name": "普通背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_MEDIUM_BACKPACK_BROWN",
+    "name": "普通背包 (棕色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "MEDIUM_BACKPACK",
+            "name": "普通背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_MEDIUM_BACKPACK_GREEN",
+    "name": "普通背包 (绿色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "MEDIUM_BACKPACK",
+            "name": "普通背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_MEDIUM_BACKPACK_RED",
+    "name": "普通背包 (红色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "MEDIUM_BACKPACK",
+            "name": "普通背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_MEDIUM_BACKPACK_BLACK",
+    "name": "普通背包 (黑色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "MEDIUM_BACKPACK",
+            "name": "普通背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_MEDIUM_BACKPACK_CAMOFLAGE",
+    "name": "普通背包 (迷彩)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "MEDIUM_BACKPACK",
+            "name": "普通背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_MEDIUM_BACKPACK_MODERN",
+    "name": "普通背包 (摩登)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "MEDIUM_BACKPACK",
+            "name": "普通背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_LARGE_BACKPACK_WHITE",
+    "name": "中型背包 (白色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LARGE_BACKPACK",
+            "name": "中型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_LARGE_BACKPACK_ORANGE",
+    "name": "中型背包 (橙色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LARGE_BACKPACK",
+            "name": "中型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_LARGE_BACKPACK_MAGENTA",
+    "name": "中型背包 (品红色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LARGE_BACKPACK",
+            "name": "中型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_LARGE_BACKPACK_LIGHT_BLUE",
+    "name": "中型背包 (浅蓝色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LARGE_BACKPACK",
+            "name": "中型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_LARGE_BACKPACK_YELLOW",
+    "name": "中型背包 (黄色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LARGE_BACKPACK",
+            "name": "中型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_LARGE_BACKPACK_LIME",
+    "name": "中型背包 (浅绿色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LARGE_BACKPACK",
+            "name": "中型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_LARGE_BACKPACK_PINK",
+    "name": "中型背包 (粉色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LARGE_BACKPACK",
+            "name": "中型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_LARGE_BACKPACK_DARK_GRAY",
+    "name": "中型背包 (深灰色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LARGE_BACKPACK",
+            "name": "中型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_LARGE_BACKPACK_LIGHT_GRAY",
+    "name": "中型背包 (浅灰色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LARGE_BACKPACK",
+            "name": "中型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_LARGE_BACKPACK_CYAN",
+    "name": "中型背包 (青色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LARGE_BACKPACK",
+            "name": "中型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_LARGE_BACKPACK_PURPLE",
+    "name": "中型背包 (紫色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LARGE_BACKPACK",
+            "name": "中型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_LARGE_BACKPACK_BLUE",
+    "name": "中型背包 (蓝色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LARGE_BACKPACK",
+            "name": "中型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_LARGE_BACKPACK_BROWN",
+    "name": "中型背包 (棕色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LARGE_BACKPACK",
+            "name": "中型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_LARGE_BACKPACK_GREEN",
+    "name": "中型背包 (绿色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LARGE_BACKPACK",
+            "name": "中型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_LARGE_BACKPACK_RED",
+    "name": "中型背包 (红色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LARGE_BACKPACK",
+            "name": "中型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_LARGE_BACKPACK_BLACK",
+    "name": "中型背包 (黑色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LARGE_BACKPACK",
+            "name": "中型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_LARGE_BACKPACK_CAMOFLAGE",
+    "name": "中型背包 (迷彩)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LARGE_BACKPACK",
+            "name": "中型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_LARGE_BACKPACK_MODERN",
+    "name": "中型背包 (摩登)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LARGE_BACKPACK",
+            "name": "中型背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_WOVEN_BACKPACK_WHITE",
+    "name": "编织背包 (白色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "WOVEN_BACKPACK",
+            "name": "编织背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_WOVEN_BACKPACK_ORANGE",
+    "name": "编织背包 (橙色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "WOVEN_BACKPACK",
+            "name": "编织背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_WOVEN_BACKPACK_MAGENTA",
+    "name": "编织背包 (品红色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "WOVEN_BACKPACK",
+            "name": "编织背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_WOVEN_BACKPACK_LIGHT_BLUE",
+    "name": "编织背包 (浅蓝色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "WOVEN_BACKPACK",
+            "name": "编织背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_WOVEN_BACKPACK_YELLOW",
+    "name": "编织背包 (黄色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "WOVEN_BACKPACK",
+            "name": "编织背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_WOVEN_BACKPACK_LIME",
+    "name": "编织背包 (浅绿色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "WOVEN_BACKPACK",
+            "name": "编织背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_WOVEN_BACKPACK_PINK",
+    "name": "编织背包 (粉色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "WOVEN_BACKPACK",
+            "name": "编织背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_WOVEN_BACKPACK_DARK_GRAY",
+    "name": "编织背包 (深灰色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "WOVEN_BACKPACK",
+            "name": "编织背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_WOVEN_BACKPACK_LIGHT_GRAY",
+    "name": "编织背包 (浅灰色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "WOVEN_BACKPACK",
+            "name": "编织背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_WOVEN_BACKPACK_CYAN",
+    "name": "编织背包 (青色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "WOVEN_BACKPACK",
+            "name": "编织背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_WOVEN_BACKPACK_PURPLE",
+    "name": "编织背包 (紫色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "WOVEN_BACKPACK",
+            "name": "编织背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_WOVEN_BACKPACK_BLUE",
+    "name": "编织背包 (蓝色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "WOVEN_BACKPACK",
+            "name": "编织背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_WOVEN_BACKPACK_BROWN",
+    "name": "编织背包 (棕色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "WOVEN_BACKPACK",
+            "name": "编织背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_WOVEN_BACKPACK_GREEN",
+    "name": "编织背包 (绿色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "WOVEN_BACKPACK",
+            "name": "编织背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_WOVEN_BACKPACK_RED",
+    "name": "编织背包 (红色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "WOVEN_BACKPACK",
+            "name": "编织背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_WOVEN_BACKPACK_BLACK",
+    "name": "编织背包 (黑色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "WOVEN_BACKPACK",
+            "name": "编织背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_WOVEN_BACKPACK_CAMOFLAGE",
+    "name": "编织背包 (迷彩)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "WOVEN_BACKPACK",
+            "name": "编织背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_WOVEN_BACKPACK_MODERN",
+    "name": "编织背包 (摩登)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "WOVEN_BACKPACK",
+            "name": "编织背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_GILDED_BACKPACK_WHITE",
+    "name": "镀金背包 (白色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GILDED_BACKPACK",
+            "name": "镀金背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_GILDED_BACKPACK_ORANGE",
+    "name": "镀金背包 (橙色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GILDED_BACKPACK",
+            "name": "镀金背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_GILDED_BACKPACK_MAGENTA",
+    "name": "镀金背包 (品红色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GILDED_BACKPACK",
+            "name": "镀金背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_GILDED_BACKPACK_LIGHT_BLUE",
+    "name": "镀金背包 (浅蓝色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GILDED_BACKPACK",
+            "name": "镀金背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_GILDED_BACKPACK_YELLOW",
+    "name": "镀金背包 (黄色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GILDED_BACKPACK",
+            "name": "镀金背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_GILDED_BACKPACK_LIME",
+    "name": "镀金背包 (浅绿色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GILDED_BACKPACK",
+            "name": "镀金背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_GILDED_BACKPACK_PINK",
+    "name": "镀金背包 (粉色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GILDED_BACKPACK",
+            "name": "镀金背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_GILDED_BACKPACK_DARK_GRAY",
+    "name": "镀金背包 (深灰色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GILDED_BACKPACK",
+            "name": "镀金背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_GILDED_BACKPACK_LIGHT_GRAY",
+    "name": "镀金背包 (浅灰色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GILDED_BACKPACK",
+            "name": "镀金背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_GILDED_BACKPACK_CYAN",
+    "name": "镀金背包 (青色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GILDED_BACKPACK",
+            "name": "镀金背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_GILDED_BACKPACK_PURPLE",
+    "name": "镀金背包 (紫色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GILDED_BACKPACK",
+            "name": "镀金背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_GILDED_BACKPACK_BLUE",
+    "name": "镀金背包 (蓝色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GILDED_BACKPACK",
+            "name": "镀金背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_GILDED_BACKPACK_BROWN",
+    "name": "镀金背包 (棕色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GILDED_BACKPACK",
+            "name": "镀金背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_GILDED_BACKPACK_GREEN",
+    "name": "镀金背包 (绿色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GILDED_BACKPACK",
+            "name": "镀金背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_GILDED_BACKPACK_RED",
+    "name": "镀金背包 (红色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GILDED_BACKPACK",
+            "name": "镀金背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_GILDED_BACKPACK_BLACK",
+    "name": "镀金背包 (黑色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GILDED_BACKPACK",
+            "name": "镀金背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_GILDED_BACKPACK_CAMOFLAGE",
+    "name": "镀金背包 (迷彩)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GILDED_BACKPACK",
+            "name": "镀金背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_GILDED_BACKPACK_MODERN",
+    "name": "镀金背包 (摩登)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GILDED_BACKPACK",
+            "name": "镀金背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_RADIANT_BACKPACK_WHITE",
+    "name": "金光闪闪的背包 (白色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "RADIANT_BACKPACK",
+            "name": "金光闪闪的背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        },
+        {
+            "material": "WHITE_WOOL",
+            "name": "白色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_RADIANT_BACKPACK_ORANGE",
+    "name": "金光闪闪的背包 (橙色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "RADIANT_BACKPACK",
+            "name": "金光闪闪的背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        },
+        {
+            "material": "ORANGE_WOOL",
+            "name": "橙色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_RADIANT_BACKPACK_MAGENTA",
+    "name": "金光闪闪的背包 (品红色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "RADIANT_BACKPACK",
+            "name": "金光闪闪的背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        },
+        {
+            "material": "MAGENTA_WOOL",
+            "name": "品红色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_RADIANT_BACKPACK_LIGHT_BLUE",
+    "name": "金光闪闪的背包 (浅蓝色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "RADIANT_BACKPACK",
+            "name": "金光闪闪的背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        },
+        {
+            "material": "LIGHT_BLUE_WOOL",
+            "name": "淡蓝色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_RADIANT_BACKPACK_YELLOW",
+    "name": "金光闪闪的背包 (黄色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "RADIANT_BACKPACK",
+            "name": "金光闪闪的背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        },
+        {
+            "material": "YELLOW_WOOL",
+            "name": "黄色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_RADIANT_BACKPACK_LIME",
+    "name": "金光闪闪的背包 (浅绿色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "RADIANT_BACKPACK",
+            "name": "金光闪闪的背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        },
+        {
+            "material": "LIME_WOOL",
+            "name": "黄绿色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_RADIANT_BACKPACK_PINK",
+    "name": "金光闪闪的背包 (粉色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "RADIANT_BACKPACK",
+            "name": "金光闪闪的背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        },
+        {
+            "material": "PINK_WOOL",
+            "name": "粉红色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_RADIANT_BACKPACK_DARK_GRAY",
+    "name": "金光闪闪的背包 (深灰色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "RADIANT_BACKPACK",
+            "name": "金光闪闪的背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        },
+        {
+            "material": "GRAY_WOOL",
+            "name": "灰色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_RADIANT_BACKPACK_LIGHT_GRAY",
+    "name": "金光闪闪的背包 (浅灰色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "RADIANT_BACKPACK",
+            "name": "金光闪闪的背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "name": "淡灰色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_RADIANT_BACKPACK_CYAN",
+    "name": "金光闪闪的背包 (青色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "RADIANT_BACKPACK",
+            "name": "金光闪闪的背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        },
+        {
+            "material": "CYAN_WOOL",
+            "name": "青色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_RADIANT_BACKPACK_PURPLE",
+    "name": "金光闪闪的背包 (紫色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "RADIANT_BACKPACK",
+            "name": "金光闪闪的背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        },
+        {
+            "material": "PURPLE_WOOL",
+            "name": "紫色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_RADIANT_BACKPACK_BLUE",
+    "name": "金光闪闪的背包 (蓝色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "RADIANT_BACKPACK",
+            "name": "金光闪闪的背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        },
+        {
+            "material": "BLUE_WOOL",
+            "name": "蓝色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_RADIANT_BACKPACK_BROWN",
+    "name": "金光闪闪的背包 (棕色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "RADIANT_BACKPACK",
+            "name": "金光闪闪的背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        },
+        {
+            "material": "BROWN_WOOL",
+            "name": "棕色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_RADIANT_BACKPACK_GREEN",
+    "name": "金光闪闪的背包 (绿色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "RADIANT_BACKPACK",
+            "name": "金光闪闪的背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        },
+        {
+            "material": "GREEN_WOOL",
+            "name": "绿色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_RADIANT_BACKPACK_RED",
+    "name": "金光闪闪的背包 (红色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "RADIANT_BACKPACK",
+            "name": "金光闪闪的背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        },
+        {
+            "material": "RED_WOOL",
+            "name": "红色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_RADIANT_BACKPACK_BLACK",
+    "name": "金光闪闪的背包 (黑色)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "RADIANT_BACKPACK",
+            "name": "金光闪闪的背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        },
+        {
+            "material": "BLACK_WOOL",
+            "name": "黑色羊毛"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_RADIANT_BACKPACK_CAMOFLAGE",
+    "name": "金光闪闪的背包 (迷彩)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "RADIANT_BACKPACK",
+            "name": "金光闪闪的背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        },
+        {
+            "material": "ACACIA_LEAVES",
+            "name": "金合欢树叶"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "DYED_RADIANT_BACKPACK_MODERN",
+    "name": "金光闪闪的背包 (摩登)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "RADIANT_BACKPACK",
+            "name": "金光闪闪的背包"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        }
+    ],
+    "output": 1,
+    "research": "dyedbackpacks:dyed_backpacks",
+    "researchCost": 24
+},
+{
+    "id": "AV_SOUL_COLLECTOR",
+    "name": "灵魂收割者",
+    "recipeType": "slimefun:ancient_altar",
+    "recipe": [
+        {
+            "material": "ANCIENT_RUNE_EARTH",
+            "name": "古代符文 [地]"
+        },
+        {
+            "material": "SYNTHETIC_DIAMOND",
+            "name": "人造钻石"
+        },
+        {
+            "material": "ANCIENT_RUNE_AIR",
+            "name": "古代符文 [气]"
+        },
+        {
+            "material": "ANCIENT_RUNE_WATER",
+            "name": "古代符文 [水]"
+        },
+        {
+            "material": "NECROTIC_SKULL",
+            "name": "坏死颅骨"
+        },
+        {
+            "material": "ANCIENT_RUNE_FIRE",
+            "name": "古代符文 [火]"
+        },
+        {
+            "material": "ESSENCE_OF_AFTERLIFE",
+            "name": "来世精华"
+        },
+        {
+            "material": "TOTEM_OF_UNDYING",
+            "name": "不死图腾"
+        },
+        {
+            "material": "ESSENCE_OF_AFTERLIFE",
+            "name": "来世精华"
+        }
+    ],
+    "output": 1,
+    "research": "alchimiavitae:soul",
+    "researchCost": 25
+}]

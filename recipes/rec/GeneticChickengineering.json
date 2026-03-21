@@ -1,0 +1,1601 @@
+[{
+    "id": "GCE_POCKET_CHICKEN",
+    "name": "装有鸡的袋子",
+    "recipeType": "geneticchickengineering:gce_from_net",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "geneticchickengineering:genetic_chickengineering",
+    "researchCost": 13
+},
+{
+    "id": "GCE_CHICKEN_NET",
+    "name": "鸡笼子",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        {
+            "material": "STRING",
+            "name": "线"
+        },
+        {
+            "material": "STRING",
+            "name": "线"
+        },
+        null,
+        {
+            "material": "STICK",
+            "name": "木棍"
+        },
+        {
+            "material": "STRING",
+            "name": "线"
+        },
+        null,
+        {
+            "material": "STICK",
+            "name": "木棍"
+        },
+        null
+    ],
+    "output": 1,
+    "research": "geneticchickengineering:genetic_chickengineering",
+    "researchCost": 13
+},
+{
+    "id": "GCE_WATER_EGG",
+    "name": "水蛋",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "geneticchickengineering:genetic_chickengineering",
+    "researchCost": 13
+},
+{
+    "id": "GCE_LAVA_EGG",
+    "name": "岩浆蛋",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "geneticchickengineering:genetic_chickengineering",
+    "researchCost": 13
+},
+{
+    "id": "GCE_GENETIC_SEQUENCER",
+    "name": "基因测序仪",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "OAK_PLANKS",
+            "name": "橡木木板"
+        },
+        null,
+        {
+            "material": "OAK_PLANKS",
+            "name": "橡木木板"
+        },
+        {
+            "material": "COBBLESTONE",
+            "name": "圆石"
+        },
+        {
+            "material": "OBSERVER",
+            "name": "侦测器"
+        },
+        {
+            "material": "COBBLESTONE",
+            "name": "圆石"
+        },
+        {
+            "material": "COBBLESTONE",
+            "name": "圆石"
+        },
+        {
+            "material": "ADVANCED_CIRCUIT_BOARD",
+            "name": "高级电路板"
+        },
+        {
+            "material": "COBBLESTONE",
+            "name": "圆石"
+        }
+    ],
+    "output": 1,
+    "research": "geneticchickengineering:genetic_chickengineering",
+    "researchCost": 13
+},
+{
+    "id": "GCE_PRIVATE_COOP",
+    "name": "鸡舍",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BIRCH_PLANKS",
+            "name": "白桦木板"
+        },
+        {
+            "material": "BIRCH_PLANKS",
+            "name": "白桦木板"
+        },
+        {
+            "material": "BIRCH_PLANKS",
+            "name": "白桦木板"
+        },
+        {
+            "material": "JUKEBOX",
+            "name": "唱片机"
+        },
+        {
+            "material": "RED_BED",
+            "name": "红色床"
+        },
+        {
+            "material": "POPPY",
+            "name": "虞美人"
+        },
+        {
+            "material": "BIRCH_PLANKS",
+            "name": "白桦木板"
+        },
+        {
+            "material": "HEATING_COIL",
+            "name": "加热线圈"
+        },
+        {
+            "material": "BIRCH_PLANKS",
+            "name": "白桦木板"
+        }
+    ],
+    "output": 1,
+    "research": "geneticchickengineering:genetic_chickengineering",
+    "researchCost": 13
+},
+{
+    "id": "GCE_EXCITATION_CHAMBER",
+    "name": "鼓舞室",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BLACKSTONE",
+            "name": "黑石"
+        },
+        {
+            "material": "SMALL_CAPACITOR",
+            "name": "小型储能电容"
+        },
+        {
+            "material": "BLACKSTONE",
+            "name": "黑石"
+        },
+        {
+            "material": "CHAIN",
+            "name": "锁链"
+        },
+        null,
+        {
+            "material": "CHAIN",
+            "name": "锁链"
+        },
+        {
+            "material": "STONE",
+            "name": "石头"
+        },
+        {
+            "material": "ELECTRIC_MOTOR",
+            "name": "电动马达"
+        },
+        {
+            "material": "STONE",
+            "name": "石头"
+        }
+    ],
+    "output": 1,
+    "research": "geneticchickengineering:genetic_chickengineering",
+    "researchCost": 13
+},
+{
+    "id": "GCE_EXCITATION_CHAMBER_2",
+    "name": "加强版鼓舞室",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "LEAD_INGOT",
+            "name": "铅锭"
+        },
+        {
+            "material": "BLISTERING_INGOT_3",
+            "name": "起泡锭"
+        },
+        {
+            "material": "LEAD_INGOT",
+            "name": "铅锭"
+        },
+        {
+            "material": "BLISTERING_INGOT_3",
+            "name": "起泡锭"
+        },
+        {
+            "material": "GCE_EXCITATION_CHAMBER",
+            "name": "鼓舞室"
+        },
+        {
+            "material": "BLISTERING_INGOT_3",
+            "name": "起泡锭"
+        },
+        {
+            "material": "LEAD_INGOT",
+            "name": "铅锭"
+        },
+        {
+            "material": "BLISTERING_INGOT_3",
+            "name": "起泡锭"
+        },
+        {
+            "material": "LEAD_INGOT",
+            "name": "铅锭"
+        }
+    ],
+    "output": 1,
+    "research": "geneticchickengineering:genetic_chickengineering",
+    "researchCost": 13
+},
+{
+    "id": "GCE_EXCITATION_CHAMBER_10",
+    "name": "终级鼓舞室",
+    "recipeType": "slimefun:ancient_altar",
+    "recipe": [
+        {
+            "material": "MAGIC_LUMP_3",
+            "name": "魔法结晶 - III"
+        },
+        {
+            "material": "NUCLEAR_REACTOR",
+            "name": "核反应堆"
+        },
+        {
+            "material": "MAGIC_LUMP_3",
+            "name": "魔法结晶 - III"
+        },
+        {
+            "material": "REINFORCED_PLATE",
+            "name": "钢筋板"
+        },
+        {
+            "material": "GCE_EXCITATION_CHAMBER_2",
+            "name": "加强版鼓舞室"
+        },
+        {
+            "material": "REINFORCED_PLATE",
+            "name": "钢筋板"
+        },
+        {
+            "material": "MAGIC_LUMP_3",
+            "name": "魔法结晶 - III"
+        },
+        {
+            "material": "URANIUM",
+            "name": "铀"
+        },
+        {
+            "material": "MAGIC_LUMP_3",
+            "name": "魔法结晶 - III"
+        }
+    ],
+    "output": 1,
+    "research": "geneticchickengineering:genetic_chickengineering",
+    "researchCost": 13
+},
+{
+    "id": "GCE_羽毛_CHICKEN_ICON",
+    "name": "羽毛",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_水_CHICKEN_ICON",
+    "name": "水蛋",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_沙子_CHICKEN_ICON",
+    "name": "沙子",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_黏液球_CHICKEN_ICON",
+    "name": "黏液球",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_燧石_CHICKEN_ICON",
+    "name": "燧石",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_海带_CHICKEN_ICON",
+    "name": "海带",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_火药_CHICKEN_ICON",
+    "name": "火药",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_铅粉_CHICKEN_ICON",
+    "name": "铅粉",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_泥土_CHICKEN_ICON",
+    "name": "泥土",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_橡木原木_CHICKEN_ICON",
+    "name": "橡木原木",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_黏土_CHICKEN_ICON",
+    "name": "黏土块",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_铝粉_CHICKEN_ICON",
+    "name": "铝粉",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_花岗岩_CHICKEN_ICON",
+    "name": "花岗岩",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_仙人掌_CHICKEN_ICON",
+    "name": "仙人掌",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_紅石_CHICKEN_ICON",
+    "name": "红石粉",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_萤石粉_CHICKEN_ICON",
+    "name": "荧石粉",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_圆石_CHICKEN_ICON",
+    "name": "圆石",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_冰_CHICKEN_ICON",
+    "name": "冰",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_沙砾_CHICKEN_ICON",
+    "name": "沙砾",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_雪球_CHICKEN_ICON",
+    "name": "雪球",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_安山岩_CHICKEN_ICON",
+    "name": "安山岩",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_锡粉_CHICKEN_ICON",
+    "name": "锡粉",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_岩浆_CHICKEN_ICON",
+    "name": "岩浆蛋",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_岩浆膏_CHICKEN_ICON",
+    "name": "岩浆膏",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_闪长岩_CHICKEN_ICON",
+    "name": "闪长岩",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_镁_CHICKEN_ICON",
+    "name": "镁",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_铜粉_CHICKEN_ICON",
+    "name": "铜粉",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_下界疣_CHICKEN_ICON",
+    "name": "下界疣",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_黑曜石_CHICKEN_ICON",
+    "name": "黑曜石",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_哭泣的黑曜石_CHICKEN_ICON",
+    "name": "哭泣的黑曜石",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_硫酸盐_CHICKEN_ICON",
+    "name": "硫酸盐",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_绿宝石_CHICKEN_ICON",
+    "name": "绿宝石",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_骨头_CHICKEN_ICON",
+    "name": "骨头",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_海绵_CHICKEN_ICON",
+    "name": "海绵",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_糖_CHICKEN_ICON",
+    "name": "糖",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_蛋糕_CHICKEN_ICON",
+    "name": "蛋糕",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_皮革_CHICKEN_ICON",
+    "name": "皮革",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_锌粉_CHICKEN_ICON",
+    "name": "锌粉",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_银粉_CHICKEN_ICON",
+    "name": "银粉",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_幻翼膜_CHICKEN_ICON",
+    "name": "幻翼膜",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_线_CHICKEN_ICON",
+    "name": "线",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_金粉_CHICKEN_ICON",
+    "name": "金粉",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_铁粉_CHICKEN_ICON",
+    "name": "铁粉",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_末影珍珠_CHICKEN_ICON",
+    "name": "末影珍珠",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_铁锭_CHICKEN_ICON",
+    "name": "铁锭",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_玄武岩_CHICKEN_ICON",
+    "name": "玄武岩",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_恶魂之泪_CHICKEN_ICON",
+    "name": "恶魂之泪",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_经验_CHICKEN_ICON",
+    "name": "附魔之瓶",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_煤炭_CHICKEN_ICON",
+    "name": "煤炭",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_青金石_CHICKEN_ICON",
+    "name": "青金石",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_玻璃_CHICKEN_ICON",
+    "name": "玻璃",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_灵魂沙_CHICKEN_ICON",
+    "name": "灵魂沙",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_下界岩_CHICKEN_ICON",
+    "name": "下界岩",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_下界石英_CHICKEN_ICON",
+    "name": "下界石英",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_烈焰棒_CHICKEN_ICON",
+    "name": "烈焰棒",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_海晶碎片_CHICKEN_ICON",
+    "name": "海晶碎片",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_金锭_CHICKEN_ICON",
+    "name": "金锭",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_菌光体_CHICKEN_ICON",
+    "name": "菌光体",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_灵魂土_CHICKEN_ICON",
+    "name": "灵魂土",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_海晶砂砾_CHICKEN_ICON",
+    "name": "海晶砂粒",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_黑石_CHICKEN_ICON",
+    "name": "黑石",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_末地石_CHICKEN_ICON",
+    "name": "末地石",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_钻石_CHICKEN_ICON",
+    "name": "钻石",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GCE_下界合金锭_CHICKEN_ICON",
+    "name": "下界合金锭",
+    "recipeType": "geneticchickengineering:gce_from_chicken",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GCE_POCKET_CHICKEN",
+            "name": "装有鸡的袋子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+}]

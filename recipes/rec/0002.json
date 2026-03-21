@@ -1,0 +1,154 @@
+[
+    {
+        "id": "LUCKY_BLOCK",
+        "name": "幸运方块",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "GOLD_12K",
+                "name": "金锭 (12克拉)"
+            },
+            {
+                "material": "GOLD_12K",
+                "name": "金锭 (12克拉)"
+            },
+            {
+                "material": "GOLD_12K",
+                "name": "金锭 (12克拉)"
+            },
+            {
+                "material": "GOLD_12K",
+                "name": "金锭 (12克拉)"
+            },
+            {
+                "material": "DISPENSER",
+                "name": "发射器"
+            },
+            {
+                "material": "GOLD_12K",
+                "name": "金锭 (12克拉)"
+            },
+            {
+                "material": "GOLD_12K",
+                "name": "金锭 (12克拉)"
+            },
+            {
+                "material": "GOLD_12K",
+                "name": "金锭 (12克拉)"
+            },
+            {
+                "material": "GOLD_12K",
+                "name": "金锭 (12克拉)"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "LUCKY_BLOCK_LUCKY",
+        "name": "非常幸运的方块",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            null,
+            {
+                "material": "GOLD_12K",
+                "name": "金锭 (12克拉)"
+            },
+            null,
+            {
+                "material": "GOLD_12K",
+                "name": "金锭 (12克拉)"
+            },
+            {
+                "material": "LUCKY_BLOCK",
+                "name": "幸运方块"
+            },
+            {
+                "material": "GOLD_12K",
+                "name": "金锭 (12克拉)"
+            },
+            null,
+            {
+                "material": "GOLD_12K",
+                "name": "金锭 (12克拉)"
+            },
+            null
+        ],
+        "output": 1
+    },
+    {
+        "id": "LUCKY_BLOCK_UNLUCKY",
+        "name": "非常不幸的方块",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            null,
+            {
+                "material": "SPIDER_EYE",
+                "name": "蜘蛛眼"
+            },
+            null,
+            {
+                "material": "SPIDER_EYE",
+                "name": "蜘蛛眼"
+            },
+            {
+                "material": "LUCKY_BLOCK",
+                "name": "幸运方块"
+            },
+            {
+                "material": "SPIDER_EYE",
+                "name": "蜘蛛眼"
+            },
+            null,
+            {
+                "material": "SPIDER_EYE",
+                "name": "蜘蛛眼"
+            },
+            null
+        ],
+        "output": 1
+    },
+    {
+        "id": "PANDORAS_BOX",
+        "name": "潘多拉魔盒",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "OAK_PLANKS",
+                "name": "橡木木板"
+            },
+            {
+                "material": "LAPIS_BLOCK",
+                "name": "青金石块"
+            },
+            {
+                "material": "OAK_PLANKS",
+                "name": "橡木木板"
+            },
+            {
+                "material": "LAPIS_BLOCK",
+                "name": "青金石块"
+            },
+            {
+                "material": "LUCKY_BLOCK",
+                "name": "幸运方块"
+            },
+            {
+                "material": "LAPIS_BLOCK",
+                "name": "青金石块"
+            },
+            {
+                "material": "OAK_PLANKS",
+                "name": "橡木木板"
+            },
+            {
+                "material": "LAPIS_BLOCK",
+                "name": "青金石块"
+            },
+            {
+                "material": "OAK_PLANKS",
+                "name": "橡木木板"
+            }
+        ],
+        "output": 1
+    }
+]

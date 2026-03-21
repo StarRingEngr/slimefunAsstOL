@@ -1,0 +1,2086 @@
+[{
+    "id": "GUIDEBOOK",
+    "name": "导弹指南书",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        {
+            "material": "SUGARFUEL",
+            "name": "糖燃料"
+        },
+        null,
+        {
+            "material": "SUGARFUEL",
+            "name": "糖燃料"
+        },
+        {
+            "material": "BOOK",
+            "name": "书"
+        },
+        {
+            "material": "SUGARFUEL",
+            "name": "糖燃料"
+        },
+        null,
+        {
+            "material": "SUGARFUEL",
+            "name": "糖燃料"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "PLAYERLIST",
+    "name": "敌我识别系统配置器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        {
+            "material": "ULTRALITE_INGOT",
+            "name": "超轻铸锭"
+        },
+        null,
+        {
+            "material": "ULTRALITE_INGOT",
+            "name": "超轻铸锭"
+        },
+        {
+            "material": "BOOK",
+            "name": "书"
+        },
+        {
+            "material": "ULTRALITE_INGOT",
+            "name": "超轻铸锭"
+        },
+        null,
+        {
+            "material": "ULTRALITE_INGOT",
+            "name": "超轻铸锭"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GROUNDLAUNCHER",
+    "name": "对地导弹发射地井",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "REINFORCED_PLATE",
+            "name": "钢筋板"
+        },
+        null,
+        {
+            "material": "REINFORCED_PLATE",
+            "name": "钢筋板"
+        },
+        {
+            "material": "REINFORCED_PLATE",
+            "name": "钢筋板"
+        },
+        {
+            "material": "ELECTRIC_MOTOR",
+            "name": "电动马达"
+        },
+        {
+            "material": "REINFORCED_PLATE",
+            "name": "钢筋板"
+        },
+        {
+            "material": "REINFORCED_PLATE",
+            "name": "钢筋板"
+        },
+        {
+            "material": "FLINT_AND_STEEL",
+            "name": "打火石"
+        },
+        {
+            "material": "REINFORCED_PLATE",
+            "name": "钢筋板"
+        }
+    ],
+    "output": 1,
+    "research": "missilewarfare:groundlauncher",
+    "researchCost": 15
+},
+{
+    "id": "ANTIELYTRA",
+    "name": "反鞘翅导弹发射地井",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "ULTRALITE_PLATE",
+            "name": "超轻铸板"
+        },
+        null,
+        {
+            "material": "ULTRALITE_PLATE",
+            "name": "超轻铸板"
+        },
+        {
+            "material": "REINFORCED_PLATE",
+            "name": "钢筋板"
+        },
+        null,
+        {
+            "material": "REINFORCED_PLATE",
+            "name": "钢筋板"
+        },
+        {
+            "material": "REINFORCED_PLATE",
+            "name": "钢筋板"
+        },
+        {
+            "material": "ELECTRIC_MOTOR",
+            "name": "电动马达"
+        },
+        {
+            "material": "REINFORCED_PLATE",
+            "name": "钢筋板"
+        }
+    ],
+    "output": 1,
+    "research": "missilewarfare:antielytramissilelauncher",
+    "researchCost": 20
+},
+{
+    "id": "ANTIMISSILELAUNCHER",
+    "name": "反弹道导弹发射地井",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "SILVER_INGOT",
+            "name": "银锭"
+        },
+        {
+            "material": "BASIC_CIRCUIT_BOARD",
+            "name": "基础电路板"
+        },
+        {
+            "material": "SILVER_INGOT",
+            "name": "银锭"
+        },
+        {
+            "material": "SILVER_INGOT",
+            "name": "银锭"
+        },
+        null,
+        {
+            "material": "SILVER_INGOT",
+            "name": "银锭"
+        },
+        {
+            "material": "LEAD_INGOT",
+            "name": "铅锭"
+        },
+        {
+            "material": "REDSTONE_BLOCK",
+            "name": "红石块"
+        },
+        {
+            "material": "LEAD_INGOT",
+            "name": "铅锭"
+        }
+    ],
+    "output": 1,
+    "research": "missilewarfare:antimissilelauncher",
+    "researchCost": 15
+},
+{
+    "id": "MISSILERADAR",
+    "name": "导弹雷达",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "SIMPLEFLIGHTCOMPUTER",
+            "name": "基础飞行计算机"
+        },
+        {
+            "material": "ULTRALITE_PLATE",
+            "name": "超轻铸板"
+        },
+        {
+            "material": "SIMPLEFLIGHTCOMPUTER",
+            "name": "基础飞行计算机"
+        },
+        {
+            "material": "ULTRALITE_PLATE",
+            "name": "超轻铸板"
+        },
+        {
+            "material": "RADAR",
+            "name": "雷达"
+        },
+        {
+            "material": "ULTRALITE_PLATE",
+            "name": "超轻铸板"
+        },
+        {
+            "material": "SIMPLEFLIGHTCOMPUTER",
+            "name": "基础飞行计算机"
+        },
+        {
+            "material": "ULTRALITE_PLATE",
+            "name": "超轻铸板"
+        },
+        {
+            "material": "SIMPLEFLIGHTCOMPUTER",
+            "name": "基础飞行计算机"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "MINE",
+    "name": "地雷",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "SILVER_INGOT",
+            "name": "银锭"
+        },
+        {
+            "material": "STONE_PRESSURE_PLATE",
+            "name": "石质压力板"
+        },
+        {
+            "material": "SILVER_INGOT",
+            "name": "银锭"
+        },
+        {
+            "material": "SILVER_INGOT",
+            "name": "银锭"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "SILVER_INGOT",
+            "name": "银锭"
+        },
+        {
+            "material": "SILVER_INGOT",
+            "name": "银锭"
+        },
+        {
+            "material": "EXPLOSIVEPOWDER",
+            "name": "炸药粉"
+        },
+        {
+            "material": "SILVER_INGOT",
+            "name": "银锭"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "MANPAD",
+    "name": "便携式防空导弹",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "IRON_INGOT",
+            "name": "铁锭"
+        },
+        {
+            "material": "IRON_INGOT",
+            "name": "铁锭"
+        },
+        {
+            "material": "IRON_INGOT",
+            "name": "铁锭"
+        },
+        {
+            "material": "EXPLOSIVEPOWDER",
+            "name": "炸药粉"
+        },
+        {
+            "material": "SUGARFUEL",
+            "name": "糖燃料"
+        },
+        {
+            "material": "SUGARFUEL",
+            "name": "糖燃料"
+        },
+        {
+            "material": "IRON_INGOT",
+            "name": "铁锭"
+        },
+        {
+            "material": "IRON_INGOT",
+            "name": "铁锭"
+        },
+        {
+            "material": "IRON_INGOT",
+            "name": "铁锭"
+        }
+    ],
+    "output": 1,
+    "research": "missilewarfare:antimissilelauncher",
+    "researchCost": 15
+},
+{
+    "id": "SUGARFUEL",
+    "name": "糖燃料",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        {
+            "material": "MAGNESIUM_DUST",
+            "name": "镁"
+        },
+        null,
+        {
+            "material": "MAGNESIUM_DUST",
+            "name": "镁"
+        },
+        {
+            "material": "COAL",
+            "name": "煤炭"
+        },
+        {
+            "material": "MAGNESIUM_DUST",
+            "name": "镁"
+        },
+        null,
+        {
+            "material": "MAGNESIUM_DUST",
+            "name": "镁"
+        },
+        null
+    ],
+    "output": 1,
+    "research": "missilewarfare:basic_fuel",
+    "researchCost": 10
+},
+{
+    "id": "EXPLOSIVEPOWDER",
+    "name": "炸药粉",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "MAGNESIUM_DUST",
+            "name": "镁"
+        },
+        {
+            "material": "COAL",
+            "name": "煤炭"
+        },
+        {
+            "material": "MAGNESIUM_DUST",
+            "name": "镁"
+        },
+        {
+            "material": "COAL",
+            "name": "煤炭"
+        },
+        {
+            "material": "GUNPOWDER",
+            "name": "火药"
+        },
+        {
+            "material": "COAL",
+            "name": "煤炭"
+        },
+        {
+            "material": "MAGNESIUM_DUST",
+            "name": "镁"
+        },
+        {
+            "material": "COAL",
+            "name": "煤炭"
+        },
+        {
+            "material": "MAGNESIUM_DUST",
+            "name": "镁"
+        }
+    ],
+    "output": 1,
+    "research": "missilewarfare:explosives",
+    "researchCost": 15
+},
+{
+    "id": "COMPRESSEDEXPLOSIVES",
+    "name": "固态炸药粉",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        {
+            "material": "GUNPOWDER",
+            "name": "火药"
+        },
+        null,
+        {
+            "material": "EXPLOSIVEPOWDER",
+            "name": "炸药粉"
+        },
+        {
+            "material": "EXPLOSIVEPOWDER",
+            "name": "炸药粉"
+        },
+        {
+            "material": "EXPLOSIVEPOWDER",
+            "name": "炸药粉"
+        },
+        null,
+        {
+            "material": "GUNPOWDER",
+            "name": "火药"
+        },
+        null
+    ],
+    "output": 1,
+    "research": "missilewarfare:explosives",
+    "researchCost": 15
+},
+{
+    "id": "ULTRALITE_INGOT",
+    "name": "超轻铸锭",
+    "recipeType": "slimefun:smeltery",
+    "recipe": [
+        {
+            "material": "IRON_DUST",
+            "name": "铁粉"
+        },
+        {
+            "material": "ALUMINUM_INGOT",
+            "name": "铝锭"
+        },
+        {
+            "material": "COPPER_DUST",
+            "name": "铜粉"
+        },
+        {
+            "material": "ALUMINUM_BRONZE_INGOT",
+            "name": "铝青铜锭"
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "missilewarfare:missileparts",
+    "researchCost": 25
+},
+{
+    "id": "ULTRALITE_PLATE",
+    "name": "超轻铸板",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "ULTRALITE_INGOT",
+            "name": "超轻铸锭"
+        },
+        null,
+        {
+            "material": "ULTRALITE_INGOT",
+            "name": "超轻铸锭"
+        },
+        null,
+        {
+            "material": "COAL",
+            "name": "煤炭"
+        },
+        null,
+        {
+            "material": "ULTRALITE_INGOT",
+            "name": "超轻铸锭"
+        },
+        null,
+        {
+            "material": "ULTRALITE_INGOT",
+            "name": "超轻铸锭"
+        }
+    ],
+    "output": 1,
+    "research": "missilewarfare:missileparts",
+    "researchCost": 25
+},
+{
+    "id": "CHLORINE",
+    "name": "氯气",
+    "recipeType": "slimefun:grind_stone",
+    "recipe": [
+        {
+            "material": "SOUL_SAND",
+            "name": "灵魂沙"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "missilewarfare:chlorine",
+    "researchCost": 15
+},
+{
+    "id": "CHLORINEPELLET",
+    "name": "氯气弹",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "CHLORINE",
+            "name": "氯气"
+        },
+        {
+            "material": "SULFATE",
+            "name": "硫酸盐"
+        },
+        {
+            "material": "CHLORINE",
+            "name": "氯气"
+        },
+        {
+            "material": "SULFATE",
+            "name": "硫酸盐"
+        },
+        {
+            "material": "SALT",
+            "name": "盐"
+        },
+        {
+            "material": "SULFATE",
+            "name": "硫酸盐"
+        },
+        {
+            "material": "CHLORINE",
+            "name": "氯气"
+        },
+        {
+            "material": "SULFATE",
+            "name": "硫酸盐"
+        },
+        {
+            "material": "CHLORINE",
+            "name": "氯气"
+        }
+    ],
+    "output": 1,
+    "research": "missilewarfare:chlorine",
+    "researchCost": 15
+},
+{
+    "id": "SIMPLEFLIGHTCOMPUTER",
+    "name": "基础飞行计算机",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "ULTRALITE_INGOT",
+            "name": "超轻铸锭"
+        },
+        {
+            "material": "BASIC_CIRCUIT_BOARD",
+            "name": "基础电路板"
+        },
+        {
+            "material": "ULTRALITE_INGOT",
+            "name": "超轻铸锭"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "BASIC_CIRCUIT_BOARD",
+            "name": "基础电路板"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "ULTRALITE_INGOT",
+            "name": "超轻铸锭"
+        },
+        {
+            "material": "BASIC_CIRCUIT_BOARD",
+            "name": "基础电路板"
+        },
+        {
+            "material": "ULTRALITE_INGOT",
+            "name": "超轻铸锭"
+        }
+    ],
+    "output": 8,
+    "research": "missilewarfare:missileparts",
+    "researchCost": 25
+},
+{
+    "id": "RADAR",
+    "name": "雷达",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        {
+            "material": "ULTRALITE_PLATE",
+            "name": "超轻铸板"
+        },
+        null,
+        {
+            "material": "ULTRALITE_PLATE",
+            "name": "超轻铸板"
+        },
+        {
+            "material": "SIMPLEFLIGHTCOMPUTER",
+            "name": "基础飞行计算机"
+        },
+        {
+            "material": "ULTRALITE_PLATE",
+            "name": "超轻铸板"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        null,
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        }
+    ],
+    "output": 1,
+    "research": "missilewarfare:missileparts",
+    "researchCost": 25
+},
+{
+    "id": "ROCKETFUEL",
+    "name": "火箭燃料",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "EXPLOSIVEPOWDER",
+            "name": "炸药粉"
+        },
+        {
+            "material": "GUNPOWDER",
+            "name": "火药"
+        },
+        {
+            "material": "EXPLOSIVEPOWDER",
+            "name": "炸药粉"
+        },
+        null,
+        {
+            "material": "ALUMINUM_DUST",
+            "name": "铝粉"
+        },
+        null,
+        {
+            "material": "EXPLOSIVEPOWDER",
+            "name": "炸药粉"
+        },
+        {
+            "material": "GUNPOWDER",
+            "name": "火药"
+        },
+        {
+            "material": "EXPLOSIVEPOWDER",
+            "name": "炸药粉"
+        }
+    ],
+    "output": 1,
+    "research": "missilewarfare:advancedfuel",
+    "researchCost": 20
+},
+{
+    "id": "SMALLWARHEAD",
+    "name": "小型导弹弹头",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        {
+            "material": "ALUMINUM_INGOT",
+            "name": "铝锭"
+        },
+        null,
+        {
+            "material": "ALUMINUM_INGOT",
+            "name": "铝锭"
+        },
+        {
+            "material": "EXPLOSIVEPOWDER",
+            "name": "炸药粉"
+        },
+        {
+            "material": "ALUMINUM_INGOT",
+            "name": "铝锭"
+        },
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "missilewarfare:smallgmissileparts",
+    "researchCost": 15
+},
+{
+    "id": "WARHEAD",
+    "name": "导弹弹头",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        {
+            "material": "ULTRALITE_INGOT",
+            "name": "超轻铸锭"
+        },
+        null,
+        {
+            "material": "ULTRALITE_INGOT",
+            "name": "超轻铸锭"
+        },
+        {
+            "material": "COMPRESSEDEXPLOSIVES",
+            "name": "固态炸药粉"
+        },
+        {
+            "material": "ULTRALITE_INGOT",
+            "name": "超轻铸锭"
+        },
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "missilewarfare:gmissileparts",
+    "researchCost": 15
+},
+{
+    "id": "WARHEADAP",
+    "name": "增强型导弹弹头",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        {
+            "material": "LEAD_INGOT",
+            "name": "铅锭"
+        },
+        null,
+        {
+            "material": "ULTRALITE_INGOT",
+            "name": "超轻铸锭"
+        },
+        {
+            "material": "COMPRESSEDEXPLOSIVES",
+            "name": "固态炸药粉"
+        },
+        {
+            "material": "ULTRALITE_INGOT",
+            "name": "超轻铸锭"
+        },
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "missilewarfare:gmissileparts",
+    "researchCost": 15
+},
+{
+    "id": "SMALLBODY",
+    "name": "小型导弹体",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "ALUMINUM_INGOT",
+            "name": "铝锭"
+        },
+        null,
+        {
+            "material": "ALUMINUM_INGOT",
+            "name": "铝锭"
+        },
+        {
+            "material": "ULTRALITE_INGOT",
+            "name": "超轻铸锭"
+        },
+        {
+            "material": "SIMPLEFLIGHTCOMPUTER",
+            "name": "基础飞行计算机"
+        },
+        {
+            "material": "ULTRALITE_INGOT",
+            "name": "超轻铸锭"
+        },
+        {
+            "material": "ALUMINUM_INGOT",
+            "name": "铝锭"
+        },
+        null,
+        {
+            "material": "ALUMINUM_INGOT",
+            "name": "铝锭"
+        }
+    ],
+    "output": 1,
+    "research": "missilewarfare:smallgmissileparts",
+    "researchCost": 15
+},
+{
+    "id": "SMALLFIN",
+    "name": "小型导弹鳍",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "SIMPLEFLIGHTCOMPUTER",
+            "name": "基础飞行计算机"
+        },
+        null,
+        {
+            "material": "ALUMINUM_INGOT",
+            "name": "铝锭"
+        },
+        null,
+        {
+            "material": "ALUMINUM_INGOT",
+            "name": "铝锭"
+        }
+    ],
+    "output": 1,
+    "research": "missilewarfare:smallgmissileparts",
+    "researchCost": 15
+},
+{
+    "id": "MISSILEBODY",
+    "name": "导弹体",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "ULTRALITE_PLATE",
+            "name": "超轻铸板"
+        },
+        {
+            "material": "SIMPLEFLIGHTCOMPUTER",
+            "name": "基础飞行计算机"
+        },
+        {
+            "material": "ULTRALITE_PLATE",
+            "name": "超轻铸板"
+        },
+        {
+            "material": "ULTRALITE_PLATE",
+            "name": "超轻铸板"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "ULTRALITE_PLATE",
+            "name": "超轻铸板"
+        },
+        {
+            "material": "ULTRALITE_PLATE",
+            "name": "超轻铸板"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "ULTRALITE_PLATE",
+            "name": "超轻铸板"
+        }
+    ],
+    "output": 4,
+    "research": "missilewarfare:gmissileparts",
+    "researchCost": 15
+},
+{
+    "id": "MISSILEFINS",
+    "name": "导弹鳍",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        null,
+        null,
+        {
+            "material": "ULTRALITE_PLATE",
+            "name": "超轻铸板"
+        },
+        null,
+        {
+            "material": "ULTRALITE_PLATE",
+            "name": "超轻铸板"
+        },
+        {
+            "material": "ULTRALITE_PLATE",
+            "name": "超轻铸板"
+        },
+        null,
+        {
+            "material": "ULTRALITE_PLATE",
+            "name": "超轻铸板"
+        }
+    ],
+    "output": 1,
+    "research": "missilewarfare:gmissileparts",
+    "researchCost": 15
+},
+{
+    "id": "ADVANCEDMISSILEBODY",
+    "name": "增强型导弹体",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "SIMPLEFLIGHTCOMPUTER",
+            "name": "基础飞行计算机"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "ULTRALITE_PLATE",
+            "name": "超轻铸板"
+        },
+        {
+            "material": "MISSILEBODY",
+            "name": "导弹体"
+        },
+        {
+            "material": "ULTRALITE_PLATE",
+            "name": "超轻铸板"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "SIMPLEFLIGHTCOMPUTER",
+            "name": "基础飞行计算机"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "HEAVYWARHEAD",
+    "name": "重型导弹弹头",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "COMPRESSEDEXPLOSIVES",
+            "name": "固态炸药粉"
+        },
+        {
+            "material": "WARHEAD",
+            "name": "导弹弹头"
+        },
+        {
+            "material": "COMPRESSEDEXPLOSIVES",
+            "name": "固态炸药粉"
+        },
+        {
+            "material": "WARHEAD",
+            "name": "导弹弹头"
+        },
+        {
+            "material": "ULTRALITE_PLATE",
+            "name": "超轻铸板"
+        },
+        {
+            "material": "WARHEAD",
+            "name": "导弹弹头"
+        },
+        {
+            "material": "COMPRESSEDEXPLOSIVES",
+            "name": "固态炸药粉"
+        },
+        {
+            "material": "WARHEAD",
+            "name": "导弹弹头"
+        },
+        {
+            "material": "COMPRESSEDEXPLOSIVES",
+            "name": "固态炸药粉"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "ICBMMISSILEBODY",
+    "name": "洲际弹道导弹体",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "COMPRESSEDEXPLOSIVES",
+            "name": "固态炸药粉"
+        },
+        {
+            "material": "NEPTUNIUM",
+            "name": "镎"
+        },
+        {
+            "material": "COMPRESSEDEXPLOSIVES",
+            "name": "固态炸药粉"
+        },
+        {
+            "material": "NEPTUNIUM",
+            "name": "镎"
+        },
+        {
+            "material": "ADVANCEDMISSILEBODY",
+            "name": "增强型导弹体"
+        },
+        {
+            "material": "NEPTUNIUM",
+            "name": "镎"
+        },
+        {
+            "material": "COMPRESSEDEXPLOSIVES",
+            "name": "固态炸药粉"
+        },
+        {
+            "material": "NEPTUNIUM",
+            "name": "镎"
+        },
+        {
+            "material": "COMPRESSEDEXPLOSIVES",
+            "name": "固态炸药粉"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "ANTIAIRMISSILE",
+    "name": "防空导弹",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        {
+            "material": "RADAR",
+            "name": "雷达"
+        },
+        null,
+        {
+            "material": "EXPLOSIVEPOWDER",
+            "name": "炸药粉"
+        },
+        {
+            "material": "MISSILEBODY",
+            "name": "导弹体"
+        },
+        {
+            "material": "EXPLOSIVEPOWDER",
+            "name": "炸药粉"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "MISSILEFINS",
+            "name": "导弹鳍"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        }
+    ],
+    "output": 1,
+    "research": "missilewarfare:antimissilelauncher",
+    "researchCost": 15
+},
+{
+    "id": "ANTIELYTRAMISSILE",
+    "name": "防空导弹",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "RADAR",
+            "name": "雷达"
+        },
+        {
+            "material": "SMALLWARHEAD",
+            "name": "小型导弹弹头"
+        },
+        {
+            "material": "RADAR",
+            "name": "雷达"
+        },
+        {
+            "material": "EXPLOSIVEPOWDER",
+            "name": "炸药粉"
+        },
+        {
+            "material": "MISSILEBODY",
+            "name": "导弹体"
+        },
+        {
+            "material": "EXPLOSIVEPOWDER",
+            "name": "炸药粉"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "MISSILEFINS",
+            "name": "导弹鳍"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        }
+    ],
+    "output": 1,
+    "research": "missilewarfare:antielytramissilelauncher",
+    "researchCost": 20
+},
+{
+    "id": "SMALLMISSILE",
+    "name": "小型对地导弹",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "EXPLOSIVEPOWDER",
+            "name": "炸药粉"
+        },
+        {
+            "material": "SMALLWARHEAD",
+            "name": "小型导弹弹头"
+        },
+        {
+            "material": "EXPLOSIVEPOWDER",
+            "name": "炸药粉"
+        },
+        {
+            "material": "SUGARFUEL",
+            "name": "糖燃料"
+        },
+        {
+            "material": "SMALLBODY",
+            "name": "小型导弹体"
+        },
+        {
+            "material": "SUGARFUEL",
+            "name": "糖燃料"
+        },
+        {
+            "material": "SUGARFUEL",
+            "name": "糖燃料"
+        },
+        {
+            "material": "SMALLFIN",
+            "name": "小型导弹鳍"
+        },
+        {
+            "material": "SUGARFUEL",
+            "name": "糖燃料"
+        }
+    ],
+    "output": 1,
+    "research": "missilewarfare:smallgmissile",
+    "researchCost": 20
+},
+{
+    "id": "SMALLMISSILEHE",
+    "name": "小型对地导弹 - 高爆",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "EXPLOSIVEPOWDER",
+            "name": "炸药粉"
+        },
+        {
+            "material": "SMALLWARHEAD",
+            "name": "小型导弹弹头"
+        },
+        {
+            "material": "EXPLOSIVEPOWDER",
+            "name": "炸药粉"
+        },
+        {
+            "material": "EXPLOSIVEPOWDER",
+            "name": "炸药粉"
+        },
+        {
+            "material": "SMALLBODY",
+            "name": "小型导弹体"
+        },
+        {
+            "material": "SUGARFUEL",
+            "name": "糖燃料"
+        },
+        {
+            "material": "SUGARFUEL",
+            "name": "糖燃料"
+        },
+        {
+            "material": "SMALLFIN",
+            "name": "小型导弹鳍"
+        },
+        {
+            "material": "SUGARFUEL",
+            "name": "糖燃料"
+        }
+    ],
+    "output": 1,
+    "research": "missilewarfare:smallgmissile",
+    "researchCost": 20
+},
+{
+    "id": "SMALLMISSILELR",
+    "name": "小型对地导弹 - 远距",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "EXPLOSIVEPOWDER",
+            "name": "炸药粉"
+        },
+        {
+            "material": "SMALLWARHEAD",
+            "name": "小型导弹弹头"
+        },
+        {
+            "material": "EXPLOSIVEPOWDER",
+            "name": "炸药粉"
+        },
+        {
+            "material": "SUGARFUEL",
+            "name": "糖燃料"
+        },
+        {
+            "material": "SMALLBODY",
+            "name": "小型导弹体"
+        },
+        {
+            "material": "SUGARFUEL",
+            "name": "糖燃料"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "SMALLFIN",
+            "name": "小型导弹鳍"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        }
+    ],
+    "output": 1,
+    "research": "missilewarfare:smallgmissile",
+    "researchCost": 20
+},
+{
+    "id": "SMALLMISSILEAC",
+    "name": "小型对地导弹 - 精准",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "EXPLOSIVEPOWDER",
+            "name": "炸药粉"
+        },
+        {
+            "material": "SMALLWARHEAD",
+            "name": "小型导弹弹头"
+        },
+        {
+            "material": "EXPLOSIVEPOWDER",
+            "name": "炸药粉"
+        },
+        {
+            "material": "SUGARFUEL",
+            "name": "糖燃料"
+        },
+        {
+            "material": "SMALLBODY",
+            "name": "小型导弹体"
+        },
+        {
+            "material": "SUGARFUEL",
+            "name": "糖燃料"
+        },
+        {
+            "material": "SMALLFIN",
+            "name": "小型导弹鳍"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "SMALLFIN",
+            "name": "小型导弹鳍"
+        }
+    ],
+    "output": 1,
+    "research": "missilewarfare:smallgmissile",
+    "researchCost": 20
+},
+{
+    "id": "MISSILE",
+    "name": "对地导弹",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        {
+            "material": "WARHEAD",
+            "name": "导弹弹头"
+        },
+        null,
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "MISSILEBODY",
+            "name": "导弹体"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "SMALLFIN",
+            "name": "小型导弹鳍"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        }
+    ],
+    "output": 1,
+    "research": "missilewarfare:gmissile",
+    "researchCost": 20
+},
+{
+    "id": "MISSILEHE",
+    "name": "对地导弹 - 高爆",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "COMPRESSEDEXPLOSIVES",
+            "name": "固态炸药粉"
+        },
+        {
+            "material": "WARHEAD",
+            "name": "导弹弹头"
+        },
+        {
+            "material": "COMPRESSEDEXPLOSIVES",
+            "name": "固态炸药粉"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "MISSILEBODY",
+            "name": "导弹体"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "SMALLFIN",
+            "name": "小型导弹鳍"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        }
+    ],
+    "output": 1,
+    "research": "missilewarfare:gmissile",
+    "researchCost": 20
+},
+{
+    "id": "MISSILELR",
+    "name": "对地导弹 - 远距",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "WARHEAD",
+            "name": "导弹弹头"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "MISSILEBODY",
+            "name": "导弹体"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "MISSILEFINS",
+            "name": "导弹鳍"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        }
+    ],
+    "output": 1,
+    "research": "missilewarfare:gmissile",
+    "researchCost": 20
+},
+{
+    "id": "MISSILEAC",
+    "name": "对地导弹 - 精准",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "COMPRESSEDEXPLOSIVES",
+            "name": "固态炸药粉"
+        },
+        {
+            "material": "WARHEAD",
+            "name": "导弹弹头"
+        },
+        {
+            "material": "COMPRESSEDEXPLOSIVES",
+            "name": "固态炸药粉"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "MISSILEBODY",
+            "name": "导弹体"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "MISSILEFINS",
+            "name": "导弹鳍"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "MISSILEFINS",
+            "name": "导弹鳍"
+        }
+    ],
+    "output": 1,
+    "research": "missilewarfare:gmissile",
+    "researchCost": 20
+},
+{
+    "id": "MISSILEAPONE",
+    "name": "钻地导弹",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "COMPRESSEDEXPLOSIVES",
+            "name": "固态炸药粉"
+        },
+        {
+            "material": "SMALLWARHEAD",
+            "name": "小型导弹弹头"
+        },
+        {
+            "material": "COMPRESSEDEXPLOSIVES",
+            "name": "固态炸药粉"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "MISSILEBODY",
+            "name": "导弹体"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "SMALLFIN",
+            "name": "小型导弹鳍"
+        },
+        {
+            "material": "MISSILEFINS",
+            "name": "导弹鳍"
+        },
+        {
+            "material": "SMALLFIN",
+            "name": "小型导弹鳍"
+        }
+    ],
+    "output": 1,
+    "research": "missilewarfare:gmissileap",
+    "researchCost": 15
+},
+{
+    "id": "MISSILEAPTWO",
+    "name": "钻地导弹",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "ULTRALITE_INGOT",
+            "name": "超轻铸锭"
+        },
+        {
+            "material": "ULTRALITE_PLATE",
+            "name": "超轻铸板"
+        },
+        {
+            "material": "ULTRALITE_INGOT",
+            "name": "超轻铸锭"
+        },
+        {
+            "material": "ULTRALITE_INGOT",
+            "name": "超轻铸锭"
+        },
+        {
+            "material": "MISSILEAPONE",
+            "name": "钻地导弹"
+        },
+        {
+            "material": "ULTRALITE_INGOT",
+            "name": "超轻铸锭"
+        },
+        {
+            "material": "SUGARFUEL",
+            "name": "糖燃料"
+        },
+        {
+            "material": "SUGARFUEL",
+            "name": "糖燃料"
+        },
+        {
+            "material": "SUGARFUEL",
+            "name": "糖燃料"
+        }
+    ],
+    "output": 1,
+    "research": "missilewarfare:gmissileap",
+    "researchCost": 15
+},
+{
+    "id": "MISSILEAPTHR",
+    "name": "钻地导弹",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "ULTRALITE_INGOT",
+            "name": "超轻铸锭"
+        },
+        {
+            "material": "ULTRALITE_PLATE",
+            "name": "超轻铸板"
+        },
+        {
+            "material": "ULTRALITE_INGOT",
+            "name": "超轻铸锭"
+        },
+        {
+            "material": "ULTRALITE_INGOT",
+            "name": "超轻铸锭"
+        },
+        {
+            "material": "MISSILEAPTWO",
+            "name": "钻地导弹"
+        },
+        {
+            "material": "ULTRALITE_INGOT",
+            "name": "超轻铸锭"
+        },
+        {
+            "material": "SUGARFUEL",
+            "name": "糖燃料"
+        },
+        {
+            "material": "SUGARFUEL",
+            "name": "糖燃料"
+        },
+        {
+            "material": "SUGARFUEL",
+            "name": "糖燃料"
+        }
+    ],
+    "output": 1,
+    "research": "missilewarfare:gmissileap",
+    "researchCost": 15
+},
+{
+    "id": "MISSILEGAS",
+    "name": "芥子气弹",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "CHLORINEPELLET",
+            "name": "氯气弹"
+        },
+        {
+            "material": "CHLORINEPELLET",
+            "name": "氯气弹"
+        },
+        {
+            "material": "CHLORINEPELLET",
+            "name": "氯气弹"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "MISSILEBODY",
+            "name": "导弹体"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "MISSILEFINS",
+            "name": "导弹鳍"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        }
+    ],
+    "output": 1,
+    "research": "missilewarfare:gmissilegas",
+    "researchCost": 15
+},
+{
+    "id": "MISSILEEXCAV",
+    "name": "开山导弹",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "EXPLOSIVEPOWDER",
+            "name": "炸药粉"
+        },
+        {
+            "material": "WARHEAD",
+            "name": "导弹弹头"
+        },
+        {
+            "material": "EXPLOSIVEPOWDER",
+            "name": "炸药粉"
+        },
+        {
+            "material": "WARHEAD",
+            "name": "导弹弹头"
+        },
+        {
+            "material": "SMALLBODY",
+            "name": "小型导弹体"
+        },
+        {
+            "material": "WARHEAD",
+            "name": "导弹弹头"
+        },
+        {
+            "material": "SUGARFUEL",
+            "name": "糖燃料"
+        },
+        {
+            "material": "SMALLFIN",
+            "name": "小型导弹鳍"
+        },
+        {
+            "material": "SUGARFUEL",
+            "name": "糖燃料"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "MISSILESTICK",
+    "name": "粘性导弹",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "STRING",
+            "name": "线"
+        },
+        {
+            "material": "STRING",
+            "name": "线"
+        },
+        {
+            "material": "STRING",
+            "name": "线"
+        },
+        {
+            "material": "SUGARFUEL",
+            "name": "糖燃料"
+        },
+        {
+            "material": "MISSILEBODY",
+            "name": "导弹体"
+        },
+        {
+            "material": "SUGARFUEL",
+            "name": "糖燃料"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "MISSILEFINS",
+            "name": "导弹鳍"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "MISSILEICBM",
+    "name": "洲际弹道导弹",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "HEAVYWARHEAD",
+            "name": "重型导弹弹头"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "ICBMMISSILEBODY",
+            "name": "洲际弹道导弹体"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "STEEL_THRUSTER",
+            "name": "钢推进器"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "MISSILECLUSTER",
+    "name": "集束导弹",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "WARHEAD",
+            "name": "导弹弹头"
+        },
+        {
+            "material": "HEAVYWARHEAD",
+            "name": "重型导弹弹头"
+        },
+        {
+            "material": "WARHEAD",
+            "name": "导弹弹头"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "ADVANCEDMISSILEBODY",
+            "name": "增强型导弹体"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "MISSILEFINS",
+            "name": "导弹鳍"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "MISSILENAPALM",
+    "name": "凝固汽油弹",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "FIRE_CHARGE",
+            "name": "火焰弹"
+        },
+        {
+            "material": "HEAVYWARHEAD",
+            "name": "重型导弹弹头"
+        },
+        {
+            "material": "FIRE_CHARGE",
+            "name": "火焰弹"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "ADVANCEDMISSILEBODY",
+            "name": "增强型导弹体"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "MISSILEFINS",
+            "name": "导弹鳍"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "MISSILEADV",
+    "name": "增强型对地导弹",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        {
+            "material": "WARHEAD",
+            "name": "导弹弹头"
+        },
+        null,
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "ADVANCEDMISSILEBODY",
+            "name": "增强型导弹体"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "MISSILEFINS",
+            "name": "导弹鳍"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "MISSILEHEADV",
+    "name": "增强型对地导弹 - 高爆",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "COMPRESSEDEXPLOSIVES",
+            "name": "固态炸药粉"
+        },
+        {
+            "material": "HEAVYWARHEAD",
+            "name": "重型导弹弹头"
+        },
+        {
+            "material": "COMPRESSEDEXPLOSIVES",
+            "name": "固态炸药粉"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "ADVANCEDMISSILEBODY",
+            "name": "增强型导弹体"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "MISSILEFINS",
+            "name": "导弹鳍"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "MISSILELRADV",
+    "name": "增强型对地导弹 - 远距",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "COMPRESSEDEXPLOSIVES",
+            "name": "固态炸药粉"
+        },
+        {
+            "material": "WARHEAD",
+            "name": "导弹弹头"
+        },
+        {
+            "material": "COMPRESSEDEXPLOSIVES",
+            "name": "固态炸药粉"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "ADVANCEDMISSILEBODY",
+            "name": "增强型导弹体"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "BASIC_CIRCUIT_BOARD",
+            "name": "基础电路板"
+        },
+        {
+            "material": "MISSILEFINS",
+            "name": "导弹鳍"
+        },
+        {
+            "material": "BASIC_CIRCUIT_BOARD",
+            "name": "基础电路板"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "MISSILEACADV",
+    "name": "增强型对地导弹 - 专精",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "COMPRESSEDEXPLOSIVES",
+            "name": "固态炸药粉"
+        },
+        {
+            "material": "WARHEAD",
+            "name": "导弹弹头"
+        },
+        {
+            "material": "COMPRESSEDEXPLOSIVES",
+            "name": "固态炸药粉"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "ADVANCEDMISSILEBODY",
+            "name": "增强型导弹体"
+        },
+        {
+            "material": "ROCKETFUEL",
+            "name": "火箭燃料"
+        },
+        {
+            "material": "MISSILEFINS",
+            "name": "导弹鳍"
+        },
+        {
+            "material": "BASIC_CIRCUIT_BOARD",
+            "name": "基础电路板"
+        },
+        {
+            "material": "MISSILEFINS",
+            "name": "导弹鳍"
+        }
+    ],
+    "output": 1
+}]

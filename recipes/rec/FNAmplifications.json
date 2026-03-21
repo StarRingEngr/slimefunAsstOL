@@ -1,0 +1,7823 @@
+[{
+    "id": "FN_MACHINERY_MACHINE_PART",
+    "name": "机器零件",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BRONZE_INGOT",
+            "name": "青铜锭"
+        },
+        {
+            "material": "GOLD_4K",
+            "name": "金锭 (4克拉)"
+        },
+        {
+            "material": "BRONZE_INGOT",
+            "name": "青铜锭"
+        },
+        {
+            "material": "ADVANCED_CIRCUIT_BOARD",
+            "name": "高级电路板"
+        },
+        {
+            "material": "ELECTRO_MAGNET",
+            "name": "电磁铁"
+        },
+        {
+            "material": "ADVANCED_CIRCUIT_BOARD",
+            "name": "高级电路板"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        },
+        {
+            "material": "LIGHTNING_ROD",
+            "name": "避雷针"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MACHINERY_COMPONENT_PART",
+    "name": "散热器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "COPPER_INGOT",
+            "name": "铜锭"
+        },
+        {
+            "material": "GOLD_INGOT",
+            "name": "金锭"
+        },
+        {
+            "material": "COPPER_INGOT",
+            "name": "铜锭"
+        },
+        {
+            "material": "BASIC_CIRCUIT_BOARD",
+            "name": "基础电路板"
+        },
+        {
+            "material": "MAGNET",
+            "name": "磁铁"
+        },
+        {
+            "material": "BASIC_CIRCUIT_BOARD",
+            "name": "基础电路板"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        },
+        {
+            "material": "LIGHTNING_ROD",
+            "name": "避雷针"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MACHINERY_MOTOR_SWITCH",
+    "name": "马达开关",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "ELECTRIC_MOTOR",
+            "name": "电动马达"
+        },
+        {
+            "material": "ALUMINUM_BRASS_INGOT",
+            "name": "铝黄铜锭"
+        },
+        {
+            "material": "ELECTRIC_MOTOR",
+            "name": "电动马达"
+        },
+        {
+            "material": "LEVER",
+            "name": "拉杆"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "LEVER",
+            "name": "拉杆"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        },
+        {
+            "material": "LIGHTNING_ROD",
+            "name": "避雷针"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MACHINERY_GEAR_PART",
+    "name": "齿轮",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "ELECTRIC_MOTOR",
+            "name": "电动马达"
+        },
+        {
+            "material": "CARGO_MOTOR",
+            "name": "货运马达"
+        },
+        {
+            "material": "ELECTRIC_MOTOR",
+            "name": "电动马达"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "CHAIN",
+            "name": "锁链"
+        },
+        {
+            "material": "REDSTONE",
+            "name": "红石粉"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        },
+        {
+            "material": "FN_MACHINERY_MOTOR_SWITCH",
+            "name": "马达开关"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MACHINERY_THREAD_PART",
+    "name": "镶件螺纹",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "OAK_PLANKS",
+            "name": "橡木木板"
+        },
+        {
+            "material": "STICK",
+            "name": "木棍"
+        },
+        {
+            "material": "OAK_PLANKS",
+            "name": "橡木木板"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        },
+        {
+            "material": "STICK",
+            "name": "木棍"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        },
+        {
+            "material": "STICK",
+            "name": "木棍"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MACHINERY_COMPRESSOR_PART",
+    "name": "压缩零件",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "PISTON",
+            "name": "活塞"
+        },
+        {
+            "material": "NETHER_BRICKS",
+            "name": "下界砖块"
+        },
+        {
+            "material": "PISTON",
+            "name": "活塞"
+        },
+        {
+            "material": "FN_MACHINERY_THREAD_PART",
+            "name": "镶件螺纹"
+        },
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "name": "齿轮"
+        },
+        {
+            "material": "FN_MACHINERY_THREAD_PART",
+            "name": "镶件螺纹"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        },
+        {
+            "material": "NETHER_BRICKS",
+            "name": "下界砖块"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MACHINERY_CONDENSER_PART",
+    "name": "冷凝器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "PISTON",
+            "name": "活塞"
+        },
+        {
+            "material": "FN_MACHINERY_COMPONENT_PART",
+            "name": "散热器"
+        },
+        {
+            "material": "PISTON",
+            "name": "活塞"
+        },
+        {
+            "material": "FN_MACHINERY_COMPRESSOR_PART",
+            "name": "压缩零件"
+        },
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "name": "齿轮"
+        },
+        {
+            "material": "FN_MACHINERY_COMPRESSOR_PART",
+            "name": "压缩零件"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        },
+        {
+            "material": "FN_MACHINERY_COMPONENT_PART",
+            "name": "散热器"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MACHINERY_RECYCLER_PART",
+    "name": "回收器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "PISTON",
+            "name": "活塞"
+        },
+        {
+            "material": "FN_MACHINERY_COMPONENT_PART",
+            "name": "散热器"
+        },
+        {
+            "material": "PISTON",
+            "name": "活塞"
+        },
+        {
+            "material": "FN_MACHINERY_COMPRESSOR_PART",
+            "name": "压缩零件"
+        },
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "name": "齿轮"
+        },
+        {
+            "material": "FN_MACHINERY_COMPRESSOR_PART",
+            "name": "压缩零件"
+        },
+        {
+            "material": "FN_MACHINERY_CONDENSER_PART",
+            "name": "冷凝器"
+        },
+        {
+            "material": "FN_MACHINERY_COMPONENT_PART",
+            "name": "散热器"
+        },
+        {
+            "material": "FN_MACHINERY_CONDENSER_PART",
+            "name": "冷凝器"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MACHINERY_DOWNGRADER_PART",
+    "name": "降级器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "PISTON",
+            "name": "活塞"
+        },
+        {
+            "material": "FN_MACHINERY_THREAD_PART",
+            "name": "镶件螺纹"
+        },
+        {
+            "material": "PISTON",
+            "name": "活塞"
+        },
+        {
+            "material": "FN_MACHINERY_RECYCLER_PART",
+            "name": "回收器"
+        },
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "name": "齿轮"
+        },
+        {
+            "material": "FN_MACHINERY_RECYCLER_PART",
+            "name": "回收器"
+        },
+        {
+            "material": "FN_MACHINERY_CONDENSER_PART",
+            "name": "冷凝器"
+        },
+        {
+            "material": "FN_MACHINERY_COMPRESSOR_PART",
+            "name": "压缩零件"
+        },
+        {
+            "material": "FN_MACHINERY_CONDENSER_PART",
+            "name": "冷凝器"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MACHINERY_FUNNEL_PART",
+    "name": "金属漏斗",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "LEAD_INGOT",
+            "name": "铅锭"
+        },
+        {
+            "material": "CALCITE",
+            "name": "方解石"
+        },
+        {
+            "material": "LEAD_INGOT",
+            "name": "铅锭"
+        },
+        {
+            "material": "FN_MACHINERY_THREAD_PART",
+            "name": "镶件螺纹"
+        },
+        {
+            "material": "BARREL",
+            "name": "木桶"
+        },
+        {
+            "material": "FN_MACHINERY_THREAD_PART",
+            "name": "镶件螺纹"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        },
+        {
+            "material": "CALCITE",
+            "name": "方解石"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MACHINERY_POWER_COMPONENT",
+    "name": "电源组件",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "ELECTRIC_MOTOR",
+            "name": "电动马达"
+        },
+        {
+            "material": "COPPER_INGOT",
+            "name": "铜锭"
+        },
+        {
+            "material": "ELECTRIC_MOTOR",
+            "name": "电动马达"
+        },
+        {
+            "material": "COPPER_INGOT",
+            "name": "铜锭"
+        },
+        {
+            "material": "POWER_CRYSTAL",
+            "name": "能量水晶"
+        },
+        {
+            "material": "COPPER_INGOT",
+            "name": "铜锭"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        },
+        {
+            "material": "LIGHTNING_ROD",
+            "name": "避雷针"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MACHINERY_BRASS_PLATING",
+    "name": "黄铜镀膜",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "COPPER_INGOT",
+            "name": "铜锭"
+        },
+        {
+            "material": "AMETHYST_SHARD",
+            "name": "紫水晶碎片"
+        },
+        {
+            "material": "COPPER_INGOT",
+            "name": "铜锭"
+        },
+        {
+            "material": "BRASS_INGOT",
+            "name": "黄铜锭"
+        },
+        {
+            "material": "COPPER_BLOCK",
+            "name": "铜块"
+        },
+        {
+            "material": "BRASS_INGOT",
+            "name": "黄铜锭"
+        },
+        {
+            "material": "BRONZE_INGOT",
+            "name": "青铜锭"
+        },
+        {
+            "material": "AMETHYST_SHARD",
+            "name": "紫水晶碎片"
+        },
+        {
+            "material": "BRONZE_INGOT",
+            "name": "青铜锭"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MACHINERY_REINFORCED_CASING",
+    "name": "强化合金镀膜",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "REINFORCED_PLATE",
+            "name": "钢筋板"
+        },
+        {
+            "material": "COPPER_INGOT",
+            "name": "铜锭"
+        },
+        {
+            "material": "REINFORCED_PLATE",
+            "name": "钢筋板"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "name": "强化合金锭"
+        },
+        {
+            "material": "IRON_BLOCK",
+            "name": "铁块"
+        },
+        {
+            "material": "BRASS_INGOT",
+            "name": "黄铜锭"
+        },
+        {
+            "material": "BRONZE_INGOT",
+            "name": "青铜锭"
+        },
+        {
+            "material": "COPPER_INGOT",
+            "name": "铜锭"
+        },
+        {
+            "material": "BRONZE_INGOT",
+            "name": "青铜锭"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MACHINERY_DIAMOND_PLATING",
+    "name": "金刚石镀膜",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "COBALT_INGOT",
+            "name": "钴锭"
+        },
+        {
+            "material": "AMETHYST_CLUSTER",
+            "name": "紫水晶簇"
+        },
+        {
+            "material": "COBALT_INGOT",
+            "name": "钴锭"
+        },
+        {
+            "material": "DIAMOND",
+            "name": "钻石"
+        },
+        {
+            "material": "DIAMOND_BLOCK",
+            "name": "钻石块"
+        },
+        {
+            "material": "DIAMOND",
+            "name": "钻石"
+        },
+        {
+            "material": "BRONZE_INGOT",
+            "name": "青铜锭"
+        },
+        {
+            "material": "AMETHYST_CLUSTER",
+            "name": "紫水晶簇"
+        },
+        {
+            "material": "BRONZE_INGOT",
+            "name": "青铜锭"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MACHINERY_ALUMINUM_PLATING",
+    "name": "铝镀膜",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "DURALUMIN_INGOT",
+            "name": "硬铝锭"
+        },
+        {
+            "material": "AMETHYST_CLUSTER",
+            "name": "紫水晶簇"
+        },
+        {
+            "material": "DURALUMIN_INGOT",
+            "name": "硬铝锭"
+        },
+        {
+            "material": "ALUMINUM_INGOT",
+            "name": "铝锭"
+        },
+        {
+            "material": "AMETHYST_CLUSTER",
+            "name": "紫水晶簇"
+        },
+        {
+            "material": "ALUMINUM_INGOT",
+            "name": "铝锭"
+        },
+        {
+            "material": "BRONZE_INGOT",
+            "name": "青铜锭"
+        },
+        {
+            "material": "AMETHYST_CLUSTER",
+            "name": "紫水晶簇"
+        },
+        {
+            "material": "BRONZE_INGOT",
+            "name": "青铜锭"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MACHINERY_GOLD_PLATING",
+    "name": "黄金镀膜",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "GOLD_8K",
+            "name": "金锭 (8克拉)"
+        },
+        {
+            "material": "GOLD_NUGGET",
+            "name": "金粒"
+        },
+        {
+            "material": "GOLD_8K",
+            "name": "金锭 (8克拉)"
+        },
+        {
+            "material": "ALUMINUM_INGOT",
+            "name": "铝锭"
+        },
+        {
+            "material": "GOLD_BLOCK",
+            "name": "金块"
+        },
+        {
+            "material": "ALUMINUM_INGOT",
+            "name": "铝锭"
+        },
+        {
+            "material": "BRONZE_INGOT",
+            "name": "青铜锭"
+        },
+        {
+            "material": "GOLD_NUGGET",
+            "name": "金粒"
+        },
+        {
+            "material": "BRONZE_INGOT",
+            "name": "青铜锭"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MACHINERY_BASIC_MACHINE_BLOCK",
+    "name": "基础机器核心",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "name": "齿轮"
+        },
+        {
+            "material": "AMETHYST_SHARD",
+            "name": "紫水晶碎片"
+        },
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "name": "齿轮"
+        },
+        {
+            "material": "FN_MACHINERY_BRASS_PLATING",
+            "name": "黄铜镀膜"
+        },
+        {
+            "material": "FN_MACHINERY_MACHINE_PART",
+            "name": "机器零件"
+        },
+        {
+            "material": "FN_MACHINERY_BRASS_PLATING",
+            "name": "黄铜镀膜"
+        },
+        {
+            "material": "FN_MACHINERY_COMPONENT_PART",
+            "name": "散热器"
+        },
+        {
+            "material": "AMETHYST_SHARD",
+            "name": "紫水晶碎片"
+        },
+        {
+            "material": "FN_MACHINERY_COMPONENT_PART",
+            "name": "散热器"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MACHINERY_HIGHTECH_MACHINE_BLOCK",
+    "name": "高科技机器核心",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "name": "齿轮"
+        },
+        {
+            "material": "FN_MACHINERY_BASIC_MACHINE_BLOCK",
+            "name": "基础机器核心"
+        },
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "name": "齿轮"
+        },
+        {
+            "material": "FN_MACHINERY_REINFORCED_CASING",
+            "name": "强化合金镀膜"
+        },
+        {
+            "material": "FN_MACHINERY_MACHINE_PART",
+            "name": "机器零件"
+        },
+        {
+            "material": "FN_MACHINERY_BRASS_PLATING",
+            "name": "黄铜镀膜"
+        },
+        {
+            "material": "FN_MACHINERY_COMPONENT_PART",
+            "name": "散热器"
+        },
+        {
+            "material": "FN_MACHINERY_BASIC_MACHINE_BLOCK",
+            "name": "基础机器核心"
+        },
+        {
+            "material": "FN_MACHINERY_COMPONENT_PART",
+            "name": "散热器"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_METAL_SCRAPS",
+    "name": "金属废料",
+    "recipeType": "fnamplifications:fn_fal_downgrader",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MAGICAL_ITEMS_UNBIND_RUNE",
+    "name": "解绑符文",
+    "recipeType": "fnamplifications:fn_magic_altar",
+    "recipe": [
+        {
+            "material": "BLISTERING_INGOT_3",
+            "name": "起泡锭"
+        },
+        {
+            "material": "BLAZE_POWDER",
+            "amount": 2,
+            "name": "烈焰粉"
+        },
+        {
+            "material": "BLISTERING_INGOT_3",
+            "name": "起泡锭"
+        },
+        {
+            "material": "MAGIC_LUMP_3",
+            "amount": 2,
+            "name": "魔法结晶 - III"
+        },
+        null,
+        {
+            "material": "MAGIC_LUMP_3",
+            "amount": 2,
+            "name": "魔法结晶 - III"
+        },
+        {
+            "material": "BLANK_RUNE",
+            "name": "空白符文"
+        },
+        {
+            "material": "ROTTEN_FLESH",
+            "amount": 2,
+            "name": "腐肉"
+        },
+        {
+            "material": "BLANK_RUNE",
+            "name": "空白符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MAGICAL_ITEMS_SPIRAL_FIRE_RUNE",
+    "name": "螺旋火符文",
+    "recipeType": "fnamplifications:fn_magic_altar",
+    "recipe": [
+        {
+            "material": "COPPER_INGOT",
+            "amount": 2,
+            "name": "铜锭"
+        },
+        {
+            "material": "GUNPOWDER",
+            "amount": 8,
+            "name": "火药"
+        },
+        {
+            "material": "BLISTERING_INGOT",
+            "amount": 2,
+            "name": "起泡锭 (33%)"
+        },
+        null,
+        {
+            "material": "BLANK_RUNE",
+            "name": "空白符文"
+        },
+        null,
+        {
+            "material": "COPPER_INGOT",
+            "amount": 2,
+            "name": "铜锭"
+        },
+        {
+            "material": "FLINT_AND_STEEL",
+            "name": "打火石"
+        },
+        {
+            "material": "BLISTERING_INGOT",
+            "amount": 2,
+            "name": "起泡锭 (33%)"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MAGICAL_ITEMS_SPIRIT_RUNE",
+    "name": "精神符文",
+    "recipeType": "fnamplifications:fn_magic_altar",
+    "recipe": [
+        {
+            "material": "BLANK_RUNE",
+            "amount": 2,
+            "name": "空白符文"
+        },
+        {
+            "material": "ROTTEN_FLESH",
+            "amount": 2,
+            "name": "腐肉"
+        },
+        {
+            "material": "BLANK_RUNE",
+            "amount": 2,
+            "name": "空白符文"
+        },
+        {
+            "material": "BLAZE_POWDER",
+            "name": "烈焰粉"
+        },
+        {
+            "material": "MAGIC_SUGAR",
+            "name": "魔法糖"
+        },
+        {
+            "material": "BLAZE_POWDER",
+            "name": "烈焰粉"
+        },
+        {
+            "material": "BLANK_RUNE",
+            "amount": 2,
+            "name": "空白符文"
+        },
+        {
+            "material": "WITHER_SKELETON_SKULL",
+            "amount": 4,
+            "name": "凋灵骷髅头颅"
+        },
+        {
+            "material": "BLANK_RUNE",
+            "amount": 2,
+            "name": "空白符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MAGICAL_ITEMS_PESTILENCE_RUNE",
+    "name": "瘟疫符文",
+    "recipeType": "fnamplifications:fn_magic_altar",
+    "recipe": [
+        {
+            "material": "URANIUM",
+            "amount": 2,
+            "name": "铀"
+        },
+        {
+            "material": "NETHER_WART",
+            "amount": 6,
+            "name": "下界疣"
+        },
+        {
+            "material": "URANIUM",
+            "amount": 2,
+            "name": "铀"
+        },
+        {
+            "material": "ROTTEN_FLESH",
+            "amount": 4,
+            "name": "腐肉"
+        },
+        {
+            "material": "BLANK_RUNE",
+            "name": "空白符文"
+        },
+        {
+            "material": "ROTTEN_FLESH",
+            "amount": 4,
+            "name": "腐肉"
+        },
+        {
+            "material": "URANIUM",
+            "amount": 2,
+            "name": "铀"
+        },
+        {
+            "material": "QUARTZ",
+            "amount": 3,
+            "name": "下界石英"
+        },
+        {
+            "material": "URANIUM",
+            "amount": 2,
+            "name": "铀"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MAGICAL_ITEMS_SPARKLING_RUNE",
+    "name": "闪闪发光的符文",
+    "recipeType": "fnamplifications:fn_magic_altar",
+    "recipe": [
+        {
+            "material": "SILVER_INGOT",
+            "amount": 3,
+            "name": "银锭"
+        },
+        null,
+        {
+            "material": "SILVER_INGOT",
+            "amount": 3,
+            "name": "银锭"
+        },
+        {
+            "material": "BLAZE_ROD",
+            "amount": 2,
+            "name": "烈焰棒"
+        },
+        {
+            "material": "BLANK_RUNE",
+            "name": "空白符文"
+        },
+        {
+            "material": "BLAZE_ROD",
+            "amount": 2,
+            "name": "烈焰棒"
+        },
+        {
+            "material": "SILVER_INGOT",
+            "amount": 3,
+            "name": "银锭"
+        },
+        null,
+        {
+            "material": "SILVER_INGOT",
+            "amount": 3,
+            "name": "银锭"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MAGICAL_ITEMS_CLOUD_RUNE",
+    "name": "云符文",
+    "recipeType": "fnamplifications:fn_magic_altar",
+    "recipe": [
+        {
+            "material": "MAGIC_LUMP_1",
+            "amount": 2,
+            "name": "魔法结晶 - I"
+        },
+        {
+            "material": "BLAZE_POWDER",
+            "amount": 3,
+            "name": "烈焰粉"
+        },
+        {
+            "material": "MAGIC_LUMP_1",
+            "amount": 2,
+            "name": "魔法结晶 - I"
+        },
+        {
+            "material": "MAGIC_LUMP_1",
+            "amount": 2,
+            "name": "魔法结晶 - I"
+        },
+        {
+            "material": "ANCIENT_RUNE_AIR",
+            "name": "古代符文 [气]"
+        },
+        {
+            "material": "MAGIC_LUMP_1",
+            "amount": 2,
+            "name": "魔法结晶 - I"
+        },
+        {
+            "material": "MAGNESIUM_DUST",
+            "amount": 4,
+            "name": "镁"
+        },
+        {
+            "material": "MAGIC_SUGAR",
+            "name": "魔法糖"
+        },
+        {
+            "material": "MAGNESIUM_DUST",
+            "amount": 4,
+            "name": "镁"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MAGICAL_ITEMS_ICE_RUNE",
+    "name": "冰符文",
+    "recipeType": "fnamplifications:fn_magic_altar",
+    "recipe": [
+        {
+            "material": "ICE",
+            "amount": 4,
+            "name": "冰"
+        },
+        null,
+        {
+            "material": "ICE",
+            "amount": 4,
+            "name": "冰"
+        },
+        {
+            "material": "MAGIC_LUMP_3",
+            "amount": 2,
+            "name": "魔法结晶 - III"
+        },
+        {
+            "material": "BLANK_RUNE",
+            "name": "空白符文"
+        },
+        {
+            "material": "MAGIC_LUMP_3",
+            "amount": 2,
+            "name": "魔法结晶 - III"
+        },
+        {
+            "material": "ICE",
+            "amount": 4,
+            "name": "冰"
+        },
+        null,
+        {
+            "material": "ICE",
+            "amount": 4,
+            "name": "冰"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MAGICAL_ITEMS_POWER_RUNE",
+    "name": "能量符文",
+    "recipeType": "fnamplifications:fn_magic_altar",
+    "recipe": [
+        {
+            "material": "REDSTONE",
+            "amount": 6,
+            "name": "红石粉"
+        },
+        {
+            "material": "BLISTERING_INGOT_3",
+            "name": "起泡锭"
+        },
+        {
+            "material": "REDSTONE",
+            "amount": 6,
+            "name": "红石粉"
+        },
+        {
+            "material": "BLISTERING_INGOT_3",
+            "name": "起泡锭"
+        },
+        {
+            "material": "BLANK_RUNE",
+            "name": "空白符文"
+        },
+        {
+            "material": "BLISTERING_INGOT_3",
+            "name": "起泡锭"
+        },
+        {
+            "material": "NETHER_STAR",
+            "amount": 2,
+            "name": "下界之星"
+        },
+        {
+            "material": "BLISTERING_INGOT_3",
+            "name": "起泡锭"
+        },
+        {
+            "material": "NETHER_STAR",
+            "amount": 2,
+            "name": "下界之星"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MAGICAL_ITEMS_LINGER_RUNE",
+    "name": "灵符符文",
+    "recipeType": "fnamplifications:fn_magic_altar",
+    "recipe": [
+        {
+            "material": "NETHER_WART",
+            "amount": 6,
+            "name": "下界疣"
+        },
+        {
+            "material": "TIN_DUST",
+            "name": "锡粉"
+        },
+        {
+            "material": "NETHER_WART",
+            "amount": 6,
+            "name": "下界疣"
+        },
+        {
+            "material": "GLOWSTONE_DUST",
+            "amount": 5,
+            "name": "荧石粉"
+        },
+        {
+            "material": "BLANK_RUNE",
+            "name": "空白符文"
+        },
+        {
+            "material": "GLOWSTONE_DUST",
+            "amount": 5,
+            "name": "荧石粉"
+        },
+        {
+            "material": "FERMENTED_SPIDER_EYE",
+            "name": "发酵蛛眼"
+        },
+        {
+            "material": "ZINC_DUST",
+            "name": "锌粉"
+        },
+        {
+            "material": "FERMENTED_SPIDER_EYE",
+            "name": "发酵蛛眼"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MAGICAL_ITEMS_AGILITY_RUNE",
+    "name": "敏捷符文",
+    "recipeType": "fnamplifications:fn_magic_altar",
+    "recipe": [
+        {
+            "material": "SUGAR",
+            "amount": 4,
+            "name": "糖"
+        },
+        {
+            "material": "PORK_JERKY",
+            "name": "猪肉干"
+        },
+        {
+            "material": "SUGAR",
+            "amount": 4,
+            "name": "糖"
+        },
+        {
+            "material": "NETHER_WART",
+            "amount": 4,
+            "name": "下界疣"
+        },
+        {
+            "material": "BLANK_RUNE",
+            "name": "空白符文"
+        },
+        {
+            "material": "NETHER_WART",
+            "amount": 4,
+            "name": "下界疣"
+        },
+        {
+            "material": "SUGAR",
+            "amount": 4,
+            "name": "糖"
+        },
+        {
+            "material": "BEEF_JERKY",
+            "name": "牛肉干"
+        },
+        {
+            "material": "SUGAR",
+            "amount": 4,
+            "name": "糖"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+    "name": "智力符文",
+    "recipeType": "fnamplifications:fn_magic_altar",
+    "recipe": [
+        {
+            "material": "BLAZE_POWDER",
+            "amount": 5,
+            "name": "烈焰粉"
+        },
+        null,
+        {
+            "material": "BLAZE_POWDER",
+            "amount": 5,
+            "name": "烈焰粉"
+        },
+        {
+            "material": "MAGIC_SUGAR",
+            "name": "魔法糖"
+        },
+        {
+            "material": "BLANK_RUNE",
+            "name": "空白符文"
+        },
+        {
+            "material": "MAGIC_SUGAR",
+            "name": "魔法糖"
+        },
+        {
+            "material": "SUGAR",
+            "amount": 5,
+            "name": "糖"
+        },
+        null,
+        {
+            "material": "SUGAR",
+            "amount": 5,
+            "name": "糖"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MAGICAL_ITEMS_HEART_RUNE",
+    "name": "心符文",
+    "recipeType": "fnamplifications:fn_magic_altar",
+    "recipe": [
+        null,
+        {
+            "material": "NETHER_WART",
+            "amount": 3,
+            "name": "下界疣"
+        },
+        null,
+        {
+            "material": "MAGIC_SUGAR",
+            "name": "魔法糖"
+        },
+        {
+            "material": "BLANK_RUNE",
+            "name": "空白符文"
+        },
+        {
+            "material": "MAGIC_SUGAR",
+            "name": "魔法糖"
+        },
+        {
+            "material": "GLISTERING_MELON_SLICE",
+            "amount": 2,
+            "name": "闪烁的西瓜片"
+        },
+        {
+            "material": "NETHER_WART",
+            "amount": 3,
+            "name": "下界疣"
+        },
+        {
+            "material": "GLISTERING_MELON_SLICE",
+            "amount": 2,
+            "name": "闪烁的西瓜片"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_FINE_JASPER_CRAFTING",
+    "name": "优质碧玉宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        {
+            "material": "DIAMOND_ORE",
+            "amount": 3,
+            "name": "钻石矿石"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        null,
+        {
+            "material": "EMERALD_ORE",
+            "amount": 2,
+            "name": "绿宝石矿石"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        },
+        {
+            "material": "GOLD_ORE",
+            "amount": 3,
+            "name": "金矿石"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MACHINERY_COMPONENT_PART_SCRAP",
+    "name": "散热器",
+    "recipeType": "fnamplifications:fn_scrap_recycler",
+    "recipe": [
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        null,
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        null,
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MACHINERY_GEAR_PART_SCRAP",
+    "name": "齿轮",
+    "recipeType": "fnamplifications:fn_scrap_recycler",
+    "recipe": [
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        null,
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MACHINERY_MACHINE_PART_SCRAP",
+    "name": "机器零件",
+    "recipeType": "fnamplifications:fn_scrap_recycler",
+    "recipe": [
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        null,
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MACHINERY_MOTOR_SWITCH_SCRAP",
+    "name": "马达开关",
+    "recipeType": "fnamplifications:fn_scrap_recycler",
+    "recipe": [
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        null,
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        null,
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MACHINERY_THREAD_PART_SCRAP",
+    "name": "镶件螺纹",
+    "recipeType": "fnamplifications:fn_scrap_recycler",
+    "recipe": [
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        null,
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        null,
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        null,
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        null,
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MACHINERY_POWER_COMPONENT_SCRAP",
+    "name": "电源组件",
+    "recipeType": "fnamplifications:fn_scrap_recycler",
+    "recipe": [
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        null,
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        null,
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MACHINERY_FUNNEL_PART_SCRAP",
+    "name": "金属漏斗",
+    "recipeType": "fnamplifications:fn_scrap_recycler",
+    "recipe": [
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        null,
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        null,
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        },
+        null,
+        {
+            "material": "FN_METAL_SCRAPS",
+            "name": "金属废料"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FMG_GENERATOR_MULTIBLOCK",
+    "name": "FN材料生成器",
+    "recipeType": "slimefun:multiblock",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "CHEST",
+            "name": "箱子"
+        },
+        null,
+        null,
+        {
+            "material": "DIAMOND_BLOCK",
+            "name": "Any FN Material generator"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "FMG_GENERATOR_CLAY_BROKEN",
+    "name": "FN粘土生成器 (破损)",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "CARBON",
+            "name": "碳"
+        },
+        {
+            "material": "DIAMOND_PICKAXE",
+            "name": "钻石镐"
+        },
+        {
+            "material": "CARBON",
+            "name": "碳"
+        },
+        {
+            "material": "BOWL",
+            "name": "碗"
+        },
+        {
+            "material": "WATER_BUCKET",
+            "name": "水桶"
+        },
+        {
+            "material": "BOWL",
+            "name": "碗"
+        },
+        {
+            "material": "CARBON",
+            "name": "碳"
+        },
+        {
+            "material": "GOLD_PAN",
+            "name": "淘金盘"
+        },
+        {
+            "material": "CARBON",
+            "name": "碳"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FMG_GENERATOR_CLAY",
+    "name": "FN粘土生成器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "GOLD_PAN",
+            "name": "淘金盘"
+        },
+        {
+            "material": "CLAY",
+            "name": "黏土块"
+        },
+        {
+            "material": "GOLD_PAN",
+            "name": "淘金盘"
+        },
+        {
+            "material": "SMG_GENERATOR_GRAVEL",
+            "name": "沙砾生成器"
+        },
+        {
+            "material": "FMG_GENERATOR_CLAY_BROKEN",
+            "name": "FN粘土生成器 (破损)"
+        },
+        {
+            "material": "SMG_GENERATOR_GRAVEL",
+            "name": "沙砾生成器"
+        },
+        {
+            "material": "DIAMOND_PICKAXE",
+            "name": "钻石镐"
+        },
+        {
+            "material": "FURNACE",
+            "name": "熔炉"
+        },
+        {
+            "material": "DIAMOND_PICKAXE",
+            "name": "钻石镐"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FMG_GENERATOR_WARPED_BROKEN",
+    "name": "FN变形尼龙发生器 (Broken)",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "CARBONADO",
+            "name": "黑金刚石"
+        },
+        {
+            "material": "DIAMOND_SHOVEL",
+            "name": "钻石锹"
+        },
+        {
+            "material": "CARBONADO",
+            "name": "黑金刚石"
+        },
+        {
+            "material": "NETHERITE_PICKAXE",
+            "name": "下界合金镐"
+        },
+        {
+            "material": "WATER_BUCKET",
+            "name": "水桶"
+        },
+        {
+            "material": "NETHERITE_PICKAXE",
+            "name": "下界合金镐"
+        },
+        {
+            "material": "CARBONADO",
+            "name": "黑金刚石"
+        },
+        {
+            "material": "NETHER_GOLD_PAN",
+            "name": "下界淘金盘"
+        },
+        {
+            "material": "CARBONADO",
+            "name": "黑金刚石"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FMG_GENERATOR_WARPED",
+    "name": "FN变形尼龙发生器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "NETHERITE_SHOVEL",
+            "name": "下界合金锹"
+        },
+        {
+            "material": "WARPED_NYLIUM",
+            "name": "诡异菌岩"
+        },
+        {
+            "material": "NETHERITE_SHOVEL",
+            "name": "下界合金锹"
+        },
+        {
+            "material": "SMG_GENERATOR_NETHERRACK",
+            "name": "远古残骸生成器"
+        },
+        {
+            "material": "FMG_GENERATOR_WARPED_BROKEN",
+            "name": "FN变形尼龙发生器 (Broken)"
+        },
+        {
+            "material": "SMG_GENERATOR_NETHERRACK",
+            "name": "远古残骸生成器"
+        },
+        {
+            "material": "NETHERITE_SHOVEL",
+            "name": "下界合金锹"
+        },
+        {
+            "material": "BLAST_FURNACE",
+            "name": "高炉"
+        },
+        {
+            "material": "NETHERITE_SHOVEL",
+            "name": "下界合金锹"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FMG_GENERATOR_TERRACOTTA_BROKEN",
+    "name": "FN陶瓦生成器 (破损)",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FERROSILICON",
+            "name": "硅铁"
+        },
+        {
+            "material": "DIAMOND_PICKAXE",
+            "name": "钻石镐"
+        },
+        {
+            "material": "FERROSILICON",
+            "name": "硅铁"
+        },
+        {
+            "material": "DIAMOND_SHOVEL",
+            "name": "钻石锹"
+        },
+        {
+            "material": "BUCKET",
+            "name": "桶"
+        },
+        {
+            "material": "DIAMOND_SHOVEL",
+            "name": "钻石锹"
+        },
+        {
+            "material": "FERROSILICON",
+            "name": "硅铁"
+        },
+        {
+            "material": "COAL",
+            "name": "煤炭"
+        },
+        {
+            "material": "FERROSILICON",
+            "name": "硅铁"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FMG_GENERATOR_TERRACOTTA",
+    "name": "FN陶瓦生成器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "SMG_GENERATOR_COBBLESTONE",
+            "name": "圆石生成器"
+        },
+        {
+            "material": "SMG_GENERATOR_GRAVEL",
+            "name": "沙砾生成器"
+        },
+        {
+            "material": "SMG_GENERATOR_COBBLESTONE",
+            "name": "圆石生成器"
+        },
+        {
+            "material": "FMG_GENERATOR_CLAY",
+            "name": "FN粘土生成器"
+        },
+        {
+            "material": "FMG_GENERATOR_TERRACOTTA_BROKEN",
+            "name": "FN陶瓦生成器 (破损)"
+        },
+        {
+            "material": "FMG_GENERATOR_CLAY",
+            "name": "FN粘土生成器"
+        },
+        {
+            "material": "SMG_GENERATOR_COBBLESTONE",
+            "name": "圆石生成器"
+        },
+        {
+            "material": "BLAST_FURNACE",
+            "name": "高炉"
+        },
+        {
+            "material": "SMG_GENERATOR_COBBLESTONE",
+            "name": "圆石生成器"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FMG_GENERATOR_BONE_BROKEN",
+    "name": "FN骨头生成器 (破损)",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "BONE_MEAL",
+            "name": "骨粉"
+        },
+        {
+            "material": "DIAMOND_SWORD",
+            "name": "钻石剑"
+        },
+        {
+            "material": "BONE_MEAL",
+            "name": "骨粉"
+        },
+        {
+            "material": "BONE_BLOCK",
+            "name": "骨块"
+        },
+        {
+            "material": "WATER_BUCKET",
+            "name": "水桶"
+        },
+        {
+            "material": "BONE_BLOCK",
+            "name": "骨块"
+        },
+        {
+            "material": "BLISTERING_INGOT_2",
+            "name": "起泡锭 (66%)"
+        },
+        {
+            "material": "COAL",
+            "name": "煤炭"
+        },
+        {
+            "material": "BLISTERING_INGOT_2",
+            "name": "起泡锭 (66%)"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FMG_GENERATOR_BONE",
+    "name": "FN骨头生成器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BLISTERING_INGOT_3",
+            "name": "起泡锭"
+        },
+        {
+            "material": "SMG_GENERATOR_SOUL_SAND",
+            "name": "灵魂沙生成器"
+        },
+        {
+            "material": "BLISTERING_INGOT_3",
+            "name": "起泡锭"
+        },
+        {
+            "material": "BONE",
+            "name": "骨头"
+        },
+        {
+            "material": "FMG_GENERATOR_BONE_BROKEN",
+            "name": "FN骨头生成器 (破损)"
+        },
+        {
+            "material": "BONE",
+            "name": "骨头"
+        },
+        {
+            "material": "PROGRAMMABLE_ANDROID",
+            "name": "可编程式机器人 (普通)"
+        },
+        {
+            "material": "BLAST_FURNACE",
+            "name": "高炉"
+        },
+        {
+            "material": "PROGRAMMABLE_ANDROID",
+            "name": "可编程式机器人 (普通)"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FMG_GENERATOR_DIAMOND_BROKEN",
+    "name": "FN钻石生成器 (破损)",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "SYNTHETIC_DIAMOND",
+            "name": "人造钻石"
+        },
+        {
+            "material": "SMG_GENERATOR_COBBLESTONE",
+            "name": "圆石生成器"
+        },
+        {
+            "material": "SYNTHETIC_DIAMOND",
+            "name": "人造钻石"
+        },
+        {
+            "material": "DIAMOND_BLOCK",
+            "name": "钻石块"
+        },
+        {
+            "material": "WATER_BUCKET",
+            "name": "水桶"
+        },
+        {
+            "material": "DIAMOND_BLOCK",
+            "name": "钻石块"
+        },
+        {
+            "material": "SYNTHETIC_DIAMOND",
+            "name": "人造钻石"
+        },
+        {
+            "material": "DIAMOND_PICKAXE",
+            "name": "钻石镐"
+        },
+        {
+            "material": "SYNTHETIC_DIAMOND",
+            "name": "人造钻石"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FMG_GENERATOR_DIAMOND",
+    "name": "FN钻石生成器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "PROGRAMMABLE_ANDROID_MINER",
+            "name": "可编程式机器人 (矿工)"
+        },
+        {
+            "material": "DIAMOND",
+            "name": "钻石"
+        },
+        {
+            "material": "PROGRAMMABLE_ANDROID_MINER",
+            "name": "可编程式机器人 (矿工)"
+        },
+        {
+            "material": "DIAMOND",
+            "name": "钻石"
+        },
+        {
+            "material": "FMG_GENERATOR_DIAMOND_BROKEN",
+            "name": "FN钻石生成器 (破损)"
+        },
+        {
+            "material": "DIAMOND",
+            "name": "钻石"
+        },
+        {
+            "material": "PROGRAMMABLE_ANDROID",
+            "name": "可编程式机器人 (普通)"
+        },
+        {
+            "material": "BLAST_FURNACE",
+            "name": "高炉"
+        },
+        {
+            "material": "PROGRAMMABLE_ANDROID",
+            "name": "可编程式机器人 (普通)"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FMG_GENERATOR_EMERALD_BROKEN",
+    "name": "FN绿宝石生成器 (破损)",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "EMERALD_ORE",
+            "name": "绿宝石矿石"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "EMERALD_BLOCK",
+            "name": "绿宝石块"
+        },
+        {
+            "material": "WATER_BUCKET",
+            "name": "水桶"
+        },
+        {
+            "material": "EMERALD_BLOCK",
+            "name": "绿宝石块"
+        },
+        {
+            "material": "SYNTHETIC_EMERALD",
+            "name": "人造绿宝石"
+        },
+        {
+            "material": "DIAMOND_PICKAXE",
+            "name": "钻石镐"
+        },
+        {
+            "material": "SYNTHETIC_EMERALD",
+            "name": "人造绿宝石"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FMG_GENERATOR_EMERALD",
+    "name": "FN绿宝石生成器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "PROGRAMMABLE_ANDROID_MINER",
+            "name": "可编程式机器人 (矿工)"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "PROGRAMMABLE_ANDROID_MINER",
+            "name": "可编程式机器人 (矿工)"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "FMG_GENERATOR_EMERALD_BROKEN",
+            "name": "FN绿宝石生成器 (破损)"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "PROGRAMMABLE_ANDROID",
+            "name": "可编程式机器人 (普通)"
+        },
+        {
+            "material": "BLAST_FURNACE",
+            "name": "高炉"
+        },
+        {
+            "material": "PROGRAMMABLE_ANDROID",
+            "name": "可编程式机器人 (普通)"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FMG_GENERATOR_DIRT_BROKEN",
+    "name": "FN泥土生成器 (破损)",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "DIRT",
+            "name": "泥土"
+        },
+        {
+            "material": "DIAMOND_SHOVEL",
+            "name": "钻石锹"
+        },
+        {
+            "material": "DIRT",
+            "name": "泥土"
+        },
+        {
+            "material": "DIAMOND_SHOVEL",
+            "name": "钻石锹"
+        },
+        {
+            "material": "WATER_BUCKET",
+            "name": "水桶"
+        },
+        {
+            "material": "IRON_SHOVEL",
+            "name": "铁锹"
+        },
+        {
+            "material": "SOLDER_INGOT",
+            "name": "焊锡锭"
+        },
+        {
+            "material": "DIAMOND_PICKAXE",
+            "name": "钻石镐"
+        },
+        {
+            "material": "SOLDER_INGOT",
+            "name": "焊锡锭"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FMG_GENERATOR_DIRT",
+    "name": "FN泥土生成器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "GOLDEN_SHOVEL",
+            "name": "金锹"
+        },
+        {
+            "material": "DIRT",
+            "name": "泥土"
+        },
+        {
+            "material": "GOLDEN_SHOVEL",
+            "name": "金锹"
+        },
+        {
+            "material": "DIRT",
+            "name": "泥土"
+        },
+        {
+            "material": "FMG_GENERATOR_DIRT_BROKEN",
+            "name": "FN泥土生成器 (破损)"
+        },
+        {
+            "material": "DIRT",
+            "name": "泥土"
+        },
+        {
+            "material": "MAGNESIUM_INGOT",
+            "name": "镁锭"
+        },
+        {
+            "material": "BLAST_FURNACE",
+            "name": "高炉"
+        },
+        {
+            "material": "MAGNESIUM_INGOT",
+            "name": "镁锭"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FMG_GENERATOR_HONEYCOMB_BROKEN",
+    "name": "FN蜜脾生成器 (破损)",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "HONEYCOMB",
+            "name": "蜜脾"
+        },
+        {
+            "material": "HONEY_BOTTLE",
+            "name": "蜂蜜瓶"
+        },
+        {
+            "material": "HONEYCOMB",
+            "name": "蜜脾"
+        },
+        {
+            "material": "DIAMOND_SHOVEL",
+            "name": "钻石锹"
+        },
+        {
+            "material": "WATER_BUCKET",
+            "name": "水桶"
+        },
+        {
+            "material": "IRON_SHOVEL",
+            "name": "铁锹"
+        },
+        {
+            "material": "REINFORCED_PLATE",
+            "name": "钢筋板"
+        },
+        {
+            "material": "HONEY_BLOCK",
+            "name": "蜂蜜块"
+        },
+        {
+            "material": "REINFORCED_PLATE",
+            "name": "钢筋板"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FMG_GENERATOR_HONEYCOMB",
+    "name": "FN蜜脾生成器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "HONEYCOMB_BLOCK",
+            "name": "蜜脾块"
+        },
+        {
+            "material": "FMG_GENERATOR_DIRT",
+            "name": "FN泥土生成器"
+        },
+        {
+            "material": "HONEYCOMB_BLOCK",
+            "name": "蜜脾块"
+        },
+        {
+            "material": "HONEYCOMB",
+            "name": "蜜脾"
+        },
+        {
+            "material": "FMG_GENERATOR_HONEYCOMB_BROKEN",
+            "name": "FN蜜脾生成器 (破损)"
+        },
+        {
+            "material": "HONEYCOMB",
+            "name": "蜜脾"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "name": "强化合金锭"
+        },
+        {
+            "material": "BLAST_FURNACE",
+            "name": "高炉"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "name": "强化合金锭"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FMG_GENERATOR_QUARTZ_BROKEN",
+    "name": "FN石英生成器 (破损)",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "NETHERRACK",
+            "name": "下界岩"
+        },
+        {
+            "material": "GOLDEN_SHOVEL",
+            "name": "金锹"
+        },
+        {
+            "material": "NETHERRACK",
+            "name": "下界岩"
+        },
+        {
+            "material": "IRON_SHOVEL",
+            "name": "铁锹"
+        },
+        {
+            "material": "QUARTZ_BLOCK",
+            "name": "石英块"
+        },
+        {
+            "material": "IRON_SHOVEL",
+            "name": "铁锹"
+        },
+        {
+            "material": "STEEL_PLATE",
+            "name": "钢板"
+        },
+        {
+            "material": "NETHERRACK",
+            "name": "下界岩"
+        },
+        {
+            "material": "STEEL_PLATE",
+            "name": "钢板"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FMG_GENERATOR_QUARTZ",
+    "name": "FN石英生成器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "IRON_PICKAXE",
+            "name": "铁镐"
+        },
+        {
+            "material": "IRON_PICKAXE",
+            "name": "铁镐"
+        },
+        {
+            "material": "IRON_PICKAXE",
+            "name": "铁镐"
+        },
+        {
+            "material": "QUARTZ",
+            "name": "下界石英"
+        },
+        {
+            "material": "FMG_GENERATOR_QUARTZ_BROKEN",
+            "name": "FN石英生成器 (破损)"
+        },
+        {
+            "material": "QUARTZ",
+            "name": "下界石英"
+        },
+        {
+            "material": "SMG_GENERATOR_COBBLESTONE",
+            "name": "圆石生成器"
+        },
+        {
+            "material": "BLAST_FURNACE",
+            "name": "高炉"
+        },
+        {
+            "material": "SMG_GENERATOR_COBBLESTONE",
+            "name": "圆石生成器"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FMG_GENERATOR_AMETHYST_BROKEN",
+    "name": "FN紫水晶生成器 (破损)",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FMG_GENERATOR_QUARTZ",
+            "name": "FN石英生成器"
+        },
+        {
+            "material": "NETHERITE_PICKAXE",
+            "name": "下界合金镐"
+        },
+        {
+            "material": "FMG_GENERATOR_QUARTZ",
+            "name": "FN石英生成器"
+        },
+        {
+            "material": "NETHERITE_PICKAXE",
+            "name": "下界合金镐"
+        },
+        {
+            "material": "AMETHYST_BLOCK",
+            "name": "紫水晶块"
+        },
+        {
+            "material": "NETHERITE_PICKAXE",
+            "name": "下界合金镐"
+        },
+        {
+            "material": "FN_MACHINERY_REINFORCED_CASING",
+            "name": "强化合金镀膜"
+        },
+        {
+            "material": "SMG_GENERATOR_NETHERRACK",
+            "name": "远古残骸生成器"
+        },
+        {
+            "material": "FN_MACHINERY_REINFORCED_CASING",
+            "name": "强化合金镀膜"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FMG_GENERATOR_AMETHYST",
+    "name": "FN紫水晶生成器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "DIAMOND_PICKAXE",
+            "name": "钻石镐"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "name": "强化合金锭"
+        },
+        {
+            "material": "DIAMOND_PICKAXE",
+            "name": "钻石镐"
+        },
+        {
+            "material": "AMETHYST_CLUSTER",
+            "name": "紫水晶簇"
+        },
+        {
+            "material": "FMG_GENERATOR_AMETHYST_BROKEN",
+            "name": "FN紫水晶生成器 (破损)"
+        },
+        {
+            "material": "AMETHYST_CLUSTER",
+            "name": "紫水晶簇"
+        },
+        {
+            "material": "AMETHYST_BLOCK",
+            "name": "紫水晶块"
+        },
+        {
+            "material": "BLAST_FURNACE",
+            "name": "高炉"
+        },
+        {
+            "material": "AMETHYST_BLOCK",
+            "name": "紫水晶块"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_POWER_XPANSION_POWER_R1",
+    "name": "FN 功率扩展 R1",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "name": "电源组件"
+        },
+        {
+            "material": "IRIDIUM",
+            "amount": 3,
+            "name": "铱"
+        },
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_MACHINERY_BASIC_MACHINE_BLOCK",
+            "name": "基础机器核心"
+        },
+        {
+            "material": "SOLAR_GENERATOR_4",
+            "name": "充能太阳能发电机"
+        },
+        {
+            "material": "FN_MACHINERY_BASIC_MACHINE_BLOCK",
+            "name": "基础机器核心"
+        },
+        {
+            "material": "BASIC_CIRCUIT_BOARD",
+            "name": "基础电路板"
+        },
+        {
+            "material": "FN_MACHINERY_ALUMINUM_PLATING",
+            "name": "铝镀膜"
+        },
+        {
+            "material": "BASIC_CIRCUIT_BOARD",
+            "name": "基础电路板"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_POWER_XPANSION_POWER_R2",
+    "name": "FN 功率扩展 R2",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_POWER_XPANSION_POWER_R1",
+            "name": "FN 功率扩展 R1"
+        },
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_MACHINERY_BASIC_MACHINE_BLOCK",
+            "name": "基础机器核心"
+        },
+        {
+            "material": "IRIDIUM",
+            "amount": 6,
+            "name": "铱"
+        },
+        {
+            "material": "FN_MACHINERY_BASIC_MACHINE_BLOCK",
+            "name": "基础机器核心"
+        },
+        {
+            "material": "BASIC_CIRCUIT_BOARD",
+            "name": "基础电路板"
+        },
+        {
+            "material": "FN_MACHINERY_ALUMINUM_PLATING",
+            "name": "铝镀膜"
+        },
+        {
+            "material": "BASIC_CIRCUIT_BOARD",
+            "name": "基础电路板"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_POWER_XPANSION_POWER_R3",
+    "name": "FN 功率扩展 R3",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_POWER_XPANSION_POWER_R2",
+            "name": "FN 功率扩展 R2"
+        },
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_MACHINERY_BASIC_MACHINE_BLOCK",
+            "name": "基础机器核心"
+        },
+        {
+            "material": "IRIDIUM",
+            "amount": 9,
+            "name": "铱"
+        },
+        {
+            "material": "FN_MACHINERY_BASIC_MACHINE_BLOCK",
+            "name": "基础机器核心"
+        },
+        {
+            "material": "BASIC_CIRCUIT_BOARD",
+            "name": "基础电路板"
+        },
+        {
+            "material": "FN_MACHINERY_ALUMINUM_PLATING",
+            "name": "铝镀膜"
+        },
+        {
+            "material": "BASIC_CIRCUIT_BOARD",
+            "name": "基础电路板"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_POWER_XPANSION_POWER_R4",
+    "name": "FN 功率扩展 R4",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_POWER_XPANSION_POWER_R3",
+            "name": "FN 功率扩展 R3"
+        },
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_MACHINERY_BASIC_MACHINE_BLOCK",
+            "name": "基础机器核心"
+        },
+        {
+            "material": "IRIDIUM",
+            "amount": 12,
+            "name": "铱"
+        },
+        {
+            "material": "FN_MACHINERY_BASIC_MACHINE_BLOCK",
+            "name": "基础机器核心"
+        },
+        {
+            "material": "ADVANCED_CIRCUIT_BOARD",
+            "name": "高级电路板"
+        },
+        {
+            "material": "FN_MACHINERY_GOLD_PLATING",
+            "name": "黄金镀膜"
+        },
+        {
+            "material": "ADVANCED_CIRCUIT_BOARD",
+            "name": "高级电路板"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_POWER_XPANSION_POWER_R5",
+    "name": "FN 功率扩展 R5",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_POWER_XPANSION_POWER_R4",
+            "name": "FN 功率扩展 R4"
+        },
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_MACHINERY_HIGHTECH_MACHINE_BLOCK",
+            "name": "高科技机器核心"
+        },
+        {
+            "material": "IRIDIUM",
+            "amount": 15,
+            "name": "铱"
+        },
+        {
+            "material": "FN_MACHINERY_HIGHTECH_MACHINE_BLOCK",
+            "name": "高科技机器核心"
+        },
+        {
+            "material": "FN_FAL_GENERATOR_TIER1",
+            "name": "FN太阳能发电机组 I"
+        },
+        {
+            "material": "FN_MACHINERY_GOLD_PLATING",
+            "name": "黄金镀膜"
+        },
+        {
+            "material": "ADVANCED_CIRCUIT_BOARD",
+            "name": "高级电路板"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_POWER_XPANSION_POWER_R6",
+    "name": "FN 功率扩展 R6",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_POWER_XPANSION_POWER_R5",
+            "name": "FN 功率扩展 R5"
+        },
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "name": "齿轮"
+        },
+        {
+            "material": "FN_MACHINERY_HIGHTECH_MACHINE_BLOCK",
+            "name": "高科技机器核心"
+        },
+        {
+            "material": "IRIDIUM",
+            "amount": 18,
+            "name": "铱"
+        },
+        {
+            "material": "FN_MACHINERY_HIGHTECH_MACHINE_BLOCK",
+            "name": "高科技机器核心"
+        },
+        {
+            "material": "FN_FAL_GENERATOR_TIER2",
+            "name": "FN太阳能发电机组 II"
+        },
+        {
+            "material": "FN_MACHINERY_GOLD_PLATING",
+            "name": "黄金镀膜"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "name": "强化合金锭"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_POWER_XPANSION_POWER_R7",
+    "name": "FN 功率扩展 R7",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_POWER_XPANSION_POWER_R6",
+            "name": "FN 功率扩展 R6"
+        },
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "name": "齿轮"
+        },
+        {
+            "material": "FN_MACHINERY_HIGHTECH_MACHINE_BLOCK",
+            "name": "高科技机器核心"
+        },
+        {
+            "material": "IRIDIUM",
+            "amount": 21,
+            "name": "铱"
+        },
+        {
+            "material": "FN_MACHINERY_HIGHTECH_MACHINE_BLOCK",
+            "name": "高科技机器核心"
+        },
+        {
+            "material": "FN_FAL_GENERATOR_TIER3",
+            "name": "FN太阳能发电机组 III"
+        },
+        {
+            "material": "FN_MACHINERY_BRASS_PLATING",
+            "name": "黄铜镀膜"
+        },
+        {
+            "material": "BLISTERING_INGOT",
+            "name": "起泡锭 (33%)"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_POWER_XPANSION_POWER_R8",
+    "name": "FN 功率扩展 R8",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_POWER_XPANSION_POWER_R7",
+            "name": "FN 功率扩展 R7"
+        },
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "name": "齿轮"
+        },
+        {
+            "material": "FN_MACHINERY_HIGHTECH_MACHINE_BLOCK",
+            "name": "高科技机器核心"
+        },
+        {
+            "material": "IRIDIUM",
+            "amount": 24,
+            "name": "铱"
+        },
+        {
+            "material": "FN_MACHINERY_HIGHTECH_MACHINE_BLOCK",
+            "name": "高科技机器核心"
+        },
+        {
+            "material": "BLISTERING_INGOT_2",
+            "name": "起泡锭 (66%)"
+        },
+        {
+            "material": "FN_FAL_GENERATOR_TIER4",
+            "name": "FN太阳能发电机组 IV"
+        },
+        {
+            "material": "BLISTERING_INGOT_2",
+            "name": "起泡锭 (66%)"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_POWER_XPANSION_POWER_R9",
+    "name": "FN 功率扩展 R9",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_POWER_XPANSION_POWER_R8",
+            "name": "FN 功率扩展 R8"
+        },
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "name": "齿轮"
+        },
+        {
+            "material": "FN_MACHINERY_HIGHTECH_MACHINE_BLOCK",
+            "name": "高科技机器核心"
+        },
+        {
+            "material": "IRIDIUM",
+            "amount": 27,
+            "name": "铱"
+        },
+        {
+            "material": "FN_MACHINERY_HIGHTECH_MACHINE_BLOCK",
+            "name": "高科技机器核心"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "name": "强化合金锭"
+        },
+        {
+            "material": "FN_FAL_GENERATOR_TIER5",
+            "name": "FN太阳能发电机组 V"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "name": "强化合金锭"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_POWER_XPANSION_POWER_R10",
+    "name": "FN 功率扩展 R10",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_POWER_XPANSION_POWER_R9",
+            "name": "FN 功率扩展 R9"
+        },
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "name": "齿轮"
+        },
+        {
+            "material": "ENERGIZED_CAPACITOR",
+            "name": "终极储能电容"
+        },
+        {
+            "material": "IRIDIUM",
+            "amount": 32,
+            "name": "铱"
+        },
+        {
+            "material": "ENERGIZED_CAPACITOR",
+            "name": "终极储能电容"
+        },
+        {
+            "material": "URANIUM",
+            "name": "铀"
+        },
+        {
+            "material": "FN_FAL_GENERATOR_TIER6",
+            "name": "FN太阳能发电机组 VI"
+        },
+        {
+            "material": "URANIUM",
+            "name": "铀"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_POWER_XPANSION_POWER_R11",
+    "name": "FN 功率扩展 R11",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_POWER_XPANSION_POWER_R10",
+            "name": "FN 功率扩展 R10"
+        },
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "name": "齿轮"
+        },
+        {
+            "material": "ENERGIZED_CAPACITOR",
+            "name": "终极储能电容"
+        },
+        {
+            "material": "IRIDIUM",
+            "amount": 36,
+            "name": "铱"
+        },
+        {
+            "material": "ENERGIZED_CAPACITOR",
+            "name": "终极储能电容"
+        },
+        {
+            "material": "NEPTUNIUM",
+            "name": "镎"
+        },
+        {
+            "material": "FN_FAL_GENERATOR_TIER7",
+            "name": "FN太阳能发电机组 VII"
+        },
+        {
+            "material": "NEPTUNIUM",
+            "name": "镎"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_POWER_XPANSION_POWER_R12",
+    "name": "FN 功率扩展 R12",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_POWER_XPANSION_POWER_R11",
+            "name": "FN 功率扩展 R11"
+        },
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "name": "齿轮"
+        },
+        {
+            "material": "ENERGIZED_CAPACITOR",
+            "name": "终极储能电容"
+        },
+        {
+            "material": "IRIDIUM",
+            "amount": 40,
+            "name": "铱"
+        },
+        {
+            "material": "ENERGIZED_CAPACITOR",
+            "name": "终极储能电容"
+        },
+        {
+            "material": "FN_MACHINERY_REINFORCED_CASING",
+            "name": "强化合金镀膜"
+        },
+        {
+            "material": "FN_POWER_XPANSION_POWER_R5",
+            "name": "FN 功率扩展 R5"
+        },
+        {
+            "material": "BOOSTED_URANIUM",
+            "name": "钚铀混合氧化物核燃料"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_FAL_GENERATOR_TIER1",
+    "name": "FN太阳能发电机组 I",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "SOLAR_GENERATOR_2",
+            "name": "高级太阳能发电机"
+        },
+        {
+            "material": "SOLAR_GENERATOR",
+            "name": "太阳能发电机"
+        },
+        {
+            "material": "SOLAR_GENERATOR_2",
+            "name": "高级太阳能发电机"
+        },
+        {
+            "material": "BIG_CAPACITOR",
+            "name": "大型储能电容"
+        },
+        {
+            "material": "POWER_CRYSTAL",
+            "name": "能量水晶"
+        },
+        {
+            "material": "BIG_CAPACITOR",
+            "name": "大型储能电容"
+        },
+        {
+            "material": "SOLAR_GENERATOR_2",
+            "name": "高级太阳能发电机"
+        },
+        {
+            "material": "SOLAR_GENERATOR_3",
+            "name": "黑金刚石太阳能发电机"
+        },
+        {
+            "material": "SOLAR_GENERATOR_2",
+            "name": "高级太阳能发电机"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_FAL_GENERATOR_TIER2",
+    "name": "FN太阳能发电机组 II",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "MEDIUM_CAPACITOR",
+            "name": "中型储能电容"
+        },
+        {
+            "material": "FN_FAL_GENERATOR_TIER1",
+            "name": "FN太阳能发电机组 I"
+        },
+        {
+            "material": "MEDIUM_CAPACITOR",
+            "name": "中型储能电容"
+        },
+        {
+            "material": "BIG_CAPACITOR",
+            "name": "大型储能电容"
+        },
+        {
+            "material": "POWER_CRYSTAL",
+            "name": "能量水晶"
+        },
+        {
+            "material": "BIG_CAPACITOR",
+            "name": "大型储能电容"
+        },
+        {
+            "material": "BIG_CAPACITOR",
+            "name": "大型储能电容"
+        },
+        {
+            "material": "FN_FAL_GENERATOR_TIER1",
+            "name": "FN太阳能发电机组 I"
+        },
+        {
+            "material": "BIG_CAPACITOR",
+            "name": "大型储能电容"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_FAL_GENERATOR_TIER3",
+    "name": "FN太阳能发电机组 III",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BIG_CAPACITOR",
+            "name": "大型储能电容"
+        },
+        {
+            "material": "FN_FAL_GENERATOR_TIER1",
+            "name": "FN太阳能发电机组 I"
+        },
+        {
+            "material": "BIG_CAPACITOR",
+            "name": "大型储能电容"
+        },
+        {
+            "material": "FN_FAL_GENERATOR_TIER1",
+            "name": "FN太阳能发电机组 I"
+        },
+        {
+            "material": "POWER_CRYSTAL",
+            "name": "能量水晶"
+        },
+        {
+            "material": "FN_FAL_GENERATOR_TIER1",
+            "name": "FN太阳能发电机组 I"
+        },
+        {
+            "material": "BIG_CAPACITOR",
+            "name": "大型储能电容"
+        },
+        {
+            "material": "BIG_CAPACITOR",
+            "name": "大型储能电容"
+        },
+        {
+            "material": "BIG_CAPACITOR",
+            "name": "大型储能电容"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_FAL_GENERATOR_TIER4",
+    "name": "FN太阳能发电机组 IV",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "SOLAR_GENERATOR_2",
+            "name": "高级太阳能发电机"
+        },
+        {
+            "material": "FN_FAL_GENERATOR_TIER3",
+            "name": "FN太阳能发电机组 III"
+        },
+        {
+            "material": "SOLAR_GENERATOR_2",
+            "name": "高级太阳能发电机"
+        },
+        {
+            "material": "DURALUMIN_INGOT",
+            "name": "硬铝锭"
+        },
+        {
+            "material": "POWER_CRYSTAL",
+            "name": "能量水晶"
+        },
+        {
+            "material": "DURALUMIN_INGOT",
+            "name": "硬铝锭"
+        },
+        {
+            "material": "BIG_CAPACITOR",
+            "name": "大型储能电容"
+        },
+        {
+            "material": "LARGE_CAPACITOR",
+            "name": "巨型储能电容"
+        },
+        {
+            "material": "BIG_CAPACITOR",
+            "name": "大型储能电容"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_FAL_GENERATOR_TIER5",
+    "name": "FN太阳能发电机组 V",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BIG_CAPACITOR",
+            "name": "大型储能电容"
+        },
+        {
+            "material": "BIG_CAPACITOR",
+            "name": "大型储能电容"
+        },
+        {
+            "material": "BIG_CAPACITOR",
+            "name": "大型储能电容"
+        },
+        {
+            "material": "FN_FAL_GENERATOR_TIER1",
+            "name": "FN太阳能发电机组 I"
+        },
+        {
+            "material": "FN_FAL_GENERATOR_TIER2",
+            "name": "FN太阳能发电机组 II"
+        },
+        {
+            "material": "FN_FAL_GENERATOR_TIER1",
+            "name": "FN太阳能发电机组 I"
+        },
+        {
+            "material": "STEEL_INGOT",
+            "name": "钢锭"
+        },
+        {
+            "material": "LARGE_CAPACITOR",
+            "name": "巨型储能电容"
+        },
+        {
+            "material": "STEEL_INGOT",
+            "name": "钢锭"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_FAL_GENERATOR_TIER6",
+    "name": "FN太阳能发电机组 VI",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "STEEL_INGOT",
+            "name": "钢锭"
+        },
+        {
+            "material": "LARGE_CAPACITOR",
+            "name": "巨型储能电容"
+        },
+        {
+            "material": "STEEL_INGOT",
+            "name": "钢锭"
+        },
+        {
+            "material": "DAMASCUS_STEEL_INGOT",
+            "name": "大马士革钢锭"
+        },
+        {
+            "material": "POWER_CRYSTAL",
+            "name": "能量水晶"
+        },
+        {
+            "material": "DAMASCUS_STEEL_INGOT",
+            "name": "大马士革钢锭"
+        },
+        {
+            "material": "FN_FAL_GENERATOR_TIER2",
+            "name": "FN太阳能发电机组 II"
+        },
+        {
+            "material": "FN_FAL_GENERATOR_TIER3",
+            "name": "FN太阳能发电机组 III"
+        },
+        {
+            "material": "FN_FAL_GENERATOR_TIER2",
+            "name": "FN太阳能发电机组 II"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_FAL_GENERATOR_TIER7",
+    "name": "FN太阳能发电机组 VII",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "HARDENED_METAL_INGOT",
+            "name": "硬化金属"
+        },
+        {
+            "material": "FN_FAL_GENERATOR_TIER5",
+            "name": "FN太阳能发电机组 V"
+        },
+        {
+            "material": "HARDENED_METAL_INGOT",
+            "name": "硬化金属"
+        },
+        {
+            "material": "LARGE_CAPACITOR",
+            "name": "巨型储能电容"
+        },
+        {
+            "material": "POWER_CRYSTAL",
+            "name": "能量水晶"
+        },
+        {
+            "material": "LARGE_CAPACITOR",
+            "name": "巨型储能电容"
+        },
+        {
+            "material": "DAMASCUS_STEEL_INGOT",
+            "name": "大马士革钢锭"
+        },
+        {
+            "material": "FN_FAL_GENERATOR_TIER1",
+            "name": "FN太阳能发电机组 I"
+        },
+        {
+            "material": "DAMASCUS_STEEL_INGOT",
+            "name": "大马士革钢锭"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_FAL_GENERATOR_TIER8",
+    "name": "FN太阳能发电机组 VIII",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BIG_CAPACITOR",
+            "name": "大型储能电容"
+        },
+        {
+            "material": "FN_FAL_GENERATOR_TIER6",
+            "name": "FN太阳能发电机组 VI"
+        },
+        {
+            "material": "BIG_CAPACITOR",
+            "name": "大型储能电容"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "name": "强化合金锭"
+        },
+        {
+            "material": "POWER_CRYSTAL",
+            "name": "能量水晶"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "name": "强化合金锭"
+        },
+        {
+            "material": "LARGE_CAPACITOR",
+            "name": "巨型储能电容"
+        },
+        {
+            "material": "FN_FAL_GENERATOR_TIER1",
+            "name": "FN太阳能发电机组 I"
+        },
+        {
+            "material": "LARGE_CAPACITOR",
+            "name": "巨型储能电容"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_BLOCK_BREAKER_I",
+    "name": "电动方块挖掘机 I",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "name": "齿轮"
+        },
+        {
+            "material": "FN_MACHINERY_COMPONENT_PART",
+            "name": "散热器"
+        },
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "name": "齿轮"
+        },
+        {
+            "material": "DIAMOND_PICKAXE",
+            "name": "钻石镐"
+        },
+        {
+            "material": "FN_MACHINERY_BASIC_MACHINE_BLOCK",
+            "name": "基础机器核心"
+        },
+        {
+            "material": "IRON_PICKAXE",
+            "name": "铁镐"
+        },
+        {
+            "material": "FN_MACHINERY_ALUMINUM_PLATING",
+            "name": "铝镀膜"
+        },
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_MACHINERY_ALUMINUM_PLATING",
+            "name": "铝镀膜"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_BLOCK_BREAKER_II",
+    "name": "电动方块挖掘机 II",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "amount": 2,
+            "name": "齿轮"
+        },
+        {
+            "material": "FN_MACHINERY_COMPONENT_PART",
+            "name": "散热器"
+        },
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "amount": 2,
+            "name": "齿轮"
+        },
+        {
+            "material": "FN_BLOCK_BREAKER_I",
+            "name": "电动方块挖掘机 I"
+        },
+        {
+            "material": "FN_MACHINERY_BASIC_MACHINE_BLOCK",
+            "amount": 2,
+            "name": "基础机器核心"
+        },
+        {
+            "material": "DIAMOND_PICKAXE",
+            "name": "钻石镐"
+        },
+        {
+            "material": "FN_MACHINERY_BRASS_PLATING",
+            "name": "黄铜镀膜"
+        },
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "amount": 2,
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_MACHINERY_BRASS_PLATING",
+            "name": "黄铜镀膜"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_BLOCK_BREAKER_III",
+    "name": "电动方块挖掘机 III",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "amount": 3,
+            "name": "齿轮"
+        },
+        {
+            "material": "FN_MACHINERY_COMPONENT_PART",
+            "name": "散热器"
+        },
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "amount": 3,
+            "name": "齿轮"
+        },
+        {
+            "material": "FN_BLOCK_BREAKER_I",
+            "name": "电动方块挖掘机 I"
+        },
+        {
+            "material": "FN_MACHINERY_HIGHTECH_MACHINE_BLOCK",
+            "name": "高科技机器核心"
+        },
+        {
+            "material": "FN_BLOCK_BREAKER_II",
+            "name": "电动方块挖掘机 II"
+        },
+        {
+            "material": "FN_MACHINERY_REINFORCED_CASING",
+            "name": "强化合金镀膜"
+        },
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "amount": 2,
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_MACHINERY_REINFORCED_CASING",
+            "name": "强化合金镀膜"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_FAL_COMPRESSOR_1",
+    "name": "FN液压机 I",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_COMPRESSOR_PART",
+            "name": "压缩零件"
+        },
+        {
+            "material": "FN_MACHINERY_THREAD_PART",
+            "name": "镶件螺纹"
+        },
+        {
+            "material": "FN_MACHINERY_MOTOR_SWITCH",
+            "name": "马达开关"
+        },
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "name": "齿轮"
+        },
+        {
+            "material": "FN_MACHINERY_BASIC_MACHINE_BLOCK",
+            "name": "基础机器核心"
+        },
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "name": "齿轮"
+        },
+        {
+            "material": "FN_MACHINERY_CONDENSER_PART",
+            "name": "冷凝器"
+        },
+        {
+            "material": "FN_MACHINERY_ALUMINUM_PLATING",
+            "name": "铝镀膜"
+        },
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "name": "电源组件"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_FAL_COMPRESSOR_2",
+    "name": "FN液压机 II",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_COMPRESSOR_PART",
+            "amount": 2,
+            "name": "压缩零件"
+        },
+        {
+            "material": "FN_MACHINERY_THREAD_PART",
+            "amount": 2,
+            "name": "镶件螺纹"
+        },
+        {
+            "material": "FN_MACHINERY_MOTOR_SWITCH",
+            "name": "马达开关"
+        },
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "amount": 4,
+            "name": "齿轮"
+        },
+        {
+            "material": "FN_MACHINERY_BASIC_MACHINE_BLOCK",
+            "name": "基础机器核心"
+        },
+        {
+            "material": "FN_FAL_COMPRESSOR_1",
+            "name": "FN液压机 I"
+        },
+        {
+            "material": "FN_MACHINERY_CONDENSER_PART",
+            "name": "冷凝器"
+        },
+        {
+            "material": "FN_MACHINERY_DIAMOND_PLATING",
+            "name": "金刚石镀膜"
+        },
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "name": "电源组件"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_FAL_COMPRESSOR_3",
+    "name": "FN液压机 III",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_COMPRESSOR_PART",
+            "amount": 3,
+            "name": "压缩零件"
+        },
+        {
+            "material": "FN_MACHINERY_COMPONENT_PART",
+            "amount": 2,
+            "name": "散热器"
+        },
+        {
+            "material": "FN_MACHINERY_MOTOR_SWITCH",
+            "name": "马达开关"
+        },
+        {
+            "material": "FN_FAL_COMPRESSOR_2",
+            "name": "FN液压机 II"
+        },
+        {
+            "material": "FN_MACHINERY_HIGHTECH_MACHINE_BLOCK",
+            "name": "高科技机器核心"
+        },
+        {
+            "material": "FN_FAL_COMPRESSOR_2",
+            "name": "FN液压机 II"
+        },
+        {
+            "material": "FN_MACHINERY_CONDENSER_PART",
+            "name": "冷凝器"
+        },
+        {
+            "material": "FN_MACHINERY_REINFORCED_CASING",
+            "name": "强化合金镀膜"
+        },
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "name": "电源组件"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_FAL_CONDENSER_1",
+    "name": "FN电锭冷凝机 I",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_MOTOR_SWITCH",
+            "name": "马达开关"
+        },
+        {
+            "material": "FN_MACHINERY_THREAD_PART",
+            "name": "镶件螺纹"
+        },
+        {
+            "material": "FN_MACHINERY_FUNNEL_PART",
+            "name": "金属漏斗"
+        },
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "name": "齿轮"
+        },
+        {
+            "material": "FN_MACHINERY_BASIC_MACHINE_BLOCK",
+            "name": "基础机器核心"
+        },
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_MACHINERY_COMPRESSOR_PART",
+            "name": "压缩零件"
+        },
+        {
+            "material": "FN_MACHINERY_GOLD_PLATING",
+            "name": "黄金镀膜"
+        },
+        {
+            "material": "FN_MACHINERY_COMPRESSOR_PART",
+            "name": "压缩零件"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_FAL_CONDENSER_2",
+    "name": "FN电锭冷凝机 II",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_MOTOR_SWITCH",
+            "name": "马达开关"
+        },
+        {
+            "material": "FN_FAL_CONDENSER_1",
+            "name": "FN电锭冷凝机 I"
+        },
+        {
+            "material": "FN_MACHINERY_FUNNEL_PART",
+            "name": "金属漏斗"
+        },
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "amount": 2,
+            "name": "齿轮"
+        },
+        {
+            "material": "FN_MACHINERY_BASIC_MACHINE_BLOCK",
+            "name": "基础机器核心"
+        },
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "amount": 2,
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_MACHINERY_THREAD_PART",
+            "name": "镶件螺纹"
+        },
+        {
+            "material": "FN_MACHINERY_DIAMOND_PLATING",
+            "name": "金刚石镀膜"
+        },
+        {
+            "material": "FN_MACHINERY_COMPONENT_PART",
+            "name": "散热器"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_FAL_CONDENSER_3",
+    "name": "FN电锭冷凝机 III",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_FAL_CONDENSER_1",
+            "name": "FN电锭冷凝机 I"
+        },
+        {
+            "material": "FN_FAL_CONDENSER_1",
+            "name": "FN电锭冷凝机 I"
+        },
+        {
+            "material": "FN_FAL_CONDENSER_1",
+            "name": "FN电锭冷凝机 I"
+        },
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "amount": 3,
+            "name": "齿轮"
+        },
+        {
+            "material": "FN_MACHINERY_HIGHTECH_MACHINE_BLOCK",
+            "name": "高科技机器核心"
+        },
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "amount": 3,
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_MACHINERY_THREAD_PART",
+            "name": "镶件螺纹"
+        },
+        {
+            "material": "FN_MACHINERY_REINFORCED_CASING",
+            "name": "强化合金镀膜"
+        },
+        {
+            "material": "FN_MACHINERY_COMPONENT_PART",
+            "name": "散热器"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_FAL_DOWNGRADER",
+    "name": "电机降级器",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_COMPRESSOR_PART",
+            "name": "压缩零件"
+        },
+        {
+            "material": "FN_MACHINERY_DOWNGRADER_PART",
+            "name": "降级器"
+        },
+        {
+            "material": "FN_MACHINERY_RECYCLER_PART",
+            "name": "回收器"
+        },
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "amount": 2,
+            "name": "齿轮"
+        },
+        {
+            "material": "FN_MACHINERY_HIGHTECH_MACHINE_BLOCK",
+            "name": "高科技机器核心"
+        },
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "amount": 2,
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_MACHINERY_CONDENSER_PART",
+            "name": "冷凝器"
+        },
+        {
+            "material": "FN_MACHINERY_REINFORCED_CASING",
+            "name": "强化合金镀膜"
+        },
+        {
+            "material": "FN_MACHINERY_MOTOR_SWITCH",
+            "name": "马达开关"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_FAL_RECYCLER_1",
+    "name": "FN电动回收机 I",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_FUNNEL_PART",
+            "name": "金属漏斗"
+        },
+        {
+            "material": "FN_MACHINERY_RECYCLER_PART",
+            "name": "回收器"
+        },
+        {
+            "material": "FN_MACHINERY_COMPRESSOR_PART",
+            "name": "压缩零件"
+        },
+        {
+            "material": "FN_MACHINERY_THREAD_PART",
+            "name": "镶件螺纹"
+        },
+        {
+            "material": "FN_MACHINERY_BASIC_MACHINE_BLOCK",
+            "name": "基础机器核心"
+        },
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_MACHINERY_CONDENSER_PART",
+            "name": "冷凝器"
+        },
+        {
+            "material": "FN_MACHINERY_BRASS_PLATING",
+            "name": "黄铜镀膜"
+        },
+        {
+            "material": "FN_MACHINERY_MOTOR_SWITCH",
+            "name": "马达开关"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_FAL_RECYCLER_2",
+    "name": "FN电动回收机 II",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_FUNNEL_PART",
+            "amount": 2,
+            "name": "金属漏斗"
+        },
+        {
+            "material": "FN_MACHINERY_RECYCLER_PART",
+            "name": "回收器"
+        },
+        {
+            "material": "FN_MACHINERY_COMPRESSOR_PART",
+            "name": "压缩零件"
+        },
+        {
+            "material": "FN_MACHINERY_THREAD_PART",
+            "name": "镶件螺纹"
+        },
+        {
+            "material": "FN_MACHINERY_BASIC_MACHINE_BLOCK",
+            "name": "基础机器核心"
+        },
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "amount": 2,
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_FAL_RECYCLER_1",
+            "name": "FN电动回收机 I"
+        },
+        {
+            "material": "FN_MACHINERY_ALUMINUM_PLATING",
+            "name": "铝镀膜"
+        },
+        {
+            "material": "FN_MACHINERY_MOTOR_SWITCH",
+            "name": "马达开关"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_FAL_RECYCLER_3",
+    "name": "FN电动回收机 III",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_RECYCLER_PART",
+            "amount": 3,
+            "name": "回收器"
+        },
+        {
+            "material": "FN_FAL_RECYCLER_1",
+            "name": "FN电动回收机 I"
+        },
+        {
+            "material": "FN_MACHINERY_COMPRESSOR_PART",
+            "name": "压缩零件"
+        },
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "name": "齿轮"
+        },
+        {
+            "material": "FN_MACHINERY_HIGHTECH_MACHINE_BLOCK",
+            "name": "高科技机器核心"
+        },
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "amount": 3,
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_FAL_RECYCLER_1",
+            "name": "FN电动回收机 I"
+        },
+        {
+            "material": "FN_MACHINERY_REINFORCED_CASING",
+            "name": "强化合金镀膜"
+        },
+        {
+            "material": "FN_FAL_RECYCLER_1",
+            "name": "FN电动回收机 I"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_FAL_TRANSFORMER_1",
+    "name": "FN转换机 I",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_FUNNEL_PART",
+            "name": "金属漏斗"
+        },
+        {
+            "material": "FN_MACHINERY_THREAD_PART",
+            "name": "镶件螺纹"
+        },
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "name": "齿轮"
+        },
+        {
+            "material": "FN_MACHINERY_BASIC_MACHINE_BLOCK",
+            "name": "基础机器核心"
+        },
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "name": "齿轮"
+        },
+        {
+            "material": "FN_MACHINERY_COMPRESSOR_PART",
+            "name": "压缩零件"
+        },
+        {
+            "material": "FN_MACHINERY_BRASS_PLATING",
+            "name": "黄铜镀膜"
+        },
+        {
+            "material": "FN_MACHINERY_CONDENSER_PART",
+            "name": "冷凝器"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_FAL_TRANSFORMER_2",
+    "name": "FN转换机 II",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_FUNNEL_PART",
+            "name": "金属漏斗"
+        },
+        {
+            "material": "FN_FAL_TRANSFORMER_1",
+            "name": "FN转换机 I"
+        },
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "amount": 2,
+            "name": "齿轮"
+        },
+        {
+            "material": "FN_MACHINERY_BASIC_MACHINE_BLOCK",
+            "name": "基础机器核心"
+        },
+        {
+            "material": "FN_MACHINERY_GEAR_PART",
+            "amount": 2,
+            "name": "齿轮"
+        },
+        {
+            "material": "FN_MACHINERY_THREAD_PART",
+            "name": "镶件螺纹"
+        },
+        {
+            "material": "FN_MACHINERY_ALUMINUM_PLATING",
+            "name": "铝镀膜"
+        },
+        {
+            "material": "FN_MACHINERY_CONDENSER_PART",
+            "name": "冷凝器"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_FAL_TRANSFORMER_3",
+    "name": "FN转换器 III",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_FUNNEL_PART",
+            "amount": 2,
+            "name": "金属漏斗"
+        },
+        {
+            "material": "FN_FAL_TRANSFORMER_2",
+            "name": "FN转换机 II"
+        },
+        {
+            "material": "FN_MACHINERY_POWER_COMPONENT",
+            "name": "电源组件"
+        },
+        {
+            "material": "FN_FAL_TRANSFORMER_1",
+            "name": "FN转换机 I"
+        },
+        {
+            "material": "FN_MACHINERY_HIGHTECH_MACHINE_BLOCK",
+            "name": "高科技机器核心"
+        },
+        {
+            "material": "FN_FAL_TRANSFORMER_1",
+            "name": "FN转换机 I"
+        },
+        {
+            "material": "FN_MACHINERY_COMPONENT_PART",
+            "name": "散热器"
+        },
+        {
+            "material": "FN_MACHINERY_REINFORCED_CASING",
+            "name": "强化合金镀膜"
+        },
+        {
+            "material": "FN_MACHINERY_CONDENSER_PART",
+            "amount": 2,
+            "name": "冷凝器"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_JUKEBOX_I",
+    "name": "FN点唱机 I",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_BASIC_MACHINE_BLOCK",
+            "name": "基础机器核心"
+        },
+        {
+            "material": "FN_MACHINERY_BRASS_PLATING",
+            "name": "黄铜镀膜"
+        },
+        {
+            "material": "FN_MACHINERY_BASIC_MACHINE_BLOCK",
+            "name": "基础机器核心"
+        },
+        {
+            "material": "COPPER_INGOT",
+            "name": "铜锭"
+        },
+        {
+            "material": "JUKEBOX",
+            "name": "唱片机"
+        },
+        {
+            "material": "COPPER_INGOT",
+            "name": "铜锭"
+        },
+        {
+            "material": "FN_MACHINERY_COMPONENT_PART",
+            "name": "散热器"
+        },
+        {
+            "material": "FN_MACHINERY_BRASS_PLATING",
+            "name": "黄铜镀膜"
+        },
+        {
+            "material": "FN_MACHINERY_COMPONENT_PART",
+            "name": "散热器"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_JUKEBOX_II",
+    "name": "FN点唱机 II",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_ALUMINUM_PLATING",
+            "name": "铝镀膜"
+        },
+        {
+            "material": "FN_MACHINERY_BASIC_MACHINE_BLOCK",
+            "name": "基础机器核心"
+        },
+        {
+            "material": "FN_MACHINERY_ALUMINUM_PLATING",
+            "name": "铝镀膜"
+        },
+        {
+            "material": "ALUMINUM_INGOT",
+            "name": "铝锭"
+        },
+        {
+            "material": "FN_JUKEBOX_I",
+            "name": "FN点唱机 I"
+        },
+        {
+            "material": "ALUMINUM_INGOT",
+            "name": "铝锭"
+        },
+        {
+            "material": "FN_MACHINERY_COMPONENT_PART",
+            "name": "散热器"
+        },
+        {
+            "material": "FN_MACHINERY_COMPONENT_PART",
+            "name": "散热器"
+        },
+        {
+            "material": "FN_MACHINERY_COMPONENT_PART",
+            "name": "散热器"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_JUKEBOX_III",
+    "name": "FN点唱机 III",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MACHINERY_BASIC_MACHINE_BLOCK",
+            "name": "基础机器核心"
+        },
+        {
+            "material": "FN_MACHINERY_COMPONENT_PART",
+            "name": "散热器"
+        },
+        {
+            "material": "FN_MACHINERY_BASIC_MACHINE_BLOCK",
+            "name": "基础机器核心"
+        },
+        {
+            "material": "BRASS_INGOT",
+            "name": "黄铜锭"
+        },
+        {
+            "material": "FN_JUKEBOX_II",
+            "name": "FN点唱机 II"
+        },
+        {
+            "material": "BRASS_INGOT",
+            "name": "黄铜锭"
+        },
+        {
+            "material": "FN_MACHINERY_COMPONENT_PART",
+            "name": "散热器"
+        },
+        {
+            "material": "FN_MACHINERY_REINFORCED_CASING",
+            "name": "强化合金镀膜"
+        },
+        {
+            "material": "FN_MACHINERY_COMPONENT_PART",
+            "name": "散热器"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MYSTERY_STICK_1",
+    "name": "神秘棍",
+    "recipeType": "fnamplifications:fn_mystery_stick_altar",
+    "recipe": [
+        {
+            "material": "MAGIC_LUMP_1",
+            "amount": 8,
+            "name": "魔法结晶 - I"
+        },
+        {
+            "material": "ENDER_LUMP_1",
+            "amount": 6,
+            "name": "末影结晶 - I"
+        },
+        {
+            "material": "ENDER_LUMP_1",
+            "amount": 8,
+            "name": "末影结晶 - I"
+        },
+        {
+            "material": "BLANK_RUNE",
+            "name": "空白符文"
+        },
+        {
+            "material": "STICK",
+            "name": "木棍"
+        },
+        {
+            "material": "BLANK_RUNE",
+            "name": "空白符文"
+        },
+        {
+            "material": "MAGIC_LUMP_1",
+            "amount": 8,
+            "name": "魔法结晶 - I"
+        },
+        {
+            "material": "MAGIC_LUMP_1",
+            "amount": 6,
+            "name": "魔法结晶 - I"
+        },
+        {
+            "material": "ENDER_LUMP_1",
+            "amount": 8,
+            "name": "末影结晶 - I"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MYSTERY_STICK_2",
+    "name": "神秘棍 II",
+    "recipeType": "fnamplifications:fn_mystery_stick_altar",
+    "recipe": [
+        {
+            "material": "MAGIC_LUMP_1",
+            "amount": 8,
+            "name": "魔法结晶 - I"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "ENDER_LUMP_1",
+            "amount": 8,
+            "name": "末影结晶 - I"
+        },
+        {
+            "material": "BLANK_RUNE",
+            "name": "空白符文"
+        },
+        {
+            "material": "STICK",
+            "name": "木棍"
+        },
+        {
+            "material": "BLANK_RUNE",
+            "name": "空白符文"
+        },
+        {
+            "material": "ENDER_LUMP_1",
+            "amount": 8,
+            "name": "末影结晶 - I"
+        },
+        {
+            "material": "OAK_WOOD",
+            "amount": 2,
+            "name": "橡木"
+        },
+        {
+            "material": "MAGIC_LUMP_1",
+            "amount": 8,
+            "name": "魔法结晶 - I"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MYSTERY_STICK_3",
+    "name": "神秘棍 III",
+    "recipeType": "fnamplifications:fn_mystery_stick_altar",
+    "recipe": [
+        {
+            "material": "BLANK_RUNE",
+            "name": "空白符文"
+        },
+        {
+            "material": "LEATHER",
+            "name": "皮革"
+        },
+        {
+            "material": "BLANK_RUNE",
+            "name": "空白符文"
+        },
+        {
+            "material": "MAGIC_LUMP_2",
+            "amount": 8,
+            "name": "魔法结晶 - II"
+        },
+        {
+            "material": "STICK",
+            "name": "木棍"
+        },
+        {
+            "material": "MAGIC_LUMP_2",
+            "amount": 8,
+            "name": "魔法结晶 - II"
+        },
+        {
+            "material": "ENDER_LUMP_1",
+            "amount": 6,
+            "name": "末影结晶 - I"
+        },
+        {
+            "material": "LEAD",
+            "name": "拴绳"
+        },
+        {
+            "material": "ENDER_LUMP_1",
+            "amount": 6,
+            "name": "末影结晶 - I"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MYSTERY_STICK_4",
+    "name": "神秘棍 IV",
+    "recipeType": "fnamplifications:fn_mystery_stick_altar",
+    "recipe": [
+        {
+            "material": "ESSENCE_OF_AFTERLIFE",
+            "name": "来世精华"
+        },
+        {
+            "material": "ANCIENT_RUNE_EARTH",
+            "name": "古代符文 [地]"
+        },
+        {
+            "material": "ENDER_LUMP_3",
+            "amount": 16,
+            "name": "末影结晶 - III"
+        },
+        {
+            "material": "ANCIENT_RUNE_FIRE",
+            "name": "古代符文 [火]"
+        },
+        {
+            "material": "FN_MYSTERY_STICK_1",
+            "name": "神秘棍"
+        },
+        {
+            "material": "ANCIENT_RUNE_AIR",
+            "name": "古代符文 [气]"
+        },
+        {
+            "material": "ENDER_LUMP_3",
+            "amount": 16,
+            "name": "末影结晶 - III"
+        },
+        {
+            "material": "ANCIENT_RUNE_ENDER",
+            "name": "古代符文 [末影]"
+        },
+        {
+            "material": "ESSENCE_OF_AFTERLIFE",
+            "name": "来世精华"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MYSTERY_STICK_5",
+    "name": "神秘棍 V",
+    "recipeType": "fnamplifications:fn_mystery_stick_altar",
+    "recipe": [
+        {
+            "material": "MAGIC_LUMP_3",
+            "amount": 18,
+            "name": "魔法结晶 - III"
+        },
+        {
+            "material": "ESSENCE_OF_AFTERLIFE",
+            "name": "来世精华"
+        },
+        {
+            "material": "ENDER_LUMP_2",
+            "amount": 18,
+            "name": "末影结晶 - II"
+        },
+        {
+            "material": "ANCIENT_RUNE_AIR",
+            "amount": 2,
+            "name": "古代符文 [气]"
+        },
+        {
+            "material": "FN_MYSTERY_STICK_2",
+            "name": "神秘棍 II"
+        },
+        {
+            "material": "ANCIENT_RUNE_FIRE",
+            "amount": 2,
+            "name": "古代符文 [火]"
+        },
+        {
+            "material": "ENDER_LUMP_3",
+            "amount": 12,
+            "name": "末影结晶 - III"
+        },
+        {
+            "material": "BLANK_RUNE",
+            "name": "空白符文"
+        },
+        {
+            "material": "MAGIC_LUMP_2",
+            "amount": 12,
+            "name": "魔法结晶 - II"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MYSTERY_STICK_6",
+    "name": "神秘棍 VI",
+    "recipeType": "fnamplifications:fn_mystery_stick_altar",
+    "recipe": [
+        {
+            "material": "ESSENCE_OF_AFTERLIFE",
+            "name": "来世精华"
+        },
+        {
+            "material": "ANCIENT_RUNE_AIR",
+            "amount": 2,
+            "name": "古代符文 [气]"
+        },
+        {
+            "material": "ESSENCE_OF_AFTERLIFE",
+            "name": "来世精华"
+        },
+        {
+            "material": "ANCIENT_RUNE_FIRE",
+            "name": "古代符文 [火]"
+        },
+        {
+            "material": "FN_MYSTERY_STICK_3",
+            "name": "神秘棍 III"
+        },
+        {
+            "material": "ANCIENT_RUNE_EARTH",
+            "name": "古代符文 [地]"
+        },
+        {
+            "material": "ENDER_LUMP_3",
+            "amount": 18,
+            "name": "末影结晶 - III"
+        },
+        {
+            "material": "ANCIENT_RUNE_ENDER",
+            "amount": 2,
+            "name": "古代符文 [末影]"
+        },
+        {
+            "material": "MAGIC_LUMP_3",
+            "amount": 18,
+            "name": "魔法结晶 - III"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MYSTERY_STICK_7",
+    "name": "神秘棍 VII",
+    "recipeType": "fnamplifications:fn_mystery_stick_altar",
+    "recipe": [
+        {
+            "material": "ESSENCE_OF_AFTERLIFE",
+            "amount": 2,
+            "name": "来世精华"
+        },
+        {
+            "material": "ANCIENT_RUNE_EARTH",
+            "amount": 2,
+            "name": "古代符文 [地]"
+        },
+        {
+            "material": "ESSENCE_OF_AFTERLIFE",
+            "amount": 2,
+            "name": "来世精华"
+        },
+        {
+            "material": "ANCIENT_RUNE_FIRE",
+            "amount": 3,
+            "name": "古代符文 [火]"
+        },
+        {
+            "material": "FN_MYSTERY_STICK_4",
+            "name": "神秘棍 IV"
+        },
+        {
+            "material": "ANCIENT_RUNE_AIR",
+            "amount": 3,
+            "name": "古代符文 [气]"
+        },
+        {
+            "material": "ANCIENT_RUNE_LIGHTNING",
+            "amount": 3,
+            "name": "古代符文 [雷]"
+        },
+        {
+            "material": "ANCIENT_RUNE_ENDER",
+            "amount": 2,
+            "name": "古代符文 [末影]"
+        },
+        {
+            "material": "ANCIENT_RUNE_ENCHANTMENT",
+            "amount": 3,
+            "name": "古代符文 [附魔]"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MYSTERY_STICK_8",
+    "name": "神秘棍 VIII",
+    "recipeType": "fnamplifications:fn_mystery_stick_altar",
+    "recipe": [
+        {
+            "material": "ANCIENT_RUNE_ENDER",
+            "amount": 3,
+            "name": "古代符文 [末影]"
+        },
+        {
+            "material": "ESSENCE_OF_AFTERLIFE",
+            "name": "来世精华"
+        },
+        {
+            "material": "ANCIENT_RUNE_FIRE",
+            "amount": 3,
+            "name": "古代符文 [火]"
+        },
+        {
+            "material": "ESSENCE_OF_AFTERLIFE",
+            "name": "来世精华"
+        },
+        {
+            "material": "FN_MYSTERY_STICK_5",
+            "name": "神秘棍 V"
+        },
+        {
+            "material": "ESSENCE_OF_AFTERLIFE",
+            "name": "来世精华"
+        },
+        {
+            "material": "ANCIENT_RUNE_EARTH",
+            "amount": 3,
+            "name": "古代符文 [地]"
+        },
+        {
+            "material": "ANCIENT_RUNE_AIR",
+            "amount": 2,
+            "name": "古代符文 [气]"
+        },
+        {
+            "material": "ANCIENT_RUNE_AIR",
+            "amount": 3,
+            "name": "古代符文 [气]"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MYSTERY_STICK_9",
+    "name": "神秘棍 IX",
+    "recipeType": "fnamplifications:fn_mystery_stick_altar",
+    "recipe": [
+        {
+            "material": "ESSENCE_OF_AFTERLIFE",
+            "name": "来世精华"
+        },
+        {
+            "material": "ANCIENT_RUNE_AIR",
+            "amount": 3,
+            "name": "古代符文 [气]"
+        },
+        {
+            "material": "ESSENCE_OF_AFTERLIFE",
+            "name": "来世精华"
+        },
+        {
+            "material": "ANCIENT_RUNE_FIRE",
+            "amount": 2,
+            "name": "古代符文 [火]"
+        },
+        {
+            "material": "FN_MYSTERY_STICK_6",
+            "name": "神秘棍 VI"
+        },
+        {
+            "material": "ANCIENT_RUNE_EARTH",
+            "amount": 2,
+            "name": "古代符文 [地]"
+        },
+        {
+            "material": "ESSENCE_OF_AFTERLIFE",
+            "name": "来世精华"
+        },
+        {
+            "material": "ANCIENT_RUNE_ENDER",
+            "amount": 3,
+            "name": "古代符文 [末影]"
+        },
+        {
+            "material": "ESSENCE_OF_AFTERLIFE",
+            "name": "来世精华"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MYSTERY_STICK_10",
+    "name": "神秘棍 X",
+    "recipeType": "fnamplifications:fn_mystery_stick_altar",
+    "recipe": [
+        {
+            "material": "ESSENCE_OF_AFTERLIFE",
+            "amount": 2,
+            "name": "来世精华"
+        },
+        {
+            "material": "FN_MYSTERY_STICK_4",
+            "name": "神秘棍 IV"
+        },
+        {
+            "material": "ANCIENT_RUNE_ENCHANTMENT",
+            "amount": 3,
+            "name": "古代符文 [附魔]"
+        },
+        {
+            "material": "ANCIENT_RUNE_FIRE",
+            "amount": 3,
+            "name": "古代符文 [火]"
+        },
+        {
+            "material": "FN_MYSTERY_STICK_7",
+            "name": "神秘棍 VII"
+        },
+        {
+            "material": "ANCIENT_RUNE_AIR",
+            "amount": 3,
+            "name": "古代符文 [气]"
+        },
+        {
+            "material": "ANCIENT_RUNE_LIGHTNING",
+            "amount": 3,
+            "name": "古代符文 [雷]"
+        },
+        {
+            "material": "FN_MYSTERY_STICK_1",
+            "name": "神秘棍"
+        },
+        {
+            "material": "ESSENCE_OF_AFTERLIFE",
+            "amount": 2,
+            "name": "来世精华"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MYSTERY_STICK_11",
+    "name": "神秘棍 XI",
+    "recipeType": "fnamplifications:fn_mystery_stick_altar",
+    "recipe": [
+        {
+            "material": "FN_MYSTERY_STICK_2",
+            "name": "神秘棍 II"
+        },
+        {
+            "material": "ESSENCE_OF_AFTERLIFE",
+            "name": "来世精华"
+        },
+        {
+            "material": "FN_MYSTERY_STICK_8",
+            "name": "神秘棍 VIII"
+        },
+        {
+            "material": "ESSENCE_OF_AFTERLIFE",
+            "name": "来世精华"
+        },
+        {
+            "material": "FN_MYSTERY_STICK_5",
+            "name": "神秘棍 V"
+        },
+        {
+            "material": "ESSENCE_OF_AFTERLIFE",
+            "name": "来世精华"
+        },
+        {
+            "material": "ANCIENT_RUNE_EARTH",
+            "amount": 4,
+            "name": "古代符文 [地]"
+        },
+        {
+            "material": "ESSENCE_OF_AFTERLIFE",
+            "amount": 2,
+            "name": "来世精华"
+        },
+        {
+            "material": "ANCIENT_RUNE_AIR",
+            "amount": 4,
+            "name": "古代符文 [气]"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEAR_BOOTS",
+    "name": "FN's Expedition Combat Boots",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "REINFORCED_PLATE",
+            "amount": 5,
+            "name": "钢筋板"
+        },
+        {
+            "material": "IRON_BOOTS",
+            "name": "铁靴子"
+        },
+        {
+            "material": "REINFORCED_PLATE",
+            "amount": 5,
+            "name": "钢筋板"
+        },
+        {
+            "material": "ANCIENT_RUNE_ENCHANTMENT",
+            "name": "古代符文 [附魔]"
+        },
+        {
+            "material": "NETHERITE_INGOT",
+            "amount": 2,
+            "name": "下界合金锭"
+        },
+        {
+            "material": "ANCIENT_RUNE_ENCHANTMENT",
+            "name": "古代符文 [附魔]"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "amount": 6,
+            "name": "强化合金锭"
+        },
+        {
+            "material": "DIAMOND_BOOTS",
+            "name": "钻石靴子"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "amount": 6,
+            "name": "强化合金锭"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEAR_CHESTPLATE",
+    "name": "FN's Battle Scarred Chestplate",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "REINFORCED_PLATE",
+            "amount": 2,
+            "name": "钢筋板"
+        },
+        {
+            "material": "IRON_CHESTPLATE",
+            "name": "铁胸甲"
+        },
+        {
+            "material": "REINFORCED_PLATE",
+            "amount": 2,
+            "name": "钢筋板"
+        },
+        {
+            "material": "ANCIENT_RUNE_ENCHANTMENT",
+            "name": "古代符文 [附魔]"
+        },
+        {
+            "material": "NETHERITE_INGOT",
+            "amount": 2,
+            "name": "下界合金锭"
+        },
+        {
+            "material": "ANCIENT_RUNE_ENCHANTMENT",
+            "name": "古代符文 [附魔]"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "amount": 4,
+            "name": "强化合金锭"
+        },
+        {
+            "material": "DIAMOND_CHESTPLATE",
+            "name": "钻石胸甲"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "amount": 4,
+            "name": "强化合金锭"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEAR_HELMET",
+    "name": "FN's Field Tested Helmet",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "REINFORCED_PLATE",
+            "amount": 4,
+            "name": "钢筋板"
+        },
+        {
+            "material": "IRON_HELMET",
+            "name": "铁头盔"
+        },
+        {
+            "material": "REINFORCED_PLATE",
+            "amount": 4,
+            "name": "钢筋板"
+        },
+        {
+            "material": "ANCIENT_RUNE_ENCHANTMENT",
+            "name": "古代符文 [附魔]"
+        },
+        {
+            "material": "NETHERITE_INGOT",
+            "amount": 2,
+            "name": "下界合金锭"
+        },
+        {
+            "material": "ANCIENT_RUNE_ENCHANTMENT",
+            "name": "古代符文 [附魔]"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "amount": 6,
+            "name": "强化合金锭"
+        },
+        {
+            "material": "DIAMOND_HELMET",
+            "name": "钻石头盔"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "amount": 6,
+            "name": "强化合金锭"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEAR_LEGGINGS",
+    "name": "FN's Chausses of Eminence",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "REINFORCED_PLATE",
+            "amount": 2,
+            "name": "钢筋板"
+        },
+        {
+            "material": "IRON_LEGGINGS",
+            "name": "铁护腿"
+        },
+        {
+            "material": "REINFORCED_PLATE",
+            "amount": 2,
+            "name": "钢筋板"
+        },
+        {
+            "material": "ANCIENT_RUNE_ENCHANTMENT",
+            "name": "古代符文 [附魔]"
+        },
+        {
+            "material": "NETHERITE_INGOT",
+            "amount": 2,
+            "name": "下界合金锭"
+        },
+        {
+            "material": "ANCIENT_RUNE_ENCHANTMENT",
+            "name": "古代符文 [附魔]"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "amount": 3,
+            "name": "强化合金锭"
+        },
+        {
+            "material": "DIAMOND_LEGGINGS",
+            "name": "钻石护腿"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "amount": 3,
+            "name": "强化合金锭"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_QUIVER",
+    "name": "箭袋 (箭)",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "TIN_INGOT",
+            "amount": 5,
+            "name": "锡锭"
+        },
+        {
+            "material": "LEAD",
+            "amount": 3,
+            "name": "拴绳"
+        },
+        {
+            "material": "COPPER_INGOT",
+            "amount": 5,
+            "name": "铜锭"
+        },
+        {
+            "material": "STRING",
+            "amount": 16,
+            "name": "线"
+        },
+        {
+            "material": "STICK",
+            "amount": 24,
+            "name": "木棍"
+        },
+        {
+            "material": "STRING",
+            "amount": 16,
+            "name": "线"
+        },
+        {
+            "material": "TIN_INGOT",
+            "amount": 5,
+            "name": "锡锭"
+        },
+        {
+            "material": "LEATHER",
+            "amount": 16,
+            "name": "皮革"
+        },
+        {
+            "material": "COPPER_INGOT",
+            "amount": 5,
+            "name": "铜锭"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_SPECTRAL_QUIVER",
+    "name": "箭袋 (光灵箭)",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "GOLD_4K",
+            "amount": 3,
+            "name": "金锭 (4克拉)"
+        },
+        {
+            "material": "LEAD",
+            "amount": 3,
+            "name": "拴绳"
+        },
+        {
+            "material": "STEEL_INGOT",
+            "amount": 3,
+            "name": "钢锭"
+        },
+        {
+            "material": "STRING",
+            "amount": 24,
+            "name": "线"
+        },
+        {
+            "material": "STICK",
+            "amount": 24,
+            "name": "木棍"
+        },
+        {
+            "material": "STRING",
+            "amount": 24,
+            "name": "线"
+        },
+        {
+            "material": "GOLD_4K",
+            "amount": 3,
+            "name": "金锭 (4克拉)"
+        },
+        {
+            "material": "LEATHER",
+            "amount": 16,
+            "name": "皮革"
+        },
+        {
+            "material": "STEEL_INGOT",
+            "amount": 3,
+            "name": "钢锭"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_UPGRADED_QUIVER",
+    "name": "强化箭袋 (箭)",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "LEAD_INGOT",
+            "amount": 5,
+            "name": "铅锭"
+        },
+        {
+            "material": "FN_QUIVER",
+            "name": "箭袋 (箭)"
+        },
+        {
+            "material": "BRONZE_INGOT",
+            "amount": 5,
+            "name": "青铜锭"
+        },
+        {
+            "material": "STRING",
+            "amount": 32,
+            "name": "线"
+        },
+        {
+            "material": "STICK",
+            "amount": 48,
+            "name": "木棍"
+        },
+        {
+            "material": "STRING",
+            "amount": 32,
+            "name": "线"
+        },
+        {
+            "material": "LEAD_INGOT",
+            "amount": 5,
+            "name": "铅锭"
+        },
+        {
+            "material": "LEATHER",
+            "amount": 32,
+            "name": "皮革"
+        },
+        {
+            "material": "BRONZE_INGOT",
+            "amount": 5,
+            "name": "青铜锭"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_UPGRADED_SPECTRAL_QUIVER",
+    "name": "强化箭袋 (光灵箭)",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "GOLD_10K",
+            "amount": 3,
+            "name": "金锭 (10克拉)"
+        },
+        {
+            "material": "FN_SPECTRAL_QUIVER",
+            "name": "箭袋 (光灵箭)"
+        },
+        {
+            "material": "DAMASCUS_STEEL_INGOT",
+            "amount": 3,
+            "name": "大马士革钢锭"
+        },
+        {
+            "material": "STRING",
+            "amount": 48,
+            "name": "线"
+        },
+        {
+            "material": "STICK",
+            "amount": 36,
+            "name": "木棍"
+        },
+        {
+            "material": "STRING",
+            "amount": 48,
+            "name": "线"
+        },
+        {
+            "material": "GOLD_10K",
+            "amount": 3,
+            "name": "金锭 (10克拉)"
+        },
+        {
+            "material": "LEATHER",
+            "amount": 24,
+            "name": "皮革"
+        },
+        {
+            "material": "DAMASCUS_STEEL_INGOT",
+            "amount": 3,
+            "name": "大马士革钢锭"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_ARMOR_IMPAIR",
+    "name": "护甲削弱宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        null,
+        {
+            "material": "BLAZE_POWDER",
+            "name": "烈焰粉"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_UNBIND_RUNE",
+            "name": "解绑符文"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_UNBIND_RUNE",
+            "name": "解绑符文"
+        },
+        null,
+        {
+            "material": "BLAZE_POWDER",
+            "name": "烈焰粉"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_AXETHROWIE",
+    "name": "飞斧宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        null,
+        {
+            "material": "ANCIENT_RUNE_AIR",
+            "name": "古代符文 [气]"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        null,
+        {
+            "material": "ANCIENT_RUNE_AIR",
+            "name": "古代符文 [气]"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_BLINDBIND",
+    "name": "盲标宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_PESTILENCE_RUNE",
+            "name": "瘟疫符文"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_LINGER_RUNE",
+            "name": "灵符符文"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_LINGER_RUNE",
+            "name": "灵符符文"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_PESTILENCE_RUNE",
+            "name": "瘟疫符文"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_DAMNATION",
+    "name": "撕裂宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "MAGIC_SUGAR",
+            "name": "魔法糖"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        },
+        {
+            "material": "MAGIC_SUGAR",
+            "name": "魔法糖"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_SPIRIT_RUNE",
+            "name": "精神符文"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        },
+        {
+            "material": "MAGIC_SUGAR",
+            "name": "魔法糖"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        },
+        {
+            "material": "MAGIC_SUGAR",
+            "name": "魔法糖"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_HASTY",
+    "name": "急迫宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_AGILITY_RUNE",
+            "name": "敏捷符文"
+        },
+        {
+            "material": "DIAMOND_PICKAXE",
+            "name": "钻石镐"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_AGILITY_RUNE",
+            "name": "敏捷符文"
+        },
+        null,
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_AGILITY_RUNE",
+            "name": "敏捷符文"
+        },
+        {
+            "material": "DIAMOND_PICKAXE",
+            "name": "钻石镐"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_AGILITY_RUNE",
+            "name": "敏捷符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_IMPOSTOR",
+    "name": "幽灵宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_INFERNO",
+    "name": "地狱宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_SPIRAL_FIRE_RUNE",
+            "name": "螺旋火符文"
+        },
+        {
+            "material": "ANCIENT_RUNE_AIR",
+            "name": "古代符文 [气]"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_SPIRAL_FIRE_RUNE",
+            "name": "螺旋火符文"
+        },
+        null,
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_SPIRAL_FIRE_RUNE",
+            "name": "螺旋火符文"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_SPIRAL_FIRE_RUNE",
+            "name": "螺旋火符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_PSYCHOKINESIS",
+    "name": "念动力宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        },
+        {
+            "material": "ANCIENT_RUNE_ENDER",
+            "name": "古代符文 [末影]"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        },
+        null,
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        },
+        {
+            "material": "ANCIENT_RUNE_ENDER",
+            "name": "古代符文 [末影]"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_RETALIATE",
+    "name": "忠诚宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        null,
+        {
+            "material": "ANCIENT_RUNE_AIR",
+            "name": "古代符文 [气]"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        },
+        null,
+        {
+            "material": "ANCIENT_RUNE_AIR",
+            "name": "古代符文 [气]"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_TELEPATHY",
+    "name": "心灵感应宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        },
+        {
+            "material": "DIAMOND_PICKAXE",
+            "name": "钻石镐"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        },
+        null,
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        },
+        {
+            "material": "IRON_PICKAXE",
+            "name": "铁镐"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_THORN_AWAY",
+    "name": "抗荆棘宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        },
+        null,
+        {
+            "material": "BLAZE_POWDER",
+            "amount": 4,
+            "name": "烈焰粉"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "BLAZE_POWDER",
+            "amount": 4,
+            "name": "烈焰粉"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_THUNDER",
+    "name": "霹雳宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_SPARKLING_RUNE",
+            "name": "闪闪发光的符文"
+        },
+        {
+            "material": "FIRE_CHARGE",
+            "name": "火焰弹"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_SPARKLING_RUNE",
+            "name": "闪闪发光的符文"
+        },
+        null,
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_SPARKLING_RUNE",
+            "name": "闪闪发光的符文"
+        },
+        {
+            "material": "FIRE_CHARGE",
+            "name": "火焰弹"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_SPARKLING_RUNE",
+            "name": "闪闪发光的符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_TRI_SWORD",
+    "name": "三剑宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_GUARDIAN",
+    "name": "守望宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        null,
+        {
+            "material": "BLANK_RUNE",
+            "name": "空白符文"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_SPIRIT_RUNE",
+            "name": "精神符文"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_SPIRIT_RUNE",
+            "name": "精神符文"
+        },
+        {
+            "material": "MAGIC_SUGAR",
+            "name": "魔法糖"
+        },
+        {
+            "material": "BLANK_RUNE",
+            "name": "空白符文"
+        },
+        {
+            "material": "MAGIC_SUGAR",
+            "name": "魔法糖"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_DISRUPTED",
+    "name": "破碎的宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_SPIRIT_RUNE",
+            "name": "精神符文"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_SPIRIT_RUNE",
+            "name": "精神符文"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_ARROW_AVERT",
+    "name": "箭避宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_CLOUD_RUNE",
+            "name": "云符文"
+        },
+        {
+            "material": "BLAZE_POWDER",
+            "name": "烈焰粉"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_CLOUD_RUNE",
+            "name": "云符文"
+        },
+        {
+            "material": "BLANK_RUNE",
+            "name": "空白符文"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "BLANK_RUNE",
+            "name": "空白符文"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_CLOUD_RUNE",
+            "name": "云符文"
+        },
+        {
+            "material": "BLAZE_POWDER",
+            "name": "烈焰粉"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_CLOUD_RUNE",
+            "name": "云符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_DEBERSERK",
+    "name": "德塞克宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_AGILITY_RUNE",
+            "name": "敏捷符文"
+        },
+        {
+            "material": "ANCIENT_RUNE_EARTH",
+            "amount": 2,
+            "name": "古代符文 [地]"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_AGILITY_RUNE",
+            "name": "敏捷符文"
+        },
+        {
+            "material": "STEEL_INGOT",
+            "name": "钢锭"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "STEEL_INGOT",
+            "name": "钢锭"
+        },
+        {
+            "material": "BLANK_RUNE",
+            "name": "空白符文"
+        },
+        null,
+        {
+            "material": "BLANK_RUNE",
+            "name": "空白符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_PARRY",
+    "name": "招架宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "BLANK_RUNE",
+            "amount": 3,
+            "name": "空白符文"
+        },
+        {
+            "material": "ANCIENT_RUNE_EARTH",
+            "amount": 2,
+            "name": "古代符文 [地]"
+        },
+        {
+            "material": "BLANK_RUNE",
+            "amount": 3,
+            "name": "空白符文"
+        },
+        {
+            "material": "DURALUMIN_INGOT",
+            "name": "硬铝锭"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "DURALUMIN_INGOT",
+            "name": "硬铝锭"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_AGILITY_RUNE",
+            "name": "敏捷符文"
+        },
+        {
+            "material": "ANCIENT_RUNE_AIR",
+            "amount": 2,
+            "name": "古代符文 [气]"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_AGILITY_RUNE",
+            "name": "敏捷符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_STOUT",
+    "name": "粗壮的宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_HEART_RUNE",
+            "name": "心符文"
+        },
+        null,
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        {
+            "material": "MAGIC_SUGAR",
+            "name": "魔法糖"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_HEART_RUNE",
+            "name": "心符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_ADAMANTINE",
+    "name": "精金宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        {
+            "material": "BLAZE_POWDER",
+            "amount": 2,
+            "name": "烈焰粉"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        null,
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_AGILITY_RUNE",
+            "name": "敏捷符文"
+        },
+        {
+            "material": "BLAZE_POWDER",
+            "amount": 2,
+            "name": "烈焰粉"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_AGILITY_RUNE",
+            "name": "敏捷符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_AWAKEN",
+    "name": "觉醒宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_HEART_RUNE",
+            "name": "心符文"
+        },
+        {
+            "material": "BLAZE_POWDER",
+            "name": "烈焰粉"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_HEART_RUNE",
+            "name": "心符文"
+        },
+        null,
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_HEART_RUNE",
+            "name": "心符文"
+        },
+        {
+            "material": "MAGIC_SUGAR",
+            "name": "魔法糖"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_HEART_RUNE",
+            "name": "心符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_AVENGE",
+    "name": "复仇宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_PESTILENCE_RUNE",
+            "name": "瘟疫符文"
+        },
+        {
+            "material": "ROTTEN_FLESH",
+            "name": "腐肉"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_PESTILENCE_RUNE",
+            "name": "瘟疫符文"
+        },
+        {
+            "material": "ROTTEN_FLESH",
+            "name": "腐肉"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "ROTTEN_FLESH",
+            "name": "腐肉"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_LINGER_RUNE",
+            "name": "灵符符文"
+        },
+        {
+            "material": "MAGIC_SUGAR",
+            "name": "魔法糖"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_LINGER_RUNE",
+            "name": "灵符符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_ACHILLES_HEEL",
+    "name": "阿喀琉斯之踵宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_AGILITY_RUNE",
+            "name": "敏捷符文"
+        },
+        {
+            "material": "FEATHER",
+            "name": "羽毛"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_AGILITY_RUNE",
+            "name": "敏捷符文"
+        },
+        {
+            "material": "ARROW",
+            "name": "箭"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "ARROW",
+            "name": "箭"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_PESTILENCE_RUNE",
+            "name": "瘟疫符文"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_DISARMOR",
+    "name": "卸甲宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_PESTILENCE_RUNE",
+            "name": "瘟疫符文"
+        },
+        {
+            "material": "BLAZE_POWDER",
+            "name": "烈焰粉"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "BLAZE_POWDER",
+            "name": "烈焰粉"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_DISARM",
+    "name": "Disarm Gem",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        {
+            "material": "MAGIC_SUGAR",
+            "name": "魔法糖"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_LINGER_RUNE",
+            "name": "灵符符文"
+        },
+        {
+            "material": "BLAZE_POWDER",
+            "amount": 2,
+            "name": "烈焰粉"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "BLAZE_POWDER",
+            "amount": 2,
+            "name": "烈焰粉"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_PESTILENCE_RUNE",
+            "name": "瘟疫符文"
+        },
+        {
+            "material": "MAGIC_SUGAR",
+            "name": "魔法糖"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_SMOKE_CRIMINAL",
+    "name": "烟雾犯罪宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_SPIRIT_RUNE",
+            "name": "精神符文"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_CLOUD_RUNE",
+            "name": "云符文"
+        },
+        {
+            "material": "ROTTEN_FLESH",
+            "name": "腐肉"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "BLAZE_POWDER",
+            "name": "烈焰粉"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_CLOUD_RUNE",
+            "name": "云符文"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_LIFESTEAL",
+    "name": "吸血宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_HEART_RUNE",
+            "name": "心符文"
+        },
+        {
+            "material": "MAGIC_SUGAR",
+            "name": "魔法糖"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_HEART_RUNE",
+            "name": "心符文"
+        },
+        {
+            "material": "BLAZE_POWDER",
+            "name": "烈焰粉"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "BLAZE_POWDER",
+            "name": "烈焰粉"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_LINGER_RUNE",
+            "name": "灵符符文"
+        },
+        {
+            "material": "MAGIC_SUGAR",
+            "name": "魔法糖"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_PESTILENCE_RUNE",
+            "name": "瘟疫符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_ATROPHY",
+    "name": "凋零宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_LINGER_RUNE",
+            "name": "灵符符文"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_PESTILENCE_RUNE",
+            "name": "瘟疫符文"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_LINGER_RUNE",
+            "name": "灵符符文"
+        },
+        {
+            "material": "POTION",
+            "name": "虚弱药水"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "POTION",
+            "name": "剧毒药水"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_LINGER_RUNE",
+            "name": "灵符符文"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_HEART_RUNE",
+            "name": "心符文"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_LINGER_RUNE",
+            "name": "灵符符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_BANE",
+    "name": "毒药宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_LINGER_RUNE",
+            "name": "灵符符文"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_PESTILENCE_RUNE",
+            "name": "瘟疫符文"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_LINGER_RUNE",
+            "name": "灵符符文"
+        },
+        {
+            "material": "POTION",
+            "name": "剧毒药水"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "POTION",
+            "name": "剧毒药水"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_PESTILENCE_RUNE",
+            "name": "瘟疫符文"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_PESTILENCE_RUNE",
+            "name": "瘟疫符文"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_PESTILENCE_RUNE",
+            "name": "瘟疫符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_SEDATE",
+    "name": "减速宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_LINGER_RUNE",
+            "name": "灵符符文"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_LINGER_RUNE",
+            "name": "灵符符文"
+        },
+        {
+            "material": "POTION",
+            "name": "迟缓药水"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "POTION",
+            "name": "迟缓药水"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_AGILITY_RUNE",
+            "name": "敏捷符文"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_LINGER_RUNE",
+            "name": "灵符符文"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_AGILITY_RUNE",
+            "name": "敏捷符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_DECREPIT",
+    "name": "虚弱宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_LINGER_RUNE",
+            "name": "灵符符文"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_LINGER_RUNE",
+            "name": "灵符符文"
+        },
+        {
+            "material": "POTION",
+            "name": "虚弱药水"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "POTION",
+            "name": "虚弱药水"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_LINGER_RUNE",
+            "name": "灵符符文"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_LINGER_RUNE",
+            "name": "灵符符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_DECEPTION",
+    "name": "失明宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_SPIRIT_RUNE",
+            "name": "精神符文"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_SPIRIT_RUNE",
+            "name": "精神符文"
+        },
+        {
+            "material": "POTION",
+            "name": "粗制的药水"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "POTION",
+            "name": "粗制的药水"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_PESTILENCE_RUNE",
+            "name": "瘟疫符文"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_LINGER_RUNE",
+            "name": "灵符符文"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_PESTILENCE_RUNE",
+            "name": "瘟疫符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_CELERITY",
+    "name": "迅捷宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_AGILITY_RUNE",
+            "name": "敏捷符文"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_AGILITY_RUNE",
+            "name": "敏捷符文"
+        },
+        {
+            "material": "POTION",
+            "name": "item.minecraft.potion.effect.speed"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "POTION",
+            "name": "item.minecraft.potion.effect.speed"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_AGILITY_RUNE",
+            "name": "敏捷符文"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_AGILITY_RUNE",
+            "name": "敏捷符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_SHOCKWAVE",
+    "name": "Shockwave Gem",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        null,
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_FLAWLESS_UNBIND",
+    "name": "无瑕解绑宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "MAGIC_LUMP_3",
+            "amount": 5,
+            "name": "魔法结晶 - III"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_UNBIND_RUNE",
+            "name": "解绑符文"
+        },
+        {
+            "material": "ENDER_LUMP_3",
+            "amount": 5,
+            "name": "末影结晶 - III"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_UNBIND_RUNE",
+            "name": "解绑符文"
+        },
+        {
+            "material": "DIAMOND",
+            "name": "钻石"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_UNBIND_RUNE",
+            "name": "解绑符文"
+        },
+        {
+            "material": "MAGIC_LUMP_3",
+            "amount": 5,
+            "name": "魔法结晶 - III"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_UNBIND_RUNE",
+            "name": "解绑符文"
+        },
+        {
+            "material": "ENDER_LUMP_3",
+            "amount": 5,
+            "name": "末影结晶 - III"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_PRECIOUS_UNBIND",
+    "name": "珍贵的解开宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "MAGIC_LUMP_2",
+            "amount": 4,
+            "name": "魔法结晶 - II"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_UNBIND_RUNE",
+            "name": "解绑符文"
+        },
+        {
+            "material": "ENDER_LUMP_2",
+            "amount": 4,
+            "name": "末影结晶 - II"
+        },
+        {
+            "material": "SUGAR",
+            "amount": 4,
+            "name": "糖"
+        },
+        {
+            "material": "DIAMOND",
+            "name": "钻石"
+        },
+        {
+            "material": "SUGAR",
+            "amount": 4,
+            "name": "糖"
+        },
+        {
+            "material": "MAGIC_LUMP_3",
+            "amount": 4,
+            "name": "魔法结晶 - III"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_UNBIND_RUNE",
+            "name": "解绑符文"
+        },
+        {
+            "material": "ENDER_LUMP_3",
+            "amount": 4,
+            "name": "末影结晶 - III"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_BLEMISHED_UNBIND",
+    "name": "有瑕疵的解开宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "MAGIC_LUMP_1",
+            "amount": 3,
+            "name": "魔法结晶 - I"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_UNBIND_RUNE",
+            "name": "解绑符文"
+        },
+        {
+            "material": "ENDER_LUMP_1",
+            "amount": 3,
+            "name": "末影结晶 - I"
+        },
+        null,
+        {
+            "material": "DIAMOND",
+            "name": "钻石"
+        },
+        null,
+        {
+            "material": "MAGIC_LUMP_2",
+            "amount": 3,
+            "name": "魔法结晶 - II"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_UNBIND_RUNE",
+            "name": "解绑符文"
+        },
+        {
+            "material": "ENDER_LUMP_2",
+            "amount": 3,
+            "name": "末影结晶 - II"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_DAMAGED_UNBIND",
+    "name": "损坏的解绑宝石",
+    "recipeType": "fnamplifications:fn_gem_altar",
+    "recipe": [
+        {
+            "material": "MAGIC_LUMP_1",
+            "amount": 2,
+            "name": "魔法结晶 - I"
+        },
+        null,
+        {
+            "material": "ENDER_LUMP_1",
+            "amount": 2,
+            "name": "末影结晶 - I"
+        },
+        null,
+        {
+            "material": "DIAMOND",
+            "name": "钻石"
+        },
+        null,
+        {
+            "material": "MAGIC_LUMP_1",
+            "amount": 2,
+            "name": "魔法结晶 - I"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_UNBIND_RUNE",
+            "name": "解绑符文"
+        },
+        {
+            "material": "ENDER_LUMP_1",
+            "amount": 2,
+            "name": "末影结晶 - I"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_UPGRADES_DISPLAY_ITEM",
+    "name": "宝石等级升级",
+    "recipeType": "fnamplifications:fn_gem_upgrader",
+    "recipe": [
+        {
+            "material": "EMERALD",
+            "name": "Any Upgradeable Gem"
+        },
+        null,
+        {
+            "material": "EMERALD",
+            "name": "Any Upgradeable Gem"
+        },
+        null,
+        {
+            "material": "FN_GEM_FINE_JASPER_CRAFTING",
+            "name": "优质碧玉宝石"
+        },
+        null,
+        {
+            "material": "EMERALD",
+            "name": "Any Upgradeable Gem"
+        },
+        null,
+        {
+            "material": "EMERALD",
+            "name": "Any Upgradeable Gem"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_STAFF_AIR_STRIDER",
+    "name": "浮空法杖",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_CLOUD_RUNE",
+            "name": "云符文"
+        },
+        {
+            "material": "FEATHER",
+            "name": "羽毛"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_CLOUD_RUNE",
+            "name": "云符文"
+        },
+        {
+            "material": "MAGIC_LUMP_3",
+            "name": "魔法结晶 - III"
+        },
+        {
+            "material": "BLAZE_ROD",
+            "name": "烈焰棒"
+        },
+        {
+            "material": "MAGIC_LUMP_3",
+            "name": "魔法结晶 - III"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_CLOUD_RUNE",
+            "name": "云符文"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_CLOUD_RUNE",
+            "name": "云符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_STAFF_AWARENESS",
+    "name": "探测法杖",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        null,
+        {
+            "material": "BLAZE_POWDER",
+            "amount": 4,
+            "name": "烈焰粉"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        },
+        {
+            "material": "BLAZE_ROD",
+            "name": "烈焰棒"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        },
+        null,
+        {
+            "material": "MAGIC_SUGAR",
+            "name": "魔法糖"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "FN_STAFF_CONFUSION",
+    "name": "混乱法杖",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "MAGIC_LUMP_3",
+            "name": "魔法结晶 - III"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_LINGER_RUNE",
+            "name": "灵符符文"
+        },
+        {
+            "material": "MAGIC_LUMP_3",
+            "name": "魔法结晶 - III"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_PESTILENCE_RUNE",
+            "name": "瘟疫符文"
+        },
+        {
+            "material": "BLAZE_ROD",
+            "name": "烈焰棒"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_PESTILENCE_RUNE",
+            "name": "瘟疫符文"
+        },
+        null,
+        {
+            "material": "MAGIC_SUGAR",
+            "name": "魔法糖"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "FN_STAFF_DEEPFREEZE",
+    "name": "北极冰法杖",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_LINGER_RUNE",
+            "name": "灵符符文"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_ICE_RUNE",
+            "name": "冰符文"
+        },
+        {
+            "material": "BLAZE_ROD",
+            "name": "烈焰棒"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_ICE_RUNE",
+            "name": "冰符文"
+        },
+        null,
+        {
+            "material": "MAGIC_SUGAR",
+            "name": "魔法糖"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "FN_STAFF_EXPLOSION",
+    "name": "爆裂法杖",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        {
+            "material": "TNT",
+            "name": "TNT"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        {
+            "material": "MAGIC_SUGAR",
+            "name": "魔法糖"
+        },
+        {
+            "material": "BLAZE_ROD",
+            "name": "烈焰棒"
+        },
+        {
+            "material": "MAGIC_SUGAR",
+            "name": "魔法糖"
+        },
+        null,
+        {
+            "material": "GUNPOWDER",
+            "name": "火药"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "FN_STAFF_FANGS",
+    "name": "尖牙法杖",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_SPIRIT_RUNE",
+            "name": "精神符文"
+        },
+        {
+            "material": "ROTTEN_FLESH",
+            "name": "腐肉"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_SPIRIT_RUNE",
+            "name": "精神符文"
+        },
+        null,
+        {
+            "material": "BLAZE_ROD",
+            "name": "烈焰棒"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_SPIRIT_RUNE",
+            "name": "精神符文"
+        },
+        {
+            "material": "ROTTEN_FLESH",
+            "name": "腐肉"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_SPIRIT_RUNE",
+            "name": "精神符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_STAFF_FORCE",
+    "name": "力量法杖",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "MAGIC_LUMP_3",
+            "name": "魔法结晶 - III"
+        },
+        {
+            "material": "FEATHER",
+            "amount": 12,
+            "name": "羽毛"
+        },
+        {
+            "material": "ENDER_LUMP_3",
+            "name": "末影结晶 - III"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_AGILITY_RUNE",
+            "name": "敏捷符文"
+        },
+        {
+            "material": "BLAZE_ROD",
+            "name": "烈焰棒"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_AGILITY_RUNE",
+            "name": "敏捷符文"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_CLOUD_RUNE",
+            "name": "云符文"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "FN_STAFF_GRAVITY",
+    "name": "引力法杖",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "MAGIC_LUMP_1",
+            "name": "魔法结晶 - I"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_SPIRIT_RUNE",
+            "name": "精神符文"
+        },
+        {
+            "material": "MAGIC_LUMP_1",
+            "name": "魔法结晶 - I"
+        },
+        null,
+        {
+            "material": "BLAZE_ROD",
+            "name": "烈焰棒"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        },
+        {
+            "material": "MAGIC_SUGAR",
+            "name": "魔法糖"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_STAFF_HEALING",
+    "name": "治愈法杖",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "MAGIC_SUGAR",
+            "name": "魔法糖"
+        },
+        null,
+        {
+            "material": "MAGIC_SUGAR",
+            "name": "魔法糖"
+        },
+        {
+            "material": "BANDAGE",
+            "amount": 2,
+            "name": "绷带"
+        },
+        {
+            "material": "BLAZE_ROD",
+            "name": "烈焰棒"
+        },
+        {
+            "material": "BANDAGE",
+            "amount": 2,
+            "name": "绷带"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_HEART_RUNE",
+            "name": "心符文"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_HEART_RUNE",
+            "name": "心符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_STAFF_HELLFIRE",
+    "name": "地狱火法杖",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "MAGIC_LUMP_3",
+            "amount": 2,
+            "name": "魔法结晶 - III"
+        },
+        null,
+        {
+            "material": "MAGIC_LUMP_3",
+            "amount": 2,
+            "name": "魔法结晶 - III"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_SPIRAL_FIRE_RUNE",
+            "name": "螺旋火符文"
+        },
+        {
+            "material": "BLAZE_ROD",
+            "name": "烈焰棒"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_SPIRAL_FIRE_RUNE",
+            "name": "螺旋火符文"
+        },
+        null,
+        {
+            "material": "MAGIC_SUGAR",
+            "name": "魔法糖"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "FN_STAFF_INVI",
+    "name": "隐身法杖",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        {
+            "material": "BLAZE_ROD",
+            "name": "烈焰棒"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "FN_STAFF_INVULNERABILITY",
+    "name": "辉月",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        {
+            "material": "GOLDEN_APPLE",
+            "name": "金苹果"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_POWER_RUNE",
+            "name": "能量符文"
+        },
+        null,
+        {
+            "material": "BLAZE_ROD",
+            "name": "烈焰棒"
+        },
+        null,
+        {
+            "material": "MAGIC_LUMP_1",
+            "amount": 2,
+            "name": "魔法结晶 - I"
+        },
+        null,
+        {
+            "material": "MAGIC_LUMP_1",
+            "amount": 2,
+            "name": "魔法结晶 - I"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_STAFF_LOCOMOTION",
+    "name": "机动法杖",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        },
+        {
+            "material": "ENDER_PEARL",
+            "name": "末影珍珠"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_CLOUD_RUNE",
+            "name": "云符文"
+        },
+        null,
+        {
+            "material": "BLAZE_ROD",
+            "name": "烈焰棒"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_CLOUD_RUNE",
+            "name": "云符文"
+        },
+        {
+            "material": "ENDER_PEARL",
+            "name": "末影珍珠"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_STAFF_MINERALS",
+    "name": "矿工法杖",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "ANCIENT_RUNE_EARTH",
+            "name": "古代符文 [地]"
+        },
+        {
+            "material": "BLAZE_POWDER",
+            "name": "烈焰粉"
+        },
+        {
+            "material": "ANCIENT_RUNE_EARTH",
+            "name": "古代符文 [地]"
+        },
+        {
+            "material": "MAGIC_LUMP_3",
+            "name": "魔法结晶 - III"
+        },
+        {
+            "material": "BLAZE_ROD",
+            "name": "烈焰棒"
+        },
+        {
+            "material": "MAGIC_LUMP_3",
+            "name": "魔法结晶 - III"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_STAFF_MUSTER",
+    "name": "聚集法杖",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        null,
+        {
+            "material": "ENDER_PEARL",
+            "amount": 2,
+            "name": "末影珍珠"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_SPIRIT_RUNE",
+            "name": "精神符文"
+        },
+        {
+            "material": "BLAZE_ROD",
+            "name": "烈焰棒"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_SPIRIT_RUNE",
+            "name": "精神符文"
+        },
+        {
+            "material": "ENDER_LUMP_3",
+            "amount": 3,
+            "name": "末影结晶 - III"
+        },
+        null,
+        {
+            "material": "ENDER_LUMP_3",
+            "amount": 3,
+            "name": "末影结晶 - III"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_STAFF_SKULLS",
+    "name": "凋灵法杖",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        null,
+        {
+            "material": "WITHER_SKELETON_SKULL",
+            "amount": 5,
+            "name": "凋灵骷髅头颅"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_SPIRIT_RUNE",
+            "name": "精神符文"
+        },
+        {
+            "material": "BLAZE_ROD",
+            "name": "烈焰棒"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_SPIRIT_RUNE",
+            "name": "精神符文"
+        },
+        null,
+        {
+            "material": "BLAZE_POWDER",
+            "amount": 3,
+            "name": "烈焰粉"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "FN_STAFF_STALLION",
+    "name": "骷髅马法杖",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_SPIRIT_RUNE",
+            "name": "精神符文"
+        },
+        {
+            "material": "SADDLE",
+            "name": "鞍"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_SPIRIT_RUNE",
+            "name": "精神符文"
+        },
+        null,
+        {
+            "material": "BLAZE_ROD",
+            "name": "烈焰棒"
+        },
+        null,
+        {
+            "material": "BONE",
+            "amount": 4,
+            "name": "骨头"
+        },
+        null,
+        {
+            "material": "BONE",
+            "amount": 4,
+            "name": "骨头"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_STAFF_TP",
+    "name": "传送法杖",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "ENDER_LUMP_3",
+            "amount": 2,
+            "name": "末影结晶 - III"
+        },
+        {
+            "material": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+            "name": "智力符文"
+        },
+        {
+            "material": "ENDER_LUMP_3",
+            "amount": 2,
+            "name": "末影结晶 - III"
+        },
+        null,
+        {
+            "material": "BLAZE_ROD",
+            "name": "烈焰棒"
+        },
+        null,
+        null,
+        {
+            "material": "ANCIENT_RUNE_ENDER",
+            "name": "古代符文 [末影]"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "FN_STAFF_COBWEB",
+    "name": "蛛网法杖",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "FN_MAGICAL_ITEMS_PESTILENCE_RUNE",
+            "name": "瘟疫符文"
+        },
+        null,
+        {
+            "material": "FN_MAGICAL_ITEMS_PESTILENCE_RUNE",
+            "name": "瘟疫符文"
+        },
+        {
+            "material": "COBWEB",
+            "amount": 2,
+            "name": "蜘蛛网"
+        },
+        {
+            "material": "BLAZE_ROD",
+            "name": "烈焰棒"
+        },
+        {
+            "material": "COBWEB",
+            "amount": 2,
+            "name": "蜘蛛网"
+        },
+        null,
+        {
+            "material": "MAGIC_SUGAR",
+            "amount": 5,
+            "name": "魔法糖"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "FN_HOE_5X5",
+    "name": "FN万用锄",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "COMMON_TALISMAN",
+            "name": "普通护身符"
+        },
+        {
+            "material": "CARBON",
+            "amount": 4,
+            "name": "碳"
+        },
+        {
+            "material": "COMMON_TALISMAN",
+            "name": "普通护身符"
+        },
+        {
+            "material": "ANCIENT_RUNE_EARTH",
+            "amount": 3,
+            "name": "古代符文 [地]"
+        },
+        {
+            "material": "DIAMOND_HOE",
+            "name": "钻石锄"
+        },
+        {
+            "material": "ANCIENT_RUNE_EARTH",
+            "amount": 3,
+            "name": "古代符文 [地]"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "amount": 6,
+            "name": "强化合金锭"
+        },
+        {
+            "material": "CARBON",
+            "amount": 4,
+            "name": "碳"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "amount": 6,
+            "name": "强化合金锭"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_HOE_5X5_AUTO_PLANT",
+    "name": "FN全自动万用锄",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "COMMON_TALISMAN",
+            "name": "普通护身符"
+        },
+        {
+            "material": "CARBON",
+            "amount": 6,
+            "name": "碳"
+        },
+        {
+            "material": "COMMON_TALISMAN",
+            "name": "普通护身符"
+        },
+        {
+            "material": "ANCIENT_RUNE_EARTH",
+            "amount": 7,
+            "name": "古代符文 [地]"
+        },
+        {
+            "material": "DIAMOND_HOE",
+            "name": "钻石锄"
+        },
+        {
+            "material": "ANCIENT_RUNE_EARTH",
+            "amount": 7,
+            "name": "古代符文 [地]"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "amount": 14,
+            "name": "强化合金锭"
+        },
+        {
+            "material": "CARBON",
+            "amount": 6,
+            "name": "碳"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "amount": 14,
+            "name": "强化合金锭"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_BLOCK_ROTATOR",
+    "name": "方块换向器",
+    "recipeType": "fnamplifications:fn_assembly_station",
+    "recipe": [
+        {
+            "material": "CARBON",
+            "name": "碳"
+        },
+        {
+            "material": "COPPER_INGOT",
+            "amount": 3,
+            "name": "铜锭"
+        },
+        {
+            "material": "CARBON",
+            "name": "碳"
+        },
+        {
+            "material": "ELECTRO_MAGNET",
+            "name": "电磁铁"
+        },
+        {
+            "material": "COMPASS",
+            "name": "指南针"
+        },
+        {
+            "material": "ELECTRO_MAGNET",
+            "name": "电磁铁"
+        },
+        {
+            "material": "DURALUMIN_INGOT",
+            "amount": 2,
+            "name": "硬铝锭"
+        },
+        {
+            "material": "COPPER_INGOT",
+            "amount": 3,
+            "name": "铜锭"
+        },
+        {
+            "material": "DURALUMIN_INGOT",
+            "amount": 2,
+            "name": "硬铝锭"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_ASSEMBLY_STATION",
+    "name": "FN组装台",
+    "recipeType": "slimefun:multiblock",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "ACACIA_FENCE",
+            "name": "金合欢木栅栏"
+        },
+        null,
+        {
+            "material": "CRAFTING_TABLE",
+            "name": "工作台"
+        },
+        {
+            "material": "DISPENSER",
+            "name": "发射器"
+        },
+        {
+            "material": "CRAFTING_TABLE",
+            "name": "工作台"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_SCRAP_RECYCLER",
+    "name": "FN废料回收器",
+    "recipeType": "slimefun:multiblock",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "ACACIA_FENCE",
+            "name": "金合欢木栅栏"
+        },
+        null,
+        {
+            "material": "ANVIL",
+            "name": "铁砧"
+        },
+        {
+            "material": "DISPENSER",
+            "name": "发射器"
+        },
+        {
+            "material": "CRAFTING_TABLE",
+            "name": "工作台"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_STICK_ALTAR",
+    "name": "FN神秘棍祭坛",
+    "recipeType": "slimefun:multiblock",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "ACACIA_FENCE",
+            "name": "金合欢木栅栏"
+        },
+        null,
+        {
+            "material": "ENCHANTING_TABLE",
+            "name": "附魔台"
+        },
+        {
+            "material": "DISPENSER",
+            "name": "发射器"
+        },
+        {
+            "material": "ENCHANTING_TABLE",
+            "name": "附魔台"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_ALTAR",
+    "name": "FN 宝石祭坛",
+    "recipeType": "slimefun:multiblock",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "ACACIA_FENCE",
+            "name": "金合欢木栅栏"
+        },
+        null,
+        {
+            "material": "ANVIL",
+            "name": "铁砧"
+        },
+        {
+            "material": "DISPENSER",
+            "name": "发射器"
+        },
+        {
+            "material": "SMITHING_TABLE",
+            "name": "锻造台"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_MAGIC_ALTAR",
+    "name": "FN Magic Altar",
+    "recipeType": "slimefun:multiblock",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "ACACIA_FENCE",
+            "name": "金合欢木栅栏"
+        },
+        null,
+        {
+            "material": "ENCHANTING_TABLE",
+            "name": "附魔台"
+        },
+        {
+            "material": "DISPENSER",
+            "name": "发射器"
+        },
+        {
+            "material": "SMITHING_TABLE",
+            "name": "锻造台"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "FN_GEM_UPGRADER",
+    "name": "FN Gem Upgrader",
+    "recipeType": "slimefun:multiblock",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "ACACIA_FENCE",
+            "name": "金合欢木栅栏"
+        },
+        null,
+        {
+            "material": "GRINDSTONE",
+            "name": "砂轮"
+        },
+        {
+            "material": "DISPENSER",
+            "name": "发射器"
+        },
+        {
+            "material": "GRINDSTONE",
+            "name": "砂轮"
+        }
+    ],
+    "output": 1
+}]

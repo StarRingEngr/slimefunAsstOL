@@ -1,0 +1,1390 @@
+[
+    {
+        "id": "ETC_UNORTHODOX_COAL",
+        "name": "奇怪的煤炭",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "COAL",
+                "name": "煤炭"
+            },
+            {
+                "material": "COAL",
+                "name": "煤炭"
+            },
+            {
+                "material": "COAL",
+                "name": "煤炭"
+            },
+            {
+                "material": "COAL",
+                "name": "煤炭"
+            },
+            {
+                "material": "COAL",
+                "name": "煤炭"
+            },
+            {
+                "material": "COAL",
+                "name": "煤炭"
+            },
+            {
+                "material": "COAL",
+                "name": "煤炭"
+            },
+            {
+                "material": "COAL",
+                "name": "煤炭"
+            },
+            {
+                "material": "COAL",
+                "name": "煤炭"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_UNORTHODOX_COAL_DUST",
+        "name": "奇怪的煤炭粉",
+        "recipeType": "slimefun:ore_crusher",
+        "recipe": [
+            {
+                "material": "ETC_UNORTHODOX_COAL",
+                "name": "奇怪的煤炭"
+            },
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_TIGHTLY_PACKED_UNORTHODOX_COAL",
+        "name": "奇怪的煤炭粉 (已压缩)",
+        "recipeType": "slimefun:compressor",
+        "recipe": [
+            {
+                "material": "ETC_UNORTHODOX_COAL_DUST",
+                "amount": 4,
+                "name": "奇怪的煤炭粉"
+            },
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_UNORTHODOX_COAL_BLOCK",
+        "name": "奇怪的煤炭块",
+        "recipeType": "slimefun:pressure_chamber",
+        "recipe": [
+            {
+                "material": "ETC_TIGHTLY_PACKED_UNORTHODOX_COAL",
+                "name": "奇怪的煤炭粉 (已压缩)"
+            },
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_DEVIANT_COAL",
+        "name": "不正常的煤炭",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "ETC_UNORTHODOX_COAL_BLOCK",
+                "name": "奇怪的煤炭块"
+            },
+            {
+                "material": "ETC_UNORTHODOX_COAL_BLOCK",
+                "name": "奇怪的煤炭块"
+            },
+            {
+                "material": "ETC_UNORTHODOX_COAL_BLOCK",
+                "name": "奇怪的煤炭块"
+            },
+            {
+                "material": "ETC_UNORTHODOX_COAL_BLOCK",
+                "name": "奇怪的煤炭块"
+            },
+            {
+                "material": "ETC_UNORTHODOX_COAL_BLOCK",
+                "name": "奇怪的煤炭块"
+            },
+            {
+                "material": "ETC_UNORTHODOX_COAL_BLOCK",
+                "name": "奇怪的煤炭块"
+            },
+            {
+                "material": "ETC_UNORTHODOX_COAL_BLOCK",
+                "name": "奇怪的煤炭块"
+            },
+            {
+                "material": "ETC_UNORTHODOX_COAL_BLOCK",
+                "name": "奇怪的煤炭块"
+            },
+            {
+                "material": "ETC_UNORTHODOX_COAL_BLOCK",
+                "name": "奇怪的煤炭块"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_DEVIANT_COAL_DUST",
+        "name": "不正常的煤炭粉",
+        "recipeType": "slimefun:ore_crusher",
+        "recipe": [
+            {
+                "material": "ETC_DEVIANT_COAL",
+                "name": "不正常的煤炭"
+            },
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_TIGHTLY_PACKED_DEVIANT_COAL",
+        "name": "不正常的煤炭粉 (已压缩)",
+        "recipeType": "slimefun:compressor",
+        "recipe": [
+            {
+                "material": "ETC_DEVIANT_COAL_DUST",
+                "amount": 4,
+                "name": "不正常的煤炭粉"
+            },
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_DEVIANT_COAL_BLOCK",
+        "name": "不正常的煤炭块",
+        "recipeType": "slimefun:pressure_chamber",
+        "recipe": [
+            {
+                "material": "ETC_TIGHTLY_PACKED_DEVIANT_COAL",
+                "name": "不正常的煤炭粉 (已压缩)"
+            },
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_DIVERGENT_COAL",
+        "name": "发散的煤炭",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "ETC_DEVIANT_COAL_BLOCK",
+                "name": "不正常的煤炭块"
+            },
+            {
+                "material": "ETC_DEVIANT_COAL_BLOCK",
+                "name": "不正常的煤炭块"
+            },
+            {
+                "material": "ETC_DEVIANT_COAL_BLOCK",
+                "name": "不正常的煤炭块"
+            },
+            {
+                "material": "ETC_DEVIANT_COAL_BLOCK",
+                "name": "不正常的煤炭块"
+            },
+            {
+                "material": "ETC_DEVIANT_COAL_BLOCK",
+                "name": "不正常的煤炭块"
+            },
+            {
+                "material": "ETC_DEVIANT_COAL_BLOCK",
+                "name": "不正常的煤炭块"
+            },
+            {
+                "material": "ETC_DEVIANT_COAL_BLOCK",
+                "name": "不正常的煤炭块"
+            },
+            {
+                "material": "ETC_DEVIANT_COAL_BLOCK",
+                "name": "不正常的煤炭块"
+            },
+            {
+                "material": "ETC_DEVIANT_COAL_BLOCK",
+                "name": "不正常的煤炭块"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_DIVERGENT_COAL_DUST",
+        "name": "发散的煤炭粉",
+        "recipeType": "slimefun:ore_crusher",
+        "recipe": [
+            {
+                "material": "ETC_DIVERGENT_COAL",
+                "name": "发散的煤炭"
+            },
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_TIGHTLY_PACKED_DIVERGENT_COAL",
+        "name": "发散的煤炭粉 (已压缩)",
+        "recipeType": "slimefun:compressor",
+        "recipe": [
+            {
+                "material": "ETC_DIVERGENT_COAL_DUST",
+                "amount": 4,
+                "name": "发散的煤炭粉"
+            },
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_DIVERGENT_COAL_BLOCK",
+        "name": "发散的煤炭块",
+        "recipeType": "slimefun:pressure_chamber",
+        "recipe": [
+            {
+                "material": "ETC_TIGHTLY_PACKED_DIVERGENT_COAL",
+                "name": "发散的煤炭粉 (已压缩)"
+            },
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_ANOMALOUS_COAL",
+        "name": "异常的煤炭",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "ETC_DIVERGENT_COAL_BLOCK",
+                "name": "发散的煤炭块"
+            },
+            {
+                "material": "ETC_DIVERGENT_COAL_BLOCK",
+                "name": "发散的煤炭块"
+            },
+            {
+                "material": "ETC_DIVERGENT_COAL_BLOCK",
+                "name": "发散的煤炭块"
+            },
+            {
+                "material": "ETC_DIVERGENT_COAL_BLOCK",
+                "name": "发散的煤炭块"
+            },
+            {
+                "material": "ETC_DIVERGENT_COAL_BLOCK",
+                "name": "发散的煤炭块"
+            },
+            {
+                "material": "ETC_DIVERGENT_COAL_BLOCK",
+                "name": "发散的煤炭块"
+            },
+            {
+                "material": "ETC_DIVERGENT_COAL_BLOCK",
+                "name": "发散的煤炭块"
+            },
+            {
+                "material": "ETC_DIVERGENT_COAL_BLOCK",
+                "name": "发散的煤炭块"
+            },
+            {
+                "material": "ETC_DIVERGENT_COAL_BLOCK",
+                "name": "发散的煤炭块"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_ANOMALOUS_COAL_DUST",
+        "name": "异常的煤炭粉",
+        "recipeType": "slimefun:ore_crusher",
+        "recipe": [
+            {
+                "material": "ETC_ANOMALOUS_COAL",
+                "name": "异常的煤炭"
+            },
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_TIGHTLY_PACKED_ANOMALOUS_COAL",
+        "name": "异常的煤炭粉 (已压缩)",
+        "recipeType": "slimefun:compressor",
+        "recipe": [
+            {
+                "material": "ETC_ANOMALOUS_COAL_DUST",
+                "amount": 4,
+                "name": "异常的煤炭粉"
+            },
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_ANOMALOUS_COAL_BLOCK",
+        "name": "异常的煤炭块",
+        "recipeType": "slimefun:pressure_chamber",
+        "recipe": [
+            {
+                "material": "ETC_TIGHTLY_PACKED_ANOMALOUS_COAL",
+                "name": "异常的煤炭粉 (已压缩)"
+            },
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_PERFECTED_COAL",
+        "name": "完美的煤炭",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "ETC_ANOMALOUS_COAL_BLOCK",
+                "name": "异常的煤炭块"
+            },
+            {
+                "material": "ETC_ANOMALOUS_COAL_BLOCK",
+                "name": "异常的煤炭块"
+            },
+            {
+                "material": "ETC_ANOMALOUS_COAL_BLOCK",
+                "name": "异常的煤炭块"
+            },
+            {
+                "material": "ETC_ANOMALOUS_COAL_BLOCK",
+                "name": "异常的煤炭块"
+            },
+            {
+                "material": "ETC_ANOMALOUS_COAL_BLOCK",
+                "name": "异常的煤炭块"
+            },
+            {
+                "material": "ETC_ANOMALOUS_COAL_BLOCK",
+                "name": "异常的煤炭块"
+            },
+            {
+                "material": "ETC_ANOMALOUS_COAL_BLOCK",
+                "name": "异常的煤炭块"
+            },
+            {
+                "material": "ETC_ANOMALOUS_COAL_BLOCK",
+                "name": "异常的煤炭块"
+            },
+            {
+                "material": "ETC_ANOMALOUS_COAL_BLOCK",
+                "name": "异常的煤炭块"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_UNORTHADOX_FRAME",
+        "name": "奇怪的框架",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "ETC_UNORTHODOX_COAL",
+                "name": "奇怪的煤炭"
+            },
+            {
+                "material": "ETC_UNORTHODOX_COAL",
+                "name": "奇怪的煤炭"
+            },
+            {
+                "material": "ETC_UNORTHODOX_COAL",
+                "name": "奇怪的煤炭"
+            },
+            {
+                "material": "ETC_UNORTHODOX_COAL",
+                "name": "奇怪的煤炭"
+            },
+            {
+                "material": "GOLD_24K_BLOCK",
+                "name": "金块 (24克拉)"
+            },
+            {
+                "material": "ETC_UNORTHODOX_COAL",
+                "name": "奇怪的煤炭"
+            },
+            {
+                "material": "ETC_UNORTHODOX_COAL",
+                "name": "奇怪的煤炭"
+            },
+            {
+                "material": "ETC_UNORTHODOX_COAL",
+                "name": "奇怪的煤炭"
+            },
+            {
+                "material": "ETC_UNORTHODOX_COAL",
+                "name": "奇怪的煤炭"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_UNORTHADOX_MACHINE_FRAME",
+        "name": "奇怪的机器框架",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "SOLDER_INGOT",
+                "name": "焊锡锭"
+            },
+            {
+                "material": "ANCIENT_RUNE_ENDER",
+                "name": "古代符文 [末影]"
+            },
+            {
+                "material": "SOLDER_INGOT",
+                "name": "焊锡锭"
+            },
+            {
+                "material": "SOLDER_INGOT",
+                "name": "焊锡锭"
+            },
+            {
+                "material": "ETC_UNORTHADOX_FRAME",
+                "name": "奇怪的框架"
+            },
+            {
+                "material": "SOLDER_INGOT",
+                "name": "焊锡锭"
+            },
+            {
+                "material": "SOLDER_INGOT",
+                "name": "焊锡锭"
+            },
+            {
+                "material": "MEDIUM_CAPACITOR",
+                "name": "中型储能电容"
+            },
+            {
+                "material": "SOLDER_INGOT",
+                "name": "焊锡锭"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_DEVIANT_FRAME",
+        "name": "不正常的框架",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "ETC_DEVIANT_COAL",
+                "name": "不正常的煤炭"
+            },
+            {
+                "material": "ETC_DEVIANT_COAL",
+                "name": "不正常的煤炭"
+            },
+            {
+                "material": "ETC_DEVIANT_COAL",
+                "name": "不正常的煤炭"
+            },
+            {
+                "material": "ETC_DEVIANT_COAL",
+                "name": "不正常的煤炭"
+            },
+            {
+                "material": "ETC_UNORTHADOX_FRAME",
+                "name": "奇怪的框架"
+            },
+            {
+                "material": "ETC_DEVIANT_COAL",
+                "name": "不正常的煤炭"
+            },
+            {
+                "material": "ETC_DEVIANT_COAL",
+                "name": "不正常的煤炭"
+            },
+            {
+                "material": "ETC_DEVIANT_COAL",
+                "name": "不正常的煤炭"
+            },
+            {
+                "material": "ETC_DEVIANT_COAL",
+                "name": "不正常的煤炭"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_DEVIANT_MACHINE_FRAME",
+        "name": "不正常的机器框架",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "DURALUMIN_INGOT",
+                "name": "硬铝锭"
+            },
+            {
+                "material": "ETC_UNORTHADOX_MACHINE_FRAME",
+                "name": "奇怪的机器框架"
+            },
+            {
+                "material": "DURALUMIN_INGOT",
+                "name": "硬铝锭"
+            },
+            {
+                "material": "DURALUMIN_INGOT",
+                "name": "硬铝锭"
+            },
+            {
+                "material": "ETC_DEVIANT_FRAME",
+                "name": "不正常的框架"
+            },
+            {
+                "material": "DURALUMIN_INGOT",
+                "name": "硬铝锭"
+            },
+            {
+                "material": "DURALUMIN_INGOT",
+                "name": "硬铝锭"
+            },
+            {
+                "material": "LARGE_CAPACITOR",
+                "name": "巨型储能电容"
+            },
+            {
+                "material": "DURALUMIN_INGOT",
+                "name": "硬铝锭"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_DIVERGENT_FRAME",
+        "name": "发散的框架",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "ETC_DIVERGENT_COAL",
+                "name": "发散的煤炭"
+            },
+            {
+                "material": "ETC_DIVERGENT_COAL",
+                "name": "发散的煤炭"
+            },
+            {
+                "material": "ETC_DIVERGENT_COAL",
+                "name": "发散的煤炭"
+            },
+            {
+                "material": "ETC_DIVERGENT_COAL",
+                "name": "发散的煤炭"
+            },
+            {
+                "material": "ETC_DEVIANT_FRAME",
+                "name": "不正常的框架"
+            },
+            {
+                "material": "ETC_DIVERGENT_COAL",
+                "name": "发散的煤炭"
+            },
+            {
+                "material": "ETC_DIVERGENT_COAL",
+                "name": "发散的煤炭"
+            },
+            {
+                "material": "ETC_DIVERGENT_COAL",
+                "name": "发散的煤炭"
+            },
+            {
+                "material": "ETC_DIVERGENT_COAL",
+                "name": "发散的煤炭"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_DIVERGENT_MACHINE_FRAME",
+        "name": "发散的机器框架",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "DAMASCUS_STEEL_INGOT",
+                "name": "大马士革钢锭"
+            },
+            {
+                "material": "ETC_DEVIANT_MACHINE_FRAME",
+                "name": "不正常的机器框架"
+            },
+            {
+                "material": "DAMASCUS_STEEL_INGOT",
+                "name": "大马士革钢锭"
+            },
+            {
+                "material": "DAMASCUS_STEEL_INGOT",
+                "name": "大马士革钢锭"
+            },
+            {
+                "material": "ETC_DIVERGENT_FRAME",
+                "name": "发散的框架"
+            },
+            {
+                "material": "DAMASCUS_STEEL_INGOT",
+                "name": "大马士革钢锭"
+            },
+            {
+                "material": "DAMASCUS_STEEL_INGOT",
+                "name": "大马士革钢锭"
+            },
+            {
+                "material": "BIG_CAPACITOR",
+                "name": "大型储能电容"
+            },
+            {
+                "material": "DAMASCUS_STEEL_INGOT",
+                "name": "大马士革钢锭"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_ANOMALOUS_FRAME",
+        "name": "异常的框架",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "ETC_ANOMALOUS_COAL",
+                "name": "异常的煤炭"
+            },
+            {
+                "material": "ETC_ANOMALOUS_COAL",
+                "name": "异常的煤炭"
+            },
+            {
+                "material": "ETC_ANOMALOUS_COAL",
+                "name": "异常的煤炭"
+            },
+            {
+                "material": "ETC_ANOMALOUS_COAL",
+                "name": "异常的煤炭"
+            },
+            {
+                "material": "ETC_DIVERGENT_FRAME",
+                "name": "发散的框架"
+            },
+            {
+                "material": "ETC_ANOMALOUS_COAL",
+                "name": "异常的煤炭"
+            },
+            {
+                "material": "ETC_ANOMALOUS_COAL",
+                "name": "异常的煤炭"
+            },
+            {
+                "material": "ETC_ANOMALOUS_COAL",
+                "name": "异常的煤炭"
+            },
+            {
+                "material": "ETC_ANOMALOUS_COAL",
+                "name": "异常的煤炭"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_ANOMALOUS_MACHINE_FRAME",
+        "name": "异常的机器框架",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "CORINTHIAN_BRONZE_INGOT",
+                "name": "科林斯青铜锭"
+            },
+            {
+                "material": "ETC_DIVERGENT_MACHINE_FRAME",
+                "name": "发散的机器框架"
+            },
+            {
+                "material": "CORINTHIAN_BRONZE_INGOT",
+                "name": "科林斯青铜锭"
+            },
+            {
+                "material": "CORINTHIAN_BRONZE_INGOT",
+                "name": "科林斯青铜锭"
+            },
+            {
+                "material": "ETC_ANOMALOUS_FRAME",
+                "name": "异常的框架"
+            },
+            {
+                "material": "CORINTHIAN_BRONZE_INGOT",
+                "name": "科林斯青铜锭"
+            },
+            {
+                "material": "CORINTHIAN_BRONZE_INGOT",
+                "name": "科林斯青铜锭"
+            },
+            {
+                "material": "CARBONADO_EDGED_CAPACITOR",
+                "name": "黑金刚石镶边储能电容"
+            },
+            {
+                "material": "CORINTHIAN_BRONZE_INGOT",
+                "name": "科林斯青铜锭"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_PERFECTED_FRAME",
+        "name": "完美的框架",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "ETC_PERFECTED_COAL",
+                "name": "完美的煤炭"
+            },
+            {
+                "material": "ETC_PERFECTED_COAL",
+                "name": "完美的煤炭"
+            },
+            {
+                "material": "ETC_PERFECTED_COAL",
+                "name": "完美的煤炭"
+            },
+            {
+                "material": "ETC_PERFECTED_COAL",
+                "name": "完美的煤炭"
+            },
+            {
+                "material": "ETC_ANOMALOUS_FRAME",
+                "name": "异常的框架"
+            },
+            {
+                "material": "ETC_PERFECTED_COAL",
+                "name": "完美的煤炭"
+            },
+            {
+                "material": "ETC_PERFECTED_COAL",
+                "name": "完美的煤炭"
+            },
+            {
+                "material": "ETC_PERFECTED_COAL",
+                "name": "完美的煤炭"
+            },
+            {
+                "material": "ETC_PERFECTED_COAL",
+                "name": "完美的煤炭"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_PERFECTED_MACHINE_FRAME",
+        "name": "完美的机器框架",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "REINFORCED_ALLOY_INGOT",
+                "name": "强化合金锭"
+            },
+            {
+                "material": "ETC_ANOMALOUS_MACHINE_FRAME",
+                "name": "异常的机器框架"
+            },
+            {
+                "material": "REINFORCED_ALLOY_INGOT",
+                "name": "强化合金锭"
+            },
+            {
+                "material": "REINFORCED_ALLOY_INGOT",
+                "name": "强化合金锭"
+            },
+            {
+                "material": "ETC_PERFECTED_FRAME",
+                "name": "完美的框架"
+            },
+            {
+                "material": "REINFORCED_ALLOY_INGOT",
+                "name": "强化合金锭"
+            },
+            {
+                "material": "REINFORCED_ALLOY_INGOT",
+                "name": "强化合金锭"
+            },
+            {
+                "material": "ENERGIZED_CAPACITOR",
+                "name": "终极储能电容"
+            },
+            {
+                "material": "REINFORCED_ALLOY_INGOT",
+                "name": "强化合金锭"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_DEMATERIALIZER_1",
+        "name": "解构机 ➊",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "ETC_UNORTHODOX_COAL",
+                "name": "奇怪的煤炭"
+            },
+            {
+                "material": "PROGRAMMABLE_ANDROID_3_BUTCHER",
+                "name": "可授权式可编程式机器人 (屠夫)"
+            },
+            {
+                "material": "ETC_UNORTHODOX_COAL",
+                "name": "奇怪的煤炭"
+            },
+            {
+                "material": "ANDROID_INTERFACE_ITEMS",
+                "name": "机器人交互接口 (物品)"
+            },
+            {
+                "material": "ETC_UNORTHADOX_MACHINE_FRAME",
+                "name": "奇怪的机器框架"
+            },
+            {
+                "material": "ANDROID_INTERFACE_ITEMS",
+                "name": "机器人交互接口 (物品)"
+            },
+            {
+                "material": "ETC_UNORTHODOX_COAL",
+                "name": "奇怪的煤炭"
+            },
+            {
+                "material": "ENERGY_REGULATOR",
+                "name": "能源调节器"
+            },
+            {
+                "material": "ETC_UNORTHODOX_COAL",
+                "name": "奇怪的煤炭"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_DEMATERIALIZER_2",
+        "name": "解构机 ➋",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "ETC_DEVIANT_COAL",
+                "name": "不正常的煤炭"
+            },
+            {
+                "material": "ETC_DEMATERIALIZER_1",
+                "name": "解构机 ➊"
+            },
+            {
+                "material": "ETC_DEVIANT_COAL",
+                "name": "不正常的煤炭"
+            },
+            {
+                "material": "ANDROID_INTERFACE_ITEMS",
+                "name": "机器人交互接口 (物品)"
+            },
+            {
+                "material": "ETC_DEVIANT_MACHINE_FRAME",
+                "name": "不正常的机器框架"
+            },
+            {
+                "material": "ANDROID_INTERFACE_ITEMS",
+                "name": "机器人交互接口 (物品)"
+            },
+            {
+                "material": "ETC_DEVIANT_COAL",
+                "name": "不正常的煤炭"
+            },
+            {
+                "material": "ENERGY_REGULATOR",
+                "name": "能源调节器"
+            },
+            {
+                "material": "ETC_DEVIANT_COAL",
+                "name": "不正常的煤炭"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_DEMATERIALIZER_3",
+        "name": "解构机 ➌",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "ETC_DIVERGENT_COAL",
+                "name": "发散的煤炭"
+            },
+            {
+                "material": "ETC_DEMATERIALIZER_2",
+                "name": "解构机 ➋"
+            },
+            {
+                "material": "ETC_DIVERGENT_COAL",
+                "name": "发散的煤炭"
+            },
+            {
+                "material": "ANDROID_INTERFACE_ITEMS",
+                "name": "机器人交互接口 (物品)"
+            },
+            {
+                "material": "ETC_DIVERGENT_MACHINE_FRAME",
+                "name": "发散的机器框架"
+            },
+            {
+                "material": "ANDROID_INTERFACE_ITEMS",
+                "name": "机器人交互接口 (物品)"
+            },
+            {
+                "material": "ETC_DIVERGENT_COAL",
+                "name": "发散的煤炭"
+            },
+            {
+                "material": "ENERGY_REGULATOR",
+                "name": "能源调节器"
+            },
+            {
+                "material": "ETC_DIVERGENT_COAL",
+                "name": "发散的煤炭"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_DEMATERIALIZER_4",
+        "name": "解构机 ➍",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "ETC_ANOMALOUS_COAL",
+                "name": "异常的煤炭"
+            },
+            {
+                "material": "ETC_DEMATERIALIZER_3",
+                "name": "解构机 ➌"
+            },
+            {
+                "material": "ETC_ANOMALOUS_COAL",
+                "name": "异常的煤炭"
+            },
+            {
+                "material": "ANDROID_INTERFACE_ITEMS",
+                "name": "机器人交互接口 (物品)"
+            },
+            {
+                "material": "ETC_ANOMALOUS_MACHINE_FRAME",
+                "name": "异常的机器框架"
+            },
+            {
+                "material": "ANDROID_INTERFACE_ITEMS",
+                "name": "机器人交互接口 (物品)"
+            },
+            {
+                "material": "ETC_ANOMALOUS_COAL",
+                "name": "异常的煤炭"
+            },
+            {
+                "material": "ENERGY_REGULATOR",
+                "name": "能源调节器"
+            },
+            {
+                "material": "ETC_ANOMALOUS_COAL",
+                "name": "异常的煤炭"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_DEMATERIALIZER_5",
+        "name": "解构机 ➎",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "ETC_PERFECTED_COAL",
+                "name": "完美的煤炭"
+            },
+            {
+                "material": "ETC_DEMATERIALIZER_4",
+                "name": "解构机 ➍"
+            },
+            {
+                "material": "ETC_PERFECTED_COAL",
+                "name": "完美的煤炭"
+            },
+            {
+                "material": "ANDROID_INTERFACE_ITEMS",
+                "name": "机器人交互接口 (物品)"
+            },
+            {
+                "material": "ETC_PERFECTED_MACHINE_FRAME",
+                "name": "完美的机器框架"
+            },
+            {
+                "material": "ANDROID_INTERFACE_ITEMS",
+                "name": "机器人交互接口 (物品)"
+            },
+            {
+                "material": "ETC_PERFECTED_COAL",
+                "name": "完美的煤炭"
+            },
+            {
+                "material": "ENERGY_REGULATOR",
+                "name": "能源调节器"
+            },
+            {
+                "material": "ETC_PERFECTED_COAL",
+                "name": "完美的煤炭"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_MATERIALIZER_1",
+        "name": "重构机 ➊",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "ETC_UNORTHODOX_COAL_BLOCK",
+                "name": "奇怪的煤炭块"
+            },
+            {
+                "material": "PROGRAMMABLE_ANDROID_3_FISHERMAN",
+                "name": "可授权式可编程式机器人 (渔夫)"
+            },
+            {
+                "material": "ETC_UNORTHODOX_COAL_BLOCK",
+                "name": "奇怪的煤炭块"
+            },
+            {
+                "material": "ANDROID_INTERFACE_ITEMS",
+                "name": "机器人交互接口 (物品)"
+            },
+            {
+                "material": "ETC_UNORTHADOX_MACHINE_FRAME",
+                "name": "奇怪的机器框架"
+            },
+            {
+                "material": "ANDROID_INTERFACE_ITEMS",
+                "name": "机器人交互接口 (物品)"
+            },
+            {
+                "material": "ETC_UNORTHODOX_COAL_BLOCK",
+                "name": "奇怪的煤炭块"
+            },
+            {
+                "material": "POWER_CRYSTAL",
+                "name": "能量水晶"
+            },
+            {
+                "material": "ETC_UNORTHODOX_COAL_BLOCK",
+                "name": "奇怪的煤炭块"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_MATERIALIZER_2",
+        "name": "重构机 ➋",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "ETC_DEVIANT_COAL_BLOCK",
+                "name": "不正常的煤炭块"
+            },
+            {
+                "material": "ETC_MATERIALIZER_1",
+                "name": "重构机 ➊"
+            },
+            {
+                "material": "ETC_DEVIANT_COAL_BLOCK",
+                "name": "不正常的煤炭块"
+            },
+            {
+                "material": "ANDROID_INTERFACE_ITEMS",
+                "name": "机器人交互接口 (物品)"
+            },
+            {
+                "material": "ETC_DEVIANT_MACHINE_FRAME",
+                "name": "不正常的机器框架"
+            },
+            {
+                "material": "ANDROID_INTERFACE_ITEMS",
+                "name": "机器人交互接口 (物品)"
+            },
+            {
+                "material": "ETC_DEVIANT_COAL_BLOCK",
+                "name": "不正常的煤炭块"
+            },
+            {
+                "material": "POWER_CRYSTAL",
+                "name": "能量水晶"
+            },
+            {
+                "material": "ETC_DEVIANT_COAL_BLOCK",
+                "name": "不正常的煤炭块"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_MATERIALIZER_3",
+        "name": "重构机 ➌",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "ETC_DIVERGENT_COAL_BLOCK",
+                "name": "发散的煤炭块"
+            },
+            {
+                "material": "ETC_MATERIALIZER_2",
+                "name": "重构机 ➋"
+            },
+            {
+                "material": "ETC_DIVERGENT_COAL_BLOCK",
+                "name": "发散的煤炭块"
+            },
+            {
+                "material": "ANDROID_INTERFACE_ITEMS",
+                "name": "机器人交互接口 (物品)"
+            },
+            {
+                "material": "ETC_DIVERGENT_MACHINE_FRAME",
+                "name": "发散的机器框架"
+            },
+            {
+                "material": "ANDROID_INTERFACE_ITEMS",
+                "name": "机器人交互接口 (物品)"
+            },
+            {
+                "material": "ETC_DIVERGENT_COAL_BLOCK",
+                "name": "发散的煤炭块"
+            },
+            {
+                "material": "POWER_CRYSTAL",
+                "name": "能量水晶"
+            },
+            {
+                "material": "ETC_DIVERGENT_COAL_BLOCK",
+                "name": "发散的煤炭块"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_MATERIALIZER_4",
+        "name": "重构机 ➍",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "ETC_ANOMALOUS_COAL_BLOCK",
+                "name": "异常的煤炭块"
+            },
+            {
+                "material": "ETC_MATERIALIZER_3",
+                "name": "重构机 ➌"
+            },
+            {
+                "material": "ETC_ANOMALOUS_COAL_BLOCK",
+                "name": "异常的煤炭块"
+            },
+            {
+                "material": "ANDROID_INTERFACE_ITEMS",
+                "name": "机器人交互接口 (物品)"
+            },
+            {
+                "material": "ETC_ANOMALOUS_MACHINE_FRAME",
+                "name": "异常的机器框架"
+            },
+            {
+                "material": "ANDROID_INTERFACE_ITEMS",
+                "name": "机器人交互接口 (物品)"
+            },
+            {
+                "material": "ETC_ANOMALOUS_COAL_BLOCK",
+                "name": "异常的煤炭块"
+            },
+            {
+                "material": "POWER_CRYSTAL",
+                "name": "能量水晶"
+            },
+            {
+                "material": "ETC_ANOMALOUS_COAL_BLOCK",
+                "name": "异常的煤炭块"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_MATERIALIZER_5",
+        "name": "重构机 ➎",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "ETC_PERFECTED_COAL",
+                "name": "完美的煤炭"
+            },
+            {
+                "material": "ETC_MATERIALIZER_4",
+                "name": "重构机 ➍"
+            },
+            {
+                "material": "ETC_PERFECTED_COAL",
+                "name": "完美的煤炭"
+            },
+            {
+                "material": "ANDROID_INTERFACE_ITEMS",
+                "name": "机器人交互接口 (物品)"
+            },
+            {
+                "material": "ETC_PERFECTED_MACHINE_FRAME",
+                "name": "完美的机器框架"
+            },
+            {
+                "material": "ANDROID_INTERFACE_ITEMS",
+                "name": "机器人交互接口 (物品)"
+            },
+            {
+                "material": "ETC_PERFECTED_COAL",
+                "name": "完美的煤炭"
+            },
+            {
+                "material": "POWER_CRYSTAL",
+                "name": "能量水晶"
+            },
+            {
+                "material": "ETC_PERFECTED_COAL",
+                "name": "完美的煤炭"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "ETC_NETWORK_MATERIALIZER",
+        "name": "网络 EMC 重构机",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "NTW_RADIOACTIVE_OPTIC_STAR",
+                "name": "放射性光学之星"
+            },
+            {
+                "material": "ETC_MATERIALIZER_4",
+                "name": "重构机 ➍"
+            },
+            {
+                "material": "NTW_RADIOACTIVE_OPTIC_STAR",
+                "name": "放射性光学之星"
+            },
+            {
+                "material": "NTW_MONITOR",
+                "name": "网络监视器"
+            },
+            {
+                "material": "ETC_MATERIALIZER_5",
+                "name": "重构机 ➎"
+            },
+            {
+                "material": "NTW_MONITOR",
+                "name": "网络监视器"
+            },
+            {
+                "material": "NTW_RADIOACTIVE_OPTIC_STAR",
+                "name": "放射性光学之星"
+            },
+            {
+                "material": "NTW_EMPOWERED_AI_CORE",
+                "name": "充能人工智能核心"
+            },
+            {
+                "material": "NTW_RADIOACTIVE_OPTIC_STAR",
+                "name": "放射性光学之星"
+            }
+        ],
+        "output": 1
+    }
+]

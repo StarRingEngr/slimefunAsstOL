@@ -1,23 +1,11 @@
 // modules/calculator.js
 import { getAllItems } from '../services/db.js';
+import { sortItems } from '../services/sort.js';
 import { CraftingCalculator } from '../services/calculator.js';
 
-let allItems = []; // 缓存所有物品
-let targetItems = {}; // { id: quantity }
-let ownedItems = {}; // { id: quantity }
-
 export async function initCalculator(container) {
-    // 加载所有物品
-    const allItems = await getAllItems();
-    // 按文件索引和行号排序（缺失字段的排在最后）
-    allItems.sort((a, b) => {
-        const fa = a._fileIndex !== undefined ? a._fileIndex : Infinity;
-        const fb = b._fileIndex !== undefined ? b._fileIndex : Infinity;
-        if (fa !== fb) return fa - fb;
-        const la = a._line !== undefined ? a._line : Infinity;
-        const lb = b._line !== undefined ? b._line : Infinity;
-        return la - lb;
-    });
+    let allItems = await getAllItems();
+    allItems = sortItems(allItems);  // 统一排序
 
     container.innerHTML = `
         <div class="calculator-layout">

@@ -1,0 +1,2862 @@
+[{
+    "id": "MAGIC_LUMP_4",
+    "name": "魔法结晶 - IV",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "MAGIC_LUMP_3",
+            "name": "魔法结晶 - III"
+        },
+        {
+            "material": "MAGIC_LUMP_3",
+            "name": "魔法结晶 - III"
+        },
+        null,
+        {
+            "material": "MAGIC_LUMP_3",
+            "name": "魔法结晶 - III"
+        },
+        {
+            "material": "MAGIC_LUMP_3",
+            "name": "魔法结晶 - III"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "foxymachines:magic_lumps",
+    "researchCost": 12
+},
+{
+    "id": "MAGIC_LUMP_5",
+    "name": "魔法结晶 - V",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "MAGIC_LUMP_4",
+            "name": "魔法结晶 - IV"
+        },
+        {
+            "material": "MAGIC_LUMP_4",
+            "name": "魔法结晶 - IV"
+        },
+        null,
+        {
+            "material": "MAGIC_LUMP_4",
+            "name": "魔法结晶 - IV"
+        },
+        {
+            "material": "MAGIC_LUMP_4",
+            "name": "魔法结晶 - IV"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "foxymachines:magic_lumps",
+    "researchCost": 12
+},
+{
+    "id": "REINFORCED_STRING",
+    "name": "强化线",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "STRING",
+            "name": "线"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "name": "强化合金锭"
+        },
+        {
+            "material": "STRING",
+            "name": "线"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "name": "强化合金锭"
+        },
+        {
+            "material": "STRING",
+            "name": "线"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "name": "强化合金锭"
+        },
+        {
+            "material": "STRING",
+            "name": "线"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "name": "强化合金锭"
+        },
+        {
+            "material": "STRING",
+            "name": "线"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:reinforced_string",
+    "researchCost": 18
+},
+{
+    "id": "IMPROVEMENT_CORE",
+    "name": "改进核心",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "DAMASCUS_STEEL_INGOT",
+            "name": "大马士革钢锭"
+        },
+        {
+            "material": "REINFORCED_STRING",
+            "name": "强化线"
+        },
+        {
+            "material": "DAMASCUS_STEEL_INGOT",
+            "name": "大马士革钢锭"
+        },
+        {
+            "material": "REINFORCED_STRING",
+            "name": "强化线"
+        },
+        {
+            "material": "DAMASCUS_STEEL_INGOT",
+            "name": "大马士革钢锭"
+        },
+        {
+            "material": "REINFORCED_STRING",
+            "name": "强化线"
+        },
+        {
+            "material": "DAMASCUS_STEEL_INGOT",
+            "name": "大马士革钢锭"
+        },
+        {
+            "material": "REINFORCED_STRING",
+            "name": "强化线"
+        },
+        {
+            "material": "DAMASCUS_STEEL_INGOT",
+            "name": "大马士革钢锭"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:improvement_core",
+    "researchCost": 28
+},
+{
+    "id": "STABILIZED_BLISTERING_BLOCK",
+    "name": "稳定起泡砖",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "HARDENED_METAL_INGOT",
+            "name": "硬化金属"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "name": "强化合金锭"
+        },
+        {
+            "material": "HARDENED_METAL_INGOT",
+            "name": "硬化金属"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "name": "强化合金锭"
+        },
+        {
+            "material": "BLISTERING_INGOT_3",
+            "name": "起泡锭"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "name": "强化合金锭"
+        },
+        {
+            "material": "HARDENED_METAL_INGOT",
+            "name": "硬化金属"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "name": "强化合金锭"
+        },
+        {
+            "material": "HARDENED_METAL_INGOT",
+            "name": "硬化金属"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:stabilized_blistering_block",
+    "researchCost": 26
+},
+{
+    "id": "FORCEFIELD_ENGINE",
+    "name": "力场引擎",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "AQUATIC_NETHERITE_INGOT",
+            "name": "水生下界合金锭"
+        },
+        {
+            "material": "ELECTRIC_MOTOR",
+            "name": "电动马达"
+        },
+        {
+            "material": "AQUATIC_NETHERITE_INGOT",
+            "name": "水生下界合金锭"
+        },
+        {
+            "material": "DEMONIC_PLATE",
+            "name": "恶魔板"
+        },
+        {
+            "material": "STABILIZED_BLISTERING_BLOCK",
+            "name": "稳定起泡砖"
+        },
+        {
+            "material": "DEMONIC_PLATE",
+            "name": "恶魔板"
+        },
+        {
+            "material": "AQUATIC_NETHERITE_INGOT",
+            "name": "水生下界合金锭"
+        },
+        {
+            "material": "ELECTRIC_MOTOR",
+            "name": "电动马达"
+        },
+        {
+            "material": "AQUATIC_NETHERITE_INGOT",
+            "name": "水生下界合金锭"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:forcefield_materials",
+    "researchCost": 36
+},
+{
+    "id": "FORCEFIELD_STABILIZER",
+    "name": "力场稳定器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "SWEET_INGOT",
+            "name": "甜蜜锭"
+        },
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        },
+        {
+            "material": "SWEET_INGOT",
+            "name": "甜蜜锭"
+        },
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        },
+        {
+            "material": "STABILIZED_BLISTERING_BLOCK",
+            "name": "稳定起泡砖"
+        },
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        },
+        {
+            "material": "STABILIZED_BLISTERING_BLOCK",
+            "name": "稳定起泡砖"
+        },
+        {
+            "material": "STABILIZED_BLISTERING_BLOCK",
+            "name": "稳定起泡砖"
+        },
+        {
+            "material": "STABILIZED_BLISTERING_BLOCK",
+            "name": "稳定起泡砖"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:forcefield_materials",
+    "researchCost": 36
+},
+{
+    "id": "WIRELESS_TRANSMITTER",
+    "name": "无线发射器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "REDSTONE_ALLOY",
+            "name": "红石合金锭"
+        },
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        },
+        {
+            "material": "REDSTONE_ALLOY",
+            "name": "红石合金锭"
+        },
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        },
+        {
+            "material": "ELECTRIC_MOTOR",
+            "name": "电动马达"
+        },
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        },
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        },
+        {
+            "material": "BATTERY",
+            "name": "电池"
+        },
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:wireless_transmitter",
+    "researchCost": 26
+},
+{
+    "id": "NUCLEAR_SALT",
+    "name": "核盐",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        {
+            "material": "BOOSTED_URANIUM",
+            "name": "钚铀混合氧化物核燃料"
+        },
+        null,
+        {
+            "material": "BOOSTED_URANIUM",
+            "name": "钚铀混合氧化物核燃料"
+        },
+        {
+            "material": "SALT",
+            "name": "盐"
+        },
+        {
+            "material": "BOOSTED_URANIUM",
+            "name": "钚铀混合氧化物核燃料"
+        },
+        null,
+        {
+            "material": "BOOSTED_URANIUM",
+            "name": "钚铀混合氧化物核燃料"
+        },
+        null
+    ],
+    "output": 1,
+    "research": "foxymachines:nuclear_salt",
+    "researchCost": 16
+},
+{
+    "id": "COMPRESSED_SPONGE",
+    "name": "压缩海绵",
+    "recipeType": "slimefun:compressor",
+    "recipe": [
+        {
+            "material": "SPONGE",
+            "amount": 24,
+            "name": "海绵"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "foxymachines:compressed_sponge",
+    "researchCost": 14
+},
+{
+    "id": "DEMONIC_INGOT",
+    "name": "恶魔锭",
+    "recipeType": "slimefun:smeltery",
+    "recipe": [
+        {
+            "material": "LAVA_CRYSTAL",
+            "name": "岩浆水晶"
+        },
+        {
+            "material": "BLISTERING_INGOT_3",
+            "name": "起泡锭"
+        },
+        {
+            "material": "GHAST_TEAR",
+            "name": "恶魂之泪"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "name": "强化合金锭"
+        },
+        {
+            "material": "NECROTIC_SKULL",
+            "name": "坏死颅骨"
+        },
+        {
+            "material": "STRANGE_NETHER_GOO",
+            "name": "奇怪的下界粘液"
+        },
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "foxymachines:ingots",
+    "researchCost": 24
+},
+{
+    "id": "AQUATIC_NETHERITE_INGOT",
+    "name": "水生下界合金锭",
+    "recipeType": "slimefun:smeltery",
+    "recipe": [
+        {
+            "material": "DAMASCUS_STEEL_INGOT",
+            "name": "大马士革钢锭"
+        },
+        {
+            "material": "NETHERITE_INGOT",
+            "name": "下界合金锭"
+        },
+        {
+            "material": "PRISMARINE_SHARD",
+            "name": "海晶碎片"
+        },
+        {
+            "material": "PRISMARINE_CRYSTALS",
+            "name": "海晶砂粒"
+        },
+        {
+            "material": "NAUTILUS_SHELL",
+            "name": "鹦鹉螺壳"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "foxymachines:ingots",
+    "researchCost": 24
+},
+{
+    "id": "DAMIENIUM",
+    "name": "达米恩锭",
+    "recipeType": "slimefun:smeltery",
+    "recipe": [
+        {
+            "material": "DAMASCUS_STEEL_INGOT",
+            "name": "大马士革钢锭"
+        },
+        {
+            "material": "GOLD_24K",
+            "name": "金锭 (24克拉)"
+        },
+        {
+            "material": "GOLD_INGOT",
+            "name": "金锭"
+        },
+        {
+            "material": "HARDENED_METAL_INGOT",
+            "name": "硬化金属"
+        },
+        {
+            "material": "CORINTHIAN_BRONZE_INGOT",
+            "name": "科林斯青铜锭"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "foxymachines:ingots",
+    "researchCost": 24
+},
+{
+    "id": "SWEET_INGOT",
+    "name": "甜蜜锭",
+    "recipeType": "slimefun:smeltery",
+    "recipe": [
+        {
+            "material": "DAMASCUS_STEEL_INGOT",
+            "name": "大马士革钢锭"
+        },
+        {
+            "material": "COBALT_INGOT",
+            "name": "钴锭"
+        },
+        {
+            "material": "BILLON_INGOT",
+            "name": "银铜合金锭"
+        },
+        {
+            "material": "HONEYCOMB_BLOCK",
+            "name": "蜜脾块"
+        },
+        {
+            "material": "SWEET_BERRIES",
+            "name": "甜浆果"
+        },
+        {
+            "material": "HONEY_BLOCK",
+            "name": "蜂蜜块"
+        },
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "foxymachines:ingots",
+    "researchCost": 24
+},
+{
+    "id": "SWEETENED_SWEET_INGOT",
+    "name": "加糖的甜蜜锭",
+    "recipeType": "slimefun:smeltery",
+    "recipe": [
+        {
+            "material": "SWEET_INGOT",
+            "name": "甜蜜锭"
+        },
+        {
+            "material": "DAMASCUS_STEEL_INGOT",
+            "name": "大马士革钢锭"
+        },
+        {
+            "material": "COBALT_INGOT",
+            "name": "钴锭"
+        },
+        {
+            "material": "SWEET_BERRIES",
+            "name": "甜浆果"
+        },
+        {
+            "material": "SUGAR",
+            "name": "糖"
+        },
+        {
+            "material": "HONEY_BLOCK",
+            "name": "蜂蜜块"
+        },
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "foxymachines:ingots",
+    "researchCost": 24
+},
+{
+    "id": "DEMONIC_PLATE",
+    "name": "恶魔板",
+    "recipeType": "slimefun:compressor",
+    "recipe": [
+        {
+            "material": "DEMONIC_INGOT",
+            "amount": 8,
+            "name": "恶魔锭"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "foxymachines:demonic_plate",
+    "researchCost": 16
+},
+{
+    "id": "HELMET_FRAME",
+    "name": "水灵头盔框架",
+    "recipeType": "slimefun:armor_forge",
+    "recipe": [
+        {
+            "material": "AQUATIC_NETHERITE_INGOT",
+            "name": "水生下界合金锭"
+        },
+        {
+            "material": "AQUATIC_NETHERITE_INGOT",
+            "name": "水生下界合金锭"
+        },
+        {
+            "material": "AQUATIC_NETHERITE_INGOT",
+            "name": "水生下界合金锭"
+        },
+        {
+            "material": "AQUATIC_NETHERITE_INGOT",
+            "name": "水生下界合金锭"
+        },
+        null,
+        {
+            "material": "AQUATIC_NETHERITE_INGOT",
+            "name": "水生下界合金锭"
+        },
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "foxymachines:armor_frame",
+    "researchCost": 24
+},
+{
+    "id": "RESISTANT_CHESTPLATE_FRAME",
+    "name": "抗性胸甲框架",
+    "recipeType": "slimefun:armor_forge",
+    "recipe": [
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        },
+        null,
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        },
+        {
+            "material": "DEMONIC_INGOT",
+            "name": "恶魔锭"
+        },
+        {
+            "material": "DEMONIC_INGOT",
+            "name": "恶魔锭"
+        },
+        {
+            "material": "DEMONIC_INGOT",
+            "name": "恶魔锭"
+        },
+        {
+            "material": "DEMONIC_INGOT",
+            "name": "恶魔锭"
+        },
+        {
+            "material": "DEMONIC_INGOT",
+            "name": "恶魔锭"
+        },
+        {
+            "material": "DEMONIC_INGOT",
+            "name": "恶魔锭"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:armor_frame",
+    "researchCost": 24
+},
+{
+    "id": "FIERY_LEGGINGS_FRAME",
+    "name": "火焰护腿框架",
+    "recipeType": "slimefun:armor_forge",
+    "recipe": [
+        {
+            "material": "DEMONIC_INGOT",
+            "name": "恶魔锭"
+        },
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        },
+        {
+            "material": "DEMONIC_INGOT",
+            "name": "恶魔锭"
+        },
+        {
+            "material": "DEMONIC_INGOT",
+            "name": "恶魔锭"
+        },
+        null,
+        {
+            "material": "DEMONIC_INGOT",
+            "name": "恶魔锭"
+        },
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        },
+        null,
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:armor_frame",
+    "researchCost": 24
+},
+{
+    "id": "LIGHT_BOOTS_FRAME",
+    "name": "轻盈之靴框架",
+    "recipeType": "slimefun:armor_forge",
+    "recipe": [
+        null,
+        null,
+        null,
+        {
+            "material": "SWEETENED_SWEET_INGOT",
+            "name": "加糖的甜蜜锭"
+        },
+        null,
+        {
+            "material": "SWEETENED_SWEET_INGOT",
+            "name": "加糖的甜蜜锭"
+        },
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        },
+        null,
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:armor_frame",
+    "researchCost": 24
+},
+{
+    "id": "POSEIDONS_BLESSING",
+    "name": "波塞冬的祝福",
+    "recipeType": "foxymachines:fishing",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "POSEIDONS_FISHING_ROD",
+            "name": "波塞冬的钓竿"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "foxymachines:fishing_materials",
+    "researchCost": 26
+},
+{
+    "id": "BLOOD",
+    "name": "鲜血",
+    "recipeType": "foxymachines:sacrificial_altar",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "NETHERITE_SWORD",
+            "name": "生物掉落物"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "foxymachines:sacrificial_altar_drops",
+    "researchCost": 28
+},
+{
+    "id": "CURSED_RABBIT_PAW",
+    "name": "诅咒兔爪",
+    "recipeType": "foxymachines:sacrificial_altar",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "RABBIT_SPAWN_EGG",
+            "name": "兔子掉落物"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "foxymachines:sacrificial_altar_drops",
+    "researchCost": 28
+},
+{
+    "id": "HUMAN_SKULL",
+    "name": "人类头颅",
+    "recipeType": "foxymachines:sacrificial_altar",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "PLAYER_HEAD",
+            "name": "玩家掉落物"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "foxymachines:sacrificial_altar_drops",
+    "researchCost": 28
+},
+{
+    "id": "TROPICAL_FISH_SCALE",
+    "name": "热带鱼鳞",
+    "recipeType": "foxymachines:sacrificial_altar",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "TROPICAL_FISH",
+            "name": "热带鱼掉落物"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "foxymachines:sacrificial_altar_drops",
+    "researchCost": 28
+},
+{
+    "id": "POLAR_FOX_HIDE",
+    "name": "北极狐皮",
+    "recipeType": "foxymachines:sacrificial_altar",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "POLAR_BEAR_SPAWN_EGG",
+            "name": "北极狐掉落物"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "foxymachines:sacrificial_altar_drops",
+    "researchCost": 28
+},
+{
+    "id": "MAGMA_ESSENCE",
+    "name": "岩浆精华",
+    "recipeType": "foxymachines:sacrificial_altar",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "MAGMA_CUBE_SPAWN_EGG",
+            "name": "岩浆怪掉落物"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "foxymachines:sacrificial_altar_drops",
+    "researchCost": 28
+},
+{
+    "id": "PARROT_FEATHER",
+    "name": "鹦鹉羽毛",
+    "recipeType": "foxymachines:sacrificial_altar",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "PARROT_SPAWN_EGG",
+            "name": "鹦鹉掉落物"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "foxymachines:sacrificial_altar_drops",
+    "researchCost": 28
+},
+{
+    "id": "UNHOLY_WITHER_SKELETON_BONE",
+    "name": "邪恶凋零骷髅骨",
+    "recipeType": "foxymachines:sacrificial_altar",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "WITHER_SKELETON_SPAWN_EGG",
+            "name": "凋零骷髅掉落物"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "foxymachines:sacrificial_altar_drops",
+    "researchCost": 28
+},
+{
+    "id": "BLOOD_INFUSED_SKULL",
+    "name": "注血头颅",
+    "recipeType": "slimefun:ancient_altar",
+    "recipe": [
+        {
+            "material": "MAGIC_LUMP_4",
+            "name": "魔法结晶 - IV"
+        },
+        {
+            "material": "BLOOD",
+            "name": "鲜血"
+        },
+        {
+            "material": "MAGIC_LUMP_4",
+            "name": "魔法结晶 - IV"
+        },
+        {
+            "material": "BLOOD",
+            "name": "鲜血"
+        },
+        {
+            "material": "HUMAN_SKULL",
+            "name": "人类头颅"
+        },
+        {
+            "material": "BLOOD",
+            "name": "鲜血"
+        },
+        {
+            "material": "MAGIC_LUMP_4",
+            "name": "魔法结晶 - IV"
+        },
+        {
+            "material": "BLOOD",
+            "name": "鲜血"
+        },
+        {
+            "material": "MAGIC_LUMP_4",
+            "name": "魔法结晶 - IV"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:blood_infused_skull",
+    "researchCost": 16
+},
+{
+    "id": "PURIFIED_BONE",
+    "name": "纯净骨头",
+    "recipeType": "slimefun:ancient_altar",
+    "recipe": [
+        {
+            "material": "BLUE_ORCHID",
+            "name": "兰花"
+        },
+        {
+            "material": "ALLIUM",
+            "name": "绒球葱"
+        },
+        {
+            "material": "OXEYE_DAISY",
+            "name": "滨菊"
+        },
+        {
+            "material": "POPPY",
+            "name": "虞美人"
+        },
+        {
+            "material": "UNHOLY_WITHER_SKELETON_BONE",
+            "name": "邪恶凋零骷髅骨"
+        },
+        {
+            "material": "RED_TULIP",
+            "name": "红色郁金香"
+        },
+        {
+            "material": "LILY_OF_THE_VALLEY",
+            "name": "铃兰"
+        },
+        {
+            "material": "PINK_TULIP",
+            "name": "粉红色郁金香"
+        },
+        {
+            "material": "CORNFLOWER",
+            "name": "矢车菊"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:purified_bone",
+    "researchCost": 22
+},
+{
+    "id": "PURE_BONE_DUST",
+    "name": "纯净骨粉",
+    "recipeType": "slimefun:compressor",
+    "recipe": [
+        {
+            "material": "PURIFIED_BONE",
+            "amount": 6,
+            "name": "纯净骨头"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "foxymachines:purified_bone",
+    "researchCost": 22
+},
+{
+    "id": "BUCKET_OF_BLOOD",
+    "name": "鲜血之桶",
+    "recipeType": "slimefun:magic_workbench",
+    "recipe": [
+        {
+            "material": "BLOOD",
+            "name": "鲜血"
+        },
+        {
+            "material": "BLOOD",
+            "name": "鲜血"
+        },
+        {
+            "material": "BLOOD",
+            "name": "鲜血"
+        },
+        {
+            "material": "BLOOD",
+            "name": "鲜血"
+        },
+        {
+            "material": "BUCKET",
+            "name": "桶"
+        },
+        {
+            "material": "BLOOD",
+            "name": "鲜血"
+        },
+        {
+            "material": "BLOOD",
+            "name": "鲜血"
+        },
+        {
+            "material": "BLOOD",
+            "name": "鲜血"
+        },
+        {
+            "material": "BLOOD",
+            "name": "鲜血"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:bloody_bucket",
+    "researchCost": 20
+},
+{
+    "id": "PIXIE_DUST",
+    "name": "精灵之粉",
+    "recipeType": "slimefun:grind_stone",
+    "recipe": [
+        {
+            "material": "PIXIE_QUEEN_HEART",
+            "name": "精灵女王之心"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 8,
+    "research": "foxymachines:pixie_dust",
+    "researchCost": 22
+},
+{
+    "id": "VILE_SEEDS",
+    "name": "邪恶之种",
+    "recipeType": "slimefun:grind_stone",
+    "recipe": [
+        {
+            "material": "VILE_PUMPKIN",
+            "name": "邪恶南瓜"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 6,
+    "research": "foxymachines:vile_seeds",
+    "researchCost": 24
+},
+{
+    "id": "PIXIE_QUEEN_HEART",
+    "name": "精灵女王之心",
+    "recipeType": "foxymachines:mob_drop",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "CREEPER_SPAWN_EGG",
+            "name": "精灵女王"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "foxymachines:pixie_queen",
+    "researchCost": 52
+},
+{
+    "id": "VILE_PUMPKIN",
+    "name": "邪恶南瓜",
+    "recipeType": "foxymachines:mob_drop",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "SPIDER_SPAWN_EGG",
+            "name": "无头骑士"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1,
+    "research": "foxymachines:headless_horseman",
+    "researchCost": 56
+},
+{
+    "id": "CURSED_SHARD",
+    "name": "诅咒碎片",
+    "recipeType": "foxymachines:quest",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "CURSED_SWORD",
+            "name": "诅咒之剑"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "CELESTIAL_SHARD",
+    "name": "天界碎片",
+    "recipeType": "foxymachines:quest",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "CELESTIAL_SWORD",
+            "name": "天界之剑"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "EQUANIMOUS_GEM",
+    "name": "镇静宝石",
+    "recipeType": "slimefun:ancient_altar",
+    "recipe": [
+        {
+            "material": "CURSED_SHARD",
+            "name": "诅咒碎片"
+        },
+        {
+            "material": "CELESTIAL_SHARD",
+            "name": "天界碎片"
+        },
+        {
+            "material": "CURSED_SHARD",
+            "name": "诅咒碎片"
+        },
+        {
+            "material": "CELESTIAL_SHARD",
+            "name": "天界碎片"
+        },
+        {
+            "material": "EMERALD",
+            "name": "绿宝石"
+        },
+        {
+            "material": "CELESTIAL_SHARD",
+            "name": "天界碎片"
+        },
+        {
+            "material": "CURSED_SHARD",
+            "name": "诅咒碎片"
+        },
+        {
+            "material": "CELESTIAL_SHARD",
+            "name": "天界碎片"
+        },
+        {
+            "material": "CURSED_SHARD",
+            "name": "诅咒碎片"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:equanimous_gem",
+    "researchCost": 36
+},
+{
+    "id": "SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS",
+    "name": "献祭黑石砖",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "POLISHED_BLACKSTONE_BRICKS",
+            "name": "磨制黑石砖"
+        },
+        {
+            "material": "POLISHED_BLACKSTONE_BRICKS",
+            "name": "磨制黑石砖"
+        },
+        {
+            "material": "POLISHED_BLACKSTONE_BRICKS",
+            "name": "磨制黑石砖"
+        },
+        {
+            "material": "POLISHED_BLACKSTONE_BRICKS",
+            "name": "磨制黑石砖"
+        },
+        {
+            "material": "REINFORCED_PLATE",
+            "name": "钢筋板"
+        },
+        {
+            "material": "POLISHED_BLACKSTONE_BRICKS",
+            "name": "磨制黑石砖"
+        },
+        {
+            "material": "POLISHED_BLACKSTONE_BRICKS",
+            "name": "磨制黑石砖"
+        },
+        {
+            "material": "POLISHED_BLACKSTONE_BRICKS",
+            "name": "磨制黑石砖"
+        },
+        {
+            "material": "POLISHED_BLACKSTONE_BRICKS",
+            "name": "磨制黑石砖"
+        }
+    ],
+    "output": 8,
+    "research": "foxymachines:sacrificial_altar",
+    "researchCost": 40
+},
+{
+    "id": "SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS",
+    "name": "献祭黑石砖楼梯",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS",
+            "name": "献祭黑石砖"
+        },
+        null,
+        null,
+        {
+            "material": "SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS",
+            "name": "献祭黑石砖"
+        },
+        {
+            "material": "SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS",
+            "name": "献祭黑石砖"
+        },
+        null,
+        {
+            "material": "SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS",
+            "name": "献祭黑石砖"
+        },
+        {
+            "material": "SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS",
+            "name": "献祭黑石砖"
+        },
+        {
+            "material": "SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS",
+            "name": "献祭黑石砖"
+        }
+    ],
+    "output": 4,
+    "research": "foxymachines:sacrificial_altar",
+    "researchCost": 40
+},
+{
+    "id": "SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL",
+    "name": "献祭黑石砖墙",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        null,
+        null,
+        {
+            "material": "SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS",
+            "name": "献祭黑石砖"
+        },
+        {
+            "material": "SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS",
+            "name": "献祭黑石砖"
+        },
+        {
+            "material": "SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS",
+            "name": "献祭黑石砖"
+        },
+        {
+            "material": "SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS",
+            "name": "献祭黑石砖"
+        },
+        {
+            "material": "SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS",
+            "name": "献祭黑石砖"
+        },
+        {
+            "material": "SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS",
+            "name": "献祭黑石砖"
+        }
+    ],
+    "output": 4,
+    "research": "foxymachines:sacrificial_altar",
+    "researchCost": 40
+},
+{
+    "id": "SACRIFICIAL_ALTAR_SOUL_TORCH",
+    "name": "献祭灵魂火把",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        {
+            "material": "MAGIC_LUMP_4",
+            "name": "魔法结晶 - IV"
+        },
+        null,
+        {
+            "material": "MAGIC_LUMP_4",
+            "name": "魔法结晶 - IV"
+        },
+        {
+            "material": "STRANGE_NETHER_GOO",
+            "name": "奇怪的下界粘液"
+        },
+        {
+            "material": "MAGIC_LUMP_4",
+            "name": "魔法结晶 - IV"
+        },
+        null,
+        {
+            "material": "BLAZE_ROD",
+            "name": "烈焰棒"
+        },
+        null
+    ],
+    "output": 1,
+    "research": "foxymachines:sacrificial_altar",
+    "researchCost": 40
+},
+{
+    "id": "SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE",
+    "name": "献祭席",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "GHAST_TEAR",
+            "name": "恶魂之泪"
+        },
+        {
+            "material": "MAGIC_LUMP_3",
+            "name": "魔法结晶 - III"
+        },
+        {
+            "material": "GHAST_TEAR",
+            "name": "恶魂之泪"
+        },
+        {
+            "material": "MAGIC_LUMP_3",
+            "name": "魔法结晶 - III"
+        },
+        {
+            "material": "POLISHED_BLACKSTONE_PRESSURE_PLATE",
+            "name": "磨制黑石压力板"
+        },
+        {
+            "material": "MAGIC_LUMP_3",
+            "name": "魔法结晶 - III"
+        },
+        {
+            "material": "GHAST_TEAR",
+            "name": "恶魂之泪"
+        },
+        {
+            "material": "MAGIC_LUMP_3",
+            "name": "魔法结晶 - III"
+        },
+        {
+            "material": "GHAST_TEAR",
+            "name": "恶魂之泪"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:sacrificial_altar",
+    "researchCost": 40
+},
+{
+    "id": "UNBREAKABLE_RUNE",
+    "name": "古代符文 [无法破坏]",
+    "recipeType": "slimefun:ancient_altar",
+    "recipe": [
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        },
+        {
+            "material": "MAGIC_LUMP_5",
+            "name": "魔法结晶 - V"
+        },
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        },
+        {
+            "material": "ESSENCE_OF_AFTERLIFE",
+            "name": "来世精华"
+        },
+        {
+            "material": "ANCIENT_RUNE_LIGHTNING",
+            "name": "古代符文 [雷]"
+        },
+        {
+            "material": "ESSENCE_OF_AFTERLIFE",
+            "name": "来世精华"
+        },
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        },
+        {
+            "material": "MAGIC_LUMP_5",
+            "name": "魔法结晶 - V"
+        },
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:unbreakable_rune",
+    "researchCost": 32
+},
+{
+    "id": "POSEIDONS_FISHING_ROD",
+    "name": "波塞冬的钓竿",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        null,
+        {
+            "material": "AQUATIC_NETHERITE_INGOT",
+            "name": "水生下界合金锭"
+        },
+        null,
+        {
+            "material": "AQUATIC_NETHERITE_INGOT",
+            "name": "水生下界合金锭"
+        },
+        {
+            "material": "REINFORCED_STRING",
+            "name": "强化线"
+        },
+        {
+            "material": "AQUATIC_NETHERITE_INGOT",
+            "name": "水生下界合金锭"
+        },
+        null,
+        {
+            "material": "HEART_OF_THE_SEA",
+            "name": "海洋之心"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:poseidons_fishing_rod",
+    "researchCost": 32
+},
+{
+    "id": "ELECTRIC_WIND_STAFF",
+    "name": "电力元素法杖 - 风",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        {
+            "material": "POWER_CRYSTAL",
+            "name": "能量水晶"
+        },
+        null,
+        {
+            "material": "ELECTRIC_MOTOR",
+            "name": "电动马达"
+        },
+        {
+            "material": "STAFF_ELEMENTAL_WIND",
+            "name": "元素法杖 - 风"
+        },
+        {
+            "material": "ELECTRIC_MOTOR",
+            "name": "电动马达"
+        },
+        null,
+        {
+            "material": "MEDIUM_CAPACITOR",
+            "name": "中型储能电容"
+        },
+        null
+    ],
+    "output": 1,
+    "research": "foxymachines:electric_wind_staff",
+    "researchCost": 22
+},
+{
+    "id": "ELECTRIC_FIRE_STAFF",
+    "name": "电力元素法杖 - 火",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "LAVA_CRYSTAL",
+            "name": "岩浆水晶"
+        },
+        {
+            "material": "POWER_CRYSTAL",
+            "name": "能量水晶"
+        },
+        {
+            "material": "LAVA_CRYSTAL",
+            "name": "岩浆水晶"
+        },
+        {
+            "material": "HEATING_COIL",
+            "name": "加热线圈"
+        },
+        {
+            "material": "STAFF_ELEMENTAL_FIRE",
+            "name": "元素法杖 - 火"
+        },
+        {
+            "material": "HEATING_COIL",
+            "name": "加热线圈"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "name": "强化合金锭"
+        },
+        {
+            "material": "MEDIUM_CAPACITOR",
+            "name": "中型储能电容"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "name": "强化合金锭"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:electric_fire_staffs",
+    "researchCost": 34
+},
+{
+    "id": "ELECTRIC_FIRE_STAFF_II",
+    "name": "电力元素法杖 - 火 - II",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "CARBONADO",
+            "name": "黑金刚石"
+        },
+        {
+            "material": "POWER_CRYSTAL",
+            "name": "能量水晶"
+        },
+        {
+            "material": "CARBONADO",
+            "name": "黑金刚石"
+        },
+        {
+            "material": "HEATING_COIL",
+            "name": "加热线圈"
+        },
+        {
+            "material": "ELECTRIC_FIRE_STAFF",
+            "name": "电力元素法杖 - 火"
+        },
+        {
+            "material": "HEATING_COIL",
+            "name": "加热线圈"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "name": "强化合金锭"
+        },
+        {
+            "material": "MEDIUM_CAPACITOR",
+            "name": "中型储能电容"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "name": "强化合金锭"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:electric_fire_staffs",
+    "researchCost": 34
+},
+{
+    "id": "HEALING_BOW",
+    "name": "治愈之弓",
+    "recipeType": "slimefun:magic_workbench",
+    "recipe": [
+        null,
+        {
+            "material": "SYNTHETIC_DIAMOND",
+            "name": "人造钻石"
+        },
+        {
+            "material": "REINFORCED_STRING",
+            "name": "强化线"
+        },
+        {
+            "material": "SYNTHETIC_DIAMOND",
+            "name": "人造钻石"
+        },
+        {
+            "material": "ESSENCE_OF_AFTERLIFE",
+            "name": "来世精华"
+        },
+        {
+            "material": "REINFORCED_STRING",
+            "name": "强化线"
+        },
+        null,
+        {
+            "material": "SYNTHETIC_DIAMOND",
+            "name": "人造钻石"
+        },
+        {
+            "material": "REINFORCED_STRING",
+            "name": "强化线"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:healing_bow",
+    "researchCost": 30
+},
+{
+    "id": "ACRI_ARCUM",
+    "name": "锋利之弓",
+    "recipeType": "slimefun:ancient_altar",
+    "recipe": [
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        },
+        {
+            "material": "BOW",
+            "name": "弓"
+        },
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        },
+        {
+            "material": "BUCKET_OF_BLOOD",
+            "name": "鲜血之桶"
+        },
+        {
+            "material": "VILE_PUMPKIN",
+            "name": "邪恶南瓜"
+        },
+        {
+            "material": "BUCKET_OF_BLOOD",
+            "name": "鲜血之桶"
+        },
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        },
+        {
+            "material": "BOW",
+            "name": "弓"
+        },
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:acri_arcum",
+    "researchCost": 46
+},
+{
+    "id": "CURSED_SWORD",
+    "name": "诅咒之剑",
+    "recipeType": "slimefun:ancient_altar",
+    "recipe": [
+        {
+            "material": "BLOOD",
+            "name": "鲜血"
+        },
+        {
+            "material": "CURSED_RABBIT_PAW",
+            "name": "诅咒兔爪"
+        },
+        {
+            "material": "BLOOD",
+            "name": "鲜血"
+        },
+        {
+            "material": "MAGIC_LUMP_5",
+            "name": "魔法结晶 - V"
+        },
+        {
+            "material": "NETHERITE_SWORD",
+            "name": "下界合金剑"
+        },
+        {
+            "material": "MAGIC_LUMP_5",
+            "name": "魔法结晶 - V"
+        },
+        {
+            "material": "BLOOD",
+            "name": "鲜血"
+        },
+        {
+            "material": "BLOOD_INFUSED_SKULL",
+            "name": "注血头颅"
+        },
+        {
+            "material": "BLOOD",
+            "name": "鲜血"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:swords",
+    "researchCost": 44
+},
+{
+    "id": "CELESTIAL_SWORD",
+    "name": "天界之剑",
+    "recipeType": "slimefun:ancient_altar",
+    "recipe": [
+        {
+            "material": "MAGIC_LUMP_5",
+            "name": "魔法结晶 - V"
+        },
+        {
+            "material": "POSEIDONS_BLESSING",
+            "name": "波塞冬的祝福"
+        },
+        {
+            "material": "MAGIC_LUMP_5",
+            "name": "魔法结晶 - V"
+        },
+        {
+            "material": "PURE_BONE_DUST",
+            "name": "纯净骨粉"
+        },
+        {
+            "material": "NETHERITE_SWORD",
+            "name": "下界合金剑"
+        },
+        {
+            "material": "PURE_BONE_DUST",
+            "name": "纯净骨粉"
+        },
+        {
+            "material": "MAGIC_LUMP_5",
+            "name": "魔法结晶 - V"
+        },
+        {
+            "material": "POSEIDONS_BLESSING",
+            "name": "波塞冬的祝福"
+        },
+        {
+            "material": "MAGIC_LUMP_5",
+            "name": "魔法结晶 - V"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:swords",
+    "researchCost": 44
+},
+{
+    "id": "ELUCIDATOR",
+    "name": "阐释者",
+    "recipeType": "slimefun:ancient_altar",
+    "recipe": [
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        },
+        {
+            "material": "CURSED_SWORD",
+            "name": "诅咒之剑"
+        },
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        },
+        {
+            "material": "BUCKET_OF_BLOOD",
+            "name": "鲜血之桶"
+        },
+        {
+            "material": "PIXIE_QUEEN_HEART",
+            "name": "精灵女王之心"
+        },
+        {
+            "material": "BUCKET_OF_BLOOD",
+            "name": "鲜血之桶"
+        },
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        },
+        {
+            "material": "CELESTIAL_SWORD",
+            "name": "天界之剑"
+        },
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:ultimate_sword",
+    "researchCost": 52
+},
+{
+    "id": "AQUATIC_HELMET",
+    "name": "水灵头盔",
+    "recipeType": "slimefun:ancient_altar",
+    "recipe": [
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        },
+        {
+            "material": "MAGIC_LUMP_5",
+            "name": "魔法结晶 - V"
+        },
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        },
+        {
+            "material": "TROPICAL_FISH_SCALE",
+            "name": "热带鱼鳞"
+        },
+        {
+            "material": "HELMET_FRAME",
+            "name": "水灵头盔框架"
+        },
+        {
+            "material": "TROPICAL_FISH_SCALE",
+            "name": "热带鱼鳞"
+        },
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        },
+        {
+            "material": "MAGIC_LUMP_5",
+            "name": "魔法结晶 - V"
+        },
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:armor",
+    "researchCost": 42
+},
+{
+    "id": "RESISTANT_CHESTPLATE",
+    "name": "抗性胸甲",
+    "recipeType": "slimefun:ancient_altar",
+    "recipe": [
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        },
+        {
+            "material": "MAGIC_LUMP_5",
+            "name": "魔法结晶 - V"
+        },
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        },
+        {
+            "material": "POLAR_FOX_HIDE",
+            "name": "北极狐皮"
+        },
+        {
+            "material": "RESISTANT_CHESTPLATE_FRAME",
+            "name": "抗性胸甲框架"
+        },
+        {
+            "material": "POLAR_FOX_HIDE",
+            "name": "北极狐皮"
+        },
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        },
+        {
+            "material": "MAGIC_LUMP_5",
+            "name": "魔法结晶 - V"
+        },
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:armor",
+    "researchCost": 42
+},
+{
+    "id": "FIERY_LEGGINGS",
+    "name": "火焰护腿",
+    "recipeType": "slimefun:ancient_altar",
+    "recipe": [
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        },
+        {
+            "material": "MAGIC_LUMP_5",
+            "name": "魔法结晶 - V"
+        },
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        },
+        {
+            "material": "MAGMA_ESSENCE",
+            "name": "岩浆精华"
+        },
+        {
+            "material": "FIERY_LEGGINGS_FRAME",
+            "name": "火焰护腿框架"
+        },
+        {
+            "material": "MAGMA_ESSENCE",
+            "name": "岩浆精华"
+        },
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        },
+        {
+            "material": "MAGIC_LUMP_5",
+            "name": "魔法结晶 - V"
+        },
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:armor",
+    "researchCost": 42
+},
+{
+    "id": "LIGHT_BOOTS",
+    "name": "轻盈之靴",
+    "recipeType": "slimefun:ancient_altar",
+    "recipe": [
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        },
+        {
+            "material": "MAGIC_LUMP_5",
+            "name": "魔法结晶 - V"
+        },
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        },
+        {
+            "material": "PARROT_FEATHER",
+            "name": "鹦鹉羽毛"
+        },
+        {
+            "material": "LIGHT_BOOTS_FRAME",
+            "name": "轻盈之靴框架"
+        },
+        {
+            "material": "PARROT_FEATHER",
+            "name": "鹦鹉羽毛"
+        },
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        },
+        {
+            "material": "MAGIC_LUMP_5",
+            "name": "魔法结晶 - V"
+        },
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:armor",
+    "researchCost": 42
+},
+{
+    "id": "IMPROVEMENT_FORGE",
+    "name": "改进锻造台",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "CARBONADO",
+            "name": "黑金刚石"
+        },
+        {
+            "material": "BLISTERING_INGOT_3",
+            "name": "起泡锭"
+        },
+        {
+            "material": "CARBONADO",
+            "name": "黑金刚石"
+        },
+        {
+            "material": "ELECTRIC_MOTOR",
+            "name": "电动马达"
+        },
+        {
+            "material": "AUTO_ENCHANTER",
+            "name": "自动附魔机"
+        },
+        {
+            "material": "ELECTRIC_MOTOR",
+            "name": "电动马达"
+        },
+        {
+            "material": "REINFORCED_PLATE",
+            "name": "钢筋板"
+        },
+        {
+            "material": "BLISTERING_INGOT_3",
+            "name": "起泡锭"
+        },
+        {
+            "material": "REINFORCED_PLATE",
+            "name": "钢筋板"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:improvement_forge",
+    "researchCost": 48
+},
+{
+    "id": "POTION_MIXER",
+    "name": "药水混合器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "CARBONADO",
+            "name": "黑金刚石"
+        },
+        {
+            "material": "GOLD_24K",
+            "name": "金锭 (24克拉)"
+        },
+        {
+            "material": "CARBONADO",
+            "name": "黑金刚石"
+        },
+        {
+            "material": "ELECTRIC_MOTOR",
+            "name": "电动马达"
+        },
+        {
+            "material": "BREWING_STAND",
+            "name": "酿造台"
+        },
+        {
+            "material": "ELECTRIC_MOTOR",
+            "name": "电动马达"
+        },
+        {
+            "material": "GOLD_24K",
+            "name": "金锭 (24克拉)"
+        },
+        {
+            "material": "MEDIUM_CAPACITOR",
+            "name": "中型储能电容"
+        },
+        {
+            "material": "GOLD_24K",
+            "name": "金锭 (24克拉)"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:potion_mixer",
+    "researchCost": 28
+},
+{
+    "id": "ELECTRIC_GOLD_REFINERY",
+    "name": "电力炼金厂",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "HARDENED_METAL_INGOT",
+            "name": "硬化金属"
+        },
+        {
+            "material": "ELECTRIC_MOTOR",
+            "name": "电动马达"
+        },
+        {
+            "material": "HARDENED_METAL_INGOT",
+            "name": "硬化金属"
+        },
+        {
+            "material": "HEATING_COIL",
+            "name": "加热线圈"
+        },
+        {
+            "material": "ELECTRIC_SMELTERY",
+            "name": "电力冶炼炉"
+        },
+        {
+            "material": "HEATING_COIL",
+            "name": "加热线圈"
+        },
+        {
+            "material": "HARDENED_METAL_INGOT",
+            "name": "硬化金属"
+        },
+        {
+            "material": "MEDIUM_CAPACITOR",
+            "name": "中型储能电容"
+        },
+        {
+            "material": "HARDENED_METAL_INGOT",
+            "name": "硬化金属"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:electric_gold_refinery",
+    "researchCost": 28
+},
+{
+    "id": "CHUNK_LOADER",
+    "name": "区块加载器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "REINFORCED_STRING",
+            "name": "强化线"
+        },
+        {
+            "material": "STABILIZED_BLISTERING_BLOCK",
+            "name": "稳定起泡砖"
+        },
+        {
+            "material": "REINFORCED_STRING",
+            "name": "强化线"
+        },
+        {
+            "material": "ENRICHED_NETHER_ICE",
+            "name": "浓缩下界冰"
+        },
+        {
+            "material": "STABILIZED_BLISTERING_BLOCK",
+            "name": "稳定起泡砖"
+        },
+        {
+            "material": "WIRELESS_TRANSMITTER",
+            "name": "无线发射器"
+        },
+        {
+            "material": "REINFORCED_STRING",
+            "name": "强化线"
+        },
+        {
+            "material": "STABILIZED_BLISTERING_BLOCK",
+            "name": "稳定起泡砖"
+        },
+        {
+            "material": "REINFORCED_STRING",
+            "name": "强化线"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:chunk_loader",
+    "researchCost": 52
+},
+{
+    "id": "BOOSTED_RAIL",
+    "name": "提速铁轨",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "LEAD_INGOT",
+            "name": "铅锭"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        },
+        {
+            "material": "LEAD_INGOT",
+            "name": "铅锭"
+        },
+        {
+            "material": "LEAD_INGOT",
+            "name": "铅锭"
+        },
+        {
+            "material": "STICK",
+            "name": "木棍"
+        },
+        {
+            "material": "LEAD_INGOT",
+            "name": "铅锭"
+        },
+        {
+            "material": "LEAD_INGOT",
+            "name": "铅锭"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        },
+        {
+            "material": "LEAD_INGOT",
+            "name": "铅锭"
+        }
+    ],
+    "output": 4,
+    "research": "foxymachines:boosted_rail",
+    "researchCost": 16
+},
+{
+    "id": "BOOSTED_ACTIVATOR_RAIL",
+    "name": "提速激活铁轨",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BRASS_INGOT",
+            "name": "黄铜锭"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        },
+        {
+            "material": "BRASS_INGOT",
+            "name": "黄铜锭"
+        },
+        {
+            "material": "BRASS_INGOT",
+            "name": "黄铜锭"
+        },
+        {
+            "material": "REPEATER",
+            "name": "红石中继器"
+        },
+        {
+            "material": "BRASS_INGOT",
+            "name": "黄铜锭"
+        },
+        {
+            "material": "BRASS_INGOT",
+            "name": "黄铜锭"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        },
+        {
+            "material": "BRASS_INGOT",
+            "name": "黄铜锭"
+        }
+    ],
+    "output": 4,
+    "research": "foxymachines:boosted_rail",
+    "researchCost": 16
+},
+{
+    "id": "BOOSTED_DETECTOR_RAIL",
+    "name": "提速探测铁轨",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BRASS_INGOT",
+            "name": "黄铜锭"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        },
+        {
+            "material": "BRASS_INGOT",
+            "name": "黄铜锭"
+        },
+        {
+            "material": "BRASS_INGOT",
+            "name": "黄铜锭"
+        },
+        {
+            "material": "HEAVY_WEIGHTED_PRESSURE_PLATE",
+            "name": "重质测重压力板"
+        },
+        {
+            "material": "BRASS_INGOT",
+            "name": "黄铜锭"
+        },
+        {
+            "material": "BRASS_INGOT",
+            "name": "黄铜锭"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        },
+        {
+            "material": "BRASS_INGOT",
+            "name": "黄铜锭"
+        }
+    ],
+    "output": 4,
+    "research": "foxymachines:boosted_rail",
+    "researchCost": 16
+},
+{
+    "id": "BOOSTED_POWERED_RAIL",
+    "name": "提速充能铁轨",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "GOLD_24K",
+            "name": "金锭 (24克拉)"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        },
+        {
+            "material": "GOLD_24K",
+            "name": "金锭 (24克拉)"
+        },
+        {
+            "material": "GOLD_24K",
+            "name": "金锭 (24克拉)"
+        },
+        {
+            "material": "ELECTRO_MAGNET",
+            "name": "电磁铁"
+        },
+        {
+            "material": "GOLD_24K",
+            "name": "金锭 (24克拉)"
+        },
+        {
+            "material": "GOLD_24K",
+            "name": "金锭 (24克拉)"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        },
+        {
+            "material": "GOLD_24K",
+            "name": "金锭 (24克拉)"
+        }
+    ],
+    "output": 4,
+    "research": "foxymachines:boosted_rail",
+    "researchCost": 16
+},
+{
+    "id": "BERRY_BUSH_TRIMMER",
+    "name": "甜浆果丛修剪器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        {
+            "material": "DAMASCUS_STEEL_INGOT",
+            "name": "大马士革钢锭"
+        },
+        null,
+        {
+            "material": "DAMASCUS_STEEL_INGOT",
+            "name": "大马士革钢锭"
+        },
+        null,
+        {
+            "material": "DAMASCUS_STEEL_INGOT",
+            "name": "大马士革钢锭"
+        },
+        {
+            "material": "STICK",
+            "name": "木棍"
+        },
+        {
+            "material": "DAMASCUS_STEEL_INGOT",
+            "name": "大马士革钢锭"
+        },
+        null
+    ],
+    "output": 1,
+    "research": "foxymachines:berry_bush_trimmer",
+    "researchCost": 20
+},
+{
+    "id": "GHOST_BLOCK_REMOVER",
+    "name": "幽灵方块移除器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        },
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        },
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        },
+        {
+            "material": "SWEET_INGOT",
+            "name": "甜蜜锭"
+        },
+        {
+            "material": "BASIC_CIRCUIT_BOARD",
+            "name": "基础电路板"
+        },
+        {
+            "material": "SWEET_INGOT",
+            "name": "甜蜜锭"
+        },
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        },
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        },
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:ghost_block_remover",
+    "researchCost": 44
+},
+{
+    "id": "FORCEFIELD_DOME",
+    "name": "穹顶力场",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "SWEETENED_SWEET_INGOT",
+            "name": "加糖的甜蜜锭"
+        },
+        {
+            "material": "FORCEFIELD_STABILIZER",
+            "name": "力场稳定器"
+        },
+        {
+            "material": "SWEETENED_SWEET_INGOT",
+            "name": "加糖的甜蜜锭"
+        },
+        {
+            "material": "FORCEFIELD_STABILIZER",
+            "name": "力场稳定器"
+        },
+        {
+            "material": "FORCEFIELD_ENGINE",
+            "name": "力场引擎"
+        },
+        {
+            "material": "FORCEFIELD_STABILIZER",
+            "name": "力场稳定器"
+        },
+        {
+            "material": "SWEETENED_SWEET_INGOT",
+            "name": "加糖的甜蜜锭"
+        },
+        {
+            "material": "FORCEFIELD_STABILIZER",
+            "name": "力场稳定器"
+        },
+        {
+            "material": "SWEETENED_SWEET_INGOT",
+            "name": "加糖的甜蜜锭"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:forcefield_dome",
+    "researchCost": 66
+},
+{
+    "id": "REMOTE_CONTROLLER",
+    "name": "远程控制器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        },
+        {
+            "material": "WIRELESS_TRANSMITTER",
+            "name": "无线发射器"
+        },
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        },
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        },
+        {
+            "material": "WIRELESS_TRANSMITTER",
+            "name": "无线发射器"
+        },
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        },
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        },
+        {
+            "material": "WIRELESS_TRANSMITTER",
+            "name": "无线发射器"
+        },
+        {
+            "material": "DAMIENIUM",
+            "name": "达米恩锭"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:remote_controller",
+    "researchCost": 32
+},
+{
+    "id": "POSITION_SELECTOR",
+    "name": "位置选择器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "SWEET_INGOT",
+            "name": "甜蜜锭"
+        },
+        {
+            "material": "WIRELESS_TRANSMITTER",
+            "name": "无线发射器"
+        },
+        {
+            "material": "SWEET_INGOT",
+            "name": "甜蜜锭"
+        },
+        {
+            "material": "CORINTHIAN_BRONZE_INGOT",
+            "name": "科林斯青铜锭"
+        },
+        {
+            "material": "BIG_CAPACITOR",
+            "name": "大型储能电容"
+        },
+        {
+            "material": "CORINTHIAN_BRONZE_INGOT",
+            "name": "科林斯青铜锭"
+        },
+        {
+            "material": "SWEET_INGOT",
+            "name": "甜蜜锭"
+        },
+        {
+            "material": "CORINTHIAN_BRONZE_INGOT",
+            "name": "科林斯青铜锭"
+        },
+        {
+            "material": "SWEET_INGOT",
+            "name": "甜蜜锭"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:build_wands",
+    "researchCost": 36
+},
+{
+    "id": "FILL_WAND",
+    "name": "填充棒",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "AQUATIC_NETHERITE_INGOT",
+            "name": "水生下界合金锭"
+        },
+        {
+            "material": "WIRELESS_TRANSMITTER",
+            "name": "无线发射器"
+        },
+        {
+            "material": "AQUATIC_NETHERITE_INGOT",
+            "name": "水生下界合金锭"
+        },
+        {
+            "material": "DEMONIC_PLATE",
+            "name": "恶魔板"
+        },
+        {
+            "material": "PROGRAMMABLE_ANDROID_2",
+            "name": "高级可编程式机器人 (普通)"
+        },
+        {
+            "material": "DEMONIC_PLATE",
+            "name": "恶魔板"
+        },
+        {
+            "material": "SWEETENED_SWEET_INGOT",
+            "name": "加糖的甜蜜锭"
+        },
+        {
+            "material": "WIRELESS_TRANSMITTER",
+            "name": "无线发射器"
+        },
+        {
+            "material": "SWEETENED_SWEET_INGOT",
+            "name": "加糖的甜蜜锭"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:build_wands",
+    "researchCost": 36
+},
+{
+    "id": "SPONGE_WAND",
+    "name": "海绵棒",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "NUCLEAR_SALT",
+            "name": "核盐"
+        },
+        {
+            "material": "WIRELESS_TRANSMITTER",
+            "name": "无线发射器"
+        },
+        {
+            "material": "NUCLEAR_SALT",
+            "name": "核盐"
+        },
+        {
+            "material": "DEMONIC_PLATE",
+            "name": "恶魔板"
+        },
+        {
+            "material": "PROGRAMMABLE_ANDROID_2",
+            "name": "高级可编程式机器人 (普通)"
+        },
+        {
+            "material": "DEMONIC_PLATE",
+            "name": "恶魔板"
+        },
+        {
+            "material": "NUCLEAR_SALT",
+            "name": "核盐"
+        },
+        {
+            "material": "COMPRESSED_SPONGE",
+            "name": "压缩海绵"
+        },
+        {
+            "material": "NUCLEAR_SALT",
+            "name": "核盐"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:build_wands",
+    "researchCost": 36
+},
+{
+    "id": "PIXIE_QUEEN_SPAWN_EGG",
+    "name": "精灵女王刷怪蛋",
+    "recipeType": "slimefun:ancient_altar",
+    "recipe": [
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        },
+        {
+            "material": "DEMONIC_PLATE",
+            "name": "恶魔板"
+        },
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        },
+        {
+            "material": "PARROT_FEATHER",
+            "name": "鹦鹉羽毛"
+        },
+        {
+            "material": "EGG",
+            "name": "鸡蛋"
+        },
+        {
+            "material": "PARROT_FEATHER",
+            "name": "鹦鹉羽毛"
+        },
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        },
+        {
+            "material": "DEMONIC_PLATE",
+            "name": "恶魔板"
+        },
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:pixie_queen",
+    "researchCost": 52
+},
+{
+    "id": "HEADLESS_HORSEMAN_SPAWN_EGG",
+    "name": "无头骑士刷怪蛋",
+    "recipeType": "slimefun:ancient_altar",
+    "recipe": [
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        },
+        {
+            "material": "DEMONIC_PLATE",
+            "name": "恶魔板"
+        },
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        },
+        {
+            "material": "CURSED_RABBIT_PAW",
+            "name": "诅咒兔爪"
+        },
+        {
+            "material": "PIXIE_QUEEN_HEART",
+            "name": "精灵女王之心"
+        },
+        {
+            "material": "CURSED_RABBIT_PAW",
+            "name": "诅咒兔爪"
+        },
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        },
+        {
+            "material": "DEMONIC_PLATE",
+            "name": "恶魔板"
+        },
+        {
+            "material": "EQUANIMOUS_GEM",
+            "name": "镇静宝石"
+        }
+    ],
+    "output": 1,
+    "research": "foxymachines:headless_horseman",
+    "researchCost": 56
+}]

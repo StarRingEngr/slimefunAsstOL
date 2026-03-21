@@ -1,19 +1,13 @@
 // modules/baseMaterials.js
 import { getAllItems } from '../services/db.js';
+import { sortItems } from '../services/sort.js';
 import { getBaseMaterials, setBaseMaterials, saveBaseMaterialsToDB } from '../services/dataStore.js';
 
 let allItems = [];
 
 export async function initBaseMaterials(container) {
     allItems = await getAllItems();
-    allItems.sort((a, b) => {
-        const fa = a._fileIndex !== undefined ? a._fileIndex : Infinity;
-        const fb = b._fileIndex !== undefined ? b._fileIndex : Infinity;
-        if (fa !== fb) return fa - fb;
-        const la = a._line !== undefined ? a._line : Infinity;
-        const lb = b._line !== undefined ? b._line : Infinity;
-        return la - lb;
-    });
+    allItems = sortItems(allItems);  // 统一排序
 
     const baseMats = getBaseMaterials();
 

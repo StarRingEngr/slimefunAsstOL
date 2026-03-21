@@ -1,0 +1,2137 @@
+[{
+    "id": "NTW_SYNTHETIC_EMERALD_SHARD",
+    "name": "人造绿宝石碎片",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "STONE_CHUNK",
+            "name": "石块"
+        },
+        {
+            "material": "SYNTHETIC_EMERALD",
+            "name": "人造绿宝石"
+        },
+        null,
+        {
+            "material": "SYNTHETIC_EMERALD",
+            "name": "人造绿宝石"
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 3
+},
+{
+    "id": "NTW_OPTIC_GLASS",
+    "name": "光学玻璃",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "GLASS",
+            "name": "玻璃"
+        },
+        {
+            "material": "GLASS",
+            "name": "玻璃"
+        },
+        {
+            "material": "GLASS",
+            "name": "玻璃"
+        },
+        {
+            "material": "GLASS",
+            "name": "玻璃"
+        },
+        {
+            "material": "NTW_SYNTHETIC_EMERALD_SHARD",
+            "name": "人造绿宝石碎片"
+        },
+        {
+            "material": "GLASS",
+            "name": "玻璃"
+        },
+        {
+            "material": "GLASS",
+            "name": "玻璃"
+        },
+        {
+            "material": "GLASS",
+            "name": "玻璃"
+        },
+        {
+            "material": "GLASS",
+            "name": "玻璃"
+        }
+    ],
+    "output": 8
+},
+{
+    "id": "NTW_OPTIC_CABLE",
+    "name": "光缆",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        },
+        {
+            "material": "NTW_SYNTHETIC_EMERALD_SHARD",
+            "name": "人造绿宝石碎片"
+        },
+        {
+            "material": "COPPER_WIRE",
+            "name": "铜线"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        }
+    ],
+    "output": 16
+},
+{
+    "id": "NTW_OPTIC_STAR",
+    "name": "光学之星",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NETHER_STAR",
+            "name": "下界之星"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_RADIOACTIVE_OPTIC_STAR",
+    "name": "放射性光学之星",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BLISTERING_INGOT_3",
+            "name": "起泡锭"
+        },
+        {
+            "material": "BLISTERING_INGOT_3",
+            "name": "起泡锭"
+        },
+        {
+            "material": "BLISTERING_INGOT_3",
+            "name": "起泡锭"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_STAR",
+            "name": "光学之星"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "BLISTERING_INGOT_3",
+            "name": "起泡锭"
+        },
+        {
+            "material": "BLISTERING_INGOT_3",
+            "name": "起泡锭"
+        },
+        {
+            "material": "BLISTERING_INGOT_3",
+            "name": "起泡锭"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_SHRINKING_BASE",
+    "name": "缩小底座",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "CORINTHIAN_BRONZE_INGOT",
+            "name": "科林斯青铜锭"
+        },
+        {
+            "material": "ANDROID_INTERFACE_ITEMS",
+            "name": "机器人交互接口 (物品)"
+        },
+        {
+            "material": "CORINTHIAN_BRONZE_INGOT",
+            "name": "科林斯青铜锭"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_RADIOACTIVE_OPTIC_STAR",
+            "name": "放射性光学之星"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "CORINTHIAN_BRONZE_INGOT",
+            "name": "科林斯青铜锭"
+        },
+        {
+            "material": "ANDROID_MEMORY_CORE",
+            "name": "机器人内存核心"
+        },
+        {
+            "material": "CORINTHIAN_BRONZE_INGOT",
+            "name": "科林斯青铜锭"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_SIMPLE_NANOBOTS",
+    "name": "简易纳米机器人",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "NTW_SHRINKING_BASE",
+            "name": "缩小底座"
+        },
+        {
+            "material": "PROGRAMMABLE_ANDROID",
+            "name": "可编程式机器人 (普通)"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 4
+},
+{
+    "id": "NTW_ADVANCED_NANOBOTS",
+    "name": "高级纳米机器人",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "NTW_SHRINKING_BASE",
+            "name": "缩小底座"
+        },
+        {
+            "material": "PROGRAMMABLE_ANDROID_3",
+            "name": "可授权式可编程式机器人 (普通)"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 4
+},
+{
+    "id": "NTW_AI_CORE",
+    "name": "人工智能核心",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BASIC_CIRCUIT_BOARD",
+            "name": "基础电路板"
+        },
+        {
+            "material": "ANDROID_MEMORY_CORE",
+            "name": "机器人内存核心"
+        },
+        {
+            "material": "BASIC_CIRCUIT_BOARD",
+            "name": "基础电路板"
+        },
+        {
+            "material": "BASIC_CIRCUIT_BOARD",
+            "name": "基础电路板"
+        },
+        {
+            "material": "NTW_ADVANCED_NANOBOTS",
+            "name": "高级纳米机器人"
+        },
+        {
+            "material": "BASIC_CIRCUIT_BOARD",
+            "name": "基础电路板"
+        },
+        {
+            "material": "BASIC_CIRCUIT_BOARD",
+            "name": "基础电路板"
+        },
+        {
+            "material": "ANDROID_MEMORY_CORE",
+            "name": "机器人内存核心"
+        },
+        {
+            "material": "BASIC_CIRCUIT_BOARD",
+            "name": "基础电路板"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_EMPOWERED_AI_CORE",
+    "name": "充能人工智能核心",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "ADVANCED_CIRCUIT_BOARD",
+            "name": "高级电路板"
+        },
+        {
+            "material": "NTW_RADIOACTIVE_OPTIC_STAR",
+            "name": "放射性光学之星"
+        },
+        {
+            "material": "ADVANCED_CIRCUIT_BOARD",
+            "name": "高级电路板"
+        },
+        {
+            "material": "ADVANCED_CIRCUIT_BOARD",
+            "name": "高级电路板"
+        },
+        {
+            "material": "NTW_AI_CORE",
+            "name": "人工智能核心"
+        },
+        {
+            "material": "ADVANCED_CIRCUIT_BOARD",
+            "name": "高级电路板"
+        },
+        {
+            "material": "ADVANCED_CIRCUIT_BOARD",
+            "name": "高级电路板"
+        },
+        {
+            "material": "NTW_RADIOACTIVE_OPTIC_STAR",
+            "name": "放射性光学之星"
+        },
+        {
+            "material": "ADVANCED_CIRCUIT_BOARD",
+            "name": "高级电路板"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_PRISTINE_AI_CORE",
+    "name": "古代人工智能核心",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "NEPTUNIUM",
+            "name": "镎"
+        },
+        {
+            "material": "DAMASCUS_STEEL_MULTI_TOOL",
+            "name": "多功能工具 - V"
+        },
+        {
+            "material": "NEPTUNIUM",
+            "name": "镎"
+        },
+        {
+            "material": "NEPTUNIUM",
+            "name": "镎"
+        },
+        {
+            "material": "NTW_EMPOWERED_AI_CORE",
+            "name": "充能人工智能核心"
+        },
+        {
+            "material": "NEPTUNIUM",
+            "name": "镎"
+        },
+        {
+            "material": "NEPTUNIUM",
+            "name": "镎"
+        },
+        {
+            "material": "ELECTRIFIED_CRUCIBLE_3",
+            "name": "电动坩埚 - III"
+        },
+        {
+            "material": "NEPTUNIUM",
+            "name": "镎"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_INTERDIMENSIONAL_PRESENCE",
+    "name": "跨跃维度的存在",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "PLUTONIUM",
+            "name": "钚"
+        },
+        {
+            "material": "REINFORCED_ALLOY_MULTI_TOOL",
+            "name": "多功能工具 - VI"
+        },
+        {
+            "material": "PLUTONIUM",
+            "name": "钚"
+        },
+        {
+            "material": "PLUTONIUM",
+            "name": "钚"
+        },
+        {
+            "material": "NTW_PRISTINE_AI_CORE",
+            "name": "古代人工智能核心"
+        },
+        {
+            "material": "PLUTONIUM",
+            "name": "钚"
+        },
+        {
+            "material": "PLUTONIUM",
+            "name": "钚"
+        },
+        {
+            "material": "NETHERSTAR_REACTOR",
+            "name": "下界之星反应堆"
+        },
+        {
+            "material": "PLUTONIUM",
+            "name": "钚"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_CONTROLLER",
+    "name": "网络控制器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "CARGO_MANAGER",
+            "name": "货运管理器"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_BRIDGE",
+    "name": "网桥",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "CARGO_NODE",
+            "name": "货运节点 (连接器)"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        }
+    ],
+    "output": 8
+},
+{
+    "id": "NTW_MONITOR",
+    "name": "网络监视器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "NTW_BRIDGE",
+            "name": "网桥"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_BRIDGE",
+            "name": "网桥"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "CARGO_MOTOR",
+            "name": "货运马达"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_BRIDGE",
+            "name": "网桥"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_BRIDGE",
+            "name": "网桥"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_IMPORT",
+    "name": "网络入口",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "NTW_BRIDGE",
+            "name": "网桥"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_BRIDGE",
+            "name": "网桥"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "CARGO_NODE_INPUT",
+            "name": "货运节点 (输入)"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_BRIDGE",
+            "name": "网桥"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_BRIDGE",
+            "name": "网桥"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_EXPORT",
+    "name": "网络出口",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "NTW_BRIDGE",
+            "name": "网桥"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_BRIDGE",
+            "name": "网桥"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "CARGO_NODE_OUTPUT_ADVANCED",
+            "name": "高级货运节点 (输出)"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_BRIDGE",
+            "name": "网桥"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_BRIDGE",
+            "name": "网桥"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_GRABBER",
+    "name": "网络抓取器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_IMPORT",
+            "name": "网络入口"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_PUSHER",
+    "name": "网络推送器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_EXPORT",
+            "name": "网络出口"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_TRASH",
+    "name": "网络清除器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "TRASH_CAN_BLOCK",
+            "name": "垃圾箱"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_GRID",
+    "name": "网格",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "NTW_BRIDGE",
+            "name": "网桥"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_BRIDGE",
+            "name": "网桥"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NETHER_STAR",
+            "name": "下界之星"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_BRIDGE",
+            "name": "网桥"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_BRIDGE",
+            "name": "网桥"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_CRAFTING_GRID",
+    "name": "网格(带合成)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "NTW_OPTIC_STAR",
+            "name": "光学之星"
+        },
+        {
+            "material": "NTW_OPTIC_STAR",
+            "name": "光学之星"
+        },
+        {
+            "material": "NTW_OPTIC_STAR",
+            "name": "光学之星"
+        },
+        {
+            "material": "NTW_OPTIC_STAR",
+            "name": "光学之星"
+        },
+        {
+            "material": "NTW_GRID",
+            "name": "网格"
+        },
+        {
+            "material": "NTW_OPTIC_STAR",
+            "name": "光学之星"
+        },
+        {
+            "material": "NTW_OPTIC_STAR",
+            "name": "光学之星"
+        },
+        {
+            "material": "NTW_OPTIC_STAR",
+            "name": "光学之星"
+        },
+        {
+            "material": "NTW_OPTIC_STAR",
+            "name": "光学之星"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_CELL",
+    "name": "网络单元",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "NTW_BRIDGE",
+            "name": "网桥"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_BRIDGE",
+            "name": "网桥"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "CHEST",
+            "name": "箱子"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_BRIDGE",
+            "name": "网桥"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_BRIDGE",
+            "name": "网桥"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_MEMORY_SHELL",
+    "name": "网络读卡器",
+    "recipeType": "slimefun:null",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_QUANTUM_WORKBENCH",
+    "name": "网络量子工作台",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "ADVANCED_CIRCUIT_BOARD",
+            "name": "高级电路板"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_BRIDGE",
+            "name": "网桥"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "ADVANCED_CIRCUIT_BOARD",
+            "name": "高级电路板"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_QUANTUM_STORAGE_1",
+    "name": "网络量子存储 (4K)",
+    "recipeType": "networks:quantum-workbench",
+    "recipe": [
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "CARGO_MOTOR",
+            "name": "货运马达"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_QUANTUM_STORAGE_2",
+    "name": "网络量子存储 (32K)",
+    "recipeType": "networks:quantum-workbench",
+    "recipe": [
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "ALUMINUM_BRASS_INGOT",
+            "name": "铝黄铜锭"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "SYNTHETIC_SAPPHIRE",
+            "name": "人造蓝宝石"
+        },
+        {
+            "material": "NTW_QUANTUM_STORAGE_1",
+            "name": "网络量子存储 (4K)"
+        },
+        {
+            "material": "SYNTHETIC_SAPPHIRE",
+            "name": "人造蓝宝石"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "ALUMINUM_BRASS_INGOT",
+            "name": "铝黄铜锭"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_QUANTUM_STORAGE_3",
+    "name": "网络量子存储 (262K)",
+    "recipeType": "networks:quantum-workbench",
+    "recipe": [
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "CORINTHIAN_BRONZE_INGOT",
+            "name": "科林斯青铜锭"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "SYNTHETIC_DIAMOND",
+            "name": "人造钻石"
+        },
+        {
+            "material": "NTW_QUANTUM_STORAGE_2",
+            "name": "网络量子存储 (32K)"
+        },
+        {
+            "material": "SYNTHETIC_DIAMOND",
+            "name": "人造钻石"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "CORINTHIAN_BRONZE_INGOT",
+            "name": "科林斯青铜锭"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_QUANTUM_STORAGE_4",
+    "name": "网络量子存储 (2M)",
+    "recipeType": "networks:quantum-workbench",
+    "recipe": [
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "HARDENED_METAL_INGOT",
+            "name": "硬化金属"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "SYNTHETIC_EMERALD",
+            "name": "人造绿宝石"
+        },
+        {
+            "material": "NTW_QUANTUM_STORAGE_3",
+            "name": "网络量子存储 (262K)"
+        },
+        {
+            "material": "SYNTHETIC_EMERALD",
+            "name": "人造绿宝石"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "HARDENED_METAL_INGOT",
+            "name": "硬化金属"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_QUANTUM_STORAGE_5",
+    "name": "网络量子存储 (16M)",
+    "recipeType": "networks:quantum-workbench",
+    "recipe": [
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "name": "强化合金锭"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "POWER_CRYSTAL",
+            "name": "能量水晶"
+        },
+        {
+            "material": "NTW_QUANTUM_STORAGE_4",
+            "name": "网络量子存储 (2M)"
+        },
+        {
+            "material": "POWER_CRYSTAL",
+            "name": "能量水晶"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "REINFORCED_ALLOY_INGOT",
+            "name": "强化合金锭"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_QUANTUM_STORAGE_6",
+    "name": "网络量子存储 (134M)",
+    "recipeType": "networks:quantum-workbench",
+    "recipe": [
+        {
+            "material": "STEEL_PLATE",
+            "name": "钢板"
+        },
+        {
+            "material": "BLISTERING_INGOT",
+            "name": "起泡锭 (33%)"
+        },
+        {
+            "material": "STEEL_PLATE",
+            "name": "钢板"
+        },
+        {
+            "material": "CARGO_MOTOR",
+            "name": "货运马达"
+        },
+        {
+            "material": "NTW_QUANTUM_STORAGE_5",
+            "name": "网络量子存储 (16M)"
+        },
+        {
+            "material": "CARGO_MOTOR",
+            "name": "货运马达"
+        },
+        {
+            "material": "STEEL_PLATE",
+            "name": "钢板"
+        },
+        {
+            "material": "BLISTERING_INGOT",
+            "name": "起泡锭 (33%)"
+        },
+        {
+            "material": "STEEL_PLATE",
+            "name": "钢板"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_QUANTUM_STORAGE_7",
+    "name": "网络量子存储 (1B)",
+    "recipeType": "networks:quantum-workbench",
+    "recipe": [
+        {
+            "material": "REINFORCED_PLATE",
+            "name": "钢筋板"
+        },
+        {
+            "material": "BLISTERING_INGOT_2",
+            "name": "起泡锭 (66%)"
+        },
+        {
+            "material": "REINFORCED_PLATE",
+            "name": "钢筋板"
+        },
+        {
+            "material": "CARGO_NODE",
+            "name": "货运节点 (连接器)"
+        },
+        {
+            "material": "NTW_QUANTUM_STORAGE_6",
+            "name": "网络量子存储 (134M)"
+        },
+        {
+            "material": "CARGO_NODE",
+            "name": "货运节点 (连接器)"
+        },
+        {
+            "material": "REINFORCED_PLATE",
+            "name": "钢筋板"
+        },
+        {
+            "material": "BLISTERING_INGOT_2",
+            "name": "起泡锭 (66%)"
+        },
+        {
+            "material": "REINFORCED_PLATE",
+            "name": "钢筋板"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_QUANTUM_STORAGE_8",
+    "name": "网络量子存储 (∞)",
+    "recipeType": "networks:quantum-workbench",
+    "recipe": [
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "BLISTERING_INGOT_3",
+            "name": "起泡锭"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "CARGO_MANAGER",
+            "name": "货运管理器"
+        },
+        {
+            "material": "NTW_QUANTUM_STORAGE_7",
+            "name": "网络量子存储 (1B)"
+        },
+        {
+            "material": "CARGO_MANAGER",
+            "name": "货运管理器"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "BLISTERING_INGOT_3",
+            "name": "起泡锭"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_MEMORY_WIPER_1",
+    "name": "网络内存清除器 α",
+    "recipeType": "slimefun:null",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_MEMORY_WIPER_2",
+    "name": "网络内存清除器 β",
+    "recipeType": "slimefun:null",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_MEMORY_WIPER_3",
+    "name": "网络内存清除器 γ",
+    "recipeType": "slimefun:null",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_MEMORY_WIPER_4",
+    "name": "网络内存清除器 δ",
+    "recipeType": "slimefun:null",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_CAPACITOR_1",
+    "name": "网络电容 (1)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "CARBONADO_EDGED_CAPACITOR",
+            "name": "黑金刚石镶边储能电容"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_CAPACITOR_2",
+    "name": "网络电容 (2)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "NTW_CAPACITOR_1",
+            "name": "网络电容 (1)"
+        },
+        {
+            "material": "NTW_CAPACITOR_1",
+            "name": "网络电容 (1)"
+        },
+        {
+            "material": "NTW_CAPACITOR_1",
+            "name": "网络电容 (1)"
+        },
+        {
+            "material": "NTW_CAPACITOR_1",
+            "name": "网络电容 (1)"
+        },
+        {
+            "material": "ENERGIZED_CAPACITOR",
+            "name": "终极储能电容"
+        },
+        {
+            "material": "NTW_CAPACITOR_1",
+            "name": "网络电容 (1)"
+        },
+        {
+            "material": "NTW_CAPACITOR_1",
+            "name": "网络电容 (1)"
+        },
+        {
+            "material": "NTW_CAPACITOR_1",
+            "name": "网络电容 (1)"
+        },
+        {
+            "material": "NTW_CAPACITOR_1",
+            "name": "网络电容 (1)"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_POWER_DISPLAY",
+    "name": "网络电表",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "ENERGY_REGULATOR",
+            "name": "能源调节器"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_CAPACITOR_1",
+            "name": "网络电容 (1)"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "ENERGY_CONNECTOR",
+            "name": "能源连接器"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_RECIPE_ENCODER",
+    "name": "网络配方编码器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "BASIC_CIRCUIT_BOARD",
+            "name": "基础电路板"
+        },
+        {
+            "material": "ANDROID_MEMORY_CORE",
+            "name": "机器人内存核心"
+        },
+        {
+            "material": "BASIC_CIRCUIT_BOARD",
+            "name": "基础电路板"
+        },
+        {
+            "material": "BASIC_CIRCUIT_BOARD",
+            "name": "基础电路板"
+        },
+        {
+            "material": "ENHANCED_AUTO_CRAFTER",
+            "name": "自动合成机 (高级)"
+        },
+        {
+            "material": "BASIC_CIRCUIT_BOARD",
+            "name": "基础电路板"
+        },
+        {
+            "material": "BASIC_CIRCUIT_BOARD",
+            "name": "基础电路板"
+        },
+        {
+            "material": "CARGO_MOTOR",
+            "name": "货运马达"
+        },
+        {
+            "material": "BASIC_CIRCUIT_BOARD",
+            "name": "基础电路板"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_AUTO_CRAFTER",
+    "name": "网络自动合成机",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_SIMPLE_NANOBOTS",
+            "name": "简易纳米机器人"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "ENHANCED_AUTO_CRAFTER",
+            "name": "自动合成机 (高级)"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_AUTO_CRAFTER_WITHHOLDING",
+    "name": "网络自动合成机 (预留版)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_ADVANCED_NANOBOTS",
+            "name": "高级纳米机器人"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        },
+        {
+            "material": "NTW_AUTO_CRAFTER",
+            "name": "网络自动合成机"
+        },
+        {
+            "material": "NTW_OPTIC_GLASS",
+            "name": "光学玻璃"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_MEMORY_CARD_1",
+    "name": "网络内存卡 (4K)",
+    "recipeType": "slimefun:null",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_MEMORY_CARD_2",
+    "name": "网络内存卡 (32K)",
+    "recipeType": "slimefun:null",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_MEMORY_CARD_3",
+    "name": "网络内存卡 (262K)",
+    "recipeType": "slimefun:null",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_MEMORY_CARD_4",
+    "name": "网络内存卡 (2M)",
+    "recipeType": "slimefun:null",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_MEMORY_CARD_5",
+    "name": "网络内存卡 (16M)",
+    "recipeType": "slimefun:null",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_MEMORY_CARD_6",
+    "name": "网络内存卡 (134M)",
+    "recipeType": "slimefun:null",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_MEMORY_CARD_7",
+    "name": "网络内存卡 (1B)",
+    "recipeType": "slimefun:null",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_MEMORY_CARD_8",
+    "name": "网络内存卡 (∞)",
+    "recipeType": "slimefun:null",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_CRAFTING_BLUEPRINT",
+    "name": "合成蓝图",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "PAPER",
+            "name": "纸"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        }
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_PROBE",
+    "name": "网络探测器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        {
+            "material": "DURALUMIN_INGOT",
+            "name": "硬铝锭"
+        },
+        null,
+        null,
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        null,
+        null,
+        {
+            "material": "NTW_BRIDGE",
+            "name": "网桥"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_REMOTE",
+    "name": "网络远程访问器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        {
+            "material": "NTW_GRID",
+            "name": "网格"
+        },
+        null,
+        null,
+        {
+            "material": "NTW_AI_CORE",
+            "name": "人工智能核心"
+        },
+        null,
+        null,
+        {
+            "material": "NTW_OPTIC_STAR",
+            "name": "光学之星"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_REMOTE_EMPOWERED",
+    "name": "充能网络远程访问器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        {
+            "material": "NTW_REMOTE",
+            "name": "网络远程访问器"
+        },
+        null,
+        null,
+        {
+            "material": "NTW_EMPOWERED_AI_CORE",
+            "name": "充能人工智能核心"
+        },
+        null,
+        null,
+        {
+            "material": "NTW_REMOTE",
+            "name": "网络远程访问器"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_REMOTE_PRISTINE",
+    "name": "古代网络远程访问器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        {
+            "material": "NTW_REMOTE_EMPOWERED",
+            "name": "充能网络远程访问器"
+        },
+        null,
+        null,
+        {
+            "material": "NTW_PRISTINE_AI_CORE",
+            "name": "古代人工智能核心"
+        },
+        null,
+        null,
+        {
+            "material": "NTW_REMOTE_EMPOWERED",
+            "name": "充能网络远程访问器"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_REMOTE_ULTIMATE",
+    "name": "终极网络远程访问器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        {
+            "material": "NTW_REMOTE_PRISTINE",
+            "name": "古代网络远程访问器"
+        },
+        null,
+        null,
+        {
+            "material": "NTW_INTERDIMENSIONAL_PRESENCE",
+            "name": "跨跃维度的存在"
+        },
+        null,
+        null,
+        {
+            "material": "NTW_REMOTE_PRISTINE",
+            "name": "古代网络远程访问器"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_CRAYON",
+    "name": "网络绘制器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        {
+            "material": "NTW_OPTIC_CABLE",
+            "name": "光缆"
+        },
+        null,
+        null,
+        {
+            "material": "HONEYCOMB",
+            "name": "蜜脾"
+        },
+        null,
+        null,
+        {
+            "material": "HONEYCOMB",
+            "name": "蜜脾"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_CONFIGURATOR",
+    "name": "网络配置器",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        {
+            "material": "NTW_RADIOACTIVE_OPTIC_STAR",
+            "name": "放射性光学之星"
+        },
+        null,
+        null,
+        {
+            "material": "NTW_CRAYON",
+            "name": "网络绘制器"
+        },
+        null,
+        null,
+        {
+            "material": "NTW_AI_CORE",
+            "name": "人工智能核心"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_RAKE_1",
+    "name": "网络扳手 (1)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        {
+            "material": "NTW_RADIOACTIVE_OPTIC_STAR",
+            "name": "放射性光学之星"
+        },
+        null,
+        null,
+        {
+            "material": "DIAMOND_SWORD",
+            "name": "钻石剑"
+        },
+        null,
+        null,
+        {
+            "material": "NTW_SYNTHETIC_EMERALD_SHARD",
+            "name": "人造绿宝石碎片"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_RAKE_2",
+    "name": "网络扳手 (2)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        {
+            "material": "NTW_RADIOACTIVE_OPTIC_STAR",
+            "name": "放射性光学之星"
+        },
+        null,
+        null,
+        {
+            "material": "NTW_RAKE_1",
+            "name": "网络扳手 (1)"
+        },
+        null,
+        null,
+        {
+            "material": "NTW_AI_CORE",
+            "name": "人工智能核心"
+        },
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "NTW_RAKE_3",
+    "name": "网络扳手 (3)",
+    "recipeType": "slimefun:enhanced_crafting_table",
+    "recipe": [
+        null,
+        {
+            "material": "NTW_RADIOACTIVE_OPTIC_STAR",
+            "name": "放射性光学之星"
+        },
+        null,
+        null,
+        {
+            "material": "NTW_RAKE_2",
+            "name": "网络扳手 (2)"
+        },
+        null,
+        null,
+        {
+            "material": "NTW_EMPOWERED_AI_CORE",
+            "name": "充能人工智能核心"
+        },
+        null
+    ],
+    "output": 1
+}]

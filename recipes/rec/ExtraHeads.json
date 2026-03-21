@@ -1,0 +1,980 @@
+[{
+    "id": "BAT_HEAD",
+    "name": "蝙蝠头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "BAT_HEAD",
+            "name": "击杀蝙蝠"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "BLAZE_HEAD",
+    "name": "烈焰人头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "BLAZE_HEAD",
+            "name": "击杀烈焰人"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "CAVE_SPIDER_HEAD",
+    "name": "洞穴蜘蛛头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "CAVE_SPIDER_HEAD",
+            "name": "击杀洞穴蜘蛛"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "CHICKEN_HEAD",
+    "name": "鸡头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "CHICKEN_HEAD",
+            "name": "击杀鸡"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "COW_HEAD",
+    "name": "牛头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "COW_HEAD",
+            "name": "击杀牛"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "DOLPHIN_HEAD",
+    "name": "海豚头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "DOLPHIN_HEAD",
+            "name": "击杀海豚"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "DROWNED_HEAD",
+    "name": "溺尸头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "DROWNED_HEAD",
+            "name": "击杀溺尸"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "ELDER_GUARDIAN_HEAD",
+    "name": "远古守卫者头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "ELDER_GUARDIAN_HEAD",
+            "name": "击杀远古守卫者"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "ENDERMAN_HEAD",
+    "name": "末影人头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "ENDERMAN_HEAD",
+            "name": "击杀末影人"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "EVOKER_HEAD",
+    "name": "唤魔者头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "EVOKER_HEAD",
+            "name": "击杀唤魔者"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GHAST_HEAD",
+    "name": "恶魂头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GHAST_HEAD",
+            "name": "击杀恶魂"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GUARDIAN_HEAD",
+    "name": "守卫者头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GUARDIAN_HEAD",
+            "name": "击杀守卫者"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "HORSE_HEAD",
+    "name": "马头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "HORSE_HEAD",
+            "name": "击杀马"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "HUSK_HEAD",
+    "name": "尸壳头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "HUSK_HEAD",
+            "name": "击杀尸壳"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "ILLUSIONER_HEAD",
+    "name": "幻术师头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "ILLUSIONER_HEAD",
+            "name": "击杀幻术师"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "IRON_GOLEM_HEAD",
+    "name": "铁傀儡头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "IRON_GOLEM_HEAD",
+            "name": "击杀铁傀儡"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "LLAMA_HEAD",
+    "name": "羊驼头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "LLAMA_HEAD",
+            "name": "击杀羊驼"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "MAGMA_CUBE_HEAD",
+    "name": "岩浆怪头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "MAGMA_CUBE_HEAD",
+            "name": "击杀岩浆怪"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "MUSHROOM_COW_HEAD",
+    "name": "哞菇头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "MUSHROOM_COW_HEAD",
+            "name": "击杀哞菇"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "OCELOT_HEAD",
+    "name": "豹猫头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "OCELOT_HEAD",
+            "name": "击杀豹猫"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "PARROT_HEAD",
+    "name": "鹦鹉头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "PARROT_HEAD",
+            "name": "击杀鹦鹉"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "PIG_HEAD",
+    "name": "猪头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "PIG_HEAD",
+            "name": "击杀猪"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "POLAR_BEAR_HEAD",
+    "name": "北极熊头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "POLAR_BEAR_HEAD",
+            "name": "击杀北极熊"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "RABBIT_HEAD",
+    "name": "兔子头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "RABBIT_HEAD",
+            "name": "击杀兔子"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "SHEEP_HEAD",
+    "name": "绵羊头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "SHEEP_HEAD",
+            "name": "击杀绵羊"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "SHULKER_HEAD",
+    "name": "潜影贝头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "SHULKER_HEAD",
+            "name": "击杀潜影贝"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "SLIME_HEAD",
+    "name": "史莱姆头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "SLIME_HEAD",
+            "name": "击杀史莱姆"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "SPIDER_HEAD",
+    "name": "蜘蛛头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "SPIDER_HEAD",
+            "name": "击杀蜘蛛"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "SQUID_HEAD",
+    "name": "鱿鱼头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "SQUID_HEAD",
+            "name": "击杀鱿鱼"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "STRAY_HEAD",
+    "name": "流浪者头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "STRAY_HEAD",
+            "name": "击杀流浪者"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "TURTLE_HEAD",
+    "name": "海龟头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "TURTLE_HEAD",
+            "name": "击杀海龟"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "VEX_HEAD",
+    "name": "恼鬼头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "VEX_HEAD",
+            "name": "击杀恼鬼"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "VILLAGER_HEAD",
+    "name": "村民头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "VILLAGER_HEAD",
+            "name": "击杀村民"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "VINDICATOR_HEAD",
+    "name": "卫道士头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "VINDICATOR_HEAD",
+            "name": "击杀卫道士"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "WITCH_HEAD",
+    "name": "女巫头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "WITCH_HEAD",
+            "name": "击杀女巫"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "WITHER_HEAD",
+    "name": "凋灵头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "WITHER_HEAD",
+            "name": "击杀凋灵"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "ZOMBIE_VILLAGER_HEAD",
+    "name": "僵尸村民头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "ZOMBIE_VILLAGER_HEAD",
+            "name": "击杀僵尸村民"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GIANT_HEAD",
+    "name": "巨人头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GIANT_HEAD",
+            "name": "击杀巨人"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "RAVAGER_HEAD",
+    "name": "劫掠兽头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "RAVAGER_HEAD",
+            "name": "击杀劫掠兽"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "PILLAGER_HEAD",
+    "name": "掠夺者头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "PILLAGER_HEAD",
+            "name": "击杀掠夺者"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "FOX_HEAD",
+    "name": "狐狸头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "FOX_HEAD",
+            "name": "击杀狐狸"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "PANDA_HEAD",
+    "name": "熊猫头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "PANDA_HEAD",
+            "name": "击杀熊猫"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "WANDERING_TRADER_HEAD",
+    "name": "流浪商人头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "WANDERING_TRADER_HEAD",
+            "name": "击杀流浪商人"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "PIGLIN_HEAD",
+    "name": "猪灵头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "PIGLIN_HEAD",
+            "name": "击杀猪灵"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "ZOMBIFIED_PIGLIN_HEAD",
+    "name": "僵尸猪灵头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "ZOMBIFIED_PIGLIN_HEAD",
+            "name": "击杀僵尸猪灵"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "STRIDER_HEAD",
+    "name": "炽足兽头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "STRIDER_HEAD",
+            "name": "击杀炽足兽"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "AXOLOTL_HEAD",
+    "name": "美西螈头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "AXOLOTL_HEAD",
+            "name": "击杀美西螈"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GLOW_SQUID_HEAD",
+    "name": "发光鱿鱼头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GLOW_SQUID_HEAD",
+            "name": "击杀发光鱿鱼"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+},
+{
+    "id": "GOAT_HEAD",
+    "name": "山羊头颅",
+    "recipeType": "extraheads:decapitation",
+    "recipe": [
+        null,
+        null,
+        null,
+        null,
+        {
+            "material": "GOAT_HEAD",
+            "name": "击杀山羊"
+        },
+        null,
+        null,
+        null,
+        null
+    ],
+    "output": 1
+}]

@@ -1,0 +1,617 @@
+[
+    {
+        "id": "STEEL_ROTOR",
+        "name": "钢转子",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            null,
+            {
+                "material": "STEEL_INGOT",
+                "name": "钢锭"
+            },
+            null,
+            {
+                "material": "STEEL_INGOT",
+                "name": "钢锭"
+            },
+            {
+                "material": "IRON_BLOCK",
+                "name": "铁块"
+            },
+            {
+                "material": "STEEL_INGOT",
+                "name": "钢锭"
+            },
+            null,
+            {
+                "material": "STEEL_INGOT",
+                "name": "钢锭"
+            },
+            null
+        ],
+        "output": 2
+    },
+    {
+        "id": "STEAM_TURBINE",
+        "name": "简易蒸汽涡轮",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            null,
+            {
+                "material": "STEEL_ROTOR",
+                "name": "钢转子"
+            },
+            null,
+            {
+                "material": "STEEL_INGOT",
+                "name": "钢锭"
+            },
+            {
+                "material": "ELECTRIC_MOTOR",
+                "name": "电动马达"
+            },
+            {
+                "material": "STEEL_INGOT",
+                "name": "钢锭"
+            },
+            null,
+            {
+                "material": "COPPER_WIRE",
+                "name": "铜线"
+            },
+            null
+        ],
+        "output": 1
+    },
+    {
+        "id": "STEAM_TURBINE_MULTIBLOCK",
+        "name": "简易蒸汽涡轮发电机",
+        "recipeType": "slimefun:multiblock",
+        "recipe": [
+            null,
+            {
+                "material": "STEAM_TURBINE",
+                "name": "简易蒸汽涡轮"
+            },
+            null,
+            null,
+            {
+                "material": "WATER_BUCKET",
+                "name": "水 (需含有气泡)"
+            },
+            null,
+            null,
+            {
+                "material": "MAGMA_BLOCK",
+                "name": "岩浆块"
+            },
+            null
+        ],
+        "output": 1
+    },
+    {
+        "id": "STEAM_TURBINE_2",
+        "name": "进阶蒸汽涡轮",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            null,
+            {
+                "material": "STEEL_ROTOR",
+                "name": "钢转子"
+            },
+            null,
+            {
+                "material": "BRASS_INGOT",
+                "name": "黄铜锭"
+            },
+            {
+                "material": "STEAM_TURBINE",
+                "name": "简易蒸汽涡轮"
+            },
+            {
+                "material": "BRASS_INGOT",
+                "name": "黄铜锭"
+            },
+            {
+                "material": "BRASS_INGOT",
+                "name": "黄铜锭"
+            },
+            {
+                "material": "COPPER_WIRE",
+                "name": "铜线"
+            },
+            {
+                "material": "BRASS_INGOT",
+                "name": "黄铜锭"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "STEAM_TURBINE_2_MULTIBLOCK",
+        "name": "进阶蒸汽涡轮发电机",
+        "recipeType": "slimefun:multiblock",
+        "recipe": [
+            null,
+            {
+                "material": "STEAM_TURBINE_2",
+                "name": "进阶蒸汽涡轮"
+            },
+            null,
+            null,
+            {
+                "material": "WATER_BUCKET",
+                "name": "水 (需含有气泡)"
+            },
+            null,
+            null,
+            {
+                "material": "MAGMA_BLOCK",
+                "name": "岩浆块"
+            },
+            null
+        ],
+        "output": 1
+    },
+    {
+        "id": "STEAM_TURBINE_3",
+        "name": "黑金刚石蒸汽涡轮",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            null,
+            {
+                "material": "STEEL_ROTOR",
+                "name": "钢转子"
+            },
+            null,
+            {
+                "material": "CARBONADO",
+                "name": "黑金刚石"
+            },
+            {
+                "material": "STEAM_TURBINE_2",
+                "name": "进阶蒸汽涡轮"
+            },
+            {
+                "material": "CARBONADO",
+                "name": "黑金刚石"
+            },
+            {
+                "material": "REINFORCED_ALLOY_INGOT",
+                "name": "强化合金锭"
+            },
+            {
+                "material": "ELECTRIC_MOTOR",
+                "name": "电动马达"
+            },
+            {
+                "material": "REINFORCED_ALLOY_INGOT",
+                "name": "强化合金锭"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "STEAM_TURBINE_3_MULTIBLOCK",
+        "name": "黑金刚石蒸汽涡轮发电机",
+        "recipeType": "slimefun:multiblock",
+        "recipe": [
+            null,
+            {
+                "material": "STEAM_TURBINE_3",
+                "name": "黑金刚石蒸汽涡轮"
+            },
+            null,
+            null,
+            {
+                "material": "WATER_BUCKET",
+                "name": "水 (需含有气泡)"
+            },
+            null,
+            null,
+            {
+                "material": "MAGMA_BLOCK",
+                "name": "岩浆块"
+            },
+            null
+        ],
+        "output": 1
+    },
+    {
+        "id": "WIND_TURBINE",
+        "name": "简易风力发电机",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            null,
+            {
+                "material": "STEEL_ROTOR",
+                "name": "钢转子"
+            },
+            null,
+            {
+                "material": "STEEL_THRUSTER",
+                "name": "钢推进器"
+            },
+            {
+                "material": "ELECTRIC_MOTOR",
+                "name": "电动马达"
+            },
+            {
+                "material": "STEEL_THRUSTER",
+                "name": "钢推进器"
+            },
+            null,
+            {
+                "material": "COPPER_WIRE",
+                "name": "铜线"
+            },
+            null
+        ],
+        "output": 1
+    },
+    {
+        "id": "WIND_TURBINE_MULTIBLOCK",
+        "name": "简易风力发电机",
+        "recipeType": "slimefun:multiblock",
+        "recipe": [
+            null,
+            {
+                "material": "WIND_TURBINE",
+                "name": "简易风力发电机"
+            },
+            null,
+            null,
+            {
+                "material": "OAK_FENCE",
+                "name": "橡木栅栏"
+            },
+            null,
+            null,
+            {
+                "material": "OAK_FENCE",
+                "name": "橡木栅栏"
+            },
+            null
+        ],
+        "output": 1
+    },
+    {
+        "id": "WIND_TURBINE_2",
+        "name": "进阶风力发电机",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            null,
+            {
+                "material": "STEEL_ROTOR",
+                "name": "钢转子"
+            },
+            null,
+            {
+                "material": "ELECTRO_MAGNET",
+                "name": "电磁铁"
+            },
+            {
+                "material": "WIND_TURBINE",
+                "name": "简易风力发电机"
+            },
+            {
+                "material": "ELECTRO_MAGNET",
+                "name": "电磁铁"
+            },
+            {
+                "material": "ALUMINUM_BRASS_INGOT",
+                "name": "铝黄铜锭"
+            },
+            {
+                "material": "COPPER_WIRE",
+                "name": "铜线"
+            },
+            {
+                "material": "ALUMINUM_BRASS_INGOT",
+                "name": "铝黄铜锭"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "WIND_TURBINE_2_MULTIBLOCK",
+        "name": "进阶风力发电机",
+        "recipeType": "slimefun:multiblock",
+        "recipe": [
+            null,
+            {
+                "material": "WIND_TURBINE_2",
+                "name": "进阶风力发电机"
+            },
+            null,
+            null,
+            {
+                "material": "OAK_FENCE",
+                "name": "橡木栅栏"
+            },
+            null,
+            null,
+            {
+                "material": "OAK_FENCE",
+                "name": "橡木栅栏"
+            },
+            null
+        ],
+        "output": 1
+    },
+    {
+        "id": "WIND_TURBINE_3",
+        "name": "黑金刚石风力发电机",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "FERROSILICON",
+                "name": "硅铁"
+            },
+            {
+                "material": "STEEL_ROTOR",
+                "name": "钢转子"
+            },
+            {
+                "material": "FERROSILICON",
+                "name": "硅铁"
+            },
+            {
+                "material": "ELECTRIC_MOTOR",
+                "name": "电动马达"
+            },
+            {
+                "material": "WIND_TURBINE_2",
+                "name": "进阶风力发电机"
+            },
+            {
+                "material": "ELECTRIC_MOTOR",
+                "name": "电动马达"
+            },
+            {
+                "material": "CARBONADO",
+                "name": "黑金刚石"
+            },
+            {
+                "material": "FERROSILICON",
+                "name": "硅铁"
+            },
+            {
+                "material": "CARBONADO",
+                "name": "黑金刚石"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "WIND_TURBINE_3_MULTIBLOCK",
+        "name": "黑金刚石风力发电机",
+        "recipeType": "slimefun:multiblock",
+        "recipe": [
+            null,
+            {
+                "material": "WIND_TURBINE_3",
+                "name": "黑金刚石风力发电机"
+            },
+            null,
+            null,
+            {
+                "material": "OAK_FENCE",
+                "name": "橡木栅栏"
+            },
+            null,
+            null,
+            {
+                "material": "OAK_FENCE",
+                "name": "橡木栅栏"
+            },
+            null
+        ],
+        "output": 1
+    },
+    {
+        "id": "LIGHTNING_RECEPTOR",
+        "name": "闪电接收器",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            null,
+            {
+                "material": "END_ROD",
+                "name": "末地烛"
+            },
+            null,
+            {
+                "material": "BLISTERING_INGOT_3",
+                "name": "起泡锭"
+            },
+            {
+                "material": "POWER_CRYSTAL",
+                "name": "能量水晶"
+            },
+            {
+                "material": "BLISTERING_INGOT_3",
+                "name": "起泡锭"
+            },
+            {
+                "material": "REINFORCED_PLATE",
+                "name": "钢筋板"
+            },
+            {
+                "material": "ENERGY_REGULATOR",
+                "name": "能源调节器"
+            },
+            {
+                "material": "REINFORCED_PLATE",
+                "name": "钢筋板"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "LUNAR_GENERATOR",
+        "name": "月光发电机",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "PHANTOM_MEMBRANE",
+                "name": "幻翼膜"
+            },
+            {
+                "material": "SOLAR_GENERATOR_4",
+                "name": "充能太阳能发电机"
+            },
+            {
+                "material": "PHANTOM_MEMBRANE",
+                "name": "幻翼膜"
+            },
+            {
+                "material": "DAMASCUS_STEEL_INGOT",
+                "name": "大马士革钢锭"
+            },
+            {
+                "material": "CARBONADO",
+                "name": "黑金刚石"
+            },
+            {
+                "material": "DAMASCUS_STEEL_INGOT",
+                "name": "大马士革钢锭"
+            },
+            {
+                "material": "COPPER_WIRE",
+                "name": "铜线"
+            },
+            {
+                "material": "BLISTERING_INGOT_3",
+                "name": "起泡锭"
+            },
+            {
+                "material": "COPPER_WIRE",
+                "name": "铜线"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "HIGH_ENERGY_SOLAR_GENERATOR",
+        "name": "高能太阳能发电机",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "SOLAR_GENERATOR_2",
+                "name": "高级太阳能发电机"
+            },
+            {
+                "material": "LUNAR_GENERATOR",
+                "name": "月光发电机"
+            },
+            {
+                "material": "SOLAR_GENERATOR_2",
+                "name": "高级太阳能发电机"
+            },
+            {
+                "material": "CARBONADO",
+                "name": "黑金刚石"
+            },
+            {
+                "material": "POWER_CRYSTAL",
+                "name": "能量水晶"
+            },
+            {
+                "material": "CARBONADO",
+                "name": "黑金刚石"
+            },
+            {
+                "material": "BLISTERING_INGOT_3",
+                "name": "起泡锭"
+            },
+            {
+                "material": "NETHER_STAR",
+                "name": "下界之星"
+            },
+            {
+                "material": "BLISTERING_INGOT_3",
+                "name": "起泡锭"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "HIGH_ENERGY_SOLAR_HELMET",
+        "name": "高能太阳能头盔",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            null,
+            {
+                "material": "HIGH_ENERGY_SOLAR_GENERATOR",
+                "name": "高能太阳能发电机"
+            },
+            null,
+            {
+                "material": "REINFORCED_ALLOY_INGOT",
+                "name": "强化合金锭"
+            },
+            {
+                "material": "REINFORCED_ALLOY_INGOT",
+                "name": "强化合金锭"
+            },
+            {
+                "material": "REINFORCED_ALLOY_INGOT",
+                "name": "强化合金锭"
+            },
+            {
+                "material": "REINFORCED_ALLOY_INGOT",
+                "name": "强化合金锭"
+            },
+            null,
+            {
+                "material": "REINFORCED_ALLOY_INGOT",
+                "name": "强化合金锭"
+            }
+        ],
+        "output": 1
+    },
+    {
+        "id": "RADIANT_SOLAR_GENERATOR",
+        "name": "辐射太阳能发电机",
+        "recipeType": "slimefun:enhanced_crafting_table",
+        "recipe": [
+            {
+                "material": "LUNAR_GENERATOR",
+                "name": "月光发电机"
+            },
+            {
+                "material": "HIGH_ENERGY_SOLAR_GENERATOR",
+                "name": "高能太阳能发电机"
+            },
+            {
+                "material": "LUNAR_GENERATOR",
+                "name": "月光发电机"
+            },
+            {
+                "material": "BLISTERING_INGOT_3",
+                "name": "起泡锭"
+            },
+            {
+                "material": "POWER_CRYSTAL",
+                "name": "能量水晶"
+            },
+            {
+                "material": "BLISTERING_INGOT_3",
+                "name": "起泡锭"
+            },
+            {
+                "material": "REINFORCED_PLATE",
+                "name": "钢筋板"
+            },
+            {
+                "material": "CARBONADO",
+                "name": "黑金刚石"
+            },
+            {
+                "material": "REINFORCED_PLATE",
+                "name": "钢筋板"
+            }
+        ],
+        "output": 1
+    }
+]

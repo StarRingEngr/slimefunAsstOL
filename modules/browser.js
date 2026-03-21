@@ -1,9 +1,13 @@
 // modules/browser.js
 import { getItems } from '../services/dataStore.js';
+import { sortItems } from '../services/sort.js';
 import { showItemDetail } from './itemDetail.js';
 
 export async function initBrowser(container) {
-    const items = getItems();
+    let items = getItems();
+    // 统一排序
+    items = sortItems(items);
+
     const fileNames = new Set(items.map(item => item.file));
     const fileCount = fileNames.size;
 
@@ -21,15 +25,6 @@ export async function initBrowser(container) {
 
     const searchInput = container.querySelector('#search-input');
     const listDiv = container.querySelector('#item-list');
-
-    items.sort((a, b) => {
-        const fa = a._fileIndex !== undefined ? a._fileIndex : Infinity;
-        const fb = b._fileIndex !== undefined ? b._fileIndex : Infinity;
-        if (fa !== fb) return fa - fb;
-        const la = a._line !== undefined ? a._line : Infinity;
-        const lb = b._line !== undefined ? b._line : Infinity;
-        return la - lb;
-    });
 
     renderItems(items, listDiv);
 

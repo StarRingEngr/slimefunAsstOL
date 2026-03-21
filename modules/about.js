@@ -12,20 +12,22 @@ export function initAbout(container) {
             </div>
 
             <h3>项目说明</h3>
+
             <textarea class="about-textarea" rows="8" readonly>
 粘液科技助手 Web 版
-版本：0.8.3
+版本：0.9.4
 
 当前功能：
-- 物品浏览与搜索（按原始配方文件顺序显示）
-- 配方数据本地缓存（IndexedDB）
+- 物品浏览与搜索（支持 sortid 自定义排序，按文件分组）
+- 配方数据本地缓存 + 自动同步更新（仅下载变更文件）
 - 多物品材料计算（支持库存扣除）
 - 基础材料管理（自定义基础材料名单）
 - 配方文件管理（启用/禁用，增量更新）
 - 设置（缓存统计、清除/重置）
 - 手机端自适应布局（侧边栏可折叠）
-
-开发者：bilibili星環工程師
+- 物品详情内嵌数量计算、复制/下载结果
+            
+    开发者：bilibili星環工程師
             </textarea>
 
             <div class="acknowledgement">
