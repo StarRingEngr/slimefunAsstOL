@@ -25,20 +25,15 @@ const DEFAULT_BASE_MATERIALS = [
 export function setItems(newItems) {
     items = newItems;
     idToName = {};
-    // 先添加物品自身的名称
     items.forEach(item => {
         idToName[item.id] = item.name;
     });
-    // 再遍历所有物品的配方，补充材料名称
+    // 补充配方中的材料名称
     items.forEach(item => {
         if (item.recipe && Array.isArray(item.recipe)) {
             item.recipe.forEach(slot => {
-                if (slot && slot.material) {
-                    const mid = slot.material;
-                    if (!idToName[mid]) {
-                        // 使用配方中提供的名称，如果没有则用ID
-                        idToName[mid] = slot.name || mid;
-                    }
+                if (slot && slot.material && !idToName[slot.material]) {
+                    idToName[slot.material] = slot.name || slot.material;
                 }
             });
         }

@@ -1,6 +1,6 @@
 // app.js
 import { openDB } from './services/db.js';
-import { loadFiles, getItemCount } from './services/recipeLoader.js';
+import { loadFiles, loadItemsFromDB, syncRecipes, getItemCount } from './services/recipeLoader.js';
 import { initBrowser } from './modules/browser.js';
 import { initAbout } from './modules/about.js';
 import { initCalculator } from './modules/calculator.js';
@@ -71,94 +71,91 @@ function updateProgress(completed, total, message) {
 async function firstLoad() {
     const db = await openDB();
 
-    const count = await getItemCount().catch(() => 0);
-    if (count > 0) {
-        // 已有数据，读取用户启用的文件列表
-        const tx = db.transaction('settings', 'readonly');
-        const store = tx.objectStore('settings');
-        const enabledFiles = await new Promise(resolve => {
-            const req = store.get('enabledFiles');
-            req.onsuccess = () => resolve(req.result || []);
-        });
-
-        // 获取所有物品
-        const allItems = await getAllItems();
-
-        // 获取 manifest 中的强制文件列表
-        const manifestResp = await fetch('./recipes/manifest.json');
-        const manifest = await manifestResp.json();
-        const forcedFiles = manifest.files.filter(f => f.forced || f.name === 'Slimefun4.jsonl').map(f => f.name);
-
-        // 确定最终启用的文件集
-        const enabledSet = new Set([...forcedFiles, ...enabledFiles]);
-
-        // 筛选出属于启用文件的物品
-        const filteredItems = allItems.filter(item => enabledSet.has(item.file));
-
-        // 更新内存数据
-        setItems(filteredItems);
-        await loadBaseMaterialsFromDB();
-
+    // 获取服务器 manifest
+    let manifest;
+    try {
+        const resp = await fetch('./recipes/manifest.json');
+        manifest = await resp.json();
+    } catch (e) {
+        console.error('无法获取 manifest.json', e);
         loadingOverlay.classList.add('hidden');
-        const initialView = window.location.hash.slice(1) || 'browser';
-        await switchView(initialView);
         return;
     }
+    const allFiles = manifest.files;
 
-    // 无数据，保持遮罩显示，并开始下载
-    if (loadingOverlay) loadingOverlay.classList.remove('hidden');
-    updateProgress(0, 1, '准备下载...');
-
-    try {
-        const tx = db.transaction('settings', 'readonly');
-        const store = tx.objectStore('settings');
-        const enabledFiles = await new Promise(resolve => {
-            const req = store.get('enabledFiles');
-            req.onsuccess = () => resolve(req.result || null);
+    // 获取本地 metadata
+    const localMetadata = {};
+    const metaTx = db.transaction('metadata', 'readonly');
+    const metaStore = metaTx.objectStore('metadata');
+    const keys = await new Promise(resolve => {
+        const req = metaStore.getAllKeys();
+        req.onsuccess = () => resolve(req.result);
+    });
+    for (const key of keys) {
+        const value = await new Promise(resolve => {
+            const req = metaStore.get(key);
+            req.onsuccess = () => resolve(req.result);
         });
-
-        const manifestResp = await fetch('./recipes/manifest.json');
-        const manifest = await manifestResp.json();
-        const allFiles = manifest.files;
-
-        const forcedFiles = allFiles.filter(f => f.forced || f.name === 'Slimefun4.jsonl').map(f => f.name);
-        let filesToDownload;
-        if (enabledFiles === null) {
-            filesToDownload = allFiles;
-        } else {
-            const enabledSet = new Set([...forcedFiles, ...enabledFiles]);
-            filesToDownload = allFiles.filter(f => enabledSet.has(f.name));
-        }
-
-        filesToDownload.sort((a, b) => {
-            const indexA = allFiles.findIndex(f => f.name === a.name);
-            const indexB = allFiles.findIndex(f => f.name === b.name);
-            return indexA - indexB;
-        });
-
-        await loadFiles(filesToDownload, (completed, total, message) => {
-            updateProgress(completed, total, message);
-        });
-
-        if (enabledFiles === null) {
-            const nonForced = allFiles.filter(f => !f.forced && f.name !== 'Slimefun4.jsonl').map(f => f.name);
-            const saveTx = db.transaction('settings', 'readwrite');
-            const saveStore = saveTx.objectStore('settings');
-            saveStore.put(nonForced, 'enabledFiles');
-            await saveTx.complete;
-        }
-
-        await loadBaseMaterialsFromDB();
-        // 下载完成，隐藏加载遮罩
-        if (loadingOverlay) loadingOverlay.classList.add('hidden');
-        const initialView = window.location.hash.slice(1) || 'browser';
-        await switchView(initialView);
-    } catch (e) {
-        console.error('加载失败', e);
-        progressText.textContent = '加载失败，请刷新页面重试';
-        // 出错后也隐藏遮罩，避免一直卡住
-        if (loadingOverlay) loadingOverlay.classList.add('hidden');
+        localMetadata[key] = value;
     }
+
+    // 检查更新
+    let hasUpdate = false;
+    if (Object.keys(localMetadata).length > 0 || allFiles.length > 0) {
+        loadingOverlay.classList.remove('hidden');
+        updateProgress(0, 1, '检查更新...');
+        try {
+            hasUpdate = await syncRecipes(allFiles, localMetadata, (completed, total, msg) => {
+                updateProgress(completed, total, msg);
+            });
+        } catch (e) {
+            console.error('同步更新失败', e);
+        }
+        if (!hasUpdate) {
+            loadingOverlay.classList.add('hidden');
+        }
+    }
+
+    // 读取用户启用列表
+    // 使用独立事务读取 settings
+    const settingsTx = db.transaction('settings', 'readonly');
+    const settingsStore = settingsTx.objectStore('settings');
+    
+    // 检查存储中是否有 enabledFiles 键
+    const enabledFilesExist = await new Promise(resolve => {
+        const req = settingsStore.get('enabledFiles');
+        req.onsuccess = () => resolve(req.result !== undefined);
+    });
+    
+    let enabledFiles = await new Promise(resolve => {
+        const req = settingsStore.get('enabledFiles');
+        req.onsuccess = () => resolve(req.result || []);
+    });
+    
+    await settingsTx.complete; // 释放事务
+
+    // 如果从未设置过，则自动填充默认的非强制文件列表
+    if (!enabledFilesExist) {
+        const nonForced = allFiles.filter(f => !f.forced && f.name !== 'Slimefun4.jsonl').map(f => f.name);
+        const saveTx = db.transaction('settings', 'readwrite');
+        const saveStore = saveTx.objectStore('settings');
+        saveStore.put(nonForced, 'enabledFiles');
+        await saveTx.complete;
+        enabledFiles = nonForced;
+    }
+
+    const forcedFiles = allFiles.filter(f => f.forced || f.name === 'Slimefun4.jsonl').map(f => f.name);
+
+    // 从数据库加载筛选后的物品
+    const allItems = await getAllItems();
+    const enabledSet = new Set([...forcedFiles, ...enabledFiles]);
+    const filteredItems = allItems.filter(item => enabledSet.has(item.file));
+    setItems(filteredItems);
+    await loadBaseMaterialsFromDB();
+
+    loadingOverlay.classList.add('hidden');
+    const initialView = window.location.hash.slice(1) || 'browser';
+    await switchView(initialView);
 }
 
 menuItems.forEach(item => {
@@ -176,17 +173,15 @@ window.addEventListener('hashchange', () => {
     switchView(viewId);
 });
 
-// ========== 手机端侧边栏折叠控制（支持 class fallback） ==========
+// 手机端侧边栏折叠控制
 document.addEventListener('DOMContentLoaded', () => {
     let menuToggle = document.getElementById('menuToggle');
     let sidebar = document.getElementById('sidebar');
     if (!menuToggle) {
         menuToggle = document.querySelector('.menu-toggle');
-        if (menuToggle) console.log('通过 class 找到菜单按钮');
     }
     if (!sidebar) {
         sidebar = document.querySelector('.sidebar');
-        if (sidebar) console.log('通过 class 找到侧边栏');
     }
     if (menuToggle && sidebar) {
         menuToggle.addEventListener('click', (e) => {
@@ -201,7 +196,5 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             });
         }
-    } else {
-        console.error('未找到菜单按钮或侧边栏元素，请检查 HTML');
     }
 });

@@ -1,19 +1,15 @@
 // modules/browser.js
-import { getAllItems } from '../services/db.js';
-import { getMetadataCount } from '../services/db.js';
+import { getItems } from '../services/dataStore.js';
 import { showItemDetail } from './itemDetail.js';
-import { getItems } from '../services/dataStore.js'; // 新增导入
 
 export async function initBrowser(container) {
-    // 直接从内存获取物品（已经是筛选过的）
     const items = getItems();
-    // 配方文件数：可以计算启用的文件数量，或者从内存物品中提取唯一文件名
     const fileNames = new Set(items.map(item => item.file));
     const fileCount = fileNames.size;
 
     container.innerHTML = `
         <div class="stats-bar">
-            <span>📦 当前加载物品数: ${items.length} </span>
+            <span>📦 当前加载物品数: ${items.length}</span>
             <span>配方文件管理 可修改加载哪些附属</span>
             <span>📁 配方文件数: ${fileCount}</span>
         </div>

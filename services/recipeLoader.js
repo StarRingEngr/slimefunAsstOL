@@ -1,5 +1,5 @@
 // services/recipeLoader.js
-import { saveItems, saveMetadata, deleteItemsByFile, getAllItems } from './db.js';
+import { saveItem, saveMetadata, getItem, getAllItems, clearItems, deleteItemsByFile, deleteMetadata } from './db.js';
 import { setItems } from './dataStore.js';
 
 const MANIFEST_URL = './recipes/manifest.json';
@@ -37,8 +37,11 @@ export async function loadFiles(filesToDownload, onProgress) {
         try {
             const { metadata, items } = await fetchRecipeFile(file.name, idx);
             await saveMetadata(file.name, { ...metadata, version: file.version });
-            if (items.length > 0) {
-                await saveItems(items);
+            for (const item of items) {
+                const existing = await getItem(item.id);
+                if (!existing) {
+                    await saveItem(item);
+                }
             }
         } catch (e) {
             console.error(`处理文件 ${file.name} 失败:`, e);
@@ -49,17 +52,51 @@ export async function loadFiles(filesToDownload, onProgress) {
 
     const allItems = await getAllItems();
     setItems(allItems);
-    if (onProgress) onProgress(completed, total, '数据更新完成');
+    if (onProgress) onProgress(completed, total, '数据加载完成');
 }
 
-export async function deleteFiles(fileNames, onProgress) {
-    const total = fileNames.length;
-    for (let i = 0; i < fileNames.length; i++) {
-        await deleteItemsByFile(fileNames[i]);
-        if (onProgress) onProgress(i + 1, total, `删除 ${fileNames[i]} 的数据`);
-    }
+export async function loadItemsFromDB(enabledFiles, forcedFiles) {
+    const enabledSet = new Set([...forcedFiles, ...enabledFiles]);
     const allItems = await getAllItems();
-    setItems(allItems);
+    const filteredItems = allItems.filter(item => enabledSet.has(item.file));
+    setItems(filteredItems);
+    return filteredItems;
+}
+
+export async function syncRecipes(serverFiles, localMetadata, onProgress) {
+    const toDelete = Object.keys(localMetadata).filter(f => !serverFiles.some(sf => sf.name === f));
+    const toUpdate = serverFiles.filter(sf => {
+        const local = localMetadata[sf.name];
+        return !local || local.version !== sf.version;
+    });
+
+    if (toDelete.length === 0 && toUpdate.length === 0) {
+        return false;
+    }
+
+    let completed = 0;
+    const total = toUpdate.length;
+
+    for (const fileName of toDelete) {
+        await deleteItemsByFile(fileName);
+        await deleteMetadata(fileName);
+    }
+
+    for (const file of toUpdate) {
+        try {
+            const { metadata, items } = await fetchRecipeFile(file.name, 0);
+            await deleteItemsByFile(file.name);
+            await saveMetadata(file.name, { ...metadata, version: file.version });
+            for (const item of items) {
+                await saveItem(item);
+            }
+        } catch (e) {
+            console.error(`更新文件 ${file.name} 失败:`, e);
+        }
+        completed++;
+        if (onProgress) onProgress(completed, total, `更新 ${file.name}...`);
+    }
+    return true;
 }
 
 export async function getItemCount() {

@@ -77,7 +77,6 @@ export async function initRecipeManager(container) {
             }
         });
 
-        // 保存新设置
         const db = await openDB();
         const tx = db.transaction('settings', 'readwrite');
         const store = tx.objectStore('settings');
